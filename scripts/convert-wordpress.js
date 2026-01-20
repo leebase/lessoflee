@@ -29,7 +29,7 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 
 const EXPORT_FILE = path.join(rootDir, 'wordpress-export.xml');
-const POSTS_OUTPUT = path.join(rootDir, 'src', 'content', 'blog');
+const POSTS_OUTPUT = path.join(rootDir, 'src', 'data', 'blog');
 const IMAGES_OUTPUT = path.join(rootDir, 'src', 'assets', 'posts');
 const REDIRECTS_FILE = path.join(rootDir, 'public', '_redirects');
 
@@ -148,7 +148,7 @@ async function processPost(item, isPage = false) {
   const modifiedDateRaw = item['wp:post_modified_gmt'] || item['wp:post_modified'];
 
   const pubDate = formatDate(pubDateRaw);
-  const updatedDate = formatDate(modifiedDateRaw);
+  const modDate = formatDate(modifiedDateRaw);
 
   // Get content
   let content = item['content:encoded'] || '';
@@ -165,18 +165,21 @@ async function processPost(item, isPage = false) {
   // Convert HTML to Markdown
   content = htmlToMarkdown(content);
 
-  // Build frontmatter
+  // Build frontmatter (AstroPaper format)
   let frontmatter = `---
 title: '${escapeYaml(title)}'
 description: '${escapeYaml(description)}'
-pubDate: '${pubDate}'`;
+pubDatetime: ${pubDate}T00:00:00Z`;
 
-  // Only add updatedDate if it's different from pubDate
-  if (updatedDate && updatedDate !== pubDate) {
-    frontmatter += `\nupdatedDate: '${updatedDate}'`;
+  // Only add modDatetime if it's different from pubDatetime
+  if (modDate && modDate !== pubDate) {
+    frontmatter += `\nmodDatetime: ${modDate}T00:00:00Z`;
   }
 
-  frontmatter += '\n---';
+  frontmatter += `
+tags:
+  - imported
+---`;
 
   // Build file content
   const fileContent = `${frontmatter}\n\n${content.trim()}\n`;
@@ -189,11 +192,11 @@ pubDate: '${pubDate}'`;
 
   // Generate redirect if URL structure changes
   // WordPress: /yyyy/mm/slug/ or /slug/
-  // Astro: /blog/slug/
+  // AstroPaper: /posts/slug/
   const oldLink = item.link;
   if (oldLink) {
     const oldPath = new URL(oldLink).pathname;
-    const newPath = `/blog/${slug}/`;
+    const newPath = `/posts/${slug}/`;
     if (oldPath !== newPath && oldPath !== `/${slug}/`) {
       redirects.push(`${oldPath} ${newPath} 301`);
     }

@@ -18,7 +18,8 @@
       "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee\\\\build.ps1\")",
       "Bash(powershell -NoProfile -Command \"Remove-Item ''C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee\\\\build.ps1'' -Force; Get-ChildItem ''C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee\\\\dist'' | Select-Object Name\")",
       "Bash(npm run build:*)",
-      "Bash(cmd /c \"cd /d C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee && npm run build\")"
+      "Bash(cmd /c \"cd /d C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee && npm run build\")",
+      "Bash(npm install)"
     ]
   }
 }

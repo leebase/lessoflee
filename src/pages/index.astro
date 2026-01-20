@@ -1,106 +1,82 @@
 ---
-import { getCollection } from 'astro:content';
-import BaseHead from '../components/BaseHead.astro';
-import Footer from '../components/Footer.astro';
-import FormattedDate from '../components/FormattedDate.astro';
-import Header from '../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import LinkButton from "@/components/LinkButton.astro";
+import Card from "@/components/Card.astro";
+import getSortedPosts from "@/utils/getSortedPosts";
+import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
+import { SITE } from "@/config";
 
-const posts = (await getCollection('blog'))
-	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-	.slice(0, 10);
+const posts = await getCollection("blog");
+
+const sortedPosts = getSortedPosts(posts);
+const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
+const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 ---
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			main {
-				width: 720px;
-				max-width: calc(100% - 2rem);
-				margin: auto;
-				padding: 1rem;
-			}
-			.intro {
-				margin-bottom: 2rem;
-			}
-			.section-title {
-				margin-bottom: 1rem;
-			}
-			.post-list {
-				list-style: none;
-				padding: 0;
-				margin: 0;
-			}
-			.post-item {
-				margin-bottom: 1.5rem;
-				padding-bottom: 1.5rem;
-				border-bottom: 1px solid rgb(var(--gray-light));
-			}
-			.post-item:last-child {
-				border-bottom: none;
-			}
-			.post-link {
-				text-decoration: none;
-				color: rgb(var(--black));
-			}
-			.post-link:hover .post-title {
-				color: rgb(var(--accent));
-			}
-			.post-title {
-				font-size: 1.25rem;
-				margin: 0 0 0.5rem 0;
-				transition: color 0.2s;
-			}
-			.post-date {
-				color: rgb(var(--gray));
-				font-size: 0.875rem;
-				margin: 0;
-			}
-			.post-description {
-				color: rgb(var(--gray-dark));
-				margin: 0.5rem 0 0 0;
-				font-size: 0.9375rem;
-			}
-			.view-all {
-				margin-top: 1rem;
-			}
-			.view-all a {
-				color: rgb(var(--accent));
-			}
-		</style>
-	</head>
-	<body>
-		<Header />
-		<main>
-			<section class="intro">
-				<h1>{SITE_TITLE}</h1>
-				<p>{SITE_DESCRIPTION}</p>
-			</section>
+<Layout>
+  <Header />
+  <main id="main-content" data-layout="index" class="app-layout">
+    <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
+      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
+        {SITE.title}
+      </h1>
+      <p>
+        {SITE.desc}
+      </p>
+    </section>
 
-			<section>
-				<h2 class="section-title">Recent Posts</h2>
-				<ul class="post-list">
-					{
-						posts.map((post) => (
-							<li class="post-item">
-								<a href={`/blog/${post.id}/`} class="post-link">
-									<h3 class="post-title">{post.data.title}</h3>
-									<p class="post-date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-									{post.data.description && <p class="post-description">{post.data.description}</p>}
-								</a>
-							</li>
-						))
-					}
-				</ul>
-				<p class="view-all">
-					<a href="/blog/">View all posts &rarr;</a>
-				</p>
-			</section>
-		</main>
-		<Footer />
-	</body>
-</html>
+    {
+      featuredPosts.length > 0 && (
+        <section
+          id="featured"
+          class:list={[
+            "pt-12 pb-6",
+            { "border-b border-border": recentPosts.length > 0 },
+          ]}
+        >
+          <h2 class="text-2xl font-semibold tracking-wide">Featured</h2>
+          <ul>
+            {featuredPosts.map(data => (
+              <Card variant="h3" {...data} />
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      recentPosts.length > 0 && (
+        <section id="recent-posts" class="pt-12 pb-6">
+          <h2 class="text-2xl font-semibold tracking-wide">Recent Posts</h2>
+          <ul>
+            {recentPosts.map(
+              (data, index) =>
+                index < SITE.postPerIndex && <Card variant="h3" {...data} />
+            )}
+          </ul>
+        </section>
+      )
+    }
+
+    <div class="my-8 text-center">
+      <LinkButton href="/posts/">
+        All Posts
+        <IconArrowRight class="inline-block rtl:-rotate-180" />
+      </LinkButton>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const indexLayout = (document.querySelector("#main-content") as HTMLElement)
+      ?.dataset?.layout;
+    if (indexLayout) {
+      sessionStorage.setItem("backUrl", "/");
+    }
+  });
+</script>
