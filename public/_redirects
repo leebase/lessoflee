@@ -1,0 +1,21 @@
+# Cloudflare Pages Redirects
+# Redirect old WordPress URL patterns to new Astro structure
+
+# WordPress date-based URLs to new blog URLs
+# Format: /YYYY/MM/DD/post-slug -> /blog/post-slug
+# Note: You may need to add specific redirects or use Cloudflare Bulk Redirects
+# for complex patterns
+
+# Common WordPress patterns
+/feed /rss.xml 301
+/feed/ /rss.xml 301
+/rss /rss.xml 301
+/rss/ /rss.xml 301
+
+# Archive redirects (if your WordPress used /YYYY/MM/ format)
+# Add specific redirects as needed, e.g.:
+# /2024/01/my-post-slug /blog/my-post-slug 301
+
+# Category and tag pages (if needed)
+# /category/* /blog/ 301
+# /tag/* /blog/ 301

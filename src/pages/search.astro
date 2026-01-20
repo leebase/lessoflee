@@ -1,0 +1,65 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`Search | ${SITE_TITLE}`} description="Search all posts" />
+		<link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+		<style>
+			main {
+				width: 720px;
+				max-width: calc(100% - 2rem);
+				margin: auto;
+				padding: 1rem;
+			}
+			h1 {
+				margin-bottom: 2rem;
+			}
+			/* Pagefind UI customization */
+			:root {
+				--pagefind-ui-scale: 1;
+				--pagefind-ui-primary: rgb(var(--accent));
+				--pagefind-ui-text: rgb(var(--black));
+				--pagefind-ui-background: rgb(var(--gray-light));
+				--pagefind-ui-border: rgb(var(--gray));
+				--pagefind-ui-tag: rgb(var(--accent-light));
+				--pagefind-ui-border-width: 1px;
+				--pagefind-ui-border-radius: 8px;
+				--pagefind-ui-font: inherit;
+			}
+			#search-notice {
+				color: rgb(var(--gray));
+				font-style: italic;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Search</h1>
+			<div id="search"></div>
+			<p id="search-notice">Loading search...</p>
+		</main>
+		<Footer />
+		<script is:inline>
+			window.addEventListener('DOMContentLoaded', async () => {
+				try {
+					const pagefind = await import('/pagefind/pagefind-ui.js');
+					document.getElementById('search-notice').style.display = 'none';
+					new pagefind.PagefindUI({
+						element: '#search',
+						showSubResults: true,
+						showImages: false,
+					});
+				} catch (e) {
+					document.getElementById('search-notice').textContent = 'Search is available after the site is built and deployed.';
+				}
+			});
+		</script>
+	</body>
+</html>

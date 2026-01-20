@@ -1,0 +1,196 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import Header from '../../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+
+export const getStaticPaths = (async ({ paginate }) => {
+	const posts = (await getCollection('blog')).sort(
+		(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+	);
+	return paginate(posts, { pageSize: 10 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+const pageTitle = page.currentPage === 1 ? 'Blog' : `Blog - Page ${page.currentPage}`;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`${pageTitle} | ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+		<style>
+			main {
+				width: 720px;
+				max-width: calc(100% - 2rem);
+				margin: auto;
+				padding: 1rem;
+			}
+			.page-title {
+				margin-bottom: 1.5rem;
+			}
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			ul li {
+				margin-bottom: 1.5rem;
+				padding-bottom: 1.5rem;
+				border-bottom: 1px solid rgb(var(--gray-light));
+			}
+			ul li:last-child {
+				border-bottom: none;
+			}
+			ul li a {
+				text-decoration: none;
+				color: rgb(var(--black));
+				display: block;
+			}
+			.title {
+				margin: 0 0 0.5rem 0;
+				color: rgb(var(--black));
+				line-height: 1.2;
+				font-size: 1.25rem;
+				transition: color 0.2s;
+			}
+			.date {
+				margin: 0;
+				color: rgb(var(--gray));
+				font-size: 0.875rem;
+			}
+			.description {
+				color: rgb(var(--gray-dark));
+				margin: 0.5rem 0 0 0;
+				font-size: 0.9375rem;
+			}
+			ul li a:hover .title {
+				color: rgb(var(--accent));
+			}
+
+			/* Pagination styles */
+			.pagination {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 1rem;
+				margin-top: 2rem;
+				padding-top: 2rem;
+				border-top: 1px solid rgb(var(--gray-light));
+			}
+			.pagination a {
+				color: rgb(var(--accent));
+				text-decoration: none;
+				padding: 0.5rem 1rem;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 4px;
+				transition: all 0.2s;
+			}
+			.pagination a:hover {
+				background: rgb(var(--gray-light));
+			}
+			.pagination .disabled {
+				color: rgb(var(--gray));
+				pointer-events: none;
+				opacity: 0.5;
+			}
+			.pagination .page-info {
+				color: rgb(var(--gray));
+				font-size: 0.875rem;
+			}
+			.page-numbers {
+				display: flex;
+				gap: 0.5rem;
+			}
+			.page-numbers a,
+			.page-numbers span {
+				padding: 0.5rem 0.75rem;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 4px;
+				text-decoration: none;
+				color: rgb(var(--black));
+				font-size: 0.875rem;
+			}
+			.page-numbers a:hover {
+				background: rgb(var(--gray-light));
+			}
+			.page-numbers .current {
+				background: rgb(var(--accent));
+				color: white;
+				border-color: rgb(var(--accent));
+			}
+
+			@media (max-width: 720px) {
+				.pagination {
+					flex-wrap: wrap;
+				}
+				.page-numbers {
+					order: 3;
+					width: 100%;
+					justify-content: center;
+					margin-top: 0.5rem;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1 class="page-title">All Posts</h1>
+			<section>
+				<ul>
+					{
+						page.data.map((post) => (
+							<li>
+								<a href={`/blog/${post.id}/`}>
+									<h2 class="title">{post.data.title}</h2>
+									<p class="date">
+										<FormattedDate date={post.data.pubDate} />
+									</p>
+									{post.data.description && <p class="description">{post.data.description}</p>}
+								</a>
+							</li>
+						))
+					}
+				</ul>
+			</section>
+
+			{
+				page.lastPage > 1 && (
+					<nav class="pagination">
+						<a
+							href={page.url.prev || '#'}
+							class={!page.url.prev ? 'disabled' : ''}
+							aria-disabled={!page.url.prev}
+						>
+							&larr; Prev
+						</a>
+
+						<div class="page-numbers">
+							{Array.from({ length: page.lastPage }, (_, i) => i + 1).map((num) => {
+								const url = num === 1 ? '/blog/' : `/blog/${num}/`;
+								return num === page.currentPage ? (
+									<span class="current">{num}</span>
+								) : (
+									<a href={url}>{num}</a>
+								);
+							})}
+						</div>
+
+						<a
+							href={page.url.next || '#'}
+							class={!page.url.next ? 'disabled' : ''}
+							aria-disabled={!page.url.next}
+						>
+							Next &rarr;
+						</a>
+					</nav>
+				)
+			}
+		</main>
+		<Footer />
+	</body>
+</html>

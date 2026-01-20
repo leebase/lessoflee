@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(cmd /c \"where npm && npm --version && node --version\")",
+      "Bash(cmd /c \"npm --version\")",
+      "Bash(powershell -Command \"npm --version; node --version\")",
+      "Bash(powershell -Command:*)",
+      "Bash(powershell -NoProfile -Command \"$env:Path = [System.Environment]::GetEnvironmentVariable\\(''Path'', ''Machine''\\) + '';'' + [System.Environment]::GetEnvironmentVariable\\(''Path'', ''User''\\); npm create astro@latest . -- --template blog --typescript strict --no-git --install -y\")",
+      "Bash(powershell -NoProfile -Command '$env:Path = [System.Environment]::GetEnvironmentVariable\\(\\\\\"\"Path\\\\\"\", \\\\\"\"Machine\\\\\"\"\\) + \\\\\"\";\\\\\"\" + [System.Environment]::GetEnvironmentVariable\\(\\\\\"\"Path\\\\\"\", \\\\\"\"User\\\\\"\"\\); npm create astro@latest . -- --template blog --typescript strict --no-git --install -y')",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee\\\\setup.ps1\")",
+      "Bash(powershell -NoProfile -Command \"Move-Item -Path ''C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee\\\\puffy-phase\\\\*'' -Destination ''C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee\\\\'' -Force; Remove-Item ''C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee\\\\puffy-phase'' -Force; Remove-Item ''C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee\\\\setup.ps1'' -Force\")",
+      "Bash(powershell -NoProfile -Command \"Get-ChildItem ''C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee'' -Force | Select-Object Name\")",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee\\\\install-deps.ps1\")",
+      "Bash(powershell -NoProfile -Command \"Remove-Item ''C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee\\\\install-deps.ps1'' -Force\")",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee\\\\run-cmd.ps1\")",
+      "Bash(powershell -NoProfile -Command \"Remove-Item ''C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee\\\\run-cmd.ps1'' -Force\")",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee\\\\build.ps1\")",
+      "Bash(powershell -NoProfile -Command \"Remove-Item ''C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee\\\\build.ps1'' -Force; Get-ChildItem ''C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee\\\\dist'' | Select-Object Name\")",
+      "Bash(npm run build:*)",
+      "Bash(cmd /c \"cd /d C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee && npm run build\")"
+    ]
+  }
+}
