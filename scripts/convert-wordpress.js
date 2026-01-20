@@ -3,36 +3,55 @@
  *
  * This script converts WordPress export XML to Astro-compatible Markdown.
  *
+ * Features:
+ * - Parses WordPress XML directly for full control
+ * - Downloads all images (including inline) to local assets
+ * - Captures both pubDate and updatedDate (GMT)
+ * - Generates _redirects file for Cloudflare Pages
+ * - Skips non-post content (attachments, nav items, etc.)
+ *
  * Usage:
  * 1. Export your WordPress content from wp-admin -> Tools -> Export -> Export All
  * 2. Save the XML file as 'wordpress-export.xml' in the project root
  * 3. Run: npm run convert
- *
- * The script will:
- * - Convert posts to Markdown files in src/content/blog/
- * - Download and save images to src/assets/posts/
- * - Fix frontmatter to match Astro's expected format
  */
 
-import { execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { parseStringPromise } from 'xml2js';
+import https from 'https';
+import http from 'http';
+import { URL } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 
 const EXPORT_FILE = path.join(rootDir, 'wordpress-export.xml');
-const TEMP_OUTPUT = path.join(rootDir, 'temp-wp-export');
 const POSTS_OUTPUT = path.join(rootDir, 'src', 'content', 'blog');
 const IMAGES_OUTPUT = path.join(rootDir, 'src', 'assets', 'posts');
+const REDIRECTS_FILE = path.join(rootDir, 'public', '_redirects');
+
+// Track all downloaded images to avoid duplicates
+const downloadedImages = new Map();
+// Track redirects
+const redirects = [];
+// Stats
+const stats = {
+  posts: 0,
+  pages: 0,
+  images: 0,
+  skipped: []
+};
 
 async function main() {
+  console.log('🚀 WordPress to Astro Conversion');
+  console.log('================================\n');
+
   // Check if export file exists
   if (!fs.existsSync(EXPORT_FILE)) {
-    console.error('❌ wordpress-export.xml not found in project root.');
-    console.log('');
+    console.error('❌ wordpress-export.xml not found in project root.\n');
     console.log('To export your WordPress content:');
     console.log('1. Go to your WordPress dashboard');
     console.log('2. Navigate to Tools → Export');
@@ -41,184 +60,380 @@ async function main() {
     process.exit(1);
   }
 
-  console.log('📥 Found wordpress-export.xml');
-
-  // Create temp output directory
-  if (fs.existsSync(TEMP_OUTPUT)) {
-    fs.rmSync(TEMP_OUTPUT, { recursive: true });
-  }
-  fs.mkdirSync(TEMP_OUTPUT, { recursive: true });
+  console.log('📥 Found wordpress-export.xml\n');
 
   // Ensure output directories exist
   fs.mkdirSync(POSTS_OUTPUT, { recursive: true });
   fs.mkdirSync(IMAGES_OUTPUT, { recursive: true });
+  fs.mkdirSync(path.dirname(REDIRECTS_FILE), { recursive: true });
 
-  console.log('🔄 Converting WordPress export to Markdown...');
+  // Parse XML
+  console.log('📖 Parsing WordPress export...');
+  const xmlContent = fs.readFileSync(EXPORT_FILE, 'utf-8');
+  const result = await parseStringPromise(xmlContent, { explicitArray: false });
 
-  try {
-    // Run wordpress-export-to-markdown
-    execSync(`npx wordpress-export-to-markdown --input "${EXPORT_FILE}" --output "${TEMP_OUTPUT}" --post-folders false --save-images true --year-folders true`, {
-      stdio: 'inherit',
-      cwd: rootDir
-    });
-  } catch (error) {
-    console.error('❌ Conversion failed:', error.message);
-    process.exit(1);
+  const channel = result.rss.channel;
+  const items = Array.isArray(channel.item) ? channel.item : [channel.item];
+
+  console.log(`   Found ${items.length} items in export\n`);
+
+  // Process items
+  console.log('🔄 Processing content...\n');
+
+  for (const item of items) {
+    await processItem(item);
   }
 
-  console.log('✅ Initial conversion complete');
-  console.log('🔧 Processing converted files...');
+  // Write redirects file
+  if (redirects.length > 0) {
+    const redirectsContent = redirects.join('\n') + '\n';
+    fs.writeFileSync(REDIRECTS_FILE, redirectsContent);
+    console.log(`\n📝 Generated _redirects with ${redirects.length} entries`);
+  }
 
-  // Process the converted files
-  processConvertedFiles(TEMP_OUTPUT);
+  // Summary
+  console.log('\n================================');
+  console.log('✅ Conversion complete!\n');
+  console.log(`   📄 Posts converted: ${stats.posts}`);
+  console.log(`   📑 Pages converted: ${stats.pages}`);
+  console.log(`   🖼️  Images downloaded: ${stats.images}`);
 
-  // Cleanup temp directory
-  fs.rmSync(TEMP_OUTPUT, { recursive: true });
+  if (stats.skipped.length > 0) {
+    console.log(`\n   ⏭️  Skipped ${stats.skipped.length} items:`);
+    const skippedTypes = {};
+    stats.skipped.forEach(s => {
+      skippedTypes[s.type] = (skippedTypes[s.type] || 0) + 1;
+    });
+    Object.entries(skippedTypes).forEach(([type, count]) => {
+      console.log(`      - ${type}: ${count}`);
+    });
+  }
 
-  console.log('');
-  console.log('✅ WordPress conversion complete!');
-  console.log(`   Posts saved to: ${POSTS_OUTPUT}`);
+  console.log(`\n   Posts saved to: ${POSTS_OUTPUT}`);
   console.log(`   Images saved to: ${IMAGES_OUTPUT}`);
-  console.log('');
-  console.log('Next steps:');
+  console.log('\nNext steps:');
   console.log('1. Review a few posts to ensure formatting looks correct');
   console.log('2. Run "npm run dev" to preview your site');
   console.log('3. Run "npm run build" to build for production');
 }
 
-function processConvertedFiles(tempDir) {
-  const items = fs.readdirSync(tempDir, { withFileTypes: true });
+async function processItem(item) {
+  const postType = item['wp:post_type'];
+  const status = item['wp:status'];
 
-  for (const item of items) {
-    const fullPath = path.join(tempDir, item.name);
-
-    if (item.isDirectory()) {
-      // Check if it's a year folder or contains posts
-      processConvertedFiles(fullPath);
-    } else if (item.name.endsWith('.md')) {
-      processMarkdownFile(fullPath);
-    } else if (isImageFile(item.name)) {
-      // Copy image to assets folder
-      const destPath = path.join(IMAGES_OUTPUT, item.name);
-      fs.copyFileSync(fullPath, destPath);
-    }
-  }
-}
-
-function isImageFile(filename) {
-  const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg'];
-  const ext = path.extname(filename).toLowerCase();
-  return imageExtensions.includes(ext);
-}
-
-function processMarkdownFile(filePath) {
-  let content = fs.readFileSync(filePath, 'utf-8');
-
-  // Parse frontmatter
-  const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---/);
-  if (!frontmatterMatch) {
-    console.warn(`⚠️ No frontmatter found in ${filePath}`);
+  // Only process published posts and pages
+  if (status !== 'publish') {
+    stats.skipped.push({ type: `${postType} (${status})`, title: item.title });
     return;
   }
 
-  const frontmatterText = frontmatterMatch[1];
-  const bodyContent = content.slice(frontmatterMatch[0].length).trim();
+  if (postType === 'post') {
+    await processPost(item);
+    stats.posts++;
+  } else if (postType === 'page') {
+    await processPost(item, true);
+    stats.pages++;
+  } else {
+    // Skip attachments, nav_menu_item, etc.
+    stats.skipped.push({ type: postType, title: item.title });
+  }
+}
 
-  // Parse frontmatter fields
-  const frontmatter = {};
-  const lines = frontmatterText.split('\n');
-  let currentKey = null;
+async function processPost(item, isPage = false) {
+  const title = item.title || 'Untitled';
+  const slug = item['wp:post_name'] || slugify(title);
 
-  for (const line of lines) {
-    const match = line.match(/^(\w+):\s*(.*)$/);
-    if (match) {
-      currentKey = match[1];
-      frontmatter[currentKey] = match[2].replace(/^["']|["']$/g, '');
-    } else if (currentKey && line.startsWith('  ')) {
-      // Multi-line value
-      frontmatter[currentKey] += '\n' + line.trim();
+  // Get dates - use GMT versions to avoid timezone issues
+  const pubDateRaw = item['wp:post_date_gmt'] || item['wp:post_date'] || item.pubDate;
+  const modifiedDateRaw = item['wp:post_modified_gmt'] || item['wp:post_modified'];
+
+  const pubDate = formatDate(pubDateRaw);
+  const updatedDate = formatDate(modifiedDateRaw);
+
+  // Get content
+  let content = item['content:encoded'] || '';
+
+  // Extract excerpt/description
+  const excerpt = item['excerpt:encoded'] || '';
+  const description = excerpt
+    ? stripHtml(excerpt).slice(0, 160)
+    : extractExcerpt(content);
+
+  // Download and fix images
+  content = await processImages(content, slug);
+
+  // Convert HTML to Markdown
+  content = htmlToMarkdown(content);
+
+  // Build frontmatter
+  let frontmatter = `---
+title: '${escapeYaml(title)}'
+description: '${escapeYaml(description)}'
+pubDate: '${pubDate}'`;
+
+  // Only add updatedDate if it's different from pubDate
+  if (updatedDate && updatedDate !== pubDate) {
+    frontmatter += `\nupdatedDate: '${updatedDate}'`;
+  }
+
+  frontmatter += '\n---';
+
+  // Build file content
+  const fileContent = `${frontmatter}\n\n${content.trim()}\n`;
+
+  // Save file
+  const filename = `${slug}.md`;
+  const destPath = path.join(POSTS_OUTPUT, filename);
+  fs.writeFileSync(destPath, fileContent);
+  console.log(`   ✓ ${filename}`);
+
+  // Generate redirect if URL structure changes
+  // WordPress: /yyyy/mm/slug/ or /slug/
+  // Astro: /blog/slug/
+  const oldLink = item.link;
+  if (oldLink) {
+    const oldPath = new URL(oldLink).pathname;
+    const newPath = `/blog/${slug}/`;
+    if (oldPath !== newPath && oldPath !== `/${slug}/`) {
+      redirects.push(`${oldPath} ${newPath} 301`);
+    }
+  }
+}
+
+async function processImages(content, postSlug) {
+  // Find all image URLs (WordPress.com, wp-content, or already relative)
+  const imgPatterns = [
+    // HTML img tags
+    /<img[^>]+src=["']([^"']+)["'][^>]*>/gi,
+    // Markdown images
+    /!\[[^\]]*\]\(([^)]+)\)/gi,
+    // WordPress figure blocks
+    /https?:\/\/[^\s"'<>]+\.(?:jpg|jpeg|png|gif|webp|svg)/gi
+  ];
+
+  const imageUrls = new Set();
+
+  for (const pattern of imgPatterns) {
+    let match;
+    const regex = new RegExp(pattern.source, pattern.flags);
+    while ((match = regex.exec(content)) !== null) {
+      const url = match[1] || match[0];
+      if (url.startsWith('http')) {
+        imageUrls.add(url);
+      }
     }
   }
 
-  // Build new Astro-compatible frontmatter
-  const newFrontmatter = {
-    title: frontmatter.title || 'Untitled',
-    description: frontmatter.description || frontmatter.excerpt || extractExcerpt(bodyContent),
-    pubDate: formatDate(frontmatter.date || frontmatter.pubDate),
-  };
-
-  // Handle featured image if present
-  if (frontmatter.coverImage || frontmatter.featured_image) {
-    const imageName = path.basename(frontmatter.coverImage || frontmatter.featured_image);
-    newFrontmatter.heroImage = `../../assets/posts/${imageName}`;
+  // Download each image and replace URLs
+  for (const url of imageUrls) {
+    try {
+      const localPath = await downloadImage(url);
+      if (localPath) {
+        // Replace all occurrences of this URL with the local path
+        const relativePath = `../../assets/posts/${path.basename(localPath)}`;
+        content = content.split(url).join(relativePath);
+      }
+    } catch (err) {
+      console.warn(`   ⚠️ Failed to download image: ${url}`);
+    }
   }
 
-  // Generate slug from filename
-  const filename = path.basename(filePath, '.md');
-  const slug = filename.replace(/^\d{4}-\d{2}-\d{2}-/, '');
+  return content;
+}
 
-  // Fix image paths in content
-  let processedBody = bodyContent
-    // Fix relative image paths to point to assets
-    .replace(/!\[([^\]]*)\]\((?:\.\/)?images\/([^)]+)\)/g, '![$1](../../assets/posts/$2)')
-    // Fix WordPress figure/figcaption shortcodes
-    .replace(/\[caption[^\]]*\](.*?)\[\/caption\]/gs, '$1')
-    // Clean up any remaining WordPress shortcodes
-    .replace(/\[[^\]]+\]/g, '');
+async function downloadImage(url) {
+  // Check if already downloaded
+  if (downloadedImages.has(url)) {
+    return downloadedImages.get(url);
+  }
 
-  // Build new content
-  const newContent = `---
-title: '${escapeYaml(newFrontmatter.title)}'
-description: '${escapeYaml(newFrontmatter.description)}'
-pubDate: '${newFrontmatter.pubDate}'${newFrontmatter.heroImage ? `\nheroImage: '${newFrontmatter.heroImage}'` : ''}
----
+  // Generate local filename
+  const urlObj = new URL(url);
+  let filename = path.basename(urlObj.pathname);
 
-${processedBody}
-`;
+  // Handle WordPress.com URLs that may have query params
+  filename = filename.split('?')[0];
 
-  // Save to final location
-  const destPath = path.join(POSTS_OUTPUT, `${slug}.md`);
-  fs.writeFileSync(destPath, newContent);
-  console.log(`   ✓ ${slug}.md`);
+  // Ensure unique filename
+  let destPath = path.join(IMAGES_OUTPUT, filename);
+  let counter = 1;
+  while (fs.existsSync(destPath) && !downloadedImages.has(url)) {
+    const ext = path.extname(filename);
+    const base = path.basename(filename, ext);
+    destPath = path.join(IMAGES_OUTPUT, `${base}-${counter}${ext}`);
+    counter++;
+  }
+
+  // Download
+  await new Promise((resolve, reject) => {
+    const protocol = url.startsWith('https') ? https : http;
+    const file = fs.createWriteStream(destPath);
+
+    protocol.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (response) => {
+      // Handle redirects
+      if (response.statusCode === 301 || response.statusCode === 302) {
+        file.close();
+        fs.unlinkSync(destPath);
+        downloadImage(response.headers.location)
+          .then(resolve)
+          .catch(reject);
+        return;
+      }
+
+      if (response.statusCode !== 200) {
+        file.close();
+        fs.unlinkSync(destPath);
+        reject(new Error(`HTTP ${response.statusCode}`));
+        return;
+      }
+
+      response.pipe(file);
+      file.on('finish', () => {
+        file.close();
+        resolve();
+      });
+    }).on('error', (err) => {
+      file.close();
+      fs.unlink(destPath, () => {});
+      reject(err);
+    });
+  });
+
+  downloadedImages.set(url, destPath);
+  stats.images++;
+  return destPath;
+}
+
+function htmlToMarkdown(html) {
+  if (!html) return '';
+
+  let md = html
+    // WordPress block comments
+    .replace(/<!-- \/?wp:[^>]+ -->/g, '')
+    // Paragraphs
+    .replace(/<p[^>]*>/gi, '\n\n')
+    .replace(/<\/p>/gi, '')
+    // Headers
+    .replace(/<h1[^>]*>/gi, '\n\n# ')
+    .replace(/<\/h1>/gi, '\n')
+    .replace(/<h2[^>]*>/gi, '\n\n## ')
+    .replace(/<\/h2>/gi, '\n')
+    .replace(/<h3[^>]*>/gi, '\n\n### ')
+    .replace(/<\/h3>/gi, '\n')
+    .replace(/<h4[^>]*>/gi, '\n\n#### ')
+    .replace(/<\/h4>/gi, '\n')
+    // Bold/italic
+    .replace(/<strong[^>]*>/gi, '**')
+    .replace(/<\/strong>/gi, '**')
+    .replace(/<b[^>]*>/gi, '**')
+    .replace(/<\/b>/gi, '**')
+    .replace(/<em[^>]*>/gi, '*')
+    .replace(/<\/em>/gi, '*')
+    .replace(/<i[^>]*>/gi, '*')
+    .replace(/<\/i>/gi, '*')
+    // Links
+    .replace(/<a[^>]+href=["']([^"']+)["'][^>]*>([^<]+)<\/a>/gi, '[$2]($1)')
+    // Images (convert to markdown)
+    .replace(/<img[^>]+src=["']([^"']+)["'][^>]*alt=["']([^"']*)["'][^>]*\/?>/gi, '![$2]($1)')
+    .replace(/<img[^>]+alt=["']([^"']*)["'][^>]*src=["']([^"']+)["'][^>]*\/?>/gi, '![$1]($2)')
+    .replace(/<img[^>]+src=["']([^"']+)["'][^>]*\/?>/gi, '![]($1)')
+    // Lists
+    .replace(/<ul[^>]*>/gi, '\n')
+    .replace(/<\/ul>/gi, '\n')
+    .replace(/<ol[^>]*>/gi, '\n')
+    .replace(/<\/ol>/gi, '\n')
+    .replace(/<li[^>]*>/gi, '- ')
+    .replace(/<\/li>/gi, '\n')
+    // Code blocks
+    .replace(/<pre[^>]*><code[^>]*>/gi, '\n```\n')
+    .replace(/<\/code><\/pre>/gi, '\n```\n')
+    .replace(/<code[^>]*>/gi, '`')
+    .replace(/<\/code>/gi, '`')
+    // Blockquotes
+    .replace(/<blockquote[^>]*>/gi, '\n> ')
+    .replace(/<\/blockquote>/gi, '\n')
+    // Line breaks
+    .replace(/<br\s*\/?>/gi, '\n')
+    // Figures
+    .replace(/<figure[^>]*>/gi, '\n')
+    .replace(/<\/figure>/gi, '\n')
+    .replace(/<figcaption[^>]*>([^<]*)<\/figcaption>/gi, '*$1*\n')
+    // Divs and spans
+    .replace(/<\/?div[^>]*>/gi, '\n')
+    .replace(/<\/?span[^>]*>/gi, '')
+    // Remove remaining HTML tags
+    .replace(/<[^>]+>/g, '')
+    // Decode HTML entities
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#039;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    // Clean up whitespace
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+
+  return md;
+}
+
+function stripHtml(html) {
+  return html
+    .replace(/<[^>]+>/g, '')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#039;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .trim();
 }
 
 function extractExcerpt(content, maxLength = 160) {
-  // Remove markdown formatting and get first paragraph
-  const text = content
-    .replace(/#+\s/g, '')
-    .replace(/\*\*/g, '')
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-    .replace(/!\[[^\]]*\]\([^)]+\)/g, '')
-    .trim();
-
-  const firstParagraph = text.split('\n\n')[0] || text;
+  const text = stripHtml(content);
+  const firstParagraph = text.split(/\n\n/)[0] || text;
 
   if (firstParagraph.length <= maxLength) {
     return firstParagraph;
   }
 
-  return firstParagraph.slice(0, maxLength - 3) + '...';
+  return firstParagraph.slice(0, maxLength - 3).trim() + '...';
 }
 
 function formatDate(dateStr) {
-  if (!dateStr) {
-    return new Date().toISOString().split('T')[0];
+  if (!dateStr || dateStr === '0000-00-00 00:00:00') {
+    return null;
   }
 
   try {
-    const date = new Date(dateStr);
+    // WordPress GMT format: "2024-01-15 14:30:00"
+    const date = new Date(dateStr.replace(' ', 'T') + 'Z');
     if (isNaN(date.getTime())) {
-      return new Date().toISOString().split('T')[0];
+      return null;
     }
+    // Return as ISO date string (YYYY-MM-DD)
     return date.toISOString().split('T')[0];
   } catch {
-    return new Date().toISOString().split('T')[0];
+    return null;
   }
+}
+
+function slugify(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
 }
 
 function escapeYaml(str) {
   if (!str) return '';
-  return str.replace(/'/g, "''");
+  return str
+    .replace(/'/g, "''")
+    .replace(/\n/g, ' ')
+    .trim();
 }
 
-main().catch(console.error);
+main().catch((err) => {
+  console.error('❌ Conversion failed:', err);
+  process.exit(1);
+});
