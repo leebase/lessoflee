@@ -1,3 +1,10 @@
+---
+title: 'Advancing My Webblog by Regressing'
+description: 'Going backwards in technology from a database driven CMS to static pages'
+pubDatetime: 2026-01-21T00:00:00Z
+tags:
+  - web development
+---
 ## Advancing My Webblog by Regressing
 
 I'm advancing my personal health blog by regressing to static pages. Regression? Yes. I'm advancing by retreating :p
