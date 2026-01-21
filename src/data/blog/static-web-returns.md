@@ -19,7 +19,7 @@ Performancewise? CMS's became slow. Every view of a page kicks off a database qu
 
 Fast forward to today. Now you can write your content in markdown, commit it to your git repot, and have a theme applied and the static web page generated.  Github has replaced the CMS. Your web content is code written in markdown. I'm very late to this, it came out around 2008.
 
-But since I already use Github.com to host my code, this is a very natural work flow. I'm using Argo and Cloudflare's pages feature. And yes, like anyting Cloudflare, it's a pain to figure out how to setup, but works great. You get the benefit of the CDN pushing your web pages to caches around the world. There is no database, web application server. Your pages are static HTML which is perfect for content. There are ways to add interactivity with Argo but I haven't explored that yet.
+But since I already use Github.com to host my code, this is a very natural work flow. I'm using Astro and Cloudflare's pages feature. And yes, like anyting Cloudflare, it's a pain to figure out how to setup, but works great. You get the benefit of the CDN pushing your web pages to caches around the world. There is no database, web application server. Your pages are static HTML which is perfect for content. There are ways to add interactivity with Argo but I haven't explored that yet.
 
 Here's a link to the site: http://lessoflee.pages.dev
 
