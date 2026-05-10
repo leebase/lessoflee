@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-05-10 — Five Candidate Book Concepts
+
+### What Was Built
+Added `book-concepts.md` with five book concepts drawn from the mined archive:
+
+- `Former Diabetic`
+- `Start Where You Are, Make Progress`
+- `I Can't Until I Can`
+- `The Food That Made Me Sick`
+- `Health Is The Destination`
+
+Each concept includes a reader promise, likely book spine, mined source clusters, anchor posts, and the specific curation still required.
+
+### Why It Matters
+This moves the project from raw mining into editorial decision-making without pretending the mined data is already a manuscript structure. The document keeps the limits explicit: story candidates are still heuristic leads, concepts are not final book structures, and timelines/chapter maps remain future work.
+
+### How to Verify
+```bash
+sed -n '1,220p' lessOfLeeDataMining/book-concepts.md
+```
+
+Expected result:
+
+- Five concepts are present.
+- The first recommendation is `Former Diabetic`.
+- The next curation step asks for story beats, a curated timeline, and a 10-12 chapter map for one selected concept.
+
+---
+
 ## 2026-05-10 — Canonical Multi-Line Mantra Detection
 
 ### What Was Built

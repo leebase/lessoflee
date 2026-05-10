@@ -64,6 +64,26 @@
 
 **Status**: Next
 
+### Concept Selection Prep
+
+| Candidate Book | Status | Notes |
+|----|------|------|
+| Former Diabetic | Recommended first | Clearest reader promise and strongest evidence trail |
+| Start Where You Are, Make Progress | Candidate | Strongest voice/title concept; mantra-driven |
+| I Can't Until I Can | Candidate | Capability-recovery memoir arc |
+| The Food That Made Me Sick | Candidate | Food-boundaries and diabetes-adjacent practical book |
+| Health Is The Destination | Candidate | Broadest memoir umbrella; needs the most curation |
+
+### Tasks
+
+| ID | Task | Status | Notes |
+|----|------|--------|-------|
+| S2-01 | Choose one book concept to curate first | Next | Start from `book-concepts.md` |
+| S2-02 | Select 30-50 source posts for the chosen concept | Planned | Use dashboard, story candidates, concepts, and anchor posts |
+| S2-03 | Promote heuristic story candidates into curated beats | Planned | Include setup, conflict, turn, outcome, lesson |
+| S2-04 | Build a curated book-specific timeline | Planned | Dates, health markers, family stakes, relapse/restart points |
+| S2-05 | Draft a 10-12 chapter candidate map | Planned | 3-5 must-use scenes per chapter |
+
 ---
 
 ## Sprint 3 - Timeline And Book Maps

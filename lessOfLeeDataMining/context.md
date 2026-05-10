@@ -8,7 +8,7 @@
 
 | Attribute | Value |
 |-----------|-------|
-| **Phase** | Full Book Mining MVP precision remediation complete; ready for curated story beat review |
+| **Phase** | Book concept selection complete; ready to curate one concept into beats, timeline, and chapter map |
 | **Mode** | 2 (Collaborative) |
 | **Last Updated** | 2026-05-10 |
 
@@ -19,6 +19,8 @@
 ### Current Focus
 
 Sprint 1 plus the first precision remediation pass are complete. The project now has a deterministic local pipeline that indexes all WordPress posts, applies controlled tags, separates the two health journeys, mines heuristic story candidates, identifies recurring concept candidates, and generates Lee-facing reports.
+
+The first editorial concept pass is also complete in `book-concepts.md`. It proposes five possible books and explicitly keeps the current limits visible: story candidates are still heuristic leads, concepts are mined rather than editorially selected, and curated timelines/chapter maps do not exist yet.
 
 Run it from `lessOfLeeDataMining/`:
 
@@ -59,6 +61,12 @@ node scripts/build-mining-mvp.js
   - all other controlled tags default to `topic`
   - Lee's recurring mantras are now tagged with `mantras`
   - added `A Little More, A Bit Farther, Always` as an explicit concept candidate
+- Added `book-concepts.md` with five candidate book concepts:
+  - `Former Diabetic`
+  - `Start Where You Are, Make Progress`
+  - `I Can't Until I Can`
+  - `The Food That Made Me Sick`
+  - `Health Is The Destination`
 
 ### Decisions Locked
 
@@ -78,7 +86,8 @@ node scripts/build-mining-mvp.js
 
 ### Next Actions Queue
 
-1. [REVIEW] Open `reports/book-mining-dashboard.md` and mark the most useful leads, starting with the Health Journey Split.
-2. [CURATE] Promote selected records from `data/story-candidates.jsonl` into curated story beats.
+1. [DECIDE] Pick the first book concept to develop. Current recommendation: `Former Diabetic`.
+2. [CURATE] Promote selected records from `data/story-candidates.jsonl` into curated story beats for that book only.
 3. [IMPLEMENT] Add a curated `data/story-beats.jsonl` layer with setup, conflict, turn, outcome, and lesson.
-4. [EXPAND] Build timeline and candidate book maps after curated beats exist.
+4. [BUILD] Create a curated timeline for the chosen book.
+5. [MAP] Draft a 10-12 chapter candidate map with 3-5 must-use scenes per chapter.
