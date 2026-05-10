@@ -4,6 +4,7 @@
     "name": "Start Where You Are",
     "definition": "The starting point is not disqualifying; it is the only honest place to begin.",
     "related_tags": [
+      "mantras",
       "mindset",
       "failure-restart",
       "exercise"
@@ -41,8 +42,8 @@
         "title_match": true,
         "evidence_strength": "strong",
         "matched_aliases": [
-          "a little more",
-          "start where you are"
+          "start where you are",
+          "a little more"
         ],
         "evidence": [
           {
@@ -61,7 +62,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I've embraced \"a little more\" for two years now."
+        "quote": "All you need is to start where you are and gradually do a little more."
       },
       {
         "post_id": "2025-05-27-start-where-you-are",
@@ -72,6 +73,7 @@
         "evidence_strength": "strong",
         "matched_aliases": [
           "start where you are",
+          "make improvements",
           "make progress"
         ],
         "evidence": [
@@ -86,12 +88,17 @@
             "strength": "exact"
           },
           {
+            "alias": "make improvements",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
             "alias": "make progress",
             "location": "body",
             "strength": "exact"
           }
         ],
-        "quote": "In my journey to regain my health, I’ve developed mantras along the way."
+        "quote": "One of them is: Start where you are, make improvements."
       },
       {
         "post_id": "2025-11-18-start-where-you-are-make-progress",
@@ -145,7 +152,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "So many of my friends and family are currently stuck where I was."
+        "quote": "Before one can make progress in the body, one needs to battle the negative thoughts and attitudes of one’s mind."
       },
       {
         "post_id": "2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor",
@@ -202,7 +209,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Don’t discount the value of “pretty d@mn good” verses perfection in terms of making progress with your health."
+        "quote": "And yet, I feel there is value in demonstrating you can make progress long before perfection is reached."
       },
       {
         "post_id": "2022-04-19-the-one-year-blessing-of-diabetes",
@@ -221,7 +228,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Start somewhere."
+        "quote": "Make progress."
       },
       {
         "post_id": "2022-04-30-mindset-doing-as-much-as-needed",
@@ -240,7 +247,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "You do what you have to do."
+        "quote": "I fast as much as —I— need to do to make progress in my health."
       },
       {
         "post_id": "2022-06-05-my-health-transformation",
@@ -265,7 +272,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "To the young I hope to stand as an early warning."
+        "quote": "Start where you are."
       },
       {
         "post_id": "2022-06-06-how-i-did-it",
@@ -284,7 +291,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Start somewhere."
+        "quote": "Make progress."
       },
       {
         "post_id": "2022-06-28-how-much-how-far",
@@ -303,7 +310,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "How much?"
+        "quote": "A little more."
       },
       {
         "post_id": "2022-07-10-all-the-health",
@@ -322,7 +329,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Health – I want ALL the health."
+        "quote": "But always working for a little more progress."
       },
       {
         "post_id": "2022-07-30-its-saturday-time-to-run",
@@ -341,7 +348,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I get to “the hill” and I run up past the first bend."
+        "quote": "I’m pushing back the limits – a little more each time."
       },
       {
         "post_id": "2022-09-10-its-saturday-i-run-intervals-910",
@@ -360,7 +367,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Listen your body but push it was well."
+        "quote": "Just a little more."
       },
       {
         "post_id": "2022-09-17-saturday-intervals-8211-sept-17-22",
@@ -436,12 +443,12 @@
             "strength": "exact"
           }
         ],
-        "quote": "People say “I wish I had your motivation/discipline/commitment” and it saddens me."
+        "quote": "And do a little more tomorrow."
       }
     ],
     "weak_supporting_posts": [],
-    "frequency": 143,
-    "strong_matches": 143,
+    "frequency": 144,
+    "strong_matches": 144,
     "weak_matches": 0,
     "representative_quotes": [
       {
@@ -450,15 +457,1450 @@
       },
       {
         "post_id": "2023-08-17-a-little-more",
-        "quote": "I've embraced \"a little more\" for two years now."
+        "quote": "All you need is to start where you are and gradually do a little more."
       },
       {
         "post_id": "2025-05-27-start-where-you-are",
-        "quote": "In my journey to regain my health, I’ve developed mantras along the way."
+        "quote": "One of them is: Start where you are, make improvements."
       }
     ],
     "candidate_chapters": [
       "Start Where You Are"
+    ],
+    "status": "candidate"
+  },
+  {
+    "concept_id": "little-more-bit-farther-always",
+    "name": "A Little More, A Bit Farther, Always",
+    "definition": "Lee's progressive-overload mantra: begin where you are, then repeatedly push the boundary a little more and a bit farther.",
+    "related_tags": [
+      "mantras",
+      "mindset",
+      "exercise",
+      "capability-recovery"
+    ],
+    "book_uses": [
+      "chapter_title",
+      "reader_refrain",
+      "training_principle",
+      "quote_bank"
+    ],
+    "supporting_posts": [
+      {
+        "post_id": "2022-06-28-how-much-how-far",
+        "title": "How Much? How Far?",
+        "date": "2022-06-29",
+        "file_path": "../src/content/blog/2022-06-28-how-much-how-far.md",
+        "title_match": true,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "a little more always",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "how far",
+            "location": "title",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a little more always",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more."
+      },
+      {
+        "post_id": "2023-08-17-a-little-more",
+        "title": "A Little More",
+        "date": "2023-08-17",
+        "file_path": "../src/content/blog/2023-08-17-a-little-more.md",
+        "title_match": true,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "a little more a little harder and a little longer",
+          "how much more",
+          "little more",
+          "how much farther",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "title",
+            "strength": "exact"
+          },
+          {
+            "alias": "little more",
+            "location": "title",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a little more a little harder and a little longer",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how much farther",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "I've embraced \"a little more\" for two years now."
+      },
+      {
+        "post_id": "2022-07-10-all-the-health",
+        "title": "All the Health",
+        "date": "2022-07-10",
+        "file_path": "../src/content/blog/2022-07-10-all-the-health.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "little more",
+          "how far"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "But always working for a little more progress."
+      },
+      {
+        "post_id": "2022-07-30-its-saturday-time-to-run",
+        "title": "It’s Saturday, Time to Run",
+        "date": "2022-07-30",
+        "file_path": "../src/content/blog/2022-07-30-its-saturday-time-to-run.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther",
+          "a bit more",
+          "bit more"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "I’m pushing back the limits – a little more each time."
+      },
+      {
+        "post_id": "2022-09-10-its-saturday-i-run-intervals-910",
+        "title": "It’s Saturday, I Run Intervals 9/10",
+        "date": "2022-09-10",
+        "file_path": "../src/content/blog/2022-09-10-its-saturday-i-run-intervals-910.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "Just a little more."
+      },
+      {
+        "post_id": "2022-09-17-saturday-intervals-8211-sept-17-22",
+        "title": "Saturday Intervals – Sept 17, 22",
+        "date": "2022-09-17",
+        "file_path": "../src/content/blog/2022-09-17-saturday-intervals-8211-sept-17-22.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "I got here by doing what I could and then a little more."
+      },
+      {
+        "post_id": "2022-09-24-saturday-intervals-8211-sept-24-22",
+        "title": "Saturday Intervals – Sept 24, 22",
+        "date": "2022-09-24",
+        "file_path": "../src/content/blog/2022-09-24-saturday-intervals-8211-sept-24-22.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "I got here by doing what I could and then a little more."
+      },
+      {
+        "post_id": "2022-10-01-saturday-intervals-oct-1-22",
+        "title": "Saturday Intervals Oct 1, 22",
+        "date": "2022-10-01",
+        "file_path": "../src/content/blog/2022-10-01-saturday-intervals-oct-1-22.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "And do a little more tomorrow."
+      },
+      {
+        "post_id": "2022-10-10-destination-health",
+        "title": "Destination Health",
+        "date": "2022-10-10",
+        "file_path": "../src/content/blog/2022-10-10-destination-health.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more."
+      },
+      {
+        "post_id": "2022-10-15-saturday-intervals-oct-15-22",
+        "title": "Saturday Intervals Oct 15, 22",
+        "date": "2022-10-15",
+        "file_path": "../src/content/blog/2022-10-15-saturday-intervals-oct-15-22.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more."
+      },
+      {
+        "post_id": "2022-10-20-two-men-in-the-mirror",
+        "title": "Two Men In the Mirror",
+        "date": "2022-10-21",
+        "file_path": "../src/content/blog/2022-10-20-two-men-in-the-mirror.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "how much more",
+          "little more"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "A little more."
+      },
+      {
+        "post_id": "2022-10-22-saturday-intervals-oct-22-22",
+        "title": "Saturday Intervals Oct 22, 22",
+        "date": "2022-10-23",
+        "file_path": "../src/content/blog/2022-10-22-saturday-intervals-oct-22-22.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more."
+      },
+      {
+        "post_id": "2022-11-08-will-power-and-discipline",
+        "title": "Will Power And Discipline",
+        "date": "2022-11-09",
+        "file_path": "../src/content/blog/2022-11-08-will-power-and-discipline.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more."
+      },
+      {
+        "post_id": "2022-11-12-i-cant-until-i-can-8211-supernatural-personal-best",
+        "title": "I Can’t Until I Can – Supernatural Personal Bests",
+        "date": "2022-11-13",
+        "file_path": "../src/content/blog/2022-11-12-i-cant-until-i-can-8211-supernatural-personal-best.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more."
+      },
+      {
+        "post_id": "2022-11-20-saturday-push-11-20-22",
+        "title": "Saturday Push 11-20-22",
+        "date": "2022-11-20",
+        "file_path": "../src/content/blog/2022-11-20-saturday-push-11-20-22.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more How far?"
+      },
+      {
+        "post_id": "2022-11-26-i-cantuntil-i-can-8211-run-up-the-entire-hill",
+        "title": "I Can’t…Until I Can – Run Up the Entire Hill",
+        "date": "2022-11-26",
+        "file_path": "../src/content/blog/2022-11-26-i-cantuntil-i-can-8211-run-up-the-entire-hill.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more."
+      },
+      {
+        "post_id": "2022-12-10-saturday-push-day-8211-signs-of-healing",
+        "title": "Saturday Push Day – Signs of Healing",
+        "date": "2022-12-10",
+        "file_path": "../src/content/blog/2022-12-10-saturday-push-day-8211-signs-of-healing.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more How far?"
+      },
+      {
+        "post_id": "2022-12-13-tale-of-two-exercises",
+        "title": "Tale of Two Exercises",
+        "date": "2022-12-14",
+        "file_path": "../src/content/blog/2022-12-13-tale-of-two-exercises.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how much farther",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how much farther",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more."
+      },
+      {
+        "post_id": "2022-12-17-saturday-push-day-12-17-22",
+        "title": "Saturday Push Day 12-17-22",
+        "date": "2022-12-17",
+        "file_path": "../src/content/blog/2022-12-17-saturday-push-day-12-17-22.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how much farther",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how much farther",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more."
+      },
+      {
+        "post_id": "2022-12-20-im-an-athlete",
+        "title": "I’m an Athlete!",
+        "date": "2022-12-21",
+        "file_path": "../src/content/blog/2022-12-20-im-an-athlete.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how much farther",
+          "bit farther",
+          "a bit more",
+          "bit more"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how much farther",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "A little more."
+      }
+    ],
+    "weak_supporting_posts": [
+      {
+        "post_id": "2012-07-09-3-month-review",
+        "title": "3 Month Review",
+        "date": "2012-07-09",
+        "file_path": "../src/content/blog/2012-07-09-3-month-review.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how much more"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "I'm just trying to consider how much more uncomfortable I'd be having to fit 34lbs more of Lee into this small seat."
+      },
+      {
+        "post_id": "2012-10-02-the-same-amount-of-lee",
+        "title": "The Same Amount of Lee",
+        "date": "2012-10-02",
+        "file_path": "../src/content/blog/2012-10-02-the-same-amount-of-lee.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how far"
+        ],
+        "evidence": [
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "and reminded myself how far I've come."
+      },
+      {
+        "post_id": "2012-10-22-living-on-the-corner-of-disappointment-and-grattit",
+        "title": "Living on the Corner of Disappointment and Grattitude",
+        "date": "2012-10-22",
+        "file_path": "../src/content/blog/2012-10-22-living-on-the-corner-of-disappointment-and-grattit.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how far"
+        ],
+        "evidence": [
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "I see how far I’ve come."
+      },
+      {
+        "post_id": "2021-08-04-25lbs-less-of-lee",
+        "title": "25lbs Less of Lee",
+        "date": "2021-08-04",
+        "file_path": "../src/content/blog/2021-08-04-25lbs-less-of-lee.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a bit more",
+          "bit more"
+        ],
+        "evidence": [
+          {
+            "alias": "a bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "I'm averaging just a bit more than 1."
+      },
+      {
+        "post_id": "2022-02-19-there-is-a-natural-cure-for-type-2-diabetes",
+        "title": "There Is A Natural “Cure” for Type 2 Diabetes",
+        "date": "2022-02-19",
+        "file_path": "../src/content/blog/2022-02-19-there-is-a-natural-cure-for-type-2-diabetes.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how much more"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "How much more severely diabetic?"
+      },
+      {
+        "post_id": "2022-06-08-living-rent-free-in-my-head",
+        "title": "Living Rent Free In My Head",
+        "date": "2022-06-08",
+        "file_path": "../src/content/blog/2022-06-08-living-rent-free-in-my-head.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how much more"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "I have no idea how much more health I’ll be able to reclaim."
+      },
+      {
+        "post_id": "2022-07-27-its-yellow-shirt-time",
+        "title": "It’s Yellow Shirt Time",
+        "date": "2022-07-28",
+        "file_path": "../src/content/blog/2022-07-27-its-yellow-shirt-time.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how much more"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "However – I also need to take realistic stock of how much more work that needs doing."
+      },
+      {
+        "post_id": "2022-08-27-i-cantuntil-i-can-run-a-mile",
+        "title": "I Can’t…Until I Can: Run a Mile",
+        "date": "2022-08-27",
+        "file_path": "../src/content/blog/2022-08-27-i-cantuntil-i-can-run-a-mile.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how far"
+        ],
+        "evidence": [
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "How far?"
+      },
+      {
+        "post_id": "2022-09-02-health-transformation-is-personal",
+        "title": "Health Transformation is Personal",
+        "date": "2022-09-02",
+        "file_path": "../src/content/blog/2022-09-02-health-transformation-is-personal.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how far"
+        ],
+        "evidence": [
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "Sometimes I look in the mirror and despair at how hard I’ve worked and how far I have to go."
+      },
+      {
+        "post_id": "2022-09-23-if-you-are-having-fun-is-it-exercise",
+        "title": "If You Are Having Fun, is it Exercise?",
+        "date": "2022-09-24",
+        "file_path": "../src/content/blog/2022-09-23-if-you-are-having-fun-is-it-exercise.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a bit more",
+          "bit more"
+        ],
+        "evidence": [
+          {
+            "alias": "a bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "Then do a bit more."
+      },
+      {
+        "post_id": "2022-11-15-i-cant-until-i-can-8211-exercise-in-winter",
+        "title": "I Can’t Until I Can – Exercise in Winter",
+        "date": "2022-11-16",
+        "file_path": "../src/content/blog/2022-11-15-i-cant-until-i-can-8211-exercise-in-winter.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a bit more",
+          "bit more"
+        ],
+        "evidence": [
+          {
+            "alias": "a bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "That was a bit more than a year ago."
+      },
+      {
+        "post_id": "2022-11-21-save-money-on-curalin-black-friday",
+        "title": "Save Money on Curalin Black Friday",
+        "date": "2022-11-21",
+        "file_path": "../src/content/blog/2022-11-21-save-money-on-curalin-black-friday.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a bit more",
+          "bit more"
+        ],
+        "evidence": [
+          {
+            "alias": "a bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "In fact, pushing myself a bit more and then a bit more is my methodology."
+      },
+      {
+        "post_id": "2022-12-08-my-little-blue-dress",
+        "title": "My Little Blue Dress",
+        "date": "2022-12-09",
+        "file_path": "../src/content/blog/2022-12-08-my-little-blue-dress.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how far"
+        ],
+        "evidence": [
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "I gained back some weight…but I have my cloud “dress” to remind me how far I’ve come."
+      },
+      {
+        "post_id": "2023-01-18-i-cantuntil-i-can-8211-knee-strikes",
+        "title": "I Can’t…Until I Can – Knee Strikes",
+        "date": "2023-01-18",
+        "file_path": "../src/content/blog/2023-01-18-i-cantuntil-i-can-8211-knee-strikes.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how far"
+        ],
+        "evidence": [
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "I marvel at how far I’ve come."
+      },
+      {
+        "post_id": "2023-04-04-some-see-the-smile-two-sides-of-every-story",
+        "title": "Some See The Smile: Two Sides of Every Story",
+        "date": "2023-04-05",
+        "file_path": "../src/content/blog/2023-04-04-some-see-the-smile-two-sides-of-every-story.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how far"
+        ],
+        "evidence": [
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "I'm open about my journey, and some people are going to focus on my fatness and not how hard I've already worked and how far I've come."
+      },
+      {
+        "post_id": "2023-05-15-hard-is-mandatory-for-maintaining-ability",
+        "title": "Hard Is Mandatory For Maintaining Ability",
+        "date": "2023-05-16",
+        "file_path": "../src/content/blog/2023-05-15-hard-is-mandatory-for-maintaining-ability.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "bit more"
+        ],
+        "evidence": [
+          {
+            "alias": "bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "And yet – it is pushing myself just that bit more and working that bit harder that has taken me from walking with a cane to being ABLE to mow the lawn and much"
+      },
+      {
+        "post_id": "2023-05-19-keto-brats-and-peppers-in-an-alfredo-sauce",
+        "title": "Keto Brats and Peppers in an Alfredo Sauce",
+        "date": "2023-05-19",
+        "file_path": "../src/content/blog/2023-05-19-keto-brats-and-peppers-in-an-alfredo-sauce.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a bit more",
+          "bit more"
+        ],
+        "evidence": [
+          {
+            "alias": "a bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "If the sauce is too thick, add a bit more cream to thin it out."
+      },
+      {
+        "post_id": "2023-09-13-talk-to-your-doctor",
+        "title": "Talk To Your Doctor",
+        "date": "2023-09-13",
+        "file_path": "../src/content/blog/2023-09-13-talk-to-your-doctor.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how far"
+        ],
+        "evidence": [
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "ppps: the photo is how far away I parked at the Costco eye doctor."
+      },
+      {
+        "post_id": "2023-11-03-i-cant-until-i-can-8211-make-bread",
+        "title": "I Can’t … Until I Can – Make Bread",
+        "date": "2023-11-03",
+        "file_path": "../src/content/blog/2023-11-03-i-cant-until-i-can-8211-make-bread.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "bit more"
+        ],
+        "evidence": [
+          {
+            "alias": "bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "It’s perhaps a tiny bit more dense than bread."
+      },
+      {
+        "post_id": "2023-12-15-day-10-of-a-planned-14-day-fast-is-done",
+        "title": "Day 10 of a Planned 14 Day Fast is Done",
+        "date": "2023-12-16",
+        "file_path": "../src/content/blog/2023-12-15-day-10-of-a-planned-14-day-fast-is-done.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a bit more",
+          "bit more"
+        ],
+        "evidence": [
+          {
+            "alias": "a bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "I do feel a bit more tired in my walk than normal."
+      }
+    ],
+    "frequency": 128,
+    "strong_matches": 128,
+    "weak_matches": 23,
+    "representative_quotes": [
+      {
+        "post_id": "2022-06-28-how-much-how-far",
+        "quote": "A little more."
+      },
+      {
+        "post_id": "2023-08-17-a-little-more",
+        "quote": "I've embraced \"a little more\" for two years now."
+      },
+      {
+        "post_id": "2022-07-10-all-the-health",
+        "quote": "But always working for a little more progress."
+      }
+    ],
+    "candidate_chapters": [
+      "A Little More, A Bit Farther, Always"
     ],
     "status": "candidate"
   },
@@ -689,7 +2131,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Herbie, my imaginary workout hippo had to push me this morning."
+        "quote": "It is a push day after all."
       },
       {
         "post_id": "2023-02-18-saturday-push-day-8211-one-for-the-road",
@@ -875,7 +2317,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "As part of my ongoing series about pushing myself to new heights in fitness, I faced a unique challenge this week: I went out of town for a family event."
+        "quote": "Therefore I couldn’t keep up with my Saturday Push Day routine?"
       },
       {
         "post_id": "2023-04-22-saturday-push-day-8211-fail-in-order-to-succeed",
@@ -963,7 +2405,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I have osteoarthritis in my knees."
+        "quote": "I've needed a cane to walk and drove with a handicap sticker."
       },
       {
         "post_id": "2023-01-03-i-resolve-to-reclaim-my-health",
@@ -1009,8 +2451,8 @@
         "title_match": true,
         "evidence_strength": "strong",
         "matched_aliases": [
-          "cane",
           "reclaim",
+          "cane",
           "stairs"
         ],
         "evidence": [
@@ -1035,7 +2477,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Last time my daughter and I visited Chicago, I relied on a cane to support me while walking."
+        "quote": "Rather, my objective has been to reclaim my health, infuse life into each day, and ultimately, extend my lifespan."
       },
       {
         "post_id": "2023-04-17-beyond-a1c-the-journey-to-health-recovery",
@@ -1045,10 +2487,10 @@
         "title_match": true,
         "evidence_strength": "strong",
         "matched_aliases": [
-          "health recovery",
           "reclaim",
           "cane",
-          "stairs"
+          "stairs",
+          "health recovery"
         ],
         "evidence": [
           {
@@ -1077,7 +2519,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "My journey to regain my health is far from over."
+        "quote": "However, I firmly believe that more people would take control of their health if they knew they could reclaim it through lifestyle changes and not just rely on medications."
       },
       {
         "post_id": "2023-07-20-two-years-med-free-8211-health-recovery",
@@ -1087,9 +2529,9 @@
         "title_match": true,
         "evidence_strength": "strong",
         "matched_aliases": [
-          "health recovery",
           "cane",
-          "stairs"
+          "stairs",
+          "health recovery"
         ],
         "evidence": [
           {
@@ -1108,7 +2550,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I had lost 80lbs in less than a year in my mid 40s."
+        "quote": "I needed a cane to walk and drove with a handicap sticker."
       },
       {
         "post_id": "2023-07-31-saturday-push-day-8211-yard-work-ability",
@@ -1118,9 +2560,9 @@
         "title_match": true,
         "evidence_strength": "strong",
         "matched_aliases": [
-          "yard work",
           "reclaim",
-          "cane"
+          "cane",
+          "yard work"
         ],
         "evidence": [
           {
@@ -1144,7 +2586,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "The reward for years of hard work – is yard work."
+        "quote": "It feels good to reclaim the ability to take care of myself and my family."
       },
       {
         "post_id": "2022-02-12-the-value-of-supernatural-and-oculus-quest",
@@ -1169,7 +2611,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I can actually put on a pair of pants without having to sit down."
+        "quote": "I can walk down stairs without having to out both feet on the same stair."
       },
       {
         "post_id": "2022-04-15-if-you-could-only-see",
@@ -1200,7 +2642,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Type 2 diabetes can be the blessing in your life."
+        "quote": "It can be the impetus to transform and reclaim your health and vitality."
       },
       {
         "post_id": "2022-06-18-i-cant-until-i-can-run",
@@ -1225,7 +2667,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Yes, I can do other forms of exercise that are easier on the knees."
+        "quote": "I just WANT to reclaim the ability to run just as I wanted to reclaim the ability to walk across the grass or easily walk down stairs."
       },
       {
         "post_id": "2022-07-06-nsv-the-great-train-escape",
@@ -1250,7 +2692,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Which I can do now."
+        "quote": "Before the pandemic came and turned so many of us into “work from home” people, I was walking with a cane."
       },
       {
         "post_id": "2022-07-08-carbs-vs-fat",
@@ -1269,7 +2711,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Tonight’s dinner was hamburgers and chicken topped with cheese and bacon."
+        "quote": "My goal is to promote my continued health recovery."
       },
       {
         "post_id": "2022-08-09-we-all-start-somewhere",
@@ -1300,7 +2742,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Now I’m down to a normal A1c of 5."
+        "quote": "I’ve increased my strength and reclaimed so many abilities."
       },
       {
         "post_id": "2022-08-27-i-cantuntil-i-can-run-a-mile",
@@ -1337,7 +2779,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Today is Saturday."
+        "quote": "I’m reclaiming abilities as I reclaim my health."
       },
       {
         "post_id": "2022-09-12-exercise-helps-osteoarthritis",
@@ -1368,7 +2810,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I've never been in love with running…but who wants to be disabled?"
+        "quote": "I want to reclaim that ability."
       },
       {
         "post_id": "2022-09-23-if-you-are-having-fun-is-it-exercise",
@@ -1399,7 +2841,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "A year and a half ago I weighed 335lbs and was sedentary and had trouble walking with arthritic knees."
+        "quote": "I still have arthritic knees but I have less pain and I’ve regained so many abilities."
       },
       {
         "post_id": "2022-10-10-destination-health",
@@ -1430,7 +2872,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "It may have taken the specter of daily insulin shots to get me going, but from the beginning my goal was to regain health."
+        "quote": "I’ve been regaining abilities, recovering life itself."
       },
       {
         "post_id": "2022-10-30-one-more-addition-to-my-8220why8221",
@@ -1455,7 +2897,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Arthritic knees?"
+        "quote": "It wasn't that long ago I was walking around with a cane an having difficulties with stairs."
       },
       {
         "post_id": "2023-01-03-treat-your-own-knee",
@@ -1480,7 +2922,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I’ve been on a health reclamation journey the last 18 months and have seen a good amount of progress."
+        "quote": "I’ve put my T2 Diabetes into remission and have gone from walking with a cane to running a 5k."
       },
       {
         "post_id": "2023-01-23-january-23-5-day-fast-8211-day-1",
@@ -1530,7 +2972,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I don’t exercise to get good at exercising."
+        "quote": "I’m reclaiming my health and my abilities."
       }
     ],
     "weak_supporting_posts": [
@@ -1551,7 +2993,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "My fitness level too has improved."
+        "quote": "This past spring I was someone who would be winded climbing a flight of stairs, and I had no problem rushing around the city for a couple hours."
       },
       {
         "post_id": "2012-10-07-20-less-of-lee",
@@ -1570,7 +3012,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "That said, it’s been a tough month."
+        "quote": "Going to have to up the intensity, try the elliptical machine or stairs to get more calories burned in less time."
       },
       {
         "post_id": "2012-10-17-less-of-lee-at-6-months",
@@ -1589,7 +3031,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "It’s surprising how the fitness level has affected my normal life."
+        "quote": "I walk up to the 5th floor via stairs and I’m huffing a bit, but by the time I get to my desk, I’m breathing normally."
       },
       {
         "post_id": "2012-11-04-70lbs-down-with-visions-of-muscles-dancing-in-my-h",
@@ -1608,7 +3050,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "100 pushups."
+        "quote": "So I’m starting with “counter pushups” where you push up from a counter top, or stairs, or hotel bed."
       },
       {
         "post_id": "2012-12-23-25-and-80lbs-less-of-lee",
@@ -1627,7 +3069,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I’m also progressing nicely with my fitness goals."
+        "quote": "still doing the “incline/stairs” versions."
       },
       {
         "post_id": "2012-12-31-the-year-that-was-2012-in-fitness",
@@ -1646,7 +3088,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I had no New Year’s resolutions for fitness when 2012 started."
+        "quote": "I was 309lbs with a 55” waist and climbing a flight of stairs would make me short of breath."
       },
       {
         "post_id": "2013-02-02-happy-birthday-to-me-8211-gave-myself-the-gift-of",
@@ -1665,7 +3107,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Happy Birthday to me."
+        "quote": "Climbing the minimal stairs in our house would get me breathing heavy."
       },
       {
         "post_id": "2021-12-13-eye-on-the-prize-8211-all-the-way-to-health",
@@ -1703,7 +3145,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "What if I don’t succeed?"
+        "quote": "You train and build up your abilities?"
       },
       {
         "post_id": "2022-01-10-fitness-plan-starts-with-health-goals",
@@ -1741,7 +3183,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I’ve been working out for a couple months with the Oculus Quest 2 virtual reality headset and the Supernatural app."
+        "quote": "I can already see a nice improvement in my abilities."
       },
       {
         "post_id": "2022-02-12-i-cantuntil-i-can-play-pickleball",
@@ -1779,7 +3221,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I can say this – you can always go back to being a “forever diabetic” if the doctors I'm listening to don’t have the answers for you."
+        "quote": "Diabetes in remission, health returning, abilities growing."
       },
       {
         "post_id": "2022-02-23-10-month-update-8211-less-of-lee-round-2",
@@ -1798,7 +3240,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I walk with so much more stability."
+        "quote": "I can walk down stairs without holding onto a rail."
       },
       {
         "post_id": "2022-02-23-the-benefits-of-extended-fasting-8211-day-3",
@@ -1836,7 +3278,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I love walking."
+        "quote": "And man are my knees killing me when I get back to the house and have to climb a few stairs."
       },
       {
         "post_id": "2022-03-02-guess-who-could-almost-run-today",
@@ -1874,7 +3316,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I’m walking so much better."
+        "quote": "I can walk down stairs without having to put both feet on the same stair before going down to the next."
       },
       {
         "post_id": "2022-04-04-why-i-exercise",
@@ -1893,7 +3335,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "#2 – reclaiming ability."
+        "quote": "Walking down stairs."
       },
       {
         "post_id": "2022-04-11-first-day-of-new-job-8211-new-me",
@@ -1912,7 +3354,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I was kind of “saved” by the Covid lock down."
+        "quote": "Last time I worked in Chicago – I had to walk with a cane and it was difficult to make it from the train station to the office."
       }
     ],
     "frequency": 70,
@@ -1921,7 +3363,7 @@
     "representative_quotes": [
       {
         "post_id": "2022-12-30-i-can8217t-until-i-can-8211-from-cane-to-5k",
-        "quote": "I have osteoarthritis in my knees."
+        "quote": "I've needed a cane to walk and drove with a handicap sticker."
       },
       {
         "post_id": "2023-01-03-i-resolve-to-reclaim-my-health",
@@ -1929,7 +3371,7 @@
       },
       {
         "post_id": "2023-03-30-nsv-8211-a-triumph-at-opening-day-no-more-cane",
-        "quote": "Last time my daughter and I visited Chicago, I relied on a cane to support me while walking."
+        "quote": "Rather, my objective has been to reclaim my health, infuse life into each day, and ultimately, extend my lifespan."
       }
     ],
     "candidate_chapters": [
@@ -2141,7 +3583,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "My new job has a beach volleyball team."
+        "quote": "That’s still in the “I can’t” category."
       },
       {
         "post_id": "2022-06-18-i-cant-until-i-can-run",
@@ -2187,7 +3629,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I can’t do it – now."
+        "quote": "But like so many things – I can’t – until I can!"
       },
       {
         "post_id": "2022-07-04-i-cantuntil-i-can-8211-play-badminton",
@@ -2294,7 +3736,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "It doesn’t happen over night."
+        "quote": "I can’t say if the osteoarthritis in my knees has healed some or if I’m simply managing better."
       },
       {
         "post_id": "2022-09-04-i-cantuntil-i-can-sprint",
@@ -2330,7 +3772,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "If I’m only going so far…why not push myself?"
+        "quote": "Let’s see if I can sprint."
       },
       {
         "post_id": "2022-11-12-i-cant-until-i-can-8211-supernatural-personal-best",
@@ -2402,7 +3844,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "Winter was coming…what to do?"
+        "quote": "I can’t … becomes I can…when you flip an obstacle into a problem to solve."
       },
       {
         "post_id": "2022-11-26-i-cantuntil-i-can-8211-run-up-the-entire-hill",
@@ -2438,7 +3880,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "Well, today I did it."
+        "quote": "I took “run up the tall hill” off the list of things I can’t do."
       },
       {
         "post_id": "2022-12-19-i-cant-until-i-can-8211-walk-in-winter",
@@ -2474,7 +3916,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I have added back another ability."
+        "quote": "Took one more off the list of things I can’t do."
       },
       {
         "post_id": "2022-12-30-i-can8217t-until-i-can-8211-from-cane-to-5k",
@@ -2684,7 +4126,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "This 20 minute rule seems to be talked about everywhere, but I couldn't find a decent definitive article to link to."
+        "quote": "However, I can attest that it's true for me."
       },
       {
         "post_id": "2012-04-20-do-something-good",
@@ -2703,7 +4145,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "It’s so easy to become overwhelmed with all the lifestyle changes I need to make."
+        "quote": "I need to figure out each of my three daughters and how I can better meet their needs…and I need to be a better husband to my wife in about a thousand different ways."
       },
       {
         "post_id": "2012-04-27-weight-watchers8230really",
@@ -2722,7 +4164,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I have been so very surprised at how much I like the WW way."
+        "quote": "I can still eat all my favorite foods, just not as much or as often."
       },
       {
         "post_id": "2012-04-28-cooking-helps",
@@ -2741,7 +4183,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I also made a batch of fresh homemade salsa."
+        "quote": "My beloved tortilla chips are something I can only eat few and far between ."
       },
       {
         "post_id": "2012-05-14-week-4-8211-double-the-fun",
@@ -2760,7 +4202,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I had a good week."
+        "quote": "However, I can't use that as an excuse."
       },
       {
         "post_id": "2012-05-23-holy-trinity-commitment-goal-plan",
@@ -2779,7 +4221,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I totally understand how difficult it can be to get to the point of being ready to tackle one's weight."
+        "quote": "I can't know if you are ready."
       },
       {
         "post_id": "2012-06-10-two-month-and-25lbs-less-of-lee",
@@ -2798,7 +4240,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I've had some fun victories besides the scale and measuring tape."
+        "quote": "Now I can."
       },
       {
         "post_id": "2012-07-02-10-less-of-lee",
@@ -2817,7 +4259,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "This week I bought new belts and a couple new shirts."
+        "quote": "Sure, I'm just BARELY into the XXL, but I can wear these shirts today, and know that they will fit even better a week or two from now."
       },
       {
         "post_id": "2012-07-06-don8217t-listen-to-me",
@@ -2836,7 +4278,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "Mostly though, I think it's more encouraging when you actually know someone who's struggling to overcome what is so difficult for so many people."
+        "quote": "I read real books by real doctors, go to websites and purchase materials from real fitness trainers, use google to look into \"authoritative research\" as best I can."
       },
       {
         "post_id": "2012-08-22-one-pound-gain-8211-weight-loss-math",
@@ -2855,7 +4297,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "It was bound to happen, and it did this week."
+        "quote": "I’m so close to the 50lb mark that I can taste it."
       },
       {
         "post_id": "2012-09-09-i8217m-halfway-there",
@@ -2874,7 +4316,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I want to be able to run a 5K."
+        "quote": "I can't run at all yet, though my walks are stretching past the hour mark."
       },
       {
         "post_id": "2012-10-02-the-same-amount-of-lee",
@@ -2893,7 +4335,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I went shopping at the local Goodwill."
+        "quote": "I can’t afford to buy a complete wardrobe every two months."
       },
       {
         "post_id": "2012-10-07-20-less-of-lee",
@@ -2912,7 +4354,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I rediscovered Goodwill."
+        "quote": "I can’t afford to buy a complete work wardrobe every two months."
       },
       {
         "post_id": "2012-10-17-less-of-lee-at-6-months",
@@ -2931,7 +4373,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I look better and younger."
+        "quote": "I can actually suck my gut in, and when I do, I have a vision for the even fitter slimmer Lee to come."
       },
       {
         "post_id": "2012-11-04-70lbs-down-with-visions-of-muscles-dancing-in-my-h",
@@ -2950,7 +4392,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "100 pushups."
+        "quote": "I can’t even do 1 real pushup."
       },
       {
         "post_id": "2012-11-13-make-the-weight-gain-worth-it",
@@ -2969,7 +4411,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "The end result was a 1 pound gain in weight."
+        "quote": "And I didn’t eat “all I can eat”."
       },
       {
         "post_id": "2012-11-21-welcome-vinnie-tortorich-fans",
@@ -2988,7 +4430,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I represent the everyman."
+        "quote": "I can’t afford a trainer like Vinnie, don’t have a dietician on my payroll, don’t have the resources or lifestyle of a hollywood star."
       },
       {
         "post_id": "2012-12-03-no-longer-obese",
@@ -3007,7 +4449,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I’ve gone from couch potato to running 3 miles for the first time in my life."
+        "quote": "I can’t even do one “real” pushup yet, but I’m doing 35 incline pushups."
       },
       {
         "post_id": "2012-12-23-25-and-80lbs-less-of-lee",
@@ -3026,7 +4468,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I’m also progressing nicely with my fitness goals."
+        "quote": "But I can now actually do 5 real pushups when I couldn’t even do one before."
       },
       {
         "post_id": "2012-12-31-the-year-that-was-2012-in-fitness",
@@ -3045,7 +4487,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I’ve been working on my pushups."
+        "quote": "I can now do 5 “real” pushups."
       }
     ],
     "frequency": 36,
@@ -3126,7 +4568,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "You are not diabetic."
+        "quote": "It is in remission."
       },
       {
         "post_id": "2022-01-15-put-t2-diabetes-into-remission-by-rejecting-modera",
@@ -3136,8 +4578,8 @@
         "title_match": true,
         "evidence_strength": "strong",
         "matched_aliases": [
-          "remission",
-          "former diabetic"
+          "former diabetic",
+          "remission"
         ],
         "evidence": [
           {
@@ -3156,7 +4598,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "In 3 months I was off all the meds, and three months after that I met the qualifications of having my diabetes in remission (A1c less than 6."
+        "quote": "I’ve since fired that doctor and that dietician…and love my life as a former diabetic who is continuing to work on reversing the entire stack of metabolic syndrome health problems"
       },
       {
         "post_id": "2022-08-31-whats-it-take-to-reversehealput-type-2-diabetes-in",
@@ -3261,7 +4703,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "When I arrived at the next appointment, I was taken off of the last of the meds."
+        "quote": "I claim the label of “former diabetic” which ruffles feathers."
       },
       {
         "post_id": "2024-07-04-three-years-diabetes-free",
@@ -3299,7 +4741,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "[I’m Back 8 Years Later – Now Diabetic](https://lessoflee."
+        "quote": "com/2021/06/21/2-month-progress-report/) [Off All Diabetes Meds – 3 Month Update](https://lessoflee."
       },
       {
         "post_id": "2022-02-23-10-month-update-8211-less-of-lee-round-2",
@@ -3368,7 +4810,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Geeze…now I am confused."
+        "quote": "Life as a former diabetic is hard."
       },
       {
         "post_id": "2022-04-08-adopt-a-health-mindset-and-free-yourself-from-t2d",
@@ -3387,7 +4829,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I’m off all my meds going on nine months and I am not diabetic."
+        "quote": "But right now – I am a former diabetic."
       },
       {
         "post_id": "2022-06-30-free-weekly-motivational-newsletter-8211-former-di",
@@ -3406,7 +4848,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "You all have willed it to be – Former Diabetics Club is coming alive."
+        "quote": "For now, I'm beginning with a free weekly (I hope) newsletter aimed at inspiring people to become a former diabetic and remain so for the rest of their lives."
       },
       {
         "post_id": "2022-07-20-one-year-free-of-diabetes-drugs",
@@ -3425,7 +4867,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I intend to live this way forever."
+        "quote": "I am a Former Diabetic."
       },
       {
         "post_id": "2022-08-01-former-diabetics-club",
@@ -3444,7 +4886,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "We can become former diabetics."
+        "quote": "I am a former diabetic."
       },
       {
         "post_id": "2022-08-02-former-diabetics-club",
@@ -3507,7 +4949,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "You can’t look at me for personal proof."
+        "quote": "I’ve only been a Former Diabetic for a year."
       }
     ],
     "weak_supporting_posts": [
@@ -3604,7 +5046,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I really wish that “diet” wasn’t in the title."
+        "quote": "Ever wonder how low fat calorie restriction diets AND low carb, high fat ad libitum diets can both put diabetes into remission?"
       },
       {
         "post_id": "2022-01-21-9-month-update-8211-less-of-lee-round-2",
@@ -3642,7 +5084,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "What a joy it is to meet some ambitious goals."
+        "quote": "I accomplished the first- getting off all the diabetes meds and put my diabetes into remission."
       },
       {
         "post_id": "2022-02-12-fasting-is-done-feasting-has-begun",
@@ -3680,7 +5122,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I can say this – you can always go back to being a “forever diabetic” if the doctors I'm listening to don’t have the answers for you."
+        "quote": "Diabetes in remission, health returning, abilities growing."
       },
       {
         "post_id": "2022-02-22-the-benefits-of-extended-fasting-8211-day-1",
@@ -3699,7 +5141,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Fasting is an amazing health practice,."
+        "quote": "Intermittent fasting helped me get off all my diabetes meds and put type 2 diabetes into remission."
       },
       {
         "post_id": "2022-02-22-the-benefits-of-extended-fasting-8211-day-2",
@@ -3718,7 +5160,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Fasting is an amazing health practice."
+        "quote": "Intermittent fasting helped me get off all my diabetes meds and put type 2 diabetes into remission."
       },
       {
         "post_id": "2022-02-23-the-benefits-of-extended-fasting-8211-day-3",
@@ -3737,7 +5179,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Fasting is an amazing health practice."
+        "quote": "Intermittent fasting helped me get off all my diabetes meds and put type 2 diabetes into remission."
       },
       {
         "post_id": "2022-02-24-the-benefits-of-extended-fasting-8211-day-4",
@@ -3756,7 +5198,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Fasting is an amazing health practice."
+        "quote": "Intermittent fasting helped me get off all my diabetes meds and put type 2 diabetes into remission."
       },
       {
         "post_id": "2022-02-25-the-benefits-of-extended-fasting-8211-day-5",
@@ -3775,7 +5217,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Fasting is an amazing health practice."
+        "quote": "Intermittent fasting helped me get off all my diabetes meds and put type 2 diabetes into remission."
       },
       {
         "post_id": "2022-03-06-the-fix-everything-pill",
@@ -3813,7 +5255,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "#1 – the number one reason I exercise is it’s effects on metabolism."
+        "quote": "Exercise increases insulin sensitivity … which is how you put your diabetes into remission."
       },
       {
         "post_id": "2022-04-19-the-one-year-blessing-of-diabetes",
@@ -3870,7 +5312,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "It’s been a bit over a year since I began reclaiming my health."
+        "quote": "The headline is that my diabetes has been put into remission, I’m off all the meds."
       },
       {
         "post_id": "2022-08-27-i-cantuntil-i-can-run-a-mile",
@@ -3889,7 +5331,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "It doesn’t happen over night."
+        "quote": "I’ve put my type 2 diabetes into remission."
       }
     ],
     "frequency": 33,
@@ -3902,11 +5344,11 @@
       },
       {
         "post_id": "2021-12-10-you-can-be-a-non-diabetic",
-        "quote": "You are not diabetic."
+        "quote": "It is in remission."
       },
       {
         "post_id": "2022-01-15-put-t2-diabetes-into-remission-by-rejecting-modera",
-        "quote": "In 3 months I was off all the meds, and three months after that I met the qualifications of having my diabetes in remission (A1c less than 6."
+        "quote": "I’ve since fired that doctor and that dietician…and love my life as a former diabetic who is continuing to work on reversing the entire stack of metabolic syndrome health problems"
       }
     ],
     "candidate_chapters": [
@@ -3951,7 +5393,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I can see my metabolic health improving."
+        "quote": "While this is awesome, it’s just one milestone in the journey to health."
       },
       {
         "post_id": "2021-12-13-eye-on-the-prize-8211-all-the-way-to-health",
@@ -3994,7 +5436,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "There is more work to do."
+        "quote": "The Journey to Health continues."
       },
       {
         "post_id": "2022-01-14-total-health-program-8211-not-just-diabetes",
@@ -4042,7 +5484,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Just finished The P:E Diet by Ted Naiman."
+        "quote": "It may well be the best “total health” book I’ve ever read."
       },
       {
         "post_id": "2022-03-09-health-is-the-destination",
@@ -4066,7 +5508,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I am excited for having reached a huge milestone…but it is only a milestone."
+        "quote": "Health is the destination."
       },
       {
         "post_id": "2022-10-10-destination-health",
@@ -4109,7 +5551,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "My journey to regain my health is far from over."
+        "quote": "Remember, the journey to health recovery goes beyond A1c – it's about taking a holistic approach to managing diabetes and overall well-being."
       },
       {
         "post_id": "2012-07-09-3-month-review",
@@ -4147,7 +5589,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "There is now 20% less of Lee."
+        "quote": "I started this journey to health and fitness last April 13th (Lucky Friday the 13th), at 309lbs with a 55” belly."
       },
       {
         "post_id": "2012-10-17-less-of-lee-at-6-months",
@@ -4185,7 +5627,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I also create podcasts."
+        "quote": "But they are the real raw thing, the journey to health, as it happens."
       },
       {
         "post_id": "2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor",
@@ -4242,7 +5684,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "You can refer to [the first post in my blog](https://lessoflee."
+        "quote": "com/2012/04/13/hello-world/) to learn why I finally started on my journey to health and fitness."
       },
       {
         "post_id": "2013-01-26-keeping-the-faith-in-the-face-of-a-plateau",
@@ -4299,7 +5741,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "If you see it as a hobby, it’s all part of the fun."
+        "quote": "There is a lot to “total health” to keep you busy and learning and improving."
       },
       {
         "post_id": "2022-02-06-i-cantuntil-i-can-8211-exercise-vigorously-for-an",
@@ -4318,7 +5760,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "What a joy it is to meet some ambitious goals."
+        "quote": "When I started this 2nd journey to health I made 3 goals."
       },
       {
         "post_id": "2022-02-12-the-value-of-supernatural-and-oculus-quest",
@@ -4337,7 +5779,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "And yes…SN has indeed helped with weight loss…in the context of a keto diet and intermittent fasting."
+        "quote": "SN will continue to be a part of my total health recovery plan as I press on with strength training, continue with low carb eating and fasting and work toward losing the next 75lbs"
       }
     ],
     "weak_supporting_posts": [],
@@ -4347,7 +5789,7 @@
     "representative_quotes": [
       {
         "post_id": "2021-11-27-journey-to-health-8211-7-months-in",
-        "quote": "I can see my metabolic health improving."
+        "quote": "While this is awesome, it’s just one milestone in the journey to health."
       },
       {
         "post_id": "2021-12-13-eye-on-the-prize-8211-all-the-way-to-health",
@@ -4355,7 +5797,7 @@
       },
       {
         "post_id": "2021-12-21-journey-to-health-8211-8-month-update",
-        "quote": "There is more work to do."
+        "quote": "The Journey to Health continues."
       }
     ],
     "candidate_chapters": [
@@ -4463,7 +5905,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "The Standard American Diet isn't a sustainable solution for health."
+        "quote": "It's not the diets you stop following that have failed, it's the food that made you unhealthy in the first place."
       },
       {
         "post_id": "2023-03-22-it8217s-the-food-making-us-sick",
@@ -4506,7 +5948,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I have good news."
+        "quote": "Type 2 Diabetes is not a disease!"
       },
       {
         "post_id": "2022-12-08-diabetes-taught-me-what-my-mother-should-have",
@@ -4525,7 +5967,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Why must I label myself as diseased for refraining to eat food that will make me ACTUALLY diseased?"
+        "quote": "The food that made me diabetic in the first place can make me diabetic again."
       },
       {
         "post_id": "2025-05-21-return-of-the-cane",
@@ -4563,7 +6005,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "There is no downside to actual healing."
+        "quote": "You don’t get to eat all the comfort food, junk food, fast food that made you sick."
       },
       {
         "post_id": "2025-11-11-that-whoosh-it8217s-more-than-just-water",
@@ -4645,7 +6087,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Had a great active day."
+        "quote": "I’m no longer sedentary."
       },
       {
         "post_id": "2023-07-03-saturday-push-day-8211-no-longer-fragile",
@@ -4724,7 +6166,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I was working out for my diabetes but a strange thing occurred."
+        "quote": "As my legs started getting stronger, I noticed I could walk up and down the stairs in my house much more easily!"
       },
       {
         "post_id": "2022-03-20-11-month-update-8211-less-of-lee-round-2",
@@ -4768,7 +6210,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I started strength training – again for my diabetes."
+        "quote": "Getting stronger has brought back ability."
       },
       {
         "post_id": "2022-11-15-i-cant-until-i-can-8211-exercise-in-winter",
@@ -4818,7 +6260,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "But what is this transformation I’ve hinted at?"
+        "quote": "And as I kept at it, my legs started getting stronger."
       }
     ],
     "weak_supporting_posts": [
@@ -4839,7 +6281,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "There has been marked improvement, just not the type shown on the scale."
+        "quote": "I’ve gone from just trying to make it through the P90 exercise routines to pushing myself harder, using stronger resistance bands, etc."
       },
       {
         "post_id": "2021-11-27-journey-to-health-8211-7-months-in",
@@ -4858,7 +6300,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I aim to reverse my heart disease and arthritis as well."
+        "quote": "I have to keep up the exercise and work on getting stronger."
       },
       {
         "post_id": "2022-02-06-nsv-8211-i-can-bowl",
@@ -4877,7 +6319,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "It’s frightening to ponder on how frail I was going to be in my 70s…if I even lived that long."
+        "quote": "By the end of this year or next, I may well be stronger and more fit than I have ever been."
       },
       {
         "post_id": "2022-02-12-the-value-of-supernatural-and-oculus-quest",
@@ -4896,7 +6338,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I’ve gained 5lbs of muscle in my arms."
+        "quote": "So, SN is clearly how my arms got stronger."
       },
       {
         "post_id": "2022-02-12-i-cantuntil-i-can-play-pickleball",
@@ -4972,7 +6414,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "While I did have to ignore the occasional waves of hunger…I felt great."
+        "quote": "Absolutely no weakness."
       },
       {
         "post_id": "2022-03-25-mindset-cheat-meals-are-a-transitional-tool",
@@ -5029,7 +6471,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I’m exercising daily."
+        "quote": "I’m getting stronger and more fit."
       },
       {
         "post_id": "2022-05-30-nsv-8211-living-life-is-the-reward",
@@ -5048,7 +6490,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "What began as an effort to bring diabetes under control became a total health and fitness effort."
+        "quote": "The muscles in my legs are stronger."
       },
       {
         "post_id": "2022-06-12-what-vitality-brings-to-a-sunday",
@@ -5067,7 +6509,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I love to sing at church."
+        "quote": "I have no phlegm or other inflammation issues affecting my throat and have a stronger diaphragm for singing."
       },
       {
         "post_id": "2022-06-16-balanced-diet-for-exercise",
@@ -5086,7 +6528,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Then there’s strength training."
+        "quote": "It’s been great and I can already feel the benefits from getting stronger."
       },
       {
         "post_id": "2022-07-20-one-year-free-of-diabetes-drugs",
@@ -5105,7 +6547,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "No more acid reflux No more snoring My skin tags have lessoned I can walk so much better My resting heart rate is in the excellent range I have regained abilities."
+        "quote": "My fitness had greatly improved I am getting stronger, muscles are starting to appear I'm sleeping a lot better I haven't had an anxiety attack or anxiety related sleep issue all year"
       },
       {
         "post_id": "2022-09-12-exercise-helps-osteoarthritis",
@@ -5124,7 +6566,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Like walking, running is a load bearing exercise."
+        "quote": "Your bones get stronger when there is load on them."
       },
       {
         "post_id": "2022-09-25-chasing-numbers",
@@ -5143,7 +6585,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Exercise the heart."
+        "quote": "The heart, like your biceps, gets stronger and better with use."
       },
       {
         "post_id": "2022-09-27-sept-22-extended-fast-day-2",
@@ -5162,7 +6604,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Fasting is like exercise."
+        "quote": "You get stronger with training."
       },
       {
         "post_id": "2022-10-01-sept-22-progress-update",
@@ -5181,7 +6623,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "While I have no measurement for muscle weight, I can see my muscles starting to pop."
+        "quote": "I’m 25% to 2x stronger in every muscle group since the first of the year."
       },
       {
         "post_id": "2022-10-09-my-decision-to-eat-off-plan",
@@ -5200,7 +6642,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Like everyone else, I like eating sugar and carb laden foods."
+        "quote": "However, some people have a much stronger addiction relationship to such foods."
       }
     ],
     "frequency": 8,
@@ -5209,7 +6651,7 @@
     "representative_quotes": [
       {
         "post_id": "2022-05-08-no-longer-sedentary",
-        "quote": "Had a great active day."
+        "quote": "I’m no longer sedentary."
       },
       {
         "post_id": "2023-07-03-saturday-push-day-8211-no-longer-fragile",
@@ -5364,8 +6806,8 @@
         "title_match": true,
         "evidence_strength": "strong",
         "matched_aliases": [
-          "backslide",
-          "get up"
+          "get up",
+          "backslide"
         ],
         "evidence": [
           {
@@ -5384,7 +6826,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "So – what about that guarantee?"
+        "quote": "I get knocked down, but I get up again."
       },
       {
         "post_id": "2025-12-07-hope-for-diabetics-that-lessens-fear",
@@ -5403,7 +6845,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "My role – how I helped others – well."
+        "quote": "I fall down and get back up."
       }
     ],
     "weak_supporting_posts": [
@@ -5424,7 +6866,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I have so much more visibility into what I eat and how it spikes my blood sugar."
+        "quote": "I get up multiple times a night to relieve myself, and I take readings."
       },
       {
         "post_id": "2022-03-16-good-sleep-night",
@@ -5481,7 +6923,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I love to sing at church."
+        "quote": "No inward groaning about having to get up AGAIN."
       },
       {
         "post_id": "2022-06-17-lets-talk-about-sleep",
@@ -5500,7 +6942,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "No matter what I do (so far), I can never get 8 hours of sleep."
+        "quote": "I still get up several times a night to pee."
       },
       {
         "post_id": "2023-02-18-saturday-push-day-8211-one-for-the-road",
@@ -5557,7 +6999,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Bad weather, so I can't go for a run or sprints."
+        "quote": "I'm also going to visit my sister, so I get up early to get a workout in."
       },
       {
         "post_id": "2023-08-23-one-gallon-of-blood-8211-less-of-lee",
@@ -5576,7 +7018,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I have fun making this point because of how passionately people will respond to me about the absurdity of advocating donating blood to lower A1c."
+        "quote": "So many people get up in arms with my claims that MANY people can overcome Type 2 Diabetes."
       },
       {
         "post_id": "2023-09-30-work-your-way-off-the-edge",
@@ -5595,7 +7037,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Only – this morning I was in the garage and a huge pain flared up."
+        "quote": "On my arthritic knees on the hard concrete in such pain and no ability to get up."
       },
       {
         "post_id": "2023-10-03-happy-healing-stories",
@@ -5633,7 +7075,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Shockingly, I have actually been improving my health, reclaiming abilities, reducing pain."
+        "quote": "I'm far from perfect and I “backslide” here and there."
       },
       {
         "post_id": "2023-12-23-is-fasting-pain-relief-temporary",
@@ -5652,7 +7094,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Yes, I absolutely believe that I have a future free of arthritis pain."
+        "quote": "It was excruciating sitting on the floor wrapping presents – then trying to get up off the floor."
       },
       {
         "post_id": "2024-01-01-new-year-8211-1st-home-strength-training",
@@ -5728,7 +7170,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "There is no guarantee to never fail again."
+        "quote": "I get knocked down, but I get up again."
       },
       {
         "post_id": "2025-10-17-week-1-fasting-update-8211-doctor-and-labs",
@@ -5747,7 +7189,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "My “magic knees” started appearing on day 3 and by day 5 it’s like I don’t have osteoarthritis at all."
+        "quote": "But I walk slow and get up and down gingerly."
       },
       {
         "post_id": "2025-11-02-speaking-my-bodys-love-language-8211-more",
@@ -5766,7 +7208,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I’m back in the gym – doing the easy level so that I can learn the particular machines and movements."
+        "quote": "I had to ask a stranger for help to get up from laying on a bench trying to do leg lifts."
       }
     ],
     "frequency": 7,
@@ -5943,7 +7385,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "I’m feeling great and optimistic for the coming years."
+        "quote": "Build your health and vitality by doing more and going farther."
       },
       {
         "post_id": "2024-06-22-fail-and-fail-again",
@@ -5962,7 +7404,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Life isn’t a sprint."
+        "quote": "Putting in the daily work, and some days better than others."
       }
     ],
     "weak_supporting_posts": [],
@@ -6187,7 +7629,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "For the next 14 days I will eat nothing but fat – my own fat."
+        "quote": "I did my first 14 day fast last December after more than a year of monthly 5 day fasts."
       }
     ],
     "weak_supporting_posts": [
@@ -6270,7 +7712,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "The results?"
+        "quote": "I am shocked and thrilled with how fast this has happened."
       },
       {
         "post_id": "2021-07-31-off-all-diabetes-meds-8211-3-month-update",
@@ -6289,7 +7731,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "As to Goal #2 – I have lost 23lbs."
+        "quote": "com/313) 9 years ago – and not losing weight nearly as fast."
       },
       {
         "post_id": "2021-08-17-i-am-bionic-again",
@@ -6308,7 +7750,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "- It is, of course, entirely possible to manage your bs without checking it every hour - I don’t WANT to only have the once or twice a day bs number - I like"
+        "quote": "How long I fast."
       },
       {
         "post_id": "2021-08-24-less-of-lee-reversing-type-2-diabetes-4-month-upda",
@@ -6327,7 +7769,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "[I’m Back 8 Years Later – Now Diabetic](https://lessoflee."
+        "quote": "Fast and Faster](https://lessoflee."
       },
       {
         "post_id": "2021-12-22-my-process-for-regaining-health-8211-books",
@@ -6408,7 +7850,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "I continue to make progress with my exercise."
+        "quote": "Had no problem exercising on day two of my fast."
       },
       {
         "post_id": "2021-12-29-day-1-of-5-day-fast-cleanse",
@@ -6475,7 +7917,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "Two more days to go."
+        "quote": "I’ll be breaking my fast for dinner New Year's Eve."
       },
       {
         "post_id": "2021-12-29-fasting-is-not-binging-and-purging",
@@ -6518,7 +7960,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "There are now 51lbs less of Lee."
+        "quote": "I realize that after the fast is over, the water will come back."
       },
       {
         "post_id": "2022-01-21-9-month-update-8211-less-of-lee-round-2",
@@ -6605,7 +8047,7 @@
             "strength": "ambiguous"
           }
         ],
-        "quote": "The most obvious one is burning fat."
+        "quote": "57lbs of fat for each 24 hours you fast."
       }
     ],
     "frequency": 6,
@@ -6687,7 +8129,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Still, I did my body good today by pushing myself."
+        "quote": "Pay attention to your body’s feedback."
       },
       {
         "post_id": "2024-01-27-saturday-push-day-8211-speaking-to-your-body",
@@ -6746,7 +8188,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Your body is declining with age – but that’s not fate."
+        "quote": "It’s a negative feedback loop."
       },
       {
         "post_id": "2023-12-18-after-the-fast-8211-day-13-one-more-day-to-go",
@@ -6765,7 +8207,7 @@
             "strength": "exact"
           }
         ],
-        "quote": "Day 13 is in the bag."
+        "quote": "I appreciate all the positive feedback and encouragement."
       },
       {
         "post_id": "2025-06-14-type-2-diabetes-progression-8211-a-primer",
@@ -6797,7 +8239,7 @@
       },
       {
         "post_id": "2023-06-18-saturday-push-day-8211-listen-to-your-body",
-        "quote": "Still, I did my body good today by pushing myself."
+        "quote": "Pay attention to your body’s feedback."
       },
       {
         "post_id": "2024-01-27-saturday-push-day-8211-speaking-to-your-body",

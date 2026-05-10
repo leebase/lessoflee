@@ -1,5 +1,6 @@
 [
   {
+    "type": "partition",
     "id": "original-less-of-lee-journey",
     "label": "Original Less of Lee Journey",
     "description": "The original 2012-2013 Less of Lee weight-loss and fitness journey before the later Type 2 diabetes reversal arc.",
@@ -24,6 +25,7 @@
     ]
   },
   {
+    "type": "partition",
     "id": "reversing-type-2-diabetes-journey",
     "label": "Reversing Type 2 Diabetes Journey",
     "description": "The 2021-present arc of reversing Type 2 diabetes, leaving medication, maintaining remission, relapse, and renewed recovery.",
@@ -49,6 +51,7 @@
     ]
   },
   {
+    "type": "topic",
     "id": "type-2-diabetes",
     "label": "Type 2 Diabetes",
     "description": "Diagnosis, reversal/remission, labs, medication, glucose, and metabolic recovery.",
@@ -75,6 +78,7 @@
     ]
   },
   {
+    "type": "topic",
     "id": "a1c-labs",
     "label": "A1c And Labs",
     "description": "Posts with lab results, doctor feedback, A1c values, and measurable proof.",
@@ -98,6 +102,7 @@
     ]
   },
   {
+    "type": "topic",
     "id": "fasting",
     "label": "Fasting",
     "description": "Fasting as metabolic tool, discipline practice, and healing accelerator.",
@@ -122,6 +127,7 @@
     ]
   },
   {
+    "type": "topic",
     "id": "feasting",
     "label": "Feasting",
     "description": "The positive-food side of the program: satisfying meals without destructive patterns.",
@@ -143,6 +149,7 @@
     ]
   },
   {
+    "type": "topic",
     "id": "capability-recovery",
     "label": "Capability Recovery",
     "description": "Regaining ordinary and extraordinary abilities through health recovery.",
@@ -168,6 +175,7 @@
     ]
   },
   {
+    "type": "topic",
     "id": "exercise",
     "label": "Exercise",
     "description": "Exercise as health signal, mental discipline, and capacity building.",
@@ -191,6 +199,7 @@
     ]
   },
   {
+    "type": "topic",
     "id": "mindset",
     "label": "Mindset",
     "description": "The inner work required to keep going, restart, and choose health repeatedly.",
@@ -212,6 +221,7 @@
     ]
   },
   {
+    "type": "topic",
     "id": "failure-restart",
     "label": "Failure And Restart",
     "description": "Failure treated as process data rather than final defeat.",
@@ -235,6 +245,7 @@
     ]
   },
   {
+    "type": "topic",
     "id": "health-identity",
     "label": "Health Identity",
     "description": "Posts where Lee names the person he is becoming, not merely the weight he is losing.",
@@ -256,6 +267,7 @@
     ]
   },
   {
+    "type": "topic",
     "id": "nsv",
     "label": "Non-Scale Victory",
     "description": "Concrete life improvements that prove health change beyond the scale.",
@@ -277,6 +289,7 @@
     ]
   },
   {
+    "type": "topic",
     "id": "family-responsibility",
     "label": "Family Responsibility",
     "description": "Health as responsibility to people who need Lee present, capable, and durable.",
@@ -299,6 +312,7 @@
     ]
   },
   {
+    "type": "topic",
     "id": "food-addiction",
     "label": "Food Addiction And Boundaries",
     "description": "Food temptation, carb sensitivity, processed food, holidays, and boundary setting.",
@@ -322,6 +336,7 @@
     ]
   },
   {
+    "type": "topic",
     "id": "humor-voice",
     "label": "Humor And Voice",
     "description": "Lee-style humor, memorable titles, and humanizing self-description.",
@@ -340,6 +355,38 @@
       "quote_bank",
       "voice_bank",
       "humor_relief"
+    ]
+  },
+  {
+    "type": "topic",
+    "id": "mantras",
+    "label": "Mantras",
+    "description": "Repeated Lee phrases that function as compact operating principles, chapter titles, and reader-facing refrains.",
+    "aliases": [
+      "mantra",
+      "mantras",
+      "start where you are",
+      "make progress",
+      "make improvements",
+      "a little more",
+      "little more",
+      "how much more",
+      "how far",
+      "how much farther",
+      "a bit farther",
+      "bit farther",
+      "a bit more",
+      "bit more",
+      "always a little more",
+      "always",
+      "i can't until i can",
+      "i cant until i can"
+    ],
+    "book_uses": [
+      "chapter_title",
+      "reader_refrain",
+      "voice_bank",
+      "quote_bank"
     ]
   }
 ]

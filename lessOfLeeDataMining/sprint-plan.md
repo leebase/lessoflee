@@ -18,6 +18,8 @@
 | S1R-04 | Improve dashboard usefulness | Done | Top matches plus memoir arc views; journey split added |
 | S1R-05 | Separate health journeys | Done | Original Less of Lee: 49 posts; Reversing Type 2 Diabetes: 540 posts |
 | S1R-06 | Validate regenerated artifacts | Done | Pipeline, syntax, excerpt entity scan, CSV count, and determinism checks pass |
+| S1R-07 | Add mantra mining | Done | `mantras` tag plus `A Little More, A Bit Farther, Always` concept |
+| S1R-08 | Type partition tags | Done | Journey tags are `partition`; ordinary controlled tags are `topic` |
 
 ---
 

@@ -145,12 +145,15 @@ Useful outputs:
 - tags for `keto`, `carnivore`, `recipes`, `exercise`, `fasting`, `discipline`
 - post index with summaries and source tags
 
-### 9. Find quotes and Lee-isms
+### 9. Find mantras, quotes, and Lee-isms
 
 Lee wants reusable lines for chapter titles, pull quotes, social posts, talks, and section openings.
 
 The system should surface:
 
+- explicit mantras
+- recurring refrains like "start where you are, make progress"
+- recurring push phrases like "a little more", "a bit farther", and "always"
 - repeated phrases
 - strong post titles
 - short excerpt anchors from story candidates
@@ -158,6 +161,7 @@ The system should surface:
 
 Useful outputs:
 
+- controlled tag for `mantras`
 - concept candidates report
 - story candidates report
 - dashboard section for recurring ideas
@@ -202,4 +206,5 @@ The first MVP is useful if Lee can open `reports/book-mining-dashboard.md` and i
 - restart/failure/comeback stories
 - family/responsibility stories
 - recurring concepts that look like chapter ideas
+- mantra/refrain posts Lee can reuse as chapter titles or reader-facing language
 - exact source files to read next

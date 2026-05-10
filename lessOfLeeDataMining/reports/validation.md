@@ -15,12 +15,13 @@
 ## Test As Lee
 
 Dashboard questions checked against generated story candidates:
-- Where is the original Less of Lee weight-loss journey? 6 candidates found across 49 tagged posts
-- Where is the Reversing Type 2 Diabetes journey? 174 candidates found across 540 tagged posts
-- Where are my best diabetes reversal stories? 174 candidates found across 540 tagged posts
-- Where are restart/failure/comeback stories? 152 candidates found
-- Where are fasting stories? 178 candidates found
-- Where are family/responsibility stories? 137 candidates found
+- Where is the original Less of Lee weight-loss journey? 4 candidates found across 49 tagged posts
+- Where is the Reversing Type 2 Diabetes journey? 176 candidates found across 540 tagged posts
+- Where are my best diabetes reversal stories? 176 candidates found across 540 tagged posts
+- Where are restart/failure/comeback stories? 155 candidates found
+- Where are fasting stories? 176 candidates found
+- Where are family/responsibility stories? 139 candidates found
+- Where are my mantras and recurring refrains? 174 candidates found
 - Where are strong recurring concepts or chapter ideas? covered by concept report
 
 Manual spot-check set for title/date/summary/source review:

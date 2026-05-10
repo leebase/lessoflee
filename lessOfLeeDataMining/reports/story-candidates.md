@@ -1,17 +1,5 @@
 # Story Candidates
 
-## Humor
-
-### Fasting is not Binging and Purging
-
-- Date: 2021-12-30
-- Score: 31
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, fasting, feasting, food-addiction, health-identity
-- Book uses: voice_bank, humor_relief, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2021-12-29-fasting-is-not-binging-and-purging.md
-- Why it matters: Fasting is not Binging and Purging is a humor candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, fasting. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "Fasting after – just empties the glycogen and with it, the water."
-
 ## Identity
 
 ### Eye Health – Day 8 of Fasting
@@ -26,6 +14,16 @@
 
 ## Relapse
 
+### Fasting Conclusion – Discipline Restored!
+
+- Date: 2025-10-22
+- Score: 63
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, failure-restart, fasting, feasting
+- Book uses: honest_setback, reader_reassurance, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2025-10-22-fasting-conclusion-8211-discipline-restored.md
+- Why it matters: Fasting Conclusion – Discipline Restored! is a relapse candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "I’ve never failed so well before."
+
 ### I Decided to Stop Being Diabetic
 
 - Date: 2025-11-17
@@ -35,16 +33,6 @@
 - Source: ../src/content/blog/2025-11-17-i-decided-to-stop-being-diabetic.md
 - Why it matters: I Decided to Stop Being Diabetic is a relapse candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "A bold claim that I will proceed to back this claim up."
-
-### Fasting Conclusion – Discipline Restored!
-
-- Date: 2025-10-22
-- Score: 60
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, failure-restart, fasting, feasting
-- Book uses: honest_setback, reader_reassurance, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2025-10-22-fasting-conclusion-8211-discipline-restored.md
-- Why it matters: Fasting Conclusion – Discipline Restored! is a relapse candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "I’ve never failed so well before."
 
 ### Fall 2025 Health Audit: The Results
 
@@ -59,7 +47,7 @@
 ### Start Where You Are, Make Progress
 
 - Date: 2025-11-18
-- Score: 51
+- Score: 54
 - Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, fasting, feasting, health-identity
 - Book uses: honest_setback, reader_reassurance, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
 - Source: ../src/content/blog/2025-11-18-start-where-you-are-make-progress.md
@@ -69,7 +57,7 @@
 ### How to Never Fail or Backslide Again – Guaranteed!
 
 - Date: 2025-11-22
-- Score: 45
+- Score: 48
 - Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, failure-restart, fasting, feasting
 - Book uses: honest_setback, reader_reassurance, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
 - Source: ../src/content/blog/2025-11-22-how-to-never-fail-or-backslide-again-8211-guarante.md
@@ -186,35 +174,25 @@
 - Why it matters: My Medication Philosophy – Magical Medical Candy is a relapse candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "I took diabetes meds for years, needing higher amounts and more meds as my disease got worse."
 
-### Type 2 Diabetes Progression – A Primer
+### I can’t…until I can – Complete a ”Pros Only” level workout
 
-- Date: 2025-06-15
-- Score: 32
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, fasting, feasting, type-2-diabetes
-- Book uses: honest_setback, reader_reassurance, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2025-06-14-type-2-diabetes-progression-8211-a-primer.md
-- Why it matters: Type 2 Diabetes Progression – A Primer is a relapse candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "Fatty pancreas diminishes the ability to create insulin."
+- Date: 2022-04-09
+- Score: 33
+- Themes: reversing-type-2-diabetes-journey, exercise, mantras, mindset, type-2-diabetes
+- Book uses: honest_setback, reader_reassurance, memoir_spine, diabetes_reversal_arc, medical_arc, habit_system
+- Source: ../src/content/blog/2022-04-09-i-cantuntil-i-can-8211-complete-a-pros-only-level.md
+- Why it matters: I can’t…until I can – Complete a ”Pros Only” level workout is a relapse candidate with signals for reversing-type-2-diabetes-journey, exercise, mantras. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "Progress isn’t seen in a day – not usually in a week."
 
-### Accepting Lee
+### I Can’t Until I Can – Supernatural Personal Bests
 
-- Date: 2013-03-29
-- Score: 31
-- Themes: original-less-of-lee-journey, capability-recovery, exercise, failure-restart, health-identity, humor-voice
-- Book uses: honest_setback, reader_reassurance, memoir_spine, original_arc, weight_loss_origin, story_finder
-- Source: ../src/content/blog/2013-03-29-accepting-lee.md
-- Why it matters: Accepting Lee is a relapse candidate with signals for original-less-of-lee-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "This has been the longest gap between blog posts."
-
-### 1st Week of Carnivore
-
-- Date: 2022-06-07
-- Score: 31
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, fasting, feasting, food-addiction
-- Book uses: honest_setback, reader_reassurance, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2022-06-07-1st-week-of-carnivore.md
-- Why it matters: 1st Week of Carnivore is a relapse candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "Today, they 7th day, was the first day my knees felt better."
+- Date: 2022-11-13
+- Score: 33
+- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, failure-restart, mantras, mindset
+- Book uses: honest_setback, reader_reassurance, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
+- Source: ../src/content/blog/2022-11-12-i-cant-until-i-can-8211-supernatural-personal-best.md
+- Why it matters: I Can’t Until I Can – Supernatural Personal Bests is a relapse candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "Last week I completed the longest workout in the Supernatural catalog – 18 songs and an hour long in a single routine with a single warm up and cool down."
 
 ## Relationship
 
@@ -251,12 +229,52 @@
 ### The Secrets to My Success – A Thanksgiving Story
 
 - Date: 2012-11-27
-- Score: 37
-- Themes: original-less-of-lee-journey, a1c-labs, family-responsibility, feasting, food-addiction
+- Score: 40
+- Themes: original-less-of-lee-journey, a1c-labs, family-responsibility, feasting, food-addiction, mantras
 - Book uses: emotional_anchor, stakes_scene, memoir_spine, original_arc, weight_loss_origin, evidence_case
 - Source: ../src/content/blog/2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor.md
 - Why it matters: The Secrets to My Success – A Thanksgiving Story is a relationship candidate with signals for original-less-of-lee-journey, a1c-labs, family-responsibility. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "My wife, my best friend and partner in life, has walked each day with me on this journey."
+
+### 100lbs Less of Lee and Wife
+
+- Date: 2012-09-24
+- Score: 37
+- Themes: original-less-of-lee-journey, a1c-labs, exercise, family-responsibility, fasting, feasting
+- Book uses: emotional_anchor, stakes_scene, memoir_spine, original_arc, weight_loss_origin, evidence_case
+- Source: ../src/content/blog/2012-09-24-100lbs-less-of-lee-and-wife.md
+- Why it matters: 100lbs Less of Lee and Wife is a relationship candidate with signals for original-less-of-lee-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "My wife and I hit a nice milestone this week, together we have lost 100lbs, 60 for me and 40 for her."
+
+### You Build Your Health
+
+- Date: 2023-07-03
+- Score: 37
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, family-responsibility, mantras
+- Book uses: emotional_anchor, stakes_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2023-07-03-you-build-your-health.md
+- Why it matters: You Build Your Health is a relationship candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "I could still be taking the $1000/month Trulicity AND be on an insulin pump."
+
+### I Can’t Until I Can – Eat Liver
+
+- Date: 2023-01-28
+- Score: 36
+- Themes: reversing-type-2-diabetes-journey, family-responsibility, feasting, mantras, type-2-diabetes
+- Book uses: emotional_anchor, stakes_scene, memoir_spine, diabetes_reversal_arc, medical_arc, emotional_core
+- Source: ../src/content/blog/2023-01-28-i-cant-until-i-can-8211-eat-liver.md
+- Why it matters: I Can’t Until I Can – Eat Liver is a relationship candidate with signals for reversing-type-2-diabetes-journey, family-responsibility, feasting. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "I just made beef liver and onions – and it was delicious!"
+
+### I can’t…until I can: Go Off Roading
+
+- Date: 2022-05-12
+- Score: 35
+- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, family-responsibility, mantras, mindset
+- Book uses: emotional_anchor, stakes_scene, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
+- Source: ../src/content/blog/2022-05-11-i-cantuntil-i-can-go-off-roading.md
+- Why it matters: I can’t…until I can: Go Off Roading is a relationship candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "That was then – this is now."
 
 ### Carnivore January
 
@@ -268,16 +286,6 @@
 - Why it matters: Carnivore January is a relationship candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, family-responsibility. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "My Triglyceride / HDL ratio makes me very happy."
 
-### 100lbs Less of Lee and Wife
-
-- Date: 2012-09-24
-- Score: 34
-- Themes: original-less-of-lee-journey, a1c-labs, exercise, family-responsibility, fasting, feasting
-- Book uses: emotional_anchor, stakes_scene, memoir_spine, original_arc, weight_loss_origin, evidence_case
-- Source: ../src/content/blog/2012-09-24-100lbs-less-of-lee-and-wife.md
-- Why it matters: 100lbs Less of Lee and Wife is a relationship candidate with signals for original-less-of-lee-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "My wife and I hit a nice milestone this week, together we have lost 100lbs, 60 for me and 40 for her."
-
 ### My Decision to Eat Off Plan
 
 - Date: 2022-10-10
@@ -288,15 +296,15 @@
 - Why it matters: My Decision to Eat Off Plan is a relationship candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, family-responsibility. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "Like everyone else, I like eating sugar and carb laden foods."
 
-### You Build Your Health
+### Saturday Push Day – Because I’m Loved and Needed
 
-- Date: 2023-07-03
+- Date: 2023-06-10
 - Score: 34
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, family-responsibility, mindset
-- Book uses: emotional_anchor, stakes_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2023-07-03-you-build-your-health.md
-- Why it matters: You Build Your Health is a relationship candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "I could still be taking the $1000/month Trulicity AND be on an insulin pump."
+- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, family-responsibility, mantras, mindset
+- Book uses: emotional_anchor, stakes_scene, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
+- Source: ../src/content/blog/2023-06-10-saturday-push-day-8211-because-im-loved-and-needed.md
+- Why it matters: Saturday Push Day – Because I’m Loved and Needed is a relationship candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "I took inspiration from my daughter, Cathy, and decided to see how fast I could run a mile."
 
 ### Handling Thanksgiving Feast – Harm Reduction
 
@@ -308,45 +316,15 @@
 - Why it matters: Handling Thanksgiving Feast – Harm Reduction is a relationship candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, family-responsibility. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "Tonight I have my first meaningful carbs in 50 days; a bowl of rice."
 
-### I Can’t Until I Can – Eat Liver
+### I Can’t…Until I Can: Engage in High Intensity Interval Training.
 
-- Date: 2023-01-28
+- Date: 2022-03-02
 - Score: 33
-- Themes: reversing-type-2-diabetes-journey, family-responsibility, feasting, type-2-diabetes
-- Book uses: emotional_anchor, stakes_scene, memoir_spine, diabetes_reversal_arc, medical_arc, emotional_core
-- Source: ../src/content/blog/2023-01-28-i-cant-until-i-can-8211-eat-liver.md
-- Why it matters: I Can’t Until I Can – Eat Liver is a relationship candidate with signals for reversing-type-2-diabetes-journey, family-responsibility, feasting. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "I just made beef liver and onions – and it was delicious!"
-
-### I can’t…until I can: Go Off Roading
-
-- Date: 2022-05-12
-- Score: 32
-- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, family-responsibility, mindset, nsv
+- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, mantras, type-2-diabetes
 - Book uses: emotional_anchor, stakes_scene, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
-- Source: ../src/content/blog/2022-05-11-i-cantuntil-i-can-go-off-roading.md
-- Why it matters: I can’t…until I can: Go Off Roading is a relationship candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "That was then – this is now."
-
-### Mindset: Look at the Whole, Not Only The Problematic
-
-- Date: 2022-03-30
-- Score: 31
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, family-responsibility, feasting, mindset, type-2-diabetes
-- Book uses: emotional_anchor, stakes_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2022-03-30-mindset-look-at-the-whole-not-only-the-problematic.md
-- Why it matters: Mindset: Look at the Whole, Not Only The Problematic is a relationship candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, family-responsibility. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "It’s been 11 months and my blood pressure hasn’t improved, and I still need to take my bp medication."
-
-### NSV – Rockin’ It All Night
-
-- Date: 2022-06-06
-- Score: 31
-- Themes: reversing-type-2-diabetes-journey, exercise, fasting, feasting, mindset, nsv
-- Book uses: emotional_anchor, stakes_scene, memoir_spine, diabetes_reversal_arc, medical_arc, habit_system
-- Source: ../src/content/blog/2022-06-05-nsv-8211-rockin8217-it-all-night.md
-- Why it matters: NSV – Rockin’ It All Night is a relationship candidate with signals for reversing-type-2-diabetes-journey, exercise, fasting. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "These arthritic knees of mine have come a long way."
+- Source: ../src/content/blog/2022-03-01-i-cantuntil-i-can-engage-in-high-intensity-interva.md
+- Why it matters: I Can’t…Until I Can: Engage in High Intensity Interval Training. is a relationship candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "And then I added aerobics with the Supernatural app on the Oculus."
 
 ## Struggle
 
@@ -359,6 +337,16 @@
 - Source: ../src/content/blog/2024-02-17-reflections-of-a-former-diabetic-8211-pt-1-the-alc.md
 - Why it matters: Reflections of a Former Diabetic – Pt 1, The Alcoholic Paradigm is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "April 22, 2021 was a pivotal day for me."
+
+### Three Years into Winning Type 2 Diabetes from Highly Diabetic to Normal and Drug Free
+
+- Date: 2024-04-23
+- Score: 61
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, fasting, mantras
+- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2024-04-22-three-years-into-winning-type-2-diabetes-from-high.md
+- Why it matters: Three Years into Winning Type 2 Diabetes from Highly Diabetic to Normal and Drug Free is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "My A1c was 11."
 
 ### Fasting and Arthritis – Post Fast Day 2
 
@@ -380,16 +368,6 @@
 - Why it matters: In Praise of Yoyo Dieting is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "My A1c hit 11."
 
-### Three Years into Winning Type 2 Diabetes from Highly Diabetic to Normal and Drug Free
-
-- Date: 2024-04-23
-- Score: 58
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, fasting, mindset
-- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2024-04-22-three-years-into-winning-type-2-diabetes-from-high.md
-- Why it matters: Three Years into Winning Type 2 Diabetes from Highly Diabetic to Normal and Drug Free is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "My A1c was 11."
-
 ### How I Overcame Osteoarthritis – Fasting was a big tool
 
 - Date: 2025-11-15
@@ -399,6 +377,16 @@
 - Source: ../src/content/blog/2025-11-15-how-i-overcame-osteoarthritis-8211-fasting-was-a-b.md
 - Why it matters: How I Overcame Osteoarthritis – Fasting was a big tool is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "Well, I had a bad year – lost my eating discipline, regained all my weight and redeveloped T2D."
+
+### I Can’t…Until I Can: Run a Mile
+
+- Date: 2022-08-27
+- Score: 54
+- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, fasting, health-identity, mantras
+- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
+- Source: ../src/content/blog/2022-08-27-i-cantuntil-i-can-run-a-mile.md
+- Why it matters: I Can’t…Until I Can: Run a Mile is a struggle candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "It doesn’t happen over night."
 
 ### Week 1 Fasting Update – Doctor and Labs
 
@@ -410,15 +398,25 @@
 - Why it matters: Week 1 Fasting Update – Doctor and Labs is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "My “magic knees” started appearing on day 3 and by day 5 it’s like I don’t have osteoarthritis at all."
 
-### I Can’t…Until I Can: Run a Mile
+### Give Yourself Space to Learn
 
-- Date: 2022-08-27
+- Date: 2024-03-03
+- Score: 52
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, failure-restart, family-responsibility
+- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2024-03-02-give-yourself-space-to-learn.md
+- Why it matters: Give Yourself Space to Learn is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "Type 2 Diabetes is in my rearview."
+
+### Pawpaw Proof
+
+- Date: 2024-07-06
 - Score: 51
-- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, fasting, health-identity, mindset
+- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, failure-restart, family-responsibility, health-identity
 - Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
-- Source: ../src/content/blog/2022-08-27-i-cantuntil-i-can-run-a-mile.md
-- Why it matters: I Can’t…Until I Can: Run a Mile is a struggle candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "It doesn’t happen over night."
+- Source: ../src/content/blog/2024-07-06-pawpaw-proof.md
+- Why it matters: Pawpaw Proof is a struggle candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "I’m 59 and that’s older but I’m younger in so many ways."
 
 ### That Time Exercise Was Bad (Day 2 of my 14 Day Fast)
 
@@ -430,15 +428,15 @@
 - Why it matters: That Time Exercise Was Bad (Day 2 of my 14 Day Fast) is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "I took a chance by following the book The Diabetes Code by Dr Jason Fung."
 
-### Give Yourself Space to Learn
+### I Can’t…Until I Can – Walk In The Winter
 
-- Date: 2024-03-03
+- Date: 2023-01-26
 - Score: 49
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, failure-restart, family-responsibility
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, fasting, mantras
 - Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2024-03-02-give-yourself-space-to-learn.md
-- Why it matters: Give Yourself Space to Learn is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "Type 2 Diabetes is in my rearview."
+- Source: ../src/content/blog/2023-01-26-i-cantuntil-i-can-8211-walk-in-the-winter.md
+- Why it matters: I Can’t…Until I Can – Walk In The Winter is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "You might ask…why work so hard?"
 
 ### The Benefits of Extended Fasting – Day 5
 
@@ -450,15 +448,15 @@
 - Why it matters: The Benefits of Extended Fasting – Day 5 is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "Was I weak?"
 
-### Pawpaw Proof
+### I Can’t…Until I Can – Mow the Lawn
 
-- Date: 2024-07-06
+- Date: 2023-05-02
 - Score: 48
-- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, failure-restart, family-responsibility, health-identity
-- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
-- Source: ../src/content/blog/2024-07-06-pawpaw-proof.md
-- Why it matters: Pawpaw Proof is a struggle candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "I’m 59 and that’s older but I’m younger in so many ways."
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, health-identity, mantras
+- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2023-05-02-i-cantuntil-i-can-8211-mow-the-lawn.md
+- Why it matters: I Can’t…Until I Can – Mow the Lawn is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "Two years ago my A1c hit 11."
 
 ### Fat to Thin and Fat Again: Lesson 1 – Health and Fitness is not a Destination
 
@@ -470,6 +468,16 @@
 - Why it matters: Fat to Thin and Fat Again: Lesson 1 – Health and Fitness is not a Destination is a struggle candidate with signals for reversing-type-2-diabetes-journey, exercise, failure-restart. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "This relates to my current status of having my diabetes in remission."
 
+### Work Your Way Off The Edge
+
+- Date: 2023-09-30
+- Score: 47
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, failure-restart, mantras
+- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2023-09-30-work-your-way-off-the-edge.md
+- Why it matters: Work Your Way Off The Edge is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "What’s the edge?"
+
 ### Being Med Dependent Is Terrifying
 
 - Date: 2024-08-23
@@ -480,40 +488,10 @@
 - Why it matters: Being Med Dependent Is Terrifying is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "I was on the same “take meds, more meds, even more meds” with Type 2 diabetes as well."
 
-### I Can’t…Until I Can – Walk In The Winter
-
-- Date: 2023-01-26
-- Score: 46
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, fasting, mindset
-- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2023-01-26-i-cantuntil-i-can-8211-walk-in-the-winter.md
-- Why it matters: I Can’t…Until I Can – Walk In The Winter is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "You might ask…why work so hard?"
-
-### I Can’t…Until I Can – Mow the Lawn
-
-- Date: 2023-05-02
-- Score: 45
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, health-identity, mindset
-- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2023-05-02-i-cantuntil-i-can-8211-mow-the-lawn.md
-- Why it matters: I Can’t…Until I Can – Mow the Lawn is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "Two years ago my A1c hit 11."
-
-### Work Your Way Off The Edge
-
-- Date: 2023-09-30
-- Score: 44
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, failure-restart, mindset
-- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2023-09-30-work-your-way-off-the-edge.md
-- Why it matters: Work Your Way Off The Edge is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "What’s the edge?"
-
 ### Strength Training Vs Body Building
 
 - Date: 2024-01-04
-- Score: 43
+- Score: 46
 - Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, failure-restart, health-identity
 - Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
 - Source: ../src/content/blog/2024-01-04-strength-training-vs-body-building.md
@@ -523,7 +501,7 @@
 ### Saturday Push Day – Health Takes Time
 
 - Date: 2024-04-13
-- Score: 43
+- Score: 46
 - Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, fasting, food-addiction
 - Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
 - Source: ../src/content/blog/2024-04-13-saturday-push-day-8211-health-takes-time.md
@@ -533,8 +511,8 @@
 ### Hope For Diabetics That Lessens Fear
 
 - Date: 2025-12-07
-- Score: 42
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, failure-restart, fasting, feasting, mindset
+- Score: 45
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, failure-restart, fasting, feasting, mantras
 - Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
 - Source: ../src/content/blog/2025-12-07-hope-for-diabetics-that-lessens-fear.md
 - Why it matters: Hope For Diabetics That Lessens Fear is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, failure-restart. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
@@ -543,8 +521,8 @@
 ### Better than any Arthritis Pill
 
 - Date: 2023-01-15
-- Score: 41
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, type-2-diabetes
+- Score: 44
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, mantras, type-2-diabetes
 - Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
 - Source: ../src/content/blog/2023-01-15-better-than-any-arthritis-pill.md
 - Why it matters: Better than any Arthritis Pill is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
@@ -553,7 +531,7 @@
 ### The One Year Blessing of Diabetes
 
 - Date: 2022-04-19
-- Score: 40
+- Score: 43
 - Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, failure-restart, fasting
 - Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
 - Source: ../src/content/blog/2022-04-19-the-one-year-blessing-of-diabetes.md
@@ -563,8 +541,8 @@
 ### Two Supernatural Years!
 
 - Date: 2023-09-05
-- Score: 40
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, health-identity, mindset
+- Score: 43
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, health-identity, mantras
 - Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
 - Source: ../src/content/blog/2023-09-04-two-supernatural-years.md
 - Why it matters: Two Supernatural Years! is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
@@ -573,12 +551,22 @@
 ### Ordering My Body To Build Muscle
 
 - Date: 2024-05-26
-- Score: 40
-- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, family-responsibility, feasting, mindset
+- Score: 43
+- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, family-responsibility, feasting, mantras
 - Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
 - Source: ../src/content/blog/2024-05-25-ordering-my-body-to-build-muscle.md
 - Why it matters: Ordering My Body To Build Muscle is a struggle candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "You need to have muscles."
+
+### I Didn’t Want to Work Out – So I Did It Anyway
+
+- Date: 2024-03-02
+- Score: 40
+- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, failure-restart, fasting, health-identity
+- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
+- Source: ../src/content/blog/2024-03-01-i-didnt-want-to-work-out-8211-so-i-did-it-anyway.md
+- Why it matters: I Didn’t Want to Work Out – So I Did It Anyway is a struggle candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "This is where discipline and habit trump motivation."
 
 ### Living Rent Free In My Head
 
@@ -590,6 +578,16 @@
 - Why it matters: Living Rent Free In My Head is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "I am no authority."
 
+### I Can’t Until I Can – Walk In Winter
+
+- Date: 2022-12-20
+- Score: 38
+- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, mantras, type-2-diabetes
+- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
+- Source: ../src/content/blog/2022-12-19-i-cant-until-i-can-8211-walk-in-winter.md
+- Why it matters: I Can’t Until I Can – Walk In Winter is a struggle candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "That was then…before I restarted my health reclamation journey."
+
 ### Choose health, not just medication – there’s no downside to getting healthier!
 
 - Date: 2023-03-02
@@ -599,6 +597,16 @@
 - Source: ../src/content/blog/2023-03-01-choose-health-not-just-medication-8211-there8217s.md
 - Why it matters: Choose health, not just medication – there’s no downside to getting healthier! is a struggle candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "I started working hard to improve my health almost two years ago, and while I have successfully gotten off diabetes medication and lost 60 pounds, my blood pressure is still in the hypertension stage"
+
+### After the Fast – Day 13, One  More Day to Go!
+
+- Date: 2023-12-19
+- Score: 38
+- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, fasting, feasting, mantras
+- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
+- Source: ../src/content/blog/2023-12-18-after-the-fast-8211-day-13-one-more-day-to-go.md
+- Why it matters: After the Fast – Day 13, One  More Day to Go! is a struggle candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "The fast has been successful in every way I could measure."
 
 ### Bet On Yourself
 
@@ -620,43 +628,13 @@
 - Why it matters: Arthritis Doesn’t Have to be Cured is a struggle candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "I started strength training – again for my diabetes."
 
-### Chasing Numbers
-
-- Date: 2022-09-26
-- Score: 37
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, fasting, food-addiction
-- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2022-09-25-chasing-numbers.md
-- Why it matters: Chasing Numbers is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "Heart health is why I don’t use my hard earned improvement in blood sugar control and improved insulin sensitivity to eat more of my favorite foods."
-
-### Healing Is A Natural Process
-
-- Date: 2023-11-04
-- Score: 37
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, fasting, mindset
-- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2023-11-04-healing-is-a-natural-process.md
-- Why it matters: Healing Is A Natural Process is a struggle candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "There are so many other priorities in our lives."
-
-### I’m Walking In Sunshine!
-
-- Date: 2024-02-02
-- Score: 37
-- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, health-identity, mindset, type-2-diabetes
-- Book uses: reader_reassurance, conflict_scene, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
-- Source: ../src/content/blog/2024-02-01-im-walking-in-sunshine.md
-- Why it matters: I’m Walking In Sunshine! is a struggle candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "Someone mentioned recently that I used to write about walking."
-
 ## Transformation
 
 ### Fail and Fail Again
 
 - Date: 2024-06-22
-- Score: 45
-- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, failure-restart, fasting, mindset
+- Score: 48
+- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, failure-restart, fasting, mantras
 - Book uses: memoir_scene, transformation_scene, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
 - Source: ../src/content/blog/2024-06-22-fail-and-fail-again.md
 - Why it matters: Fail and Fail Again is a transformation candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
@@ -681,6 +659,16 @@
 - Source: ../src/content/blog/2022-03-22-can-i-do-this-forever.md
 - Why it matters: Can I Do This Forever? is a transformation candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "As my insulin resistance heals, I can eat my favorite foods that I currently don’t."
+
+### I Can’t…Until I Can – Prairie Walk
+
+- Date: 2023-04-13
+- Score: 33
+- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, mantras, mindset
+- Book uses: memoir_scene, transformation_scene, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
+- Source: ../src/content/blog/2023-04-12-i-cantuntil-i-can-8211-prairie-walk.md
+- Why it matters: I Can’t…Until I Can – Prairie Walk is a transformation candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "Until I couldn't."
 
 ## Victory
 
@@ -774,6 +762,26 @@
 - Why it matters: Take Off the Spiked Shoes is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "I developed type 2 diabetes."
 
+### You Are Worth Every Hard Step
+
+- Date: 2024-09-12
+- Score: 52
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, food-addiction, mantras
+- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2024-09-12-you-are-worth-every-hard-step.md
+- Why it matters: You Are Worth Every Hard Step is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "I started writing solely for my own journey."
+
+### New Years Systems, not Resolutions
+
+- Date: 2025-01-05
+- Score: 52
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, failure-restart, fasting
+- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2025-01-04-new-years-systems-not-resolutions.md
+- Why it matters: New Years Systems, not Resolutions is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "Now – I did have a great run for a couple years."
+
 ### On the Road to Cease Being Diabetic – Again
 
 - Date: 2025-10-28
@@ -783,6 +791,16 @@
 - Source: ../src/content/blog/2025-10-27-on-the-road-to-cease-being-diabetic-8211-again.md
 - Why it matters: On the Road to Cease Being Diabetic – Again is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, failure-restart. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "How do I KNOW for a fact that I’m about to become non-diabetic again?"
+
+### Talk To Your Doctor
+
+- Date: 2023-09-13
+- Score: 50
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, fasting, feasting
+- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2023-09-13-talk-to-your-doctor.md
+- Why it matters: Talk To Your Doctor is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "I do know this – everything I have been doing to overcome type 2 diabetes needs to continue."
 
 ### 9 Month Update – Less of Lee Round 2
 
@@ -804,26 +822,6 @@
 - Why it matters: If I Can Do It…You Can is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "———————— Ok folks, here I am."
 
-### You Are Worth Every Hard Step
-
-- Date: 2024-09-12
-- Score: 49
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, food-addiction, mindset
-- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2024-09-12-you-are-worth-every-hard-step.md
-- Why it matters: You Are Worth Every Hard Step is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "I started writing solely for my own journey."
-
-### New Years Systems, not Resolutions
-
-- Date: 2025-01-05
-- Score: 49
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, failure-restart, fasting
-- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2025-01-04-new-years-systems-not-resolutions.md
-- Why it matters: New Years Systems, not Resolutions is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "Now – I did have a great run for a couple years."
-
 ### Victory Lap at the Doctors
 
 - Date: 2022-07-12
@@ -844,16 +842,6 @@
 - Why it matters: Your Doctor Don’t Matter To Me is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "Just about 2 years ago, April 22nd to be exact…I met with my diabetes specialist and learned my A1c was 11."
 
-### Talk To Your Doctor
-
-- Date: 2023-09-13
-- Score: 47
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, fasting, feasting
-- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2023-09-13-talk-to-your-doctor.md
-- Why it matters: Talk To Your Doctor is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "I do know this – everything I have been doing to overcome type 2 diabetes needs to continue."
-
 ### What is Type 2 Diabetes
 
 - Date: 2023-09-17
@@ -863,6 +851,16 @@
 - Source: ../src/content/blog/2023-09-16-what-is-type-2-diabetes.md
 - Why it matters: What is Type 2 Diabetes is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, food-addiction. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "I am a person who used to be diabetic."
+
+### Winter is Coming – Three Year Supernatural Surprise
+
+- Date: 2024-08-08
+- Score: 47
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, mantras, mindset
+- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2024-08-08-winter-is-coming-8211-three-year-supernatural-surp.md
+- Why it matters: Winter is Coming – Three Year Supernatural Surprise is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "The weather is already cooling in Chicago, Winter is Coming!"
 
 ### Journey to Health – 7 Months In
 
@@ -884,6 +882,36 @@
 - Why it matters: Total Health Program – Not Just Diabetes is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "Here are the things I’m working on that have already born fruit."
 
+### My Health Transformation
+
+- Date: 2022-06-05
+- Score: 46
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, family-responsibility, feasting
+- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2022-06-05-my-health-transformation.md
+- Why it matters: My Health Transformation is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "“Diabetes is genetic."
+
+### Save Money on Curalin Black Friday
+
+- Date: 2022-11-21
+- Score: 46
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, family-responsibility, fasting, mantras
+- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2022-11-21-save-money-on-curalin-black-friday.md
+- Why it matters: Save Money on Curalin Black Friday is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "I’m a “do everything I can” type of person."
+
+### I Resolve to Reclaim My Health
+
+- Date: 2023-01-04
+- Score: 46
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, failure-restart, fasting
+- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2023-01-03-i-resolve-to-reclaim-my-health.md
+- Why it matters: I Resolve to Reclaim My Health is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "I have written extensively about my journey."
+
 ### Is Fasting Pain Relief Temporary?
 
 - Date: 2023-12-24
@@ -893,6 +921,16 @@
 - Source: ../src/content/blog/2023-12-23-is-fasting-pain-relief-temporary.md
 - Why it matters: Is Fasting Pain Relief Temporary? is a victory candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "One thing is abundantly clear – I CAN feel pain free with my knees."
+
+### A Guide to Effective New Year’s Resolutions
+
+- Date: 2023-12-29
+- Score: 46
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, family-responsibility, fasting
+- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2023-12-29-a-guide-to-effective-new-years-resolutions.md
+- Why it matters: A Guide to Effective New Year’s Resolutions is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "First “My Why”."
 
 ### Off All Diabetes Meds – 3 Month Update
 
@@ -924,65 +962,15 @@
 - Why it matters: Beyond A1c: The Journey to Health Recovery is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "How is this related to diabetes?"
 
-### Winter is Coming – Three Year Supernatural Surprise
+### Start Where You Are
 
-- Date: 2024-08-08
+- Date: 2025-05-27
 - Score: 44
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, mindset, type-2-diabetes
-- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2024-08-08-winter-is-coming-8211-three-year-supernatural-surp.md
-- Why it matters: Winter is Coming – Three Year Supernatural Surprise is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "The weather is already cooling in Chicago, Winter is Coming!"
-
-### My Health Transformation
-
-- Date: 2022-06-05
-- Score: 43
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, family-responsibility, feasting
-- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2022-06-05-my-health-transformation.md
-- Why it matters: My Health Transformation is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "“Diabetes is genetic."
-
-### Save Money on Curalin Black Friday
-
-- Date: 2022-11-21
-- Score: 43
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, family-responsibility, fasting, type-2-diabetes
-- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2022-11-21-save-money-on-curalin-black-friday.md
-- Why it matters: Save Money on Curalin Black Friday is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "I’m a “do everything I can” type of person."
-
-### I Resolve to Reclaim My Health
-
-- Date: 2023-01-04
-- Score: 43
 - Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, failure-restart, fasting
 - Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2023-01-03-i-resolve-to-reclaim-my-health.md
-- Why it matters: I Resolve to Reclaim My Health is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "I have written extensively about my journey."
-
-### 16 lbs Less of Lee – Why Fat is So Bad
-
-- Date: 2023-12-23
-- Score: 43
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, fasting, feasting, mindset
-- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2023-12-23-16-lbs-less-of-lee-8211-why-fat-is-so-bad.md
-- Why it matters: 16 lbs Less of Lee – Why Fat is So Bad is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "I’ve been on a health reclamation journey for two and a half years now."
-
-### A Guide to Effective New Year’s Resolutions
-
-- Date: 2023-12-29
-- Score: 43
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, family-responsibility, fasting
-- Book uses: chapter_opener, proof_point, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2023-12-29-a-guide-to-effective-new-years-resolutions.md
-- Why it matters: A Guide to Effective New Year’s Resolutions is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "First “My Why”."
+- Source: ../src/content/blog/2025-05-27-start-where-you-are.md
+- Why it matters: Start Where You Are is a victory candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "As I began to see solid improvements—then amazing victories (got off all diabetes meds and took my A1c from 11."
 
 ## Wisdom
 
@@ -1006,6 +994,26 @@
 - Why it matters: Happy Healing Stories is a wisdom candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "Who knows how much better I can get."
 
+### Mindset: Doing as Much as Needed
+
+- Date: 2022-05-01
+- Score: 43
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, fasting, feasting, food-addiction
+- Book uses: chapter_thesis, reader_motivation, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2022-04-30-mindset-doing-as-much-as-needed.md
+- Why it matters: Mindset: Doing as Much as Needed is a wisdom candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "I started on metformin."
+
+### 40 Days into the Year of Transformation
+
+- Date: 2025-11-21
+- Score: 43
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, fasting, feasting, health-identity
+- Book uses: chapter_thesis, reader_motivation, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2025-11-20-40-days-into-the-year-of-transformation.md
+- Why it matters: 40 Days into the Year of Transformation is a wisdom candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "40 day check in."
+
 ### I Choose to Fast (Day 8 of a Planned 14 Day Fast)
 
 - Date: 2023-12-14
@@ -1016,16 +1024,6 @@
 - Why it matters: I Choose to Fast (Day 8 of a Planned 14 Day Fast) is a wisdom candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "I went on a keto diet, intermittent fasting and exercise as laid out in The Diabetes Code by Dr Jason Fung."
 
-### Mindset: Doing as Much as Needed
-
-- Date: 2022-05-01
-- Score: 40
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, fasting, feasting, food-addiction
-- Book uses: chapter_thesis, reader_motivation, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2022-04-30-mindset-doing-as-much-as-needed.md
-- Why it matters: Mindset: Doing as Much as Needed is a wisdom candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "I started on metformin."
-
 ### Health Transformation is Personal
 
 - Date: 2022-09-02
@@ -1035,16 +1033,6 @@
 - Source: ../src/content/blog/2022-09-02-health-transformation-is-personal.md
 - Why it matters: Health Transformation is Personal is a wisdom candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "Couldn’t I fix my diabetes by taking meds?"
-
-### 40 Days into the Year of Transformation
-
-- Date: 2025-11-21
-- Score: 40
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, fasting, feasting, health-identity
-- Book uses: chapter_thesis, reader_motivation, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2025-11-20-40-days-into-the-year-of-transformation.md
-- Why it matters: 40 Days into the Year of Transformation is a wisdom candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "40 day check in."
 
 ### Planning to Break the Fast (Day 12 of my 14 Day Fast)
 
@@ -1116,6 +1104,26 @@
 - Why it matters: Exercising for Health, Not Weight Loss is a wisdom candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "One of the most important benefits of exercise is that it can help to improve cardiovascular health."
 
+### Eye Update and Saturday Push Day
+
+- Date: 2023-11-05
+- Score: 34
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, fasting, feasting
+- Book uses: chapter_thesis, reader_motivation, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2023-11-04-eye-update-and-saturday-push-day.md
+- Why it matters: Eye Update and Saturday Push Day is a wisdom candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, capability-recovery. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "So with that relatively clean bill of health, I came back home and went out for a Saturday Push Day run."
+
+### The Battle Starts in the Mind
+
+- Date: 2012-08-15
+- Score: 33
+- Themes: original-less-of-lee-journey, family-responsibility, health-identity, mantras, mindset, nsv
+- Book uses: chapter_thesis, reader_motivation, memoir_spine, original_arc, weight_loss_origin, emotional_core
+- Source: ../src/content/blog/2012-08-15-the-battle-starts-in-the-mind.md
+- Why it matters: The Battle Starts in the Mind is a wisdom candidate with signals for original-less-of-lee-journey, family-responsibility, health-identity. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "However, a mere two months before I had a very different mindset."
+
 ### Journey to Health – 8 Month Update
 
 - Date: 2021-12-21
@@ -1125,6 +1133,26 @@
 - Source: ../src/content/blog/2021-12-21-journey-to-health-8211-8-month-update.md
 - Why it matters: Journey to Health – 8 Month Update is a wisdom candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "I was on Glipizide, Metformin and Trulicity."
+
+### I Can’t…Until I Can – Exercise Vigorously for an Hour
+
+- Date: 2022-02-06
+- Score: 33
+- Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, mantras, mindset, type-2-diabetes
+- Book uses: chapter_thesis, reader_motivation, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
+- Source: ../src/content/blog/2022-02-06-i-cantuntil-i-can-8211-exercise-vigorously-for-an.md
+- Why it matters: I Can’t…Until I Can – Exercise Vigorously for an Hour is a wisdom candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "What a joy it is to meet some ambitious goals."
+
+### Will Power And Discipline
+
+- Date: 2022-11-09
+- Score: 33
+- Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, failure-restart, family-responsibility, mantras
+- Book uses: chapter_thesis, reader_motivation, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
+- Source: ../src/content/blog/2022-11-08-will-power-and-discipline.md
+- Why it matters: Will Power And Discipline is a wisdom candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
+- Excerpt: "Such a sad fate, to be disabled more and more."
 
 ### Developing Willpower (Day 5 of a 14 Day Fast)
 
@@ -1145,23 +1173,3 @@
 - Source: ../src/content/blog/2023-02-28-how-i-define-winning-against-type-2-diabetes.md
 - Why it matters: How I Define Winning Against Type 2 Diabetes is a wisdom candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, mindset. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
 - Excerpt: "At first, I did not take my diagnosis seriously, and my condition continued to worsen."
-
-### Losing Fat While Gaining Weight – Post Fast Day 1
-
-- Date: 2023-12-21
-- Score: 32
-- Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, fasting, feasting, food-addiction
-- Book uses: chapter_thesis, reader_motivation, memoir_spine, diabetes_reversal_arc, medical_arc, evidence_case
-- Source: ../src/content/blog/2023-12-20-losing-fat-while-gaining-weight-8211-post-fast-day.md
-- Why it matters: Losing Fat While Gaining Weight – Post Fast Day 1 is a wisdom candidate with signals for reversing-type-2-diabetes-journey, a1c-labs, exercise. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "When you fast a lot of the initial weight loss has nothing to do with fat."
-
-### Forever Obese?
-
-- Date: 2022-08-04
-- Score: 31
-- Themes: reversing-type-2-diabetes-journey, capability-recovery, health-identity, type-2-diabetes
-- Book uses: chapter_thesis, reader_motivation, memoir_spine, diabetes_reversal_arc, medical_arc, story_finder
-- Source: ../src/content/blog/2022-08-04-forever-obese.md
-- Why it matters: Forever Obese? is a wisdom candidate with signals for reversing-type-2-diabetes-journey, capability-recovery, health-identity. Read the source post to decide whether it becomes a scene, chapter opener, or support example.
-- Excerpt: "Over time, I started eating in my old fashion."

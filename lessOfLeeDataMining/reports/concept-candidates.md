@@ -5,16 +5,16 @@
 The starting point is not disqualifying; it is the only honest place to begin.
 
 - Status: candidate
-- Strong supporting posts: 143
+- Strong supporting posts: 144
 - Weak matches not counted as support: 0
-- Related tags: mindset, failure-restart, exercise
+- Related tags: mantras, mindset, failure-restart, exercise
 - Book uses: reader_entry, chapter_title, practical_mindset
 - Candidate chapters: Start Where You Are
 
 Representative quotes:
 - 2022-08-09-we-all-start-somewhere: "I am reluctant to accept the notion that I have become, in some ways, a role model."
-- 2023-08-17-a-little-more: "I've embraced "a little more" for two years now."
-- 2025-05-27-start-where-you-are: "In my journey to regain my health, I’ve developed mantras along the way."
+- 2023-08-17-a-little-more: "All you need is to start where you are and gradually do a little more."
+- 2025-05-27-start-where-you-are: "One of them is: Start where you are, make improvements."
 
 Top supporting posts:
 - 2022-08-09 - We All Start Somewhere - ../src/content/blog/2022-08-09-we-all-start-somewhere.md
@@ -27,6 +27,41 @@ Top supporting posts:
 - 2022-02-05 - Mindset: Progress Over Perfection - ../src/content/blog/2022-02-05-mindset-progress-over-perfection.md
 - 2022-04-19 - The One Year Blessing of Diabetes - ../src/content/blog/2022-04-19-the-one-year-blessing-of-diabetes.md
 - 2022-05-01 - Mindset: Doing as Much as Needed - ../src/content/blog/2022-04-30-mindset-doing-as-much-as-needed.md
+
+## A Little More, A Bit Farther, Always
+
+Lee's progressive-overload mantra: begin where you are, then repeatedly push the boundary a little more and a bit farther.
+
+- Status: candidate
+- Strong supporting posts: 128
+- Weak matches not counted as support: 23
+- Related tags: mantras, mindset, exercise, capability-recovery
+- Book uses: chapter_title, reader_refrain, training_principle, quote_bank
+- Candidate chapters: A Little More, A Bit Farther, Always
+
+Representative quotes:
+- 2022-06-28-how-much-how-far: "A little more."
+- 2023-08-17-a-little-more: "I've embraced "a little more" for two years now."
+- 2022-07-10-all-the-health: "But always working for a little more progress."
+
+Top supporting posts:
+- 2022-06-29 - How Much? How Far? - ../src/content/blog/2022-06-28-how-much-how-far.md
+- 2023-08-17 - A Little More - ../src/content/blog/2023-08-17-a-little-more.md
+- 2022-07-10 - All the Health - ../src/content/blog/2022-07-10-all-the-health.md
+- 2022-07-30 - It’s Saturday, Time to Run - ../src/content/blog/2022-07-30-its-saturday-time-to-run.md
+- 2022-09-10 - It’s Saturday, I Run Intervals 9/10 - ../src/content/blog/2022-09-10-its-saturday-i-run-intervals-910.md
+- 2022-09-17 - Saturday Intervals – Sept 17, 22 - ../src/content/blog/2022-09-17-saturday-intervals-8211-sept-17-22.md
+- 2022-09-24 - Saturday Intervals – Sept 24, 22 - ../src/content/blog/2022-09-24-saturday-intervals-8211-sept-24-22.md
+- 2022-10-01 - Saturday Intervals Oct 1, 22 - ../src/content/blog/2022-10-01-saturday-intervals-oct-1-22.md
+- 2022-10-10 - Destination Health - ../src/content/blog/2022-10-10-destination-health.md
+- 2022-10-15 - Saturday Intervals Oct 15, 22 - ../src/content/blog/2022-10-15-saturday-intervals-oct-15-22.md
+
+Weak matches to review separately:
+- 2012-07-09 - 3 Month Review - ../src/content/blog/2012-07-09-3-month-review.md
+- 2012-10-02 - The Same Amount of Lee - ../src/content/blog/2012-10-02-the-same-amount-of-lee.md
+- 2012-10-22 - Living on the Corner of Disappointment and Grattitude - ../src/content/blog/2012-10-22-living-on-the-corner-of-disappointment-and-grattit.md
+- 2021-08-04 - 25lbs Less of Lee - ../src/content/blog/2021-08-04-25lbs-less-of-lee.md
+- 2022-02-19 - There Is A Natural “Cure” for Type 2 Diabetes - ../src/content/blog/2022-02-19-there-is-a-natural-cure-for-type-2-diabetes.md
 
 ## Hard Is Mandatory
 
@@ -68,9 +103,9 @@ The practical meaning of health: getting back the ability to serve, move, travel
 - Candidate chapters: Reclaiming Real Life
 
 Representative quotes:
-- 2022-12-30-i-can8217t-until-i-can-8211-from-cane-to-5k: "I have osteoarthritis in my knees."
+- 2022-12-30-i-can8217t-until-i-can-8211-from-cane-to-5k: "I've needed a cane to walk and drove with a handicap sticker."
 - 2023-01-03-i-resolve-to-reclaim-my-health: "18 months ago I resolved to reclaim my health."
-- 2023-03-30-nsv-8211-a-triumph-at-opening-day-no-more-cane: "Last time my daughter and I visited Chicago, I relied on a cane to support me while walking."
+- 2023-03-30-nsv-8211-a-triumph-at-opening-day-no-more-cane: "Rather, my objective has been to reclaim my health, infuse life into each day, and ultimately, extend my lifespan."
 
 Top supporting posts:
 - 2022-12-30 - I Can’t Until I Can – From Cane to 5K - ../src/content/blog/2022-12-30-i-can8217t-until-i-can-8211-from-cane-to-5k.md
@@ -139,8 +174,8 @@ A health identity claim that rejects permanent sickness while respecting mainten
 
 Representative quotes:
 - 2021-07-31-off-all-diabetes-meds-8211-3-month-update: "The headline says it all."
-- 2021-12-10-you-can-be-a-non-diabetic: "You are not diabetic."
-- 2022-01-15-put-t2-diabetes-into-remission-by-rejecting-modera: "In 3 months I was off all the meds, and three months after that I met the qualifications of having my diabetes in remission (A1c less than 6."
+- 2021-12-10-you-can-be-a-non-diabetic: "It is in remission."
+- 2022-01-15-put-t2-diabetes-into-remission-by-rejecting-modera: "I’ve since fired that doctor and that dietician…and love my life as a former diabetic who is continuing to work on reversing the entire stack of metabolic syndrome health problems"
 
 Top supporting posts:
 - 2021-07-31 - Off All Diabetes Meds – 3 Month Update - ../src/content/blog/2021-07-31-off-all-diabetes-meds-8211-3-month-update.md
@@ -173,9 +208,9 @@ The real goal is health and ability, not a number on the scale or a temporary fi
 - Candidate chapters: Health Is The Destination
 
 Representative quotes:
-- 2021-11-27-journey-to-health-8211-7-months-in: "I can see my metabolic health improving."
+- 2021-11-27-journey-to-health-8211-7-months-in: "While this is awesome, it’s just one milestone in the journey to health."
 - 2021-12-13-eye-on-the-prize-8211-all-the-way-to-health: "On the topic of: can I ever eat my favorites again Someone recently posted about their fantastic progress…and their having gone back to eating popcorn 3x a week."
-- 2021-12-21-journey-to-health-8211-8-month-update: "There is more work to do."
+- 2021-12-21-journey-to-health-8211-8-month-update: "The Journey to Health continues."
 
 Top supporting posts:
 - 2021-11-28 - Journey to Health – 7 Months In - ../src/content/blog/2021-11-27-journey-to-health-8211-7-months-in.md
@@ -229,7 +264,7 @@ The shift from avoiding life because the body is unreliable to trusting the body
 - Candidate chapters: No Longer Fragile
 
 Representative quotes:
-- 2022-05-08-no-longer-sedentary: "Had a great active day."
+- 2022-05-08-no-longer-sedentary: "I’m no longer sedentary."
 - 2023-07-03-saturday-push-day-8211-no-longer-fragile: "My next thought was “I’m no longer fragile”."
 - 2023-09-02-saturday-push-day-8211-no-longer-fragile: "My next thought was “I’m no longer fragile”."
 
@@ -351,7 +386,7 @@ The body responds to inputs without sentiment; symptoms, labs, hunger, pain, and
 
 Representative quotes:
 - 2022-07-06-my-body-told-me-eat-meat: "A nutritious dinner is served!"
-- 2023-06-18-saturday-push-day-8211-listen-to-your-body: "Still, I did my body good today by pushing myself."
+- 2023-06-18-saturday-push-day-8211-listen-to-your-body: "Pay attention to your body’s feedback."
 - 2024-01-27-saturday-push-day-8211-speaking-to-your-body: "It’s Saturday, time to tell my body I want more: more heart strength, more endurance, more will power, more abilities reclaimed."
 
 Top supporting posts:

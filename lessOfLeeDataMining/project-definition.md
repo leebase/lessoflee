@@ -17,6 +17,7 @@ Lee should be able to open the generated reports and quickly answer:
 - Where are restart, failure, and comeback stories?
 - Where are family and responsibility stories?
 - What recurring Less of Lee ideas could become chapters?
+- Where are my mantras and recurring refrains?
 - Which source post should I read next?
 
 The system is successful when it helps Lee write from source truth instead of memory alone.
@@ -48,6 +49,7 @@ Detailed use cases live in `use-cases.md`. The data model must support:
 - family, marriage, and grandfather responsibility stories
 - practical chapter material about food, exercise, fasting, and systems
 - quote and Lee-ism discovery
+- mantra and recurring refrain discovery
 - candidate book and chapter structure discovery
 - source verification while writing
 
@@ -102,6 +104,7 @@ Two journey tags are required and should partition the archive exactly once per 
 Required fields:
 
 - `id`
+- `type`
 - `label`
 - `description`
 - `aliases`
@@ -152,6 +155,8 @@ Output:
 ### 5. Concept Candidates
 
 Recurring Less of Lee ideas and phrases with supporting posts.
+
+Mantras are first-class concept candidates when they function as repeatable operating principles, such as `start where you are, make progress` and `a little more, a bit farther, always`.
 
 Required fields:
 

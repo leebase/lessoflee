@@ -4,6 +4,37 @@
 
 ---
 
+## 2026-05-10 — Mantra Mining Layer
+
+### What Was Built
+Read the Sprint 1 Round 2 review and implemented the remaining design cleanup plus Lee's mantra clarification. `data/tags.json` now distinguishes partition tags from topic tags, and the pipeline adds a `mantras` controlled tag for recurring Lee refrains.
+
+Added an explicit concept candidate:
+
+- `little-more-bit-farther-always` / "A Little More, A Bit Farther, Always"
+
+The existing `start-where-you-are` concept was expanded to include `make improvements` and related mantra language.
+
+### Why It Matters
+The review correctly retracted its concern about phrases like `make progress` and `a little more`. Those are not generic filler in Lee's archive; they are book-worthy refrains. This pass makes them searchable as mantras and visible in the dashboard.
+
+### How to Verify
+```bash
+cd lessOfLeeDataMining
+node scripts/build-mining-mvp.js
+node -e 'const fs=require("fs"); const tags=JSON.parse(fs.readFileSync("data/tags.json","utf8")); console.table(tags.map(t=>({id:t.id,type:t.type})))'
+sed -n '1,120p' reports/concept-candidates.md
+```
+
+Expected results:
+
+- `mantras` appears as a controlled topic tag.
+- Journey tags have `type: "partition"`.
+- Concept candidates count is 13.
+- `A Little More, A Bit Farther, Always` appears near the top of `reports/concept-candidates.md`.
+
+---
+
 ## 2026-05-10 — Mining Precision Review Remediation
 
 ### What Was Built

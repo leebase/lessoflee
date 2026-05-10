@@ -24,16 +24,24 @@ const AMBIGUOUS_ALIASES = new Set([
   "hard",
   "i can",
   "lab",
+  "how far",
+  "how much farther",
+  "how much more",
   "pain",
   "reclaim",
   "run",
   "walk",
   "weakness",
+  "always",
+  "a bit more",
+  "bit more",
+  "little more",
 ]);
 
 const TAGS = [
   {
     id: "original-less-of-lee-journey",
+    type: "partition",
     label: "Original Less of Lee Journey",
     description:
       "The original 2012-2013 Less of Lee weight-loss and fitness journey before the later Type 2 diabetes reversal arc.",
@@ -55,6 +63,7 @@ const TAGS = [
   },
   {
     id: "reversing-type-2-diabetes-journey",
+    type: "partition",
     label: "Reversing Type 2 Diabetes Journey",
     description:
       "The 2021-present arc of reversing Type 2 diabetes, leaving medication, maintaining remission, relapse, and renewed recovery.",
@@ -327,6 +336,33 @@ const TAGS = [
     ],
     book_uses: ["quote_bank", "voice_bank", "humor_relief"],
   },
+  {
+    id: "mantras",
+    label: "Mantras",
+    description:
+      "Repeated Lee phrases that function as compact operating principles, chapter titles, and reader-facing refrains.",
+    aliases: [
+      "mantra",
+      "mantras",
+      "start where you are",
+      "make progress",
+      "make improvements",
+      "a little more",
+      "little more",
+      "how much more",
+      "how far",
+      "how much farther",
+      "a bit farther",
+      "bit farther",
+      "a bit more",
+      "bit more",
+      "always a little more",
+      "always",
+      "i can't until i can",
+      "i cant until i can",
+    ],
+    book_uses: ["chapter_title", "reader_refrain", "voice_bank", "quote_bank"],
+  },
 ];
 
 const CONCEPT_SEEDS = [
@@ -355,12 +391,37 @@ const CONCEPT_SEEDS = [
       "start where you are",
       "we all start somewhere",
       "do what you can",
+      "make improvements",
       "make progress",
       "a little more",
     ],
-    related_tags: ["mindset", "failure-restart", "exercise"],
+    related_tags: ["mantras", "mindset", "failure-restart", "exercise"],
     book_uses: ["reader_entry", "chapter_title", "practical_mindset"],
     candidate_chapters: ["Start Where You Are"],
+  },
+  {
+    concept_id: "little-more-bit-farther-always",
+    name: "A Little More, A Bit Farther, Always",
+    definition:
+      "Lee's progressive-overload mantra: begin where you are, then repeatedly push the boundary a little more and a bit farther.",
+    aliases: [
+      "a little more",
+      "a bit farther",
+      "always a little more",
+      "a little more always",
+      "a little more and a bit farther",
+      "a little more a little harder and a little longer",
+      "how much more",
+      "little more",
+      "how much farther",
+      "how far",
+      "bit farther",
+      "a bit more",
+      "bit more",
+    ],
+    related_tags: ["mantras", "mindset", "exercise", "capability-recovery"],
+    book_uses: ["chapter_title", "reader_refrain", "training_principle", "quote_bank"],
+    candidate_chapters: ["A Little More, A Bit Farther, Always"],
   },
   {
     concept_id: "fail-your-way-to-health",
@@ -623,6 +684,12 @@ const DASHBOARD_QUESTIONS = [
     types: ["relationship", "identity", "transformation"],
   },
   {
+    question: "Where are my mantras and recurring refrains?",
+    tags: ["mantras", "mindset", "capability-recovery"],
+    keywords: ["mantra", "start where you are", "make progress", "a little more", "bit farther", "always"],
+    types: ["wisdom", "victory", "struggle", "transformation"],
+  },
+  {
     question: "Where are strong recurring concepts or chapter ideas?",
     tags: ["mindset", "health-identity", "capability-recovery"],
     concepts: true,
@@ -646,10 +713,10 @@ function main() {
 
   const postTags = buildPostTags(posts);
   const storyCandidates = buildStoryCandidates(posts, postTags);
-  const conceptCandidates = buildConceptCandidates(posts, postTags);
+  const conceptCandidates = buildConceptCandidates(posts);
 
   writeJsonl(path.join(dataDir, "posts.jsonl"), posts.map(toPostRecord));
-  writeJson(path.join(dataDir, "tags.json"), TAGS);
+  writeJson(path.join(dataDir, "tags.json"), TAGS.map(toTagRecord));
   writeJsonl(path.join(dataDir, "post-tags.jsonl"), postTags);
   writeJsonl(path.join(dataDir, "story-candidates.jsonl"), storyCandidates);
   writeJson(path.join(dataDir, "concept-candidates.json"), conceptCandidates);
@@ -825,6 +892,7 @@ function buildPostTags(posts) {
       const bodyHasMultipleSignals = new Set(bodyHits.map(hit => normalize(hit.alias))).size >= 2;
       if (!hasSourceHit && !hasTitleHit && !bodyHasExact && !bodyHasMultipleSignals) continue;
       if (tag.id === "capability-recovery" && !hasSourceHit && !hasTitleHit && !bodyHasMultipleSignals) continue;
+      if (tag.id === "mantras" && !hasSourceHit && !hasTitleHit && !bodyHasMantraSignal(bodyHits)) continue;
       const confidence = hasSourceHit
         ? 0.9
         : hasTitleHit
@@ -869,6 +937,25 @@ function journeyTagsForPost(post) {
     });
   }
   return records;
+}
+
+function bodyHasMantraSignal(bodyHits) {
+  const canonicalSignals = new Set([
+    "mantra",
+    "mantras",
+    "start where you are",
+    "make progress",
+    "make improvements",
+    "a little more",
+    "a bit farther",
+    "always a little more",
+    "i can't until i can",
+    "i cant until i can",
+  ]);
+  return (
+    bodyHits.some(hit => canonicalSignals.has(normalize(hit.alias))) ||
+    new Set(bodyHits.map(hit => normalize(hit.alias))).size >= 2
+  );
 }
 
 function buildStoryCandidates(posts, postTags) {
@@ -1009,15 +1096,16 @@ function whyStoryMatters(type, themes, title) {
   return `${title} is a ${type} candidate with signals for ${themeText || "book mining"}. Read the source post to decide whether it becomes a scene, chapter opener, or support example.`;
 }
 
-function buildConceptCandidates(posts, postTags) {
+function buildConceptCandidates(posts) {
   const concepts = [];
-  const strongTagsByPost = groupStrongTagsByPost(postTags);
   for (const seed of CONCEPT_SEEDS) {
     const hits = [];
     for (const post of posts) {
       const titleMatchedAliases = seed.aliases.filter(alias => matchesAlias(post.title, alias));
       const bodyMatchedAliases = seed.aliases.filter(alias => matchesAlias(post.clean_body, alias));
-      const matchedAliases = [...new Set([...titleMatchedAliases, ...bodyMatchedAliases])];
+      const matchedAliases = seed.aliases.filter(
+        alias => titleMatchedAliases.includes(alias) || bodyMatchedAliases.includes(alias),
+      );
       if (matchedAliases.length === 0) continue;
       const titleExactAliases = titleMatchedAliases.filter(alias => aliasStrength(alias) === "exact");
       const bodyExactAliases = bodyMatchedAliases.filter(alias => aliasStrength(alias) === "exact");
@@ -1091,6 +1179,13 @@ function toPostRecord(post) {
     wordpress_url: post.wordpress_url,
     has_images: post.has_images,
     image_count: post.image_count,
+  };
+}
+
+function toTagRecord(tag) {
+  return {
+    type: "topic",
+    ...tag,
   };
 }
 
@@ -1521,15 +1616,6 @@ function groupTagsByPost(postTags) {
   return grouped;
 }
 
-function groupStrongTagsByPost(postTags) {
-  const grouped = new Map();
-  for (const record of postTags.filter(item => item.confidence >= 0.8)) {
-    if (!grouped.has(record.post_id)) grouped.set(record.post_id, new Set());
-    grouped.get(record.post_id).add(record.tag_id);
-  }
-  return grouped;
-}
-
 function displayThemes(tags) {
   const journeyTags = tags.filter(
     tag => tag === "original-less-of-lee-journey" || tag === "reversing-type-2-diabetes-journey",
@@ -1564,9 +1650,20 @@ function findQuoteForAliases(body, aliases) {
   const paragraphs = body.split(/\n\s*\n/).filter(Boolean);
   for (const alias of aliases) {
     const paragraph = paragraphs.find(item => matchesAlias(item, alias));
-    if (paragraph) return excerptFromParagraph(paragraph);
+    if (paragraph) return excerptFromParagraphContainingAlias(paragraph, alias);
   }
   return "";
+}
+
+function excerptFromParagraphContainingAlias(paragraph, alias) {
+  const raw = normalizeWhitespace(paragraph)
+    .replace(/\[!\[[^\]]*]\([^)]+\)]\([^)]+\)/g, "")
+    .replace(/!\[[^\]]*]\([^)]+\)/g, "")
+    .replace(/^\]\([^)]+\)/, "")
+    .trim();
+  const sentences = raw.match(/[^.!?]+[.!?]?/g) || [raw];
+  const sentence = sentences.find(item => matchesAlias(item, alias)) || raw;
+  return decodeHtml(truncateWordsExact(sentence.trim(), 34));
 }
 
 function normalize(value) {

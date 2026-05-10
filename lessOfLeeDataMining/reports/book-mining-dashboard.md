@@ -5,10 +5,10 @@ This is the first place to look when mining the Less of Lee archive for book mat
 ## Snapshot
 
 - Source posts indexed: 589
-- Controlled vocabulary tags: 15
-- Post-tag links: 2950
+- Controlled vocabulary tags: 16
+- Post-tag links: 3126
 - Story candidates: 180
-- Concept candidates: 12
+- Concept candidates: 13
 
 ## Health Journey Split
 
@@ -52,19 +52,15 @@ This is the first place to look when mining the Less of Lee archive for book mat
 
 Top matches:
 - 2012-12-03 - No Longer Obese (victory, score 32) - ../src/content/blog/2012-12-03-no-longer-obese.md
-- 2012-12-23 - 25% and 80lbs Less of Lee (victory, score 31) - ../src/content/blog/2012-12-23-25-and-80lbs-less-of-lee.md
-- 2013-03-29 - Accepting Lee (relapse, score 31) - ../src/content/blog/2013-03-29-accepting-lee.md
-- 2013-01-26 - Keeping The Faith In the Face of a Plateau (victory, score 31) - ../src/content/blog/2013-01-26-keeping-the-faith-in-the-face-of-a-plateau.md
-- 2012-09-24 - 100lbs Less of Lee and Wife (relationship, score 34) - ../src/content/blog/2012-09-24-100lbs-less-of-lee-and-wife.md
-- 2012-11-27 - The Secrets to My Success – A Thanksgiving Story (relationship, score 37) - ../src/content/blog/2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor.md
+- 2012-09-24 - 100lbs Less of Lee and Wife (relationship, score 37) - ../src/content/blog/2012-09-24-100lbs-less-of-lee-and-wife.md
+- 2012-08-15 - The Battle Starts in the Mind (wisdom, score 33) - ../src/content/blog/2012-08-15-the-battle-starts-in-the-mind.md
+- 2012-11-27 - The Secrets to My Success – A Thanksgiving Story (relationship, score 40) - ../src/content/blog/2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor.md
 
 Memoir arc:
+- 2012-08-15 - The Battle Starts in the Mind (wisdom) - ../src/content/blog/2012-08-15-the-battle-starts-in-the-mind.md
 - 2012-09-24 - 100lbs Less of Lee and Wife (relationship) - ../src/content/blog/2012-09-24-100lbs-less-of-lee-and-wife.md
 - 2012-11-27 - The Secrets to My Success – A Thanksgiving Story (relationship) - ../src/content/blog/2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor.md
 - 2012-12-03 - No Longer Obese (victory) - ../src/content/blog/2012-12-03-no-longer-obese.md
-- 2012-12-23 - 25% and 80lbs Less of Lee (victory) - ../src/content/blog/2012-12-23-25-and-80lbs-less-of-lee.md
-- 2013-01-26 - Keeping The Faith In the Face of a Plateau (victory) - ../src/content/blog/2013-01-26-keeping-the-faith-in-the-face-of-a-plateau.md
-- 2013-03-29 - Accepting Lee (relapse) - ../src/content/blog/2013-03-29-accepting-lee.md
 
 ### Where is the Reversing Type 2 Diabetes journey?
 
@@ -78,8 +74,8 @@ Top matches:
 - 2023-04-15 - The Former Diabetic – 2 Years In, A1c of 5.2, no meds (victory, score 55) - ../src/content/blog/2023-04-15-the-former-diabetic-8211-2-years-in-a1c-of-52-no-m.md
 - 2025-10-17 - Week 1 Fasting Update – Doctor and Labs (struggle, score 54) - ../src/content/blog/2025-10-17-week-1-fasting-update-8211-doctor-and-labs.md
 - 2025-10-28 - On the Road to Cease Being Diabetic – Again (victory, score 52) - ../src/content/blog/2025-10-27-on-the-road-to-cease-being-diabetic-8211-again.md
+- 2023-09-13 - Talk To Your Doctor (victory, score 50) - ../src/content/blog/2023-09-13-talk-to-your-doctor.md
 - 2023-09-17 - What is Type 2 Diabetes (victory, score 47) - ../src/content/blog/2023-09-16-what-is-type-2-diabetes.md
-- 2023-09-13 - Talk To Your Doctor (victory, score 47) - ../src/content/blog/2023-09-13-talk-to-your-doctor.md
 - 2023-03-28 - Your Doctor Don’t Matter To Me (victory, score 47) - ../src/content/blog/2023-03-27-your-doctor-dont-matter-to-me.md
 - 2023-09-16 - The Ex-Diabetic (relapse, score 38) - ../src/content/blog/2023-09-16-the-ex-diabetic.md
 - 2022-01-15 - Put T2 Diabetes into Remission by Rejecting Moderation (victory, score 38) - ../src/content/blog/2022-01-15-put-t2-diabetes-into-remission-by-rejecting-modera.md
@@ -95,12 +91,12 @@ Memoir arc:
 - 2021-11-28 - Journey to Health – 7 Months In (victory) - ../src/content/blog/2021-11-27-journey-to-health-8211-7-months-in.md
 - 2021-12-21 - Journey to Health – 8 Month Update (wisdom) - ../src/content/blog/2021-12-21-journey-to-health-8211-8-month-update.md
 - 2021-12-28 - End of Year 5 Day Fast/Cleanse (victory) - ../src/content/blog/2021-12-27-end-of-year-5-day-fastcleanse.md
-- 2021-12-30 - Fasting is not Binging and Purging (humor) - ../src/content/blog/2021-12-29-fasting-is-not-binging-and-purging.md
 - 2021-12-30 - Day 4 of my 5 Day Fast / Cleanse (relapse) - ../src/content/blog/2021-12-30-day-4-of-my-5-day-fast-cleanse.md
 - 2022-01-02 - Fat to Thin and Fat Again: Lesson 1 – Health and Fitness is not a Destination (struggle) - ../src/content/blog/2022-01-01-fat-to-thin-and-fat-again-lesson-1-8211-health-and.md
 - 2022-01-14 - Total Health Program – Not Just Diabetes (victory) - ../src/content/blog/2022-01-14-total-health-program-8211-not-just-diabetes.md
 - 2022-01-15 - Put T2 Diabetes into Remission by Rejecting Moderation (victory) - ../src/content/blog/2022-01-15-put-t2-diabetes-into-remission-by-rejecting-modera.md
 - 2022-01-17 - Fat to Thin and Fat Again: Lesson 2 – The Health Hobby (wisdom) - ../src/content/blog/2022-01-17-fat-to-thin-and-fat-again-lesson-2-8211-the-health.md
+- 2022-01-21 - 9 Month Update – Less of Lee Round 2 (victory) - ../src/content/blog/2022-01-21-9-month-update-8211-less-of-lee-round-2.md
 
 ### Where are my best diabetes reversal stories?
 
@@ -111,8 +107,8 @@ Top matches:
 - 2024-07-04 - Three Years Diabetes Free (victory, score 57) - ../src/content/blog/2024-07-04-three-years-diabetes-free.md
 - 2023-04-15 - The Former Diabetic – 2 Years In, A1c of 5.2, no meds (victory, score 55) - ../src/content/blog/2023-04-15-the-former-diabetic-8211-2-years-in-a1c-of-52-no-m.md
 - 2025-10-28 - On the Road to Cease Being Diabetic – Again (victory, score 52) - ../src/content/blog/2025-10-27-on-the-road-to-cease-being-diabetic-8211-again.md
+- 2023-09-13 - Talk To Your Doctor (victory, score 50) - ../src/content/blog/2023-09-13-talk-to-your-doctor.md
 - 2023-09-17 - What is Type 2 Diabetes (victory, score 47) - ../src/content/blog/2023-09-16-what-is-type-2-diabetes.md
-- 2023-09-13 - Talk To Your Doctor (victory, score 47) - ../src/content/blog/2023-09-13-talk-to-your-doctor.md
 - 2023-03-28 - Your Doctor Don’t Matter To Me (victory, score 47) - ../src/content/blog/2023-03-27-your-doctor-dont-matter-to-me.md
 - 2024-02-17 - Reflections of a Former Diabetic – Pt 1, The Alcoholic Paradigm (struggle, score 63) - ../src/content/blog/2024-02-17-reflections-of-a-former-diabetic-8211-pt-1-the-alc.md
 - 2025-11-17 - I Decided to Stop Being Diabetic (relapse, score 62) - ../src/content/blog/2025-11-17-i-decided-to-stop-being-diabetic.md
@@ -131,55 +127,55 @@ Memoir arc:
 - 2021-11-28 - Journey to Health – 7 Months In (victory) - ../src/content/blog/2021-11-27-journey-to-health-8211-7-months-in.md
 - 2021-12-21 - Journey to Health – 8 Month Update (wisdom) - ../src/content/blog/2021-12-21-journey-to-health-8211-8-month-update.md
 - 2021-12-28 - End of Year 5 Day Fast/Cleanse (victory) - ../src/content/blog/2021-12-27-end-of-year-5-day-fastcleanse.md
-- 2021-12-30 - Fasting is not Binging and Purging (humor) - ../src/content/blog/2021-12-29-fasting-is-not-binging-and-purging.md
 - 2021-12-30 - Day 4 of my 5 Day Fast / Cleanse (relapse) - ../src/content/blog/2021-12-30-day-4-of-my-5-day-fast-cleanse.md
 - 2022-01-02 - Fat to Thin and Fat Again: Lesson 1 – Health and Fitness is not a Destination (struggle) - ../src/content/blog/2022-01-01-fat-to-thin-and-fat-again-lesson-1-8211-health-and.md
 - 2022-01-14 - Total Health Program – Not Just Diabetes (victory) - ../src/content/blog/2022-01-14-total-health-program-8211-not-just-diabetes.md
 - 2022-01-15 - Put T2 Diabetes into Remission by Rejecting Moderation (victory) - ../src/content/blog/2022-01-15-put-t2-diabetes-into-remission-by-rejecting-modera.md
 - 2022-01-17 - Fat to Thin and Fat Again: Lesson 2 – The Health Hobby (wisdom) - ../src/content/blog/2022-01-17-fat-to-thin-and-fat-again-lesson-2-8211-the-health.md
+- 2022-01-21 - 9 Month Update – Less of Lee Round 2 (victory) - ../src/content/blog/2022-01-21-9-month-update-8211-less-of-lee-round-2.md
 
 ### Where are restart/failure/comeback stories?
 
 Top matches:
 - 2022-01-02 - Fat to Thin and Fat Again: Lesson 1 – Health and Fitness is not a Destination (struggle, score 47) - ../src/content/blog/2022-01-01-fat-to-thin-and-fat-again-lesson-1-8211-health-and.md
 - 2024-12-01 - Guaranteed to Never Fail (struggle, score 37) - ../src/content/blog/2024-11-30-guaranteed-to-never-fail.md
-- 2025-11-22 - How to Never Fail or Backslide Again – Guaranteed! (relapse, score 45) - ../src/content/blog/2025-11-22-how-to-never-fail-or-backslide-again-8211-guarante.md
-- 2025-10-22 - Fasting Conclusion – Discipline Restored! (relapse, score 60) - ../src/content/blog/2025-10-22-fasting-conclusion-8211-discipline-restored.md
+- 2025-11-22 - How to Never Fail or Backslide Again – Guaranteed! (relapse, score 48) - ../src/content/blog/2025-11-22-how-to-never-fail-or-backslide-again-8211-guarante.md
+- 2025-10-22 - Fasting Conclusion – Discipline Restored! (relapse, score 63) - ../src/content/blog/2025-10-22-fasting-conclusion-8211-discipline-restored.md
 - 2025-11-30 - Fall 2025 Health Audit: The Results (relapse, score 56) - ../src/content/blog/2025-11-30-fall-2025-health-audit-the-results.md
 - 2025-11-15 - How I Overcame Osteoarthritis – Fasting was a big tool (struggle, score 56) - ../src/content/blog/2025-11-15-how-i-overcame-osteoarthritis-8211-fasting-was-a-b.md
-- 2024-06-22 - Fail and Fail Again (transformation, score 45) - ../src/content/blog/2024-06-22-fail-and-fail-again.md
-- 2025-11-26 - The Healing Journey Continues – the IR Mountain (victory, score 41) - ../src/content/blog/2025-11-25-the-healing-journey-continues-8211-the-ir-mountain.md
+- 2024-06-22 - Fail and Fail Again (transformation, score 48) - ../src/content/blog/2024-06-22-fail-and-fail-again.md
+- 2025-11-26 - The Healing Journey Continues – the IR Mountain (victory, score 44) - ../src/content/blog/2025-11-25-the-healing-journey-continues-8211-the-ir-mountain.md
 - 2022-01-17 - Fat to Thin and Fat Again: Lesson 2 – The Health Hobby (wisdom, score 35) - ../src/content/blog/2022-01-17-fat-to-thin-and-fat-again-lesson-2-8211-the-health.md
 - 2024-02-17 - Reflections of a Former Diabetic – Pt 1, The Alcoholic Paradigm (struggle, score 63) - ../src/content/blog/2024-02-17-reflections-of-a-former-diabetic-8211-pt-1-the-alc.md
 - 2024-04-11 - In Praise of Yoyo Dieting (struggle, score 58) - ../src/content/blog/2024-04-11-in-praise-of-yoyo-dieting.md
-- 2024-01-04 - Strength Training Vs Body Building (struggle, score 43) - ../src/content/blog/2024-01-04-strength-training-vs-body-building.md
-- 2025-12-07 - Hope For Diabetics That Lessens Fear (struggle, score 42) - ../src/content/blog/2025-12-07-hope-for-diabetics-that-lessens-fear.md
-- 2024-03-02 - I Didn’t Want to Work Out – So I Did It Anyway (struggle, score 37) - ../src/content/blog/2024-03-01-i-didnt-want-to-work-out-8211-so-i-did-it-anyway.md
-- 2023-10-14 - He Needs His Pawpaw (struggle, score 34) - ../src/content/blog/2023-10-14-he-needs-his-pawpaw.md
+- 2024-01-04 - Strength Training Vs Body Building (struggle, score 46) - ../src/content/blog/2024-01-04-strength-training-vs-body-building.md
+- 2025-12-07 - Hope For Diabetics That Lessens Fear (struggle, score 45) - ../src/content/blog/2025-12-07-hope-for-diabetics-that-lessens-fear.md
+- 2024-03-02 - I Didn’t Want to Work Out – So I Did It Anyway (struggle, score 40) - ../src/content/blog/2024-03-01-i-didnt-want-to-work-out-8211-so-i-did-it-anyway.md
+- 2023-10-14 - He Needs His Pawpaw (struggle, score 37) - ../src/content/blog/2023-10-14-he-needs-his-pawpaw.md
 
 Memoir arc:
+- 2012-08-15 - The Battle Starts in the Mind (wisdom) - ../src/content/blog/2012-08-15-the-battle-starts-in-the-mind.md
 - 2012-09-24 - 100lbs Less of Lee and Wife (relationship) - ../src/content/blog/2012-09-24-100lbs-less-of-lee-and-wife.md
 - 2012-11-27 - The Secrets to My Success – A Thanksgiving Story (relationship) - ../src/content/blog/2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor.md
 - 2012-12-03 - No Longer Obese (victory) - ../src/content/blog/2012-12-03-no-longer-obese.md
-- 2012-12-23 - 25% and 80lbs Less of Lee (victory) - ../src/content/blog/2012-12-23-25-and-80lbs-less-of-lee.md
-- 2013-01-26 - Keeping The Faith In the Face of a Plateau (victory) - ../src/content/blog/2013-01-26-keeping-the-faith-in-the-face-of-a-plateau.md
-- 2013-03-29 - Accepting Lee (relapse) - ../src/content/blog/2013-03-29-accepting-lee.md
 - 2021-05-04 - I’m Back 8 Years Later – Now Diabetic (relapse) - ../src/content/blog/2021-05-03-i8217m-back-8-years-later-8211-now-diabetic.md
 - 2021-05-04 - I Can’t Drive 55!  Fast and Faster (victory) - ../src/content/blog/2021-05-04-i-can8217t-drive-55-fast-and-faster.md
 - 2021-08-17 - I Am Bionic Again (victory) - ../src/content/blog/2021-08-17-i-am-bionic-again.md
 - 2021-11-28 - Journey to Health – 7 Months In (victory) - ../src/content/blog/2021-11-27-journey-to-health-8211-7-months-in.md
-- 2021-12-30 - Fasting is not Binging and Purging (humor) - ../src/content/blog/2021-12-29-fasting-is-not-binging-and-purging.md
 - 2021-12-30 - Day 4 of my 5 Day Fast / Cleanse (relapse) - ../src/content/blog/2021-12-30-day-4-of-my-5-day-fast-cleanse.md
 - 2022-01-02 - Fat to Thin and Fat Again: Lesson 1 – Health and Fitness is not a Destination (struggle) - ../src/content/blog/2022-01-01-fat-to-thin-and-fat-again-lesson-1-8211-health-and.md
 - 2022-01-15 - Put T2 Diabetes into Remission by Rejecting Moderation (victory) - ../src/content/blog/2022-01-15-put-t2-diabetes-into-remission-by-rejecting-modera.md
 - 2022-01-17 - Fat to Thin and Fat Again: Lesson 2 – The Health Hobby (wisdom) - ../src/content/blog/2022-01-17-fat-to-thin-and-fat-again-lesson-2-8211-the-health.md
+- 2022-02-06 - I Can’t…Until I Can – Exercise Vigorously for an Hour (wisdom) - ../src/content/blog/2022-02-06-i-cantuntil-i-can-8211-exercise-vigorously-for-an.md
+- 2022-02-13 - Fasting is done, feasting has begun. (relapse) - ../src/content/blog/2022-02-12-fasting-is-done-feasting-has-begun.md
+- 2022-02-25 - The Benefits of Extended Fasting – Day 4 (wisdom) - ../src/content/blog/2022-02-24-the-benefits-of-extended-fasting-8211-day-4.md
 
 ### Where are fasting stories?
 
 Top matches:
 - 2023-12-22 - Fasting and Arthritis – Post Fast Day 2 (struggle, score 58) - ../src/content/blog/2023-12-21-fasting-and-arthritis-8211-post-fast-day-2.md
+- 2025-11-26 - The Healing Journey Continues – the IR Mountain (victory, score 44) - ../src/content/blog/2025-11-25-the-healing-journey-continues-8211-the-ir-mountain.md
 - 2025-12-04 - Hunger Free – Protein Forward Carnivore (victory, score 42) - ../src/content/blog/2025-12-03-hunger-free-8211-protein-forward-carnivore.md
-- 2025-11-26 - The Healing Journey Continues – the IR Mountain (victory, score 41) - ../src/content/blog/2025-11-25-the-healing-journey-continues-8211-the-ir-mountain.md
 - 2021-05-04 - I Can’t Drive 55!  Fast and Faster (victory, score 36) - ../src/content/blog/2021-05-04-i-can8217t-drive-55-fast-and-faster.md
 - 2022-06-22 - Prepping for June’s Fast (relapse, score 38) - ../src/content/blog/2022-06-21-prepping-for-junes-fast.md
 - 2025-11-15 - How I Overcame Osteoarthritis – Fasting was a big tool (struggle, score 56) - ../src/content/blog/2025-11-15-how-i-overcame-osteoarthritis-8211-fasting-was-a-b.md
@@ -196,8 +192,6 @@ Top matches:
 Memoir arc:
 - 2012-09-24 - 100lbs Less of Lee and Wife (relationship) - ../src/content/blog/2012-09-24-100lbs-less-of-lee-and-wife.md
 - 2012-11-27 - The Secrets to My Success – A Thanksgiving Story (relationship) - ../src/content/blog/2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor.md
-- 2012-12-23 - 25% and 80lbs Less of Lee (victory) - ../src/content/blog/2012-12-23-25-and-80lbs-less-of-lee.md
-- 2013-01-26 - Keeping The Faith In the Face of a Plateau (victory) - ../src/content/blog/2013-01-26-keeping-the-faith-in-the-face-of-a-plateau.md
 - 2021-05-04 - I’m Back 8 Years Later – Now Diabetic (relapse) - ../src/content/blog/2021-05-03-i8217m-back-8-years-later-8211-now-diabetic.md
 - 2021-05-04 - I Can’t Drive 55!  Fast and Faster (victory) - ../src/content/blog/2021-05-04-i-can8217t-drive-55-fast-and-faster.md
 - 2021-05-21 - Month One Results – Reversing T2 Diabetes (victory) - ../src/content/blog/2021-05-21-month-one-results-8211-reversing-t2-diabetes.md
@@ -207,48 +201,87 @@ Memoir arc:
 - 2021-11-28 - Journey to Health – 7 Months In (victory) - ../src/content/blog/2021-11-27-journey-to-health-8211-7-months-in.md
 - 2021-12-21 - Journey to Health – 8 Month Update (wisdom) - ../src/content/blog/2021-12-21-journey-to-health-8211-8-month-update.md
 - 2021-12-28 - End of Year 5 Day Fast/Cleanse (victory) - ../src/content/blog/2021-12-27-end-of-year-5-day-fastcleanse.md
-- 2021-12-30 - Fasting is not Binging and Purging (humor) - ../src/content/blog/2021-12-29-fasting-is-not-binging-and-purging.md
 - 2021-12-30 - Day 4 of my 5 Day Fast / Cleanse (relapse) - ../src/content/blog/2021-12-30-day-4-of-my-5-day-fast-cleanse.md
+- 2022-01-02 - Fat to Thin and Fat Again: Lesson 1 – Health and Fitness is not a Destination (struggle) - ../src/content/blog/2022-01-01-fat-to-thin-and-fat-again-lesson-1-8211-health-and.md
+- 2022-01-14 - Total Health Program – Not Just Diabetes (victory) - ../src/content/blog/2022-01-14-total-health-program-8211-not-just-diabetes.md
+- 2022-01-15 - Put T2 Diabetes into Remission by Rejecting Moderation (victory) - ../src/content/blog/2022-01-15-put-t2-diabetes-into-remission-by-rejecting-modera.md
 
 ### Where are family/responsibility stories?
 
 Top matches:
 - 2023-12-27 - Grandfather, Father, Husband – Carrying the Load (relationship, score 50) - ../src/content/blog/2023-12-27-grandfather-father-husband-8211-carrying-the-load.md
-- 2024-07-06 - Pawpaw Proof (struggle, score 48) - ../src/content/blog/2024-07-06-pawpaw-proof.md
+- 2024-07-06 - Pawpaw Proof (struggle, score 51) - ../src/content/blog/2024-07-06-pawpaw-proof.md
 - 2022-07-19 - The Habit of Extended Fasting (relationship, score 49) - ../src/content/blog/2022-07-19-the-habit-of-extended-fasting.md
-- 2012-11-27 - The Secrets to My Success – A Thanksgiving Story (relationship, score 37) - ../src/content/blog/2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor.md
+- 2023-06-10 - Saturday Push Day – Because I’m Loved and Needed (relationship, score 34) - ../src/content/blog/2023-06-10-saturday-push-day-8211-because-im-loved-and-needed.md
+- 2012-11-27 - The Secrets to My Success – A Thanksgiving Story (relationship, score 40) - ../src/content/blog/2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor.md
 - 2022-08-09 - We All Start Somewhere (victory, score 55) - ../src/content/blog/2022-08-09-we-all-start-somewhere.md
-- 2024-03-03 - Give Yourself Space to Learn (struggle, score 49) - ../src/content/blog/2024-03-02-give-yourself-space-to-learn.md
-- 2023-12-29 - A Guide to Effective New Year’s Resolutions (victory, score 43) - ../src/content/blog/2023-12-29-a-guide-to-effective-new-years-resolutions.md
-- 2023-10-14 - He Needs His Pawpaw (struggle, score 34) - ../src/content/blog/2023-10-14-he-needs-his-pawpaw.md
+- 2024-03-03 - Give Yourself Space to Learn (struggle, score 52) - ../src/content/blog/2024-03-02-give-yourself-space-to-learn.md
+- 2023-12-29 - A Guide to Effective New Year’s Resolutions (victory, score 46) - ../src/content/blog/2023-12-29-a-guide-to-effective-new-years-resolutions.md
+- 2023-10-14 - He Needs His Pawpaw (struggle, score 37) - ../src/content/blog/2023-10-14-he-needs-his-pawpaw.md
+- 2012-08-15 - The Battle Starts in the Mind (wisdom, score 33) - ../src/content/blog/2012-08-15-the-battle-starts-in-the-mind.md
 - 2024-03-10 - Eye Health – Day 8 of Fasting (identity, score 45) - ../src/content/blog/2024-03-10-eye-health-8211-day-8-of-fasting.md
 - 2022-11-26 - Thanksgiving Food Lessons (transformation, score 43) - ../src/content/blog/2022-11-26-thanksgiving-food-lessons.md
-- 2023-07-03 - You Build Your Health (relationship, score 34) - ../src/content/blog/2023-07-03-you-build-your-health.md
-- 2022-05-12 - I can’t…until I can: Go Off Roading (relationship, score 32) - ../src/content/blog/2022-05-11-i-cantuntil-i-can-go-off-roading.md
+- 2023-07-03 - You Build Your Health (relationship, score 37) - ../src/content/blog/2023-07-03-you-build-your-health.md
+- 2022-05-12 - I can’t…until I can: Go Off Roading (relationship, score 35) - ../src/content/blog/2022-05-11-i-cantuntil-i-can-go-off-roading.md
 - 2025-11-28 - Thanksgiving Success – Healing in Action (relationship, score 41) - ../src/content/blog/2025-11-28-thanksgiving-success-8211-healing-in-action.md
-- 2023-01-31 - Carnivore January (relationship, score 35) - ../src/content/blog/2023-01-31-carnivore-january.md
-- 2025-11-24 - Handling Thanksgiving Feast – Harm Reduction (relationship, score 34) - ../src/content/blog/2025-11-24-handling-thanksgiving-feast-8211-harm-reduction.md
 
 Memoir arc:
+- 2012-08-15 - The Battle Starts in the Mind (wisdom) - ../src/content/blog/2012-08-15-the-battle-starts-in-the-mind.md
 - 2012-09-24 - 100lbs Less of Lee and Wife (relationship) - ../src/content/blog/2012-09-24-100lbs-less-of-lee-and-wife.md
 - 2012-11-27 - The Secrets to My Success – A Thanksgiving Story (relationship) - ../src/content/blog/2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor.md
 - 2012-12-03 - No Longer Obese (victory) - ../src/content/blog/2012-12-03-no-longer-obese.md
-- 2012-12-23 - 25% and 80lbs Less of Lee (victory) - ../src/content/blog/2012-12-23-25-and-80lbs-less-of-lee.md
-- 2013-01-26 - Keeping The Faith In the Face of a Plateau (victory) - ../src/content/blog/2013-01-26-keeping-the-faith-in-the-face-of-a-plateau.md
-- 2013-03-29 - Accepting Lee (relapse) - ../src/content/blog/2013-03-29-accepting-lee.md
 - 2021-05-21 - Month One Results – Reversing T2 Diabetes (victory) - ../src/content/blog/2021-05-21-month-one-results-8211-reversing-t2-diabetes.md
 - 2021-06-21 - 2-Month Progress Report (victory) - ../src/content/blog/2021-06-21-2-month-progress-report.md
 - 2021-07-31 - Off All Diabetes Meds – 3 Month Update (victory) - ../src/content/blog/2021-07-31-off-all-diabetes-meds-8211-3-month-update.md
 - 2021-11-28 - Journey to Health – 7 Months In (victory) - ../src/content/blog/2021-11-27-journey-to-health-8211-7-months-in.md
 - 2021-12-28 - End of Year 5 Day Fast/Cleanse (victory) - ../src/content/blog/2021-12-27-end-of-year-5-day-fastcleanse.md
-- 2021-12-30 - Fasting is not Binging and Purging (humor) - ../src/content/blog/2021-12-29-fasting-is-not-binging-and-purging.md
 - 2021-12-30 - Day 4 of my 5 Day Fast / Cleanse (relapse) - ../src/content/blog/2021-12-30-day-4-of-my-5-day-fast-cleanse.md
 - 2022-01-02 - Fat to Thin and Fat Again: Lesson 1 – Health and Fitness is not a Destination (struggle) - ../src/content/blog/2022-01-01-fat-to-thin-and-fat-again-lesson-1-8211-health-and.md
 - 2022-01-14 - Total Health Program – Not Just Diabetes (victory) - ../src/content/blog/2022-01-14-total-health-program-8211-not-just-diabetes.md
+- 2022-01-15 - Put T2 Diabetes into Remission by Rejecting Moderation (victory) - ../src/content/blog/2022-01-15-put-t2-diabetes-into-remission-by-rejecting-modera.md
+- 2022-02-06 - I Can’t…Until I Can – Exercise Vigorously for an Hour (wisdom) - ../src/content/blog/2022-02-06-i-cantuntil-i-can-8211-exercise-vigorously-for-an.md
+- 2022-02-13 - Fasting is done, feasting has begun. (relapse) - ../src/content/blog/2022-02-12-fasting-is-done-feasting-has-begun.md
+
+### Where are my mantras and recurring refrains?
+
+Top matches:
+- 2025-11-18 - Start Where You Are, Make Progress (relapse, score 54) - ../src/content/blog/2025-11-18-start-where-you-are-make-progress.md
+- 2025-05-27 - Start Where You Are (victory, score 44) - ../src/content/blog/2025-05-27-start-where-you-are.md
+- 2024-04-23 - Three Years into Winning Type 2 Diabetes from Highly Diabetic to Normal and Drug Free (struggle, score 61) - ../src/content/blog/2024-04-22-three-years-into-winning-type-2-diabetes-from-high.md
+- 2022-08-27 - I Can’t…Until I Can: Run a Mile (struggle, score 54) - ../src/content/blog/2022-08-27-i-cantuntil-i-can-run-a-mile.md
+- 2025-01-05 - New Years Systems, not Resolutions (victory, score 52) - ../src/content/blog/2025-01-04-new-years-systems-not-resolutions.md
+- 2024-09-12 - You Are Worth Every Hard Step (victory, score 52) - ../src/content/blog/2024-09-12-you-are-worth-every-hard-step.md
+- 2024-03-03 - Give Yourself Space to Learn (struggle, score 52) - ../src/content/blog/2024-03-02-give-yourself-space-to-learn.md
+- 2024-07-06 - Pawpaw Proof (struggle, score 51) - ../src/content/blog/2024-07-06-pawpaw-proof.md
+- 2023-09-13 - Talk To Your Doctor (victory, score 50) - ../src/content/blog/2023-09-13-talk-to-your-doctor.md
+- 2023-01-26 - I Can’t…Until I Can – Walk In The Winter (struggle, score 49) - ../src/content/blog/2023-01-26-i-cantuntil-i-can-8211-walk-in-the-winter.md
+- 2024-06-22 - Fail and Fail Again (transformation, score 48) - ../src/content/blog/2024-06-22-fail-and-fail-again.md
+- 2023-05-02 - I Can’t…Until I Can – Mow the Lawn (struggle, score 48) - ../src/content/blog/2023-05-02-i-cantuntil-i-can-8211-mow-the-lawn.md
+- 2024-08-08 - Winter is Coming – Three Year Supernatural Surprise (victory, score 47) - ../src/content/blog/2024-08-08-winter-is-coming-8211-three-year-supernatural-surp.md
+- 2023-09-30 - Work Your Way Off The Edge (struggle, score 47) - ../src/content/blog/2023-09-30-work-your-way-off-the-edge.md
+- 2024-04-13 - Saturday Push Day – Health Takes Time (struggle, score 46) - ../src/content/blog/2024-04-13-saturday-push-day-8211-health-takes-time.md
+
+Memoir arc:
+- 2012-08-15 - The Battle Starts in the Mind (wisdom) - ../src/content/blog/2012-08-15-the-battle-starts-in-the-mind.md
+- 2012-09-24 - 100lbs Less of Lee and Wife (relationship) - ../src/content/blog/2012-09-24-100lbs-less-of-lee-and-wife.md
+- 2012-11-27 - The Secrets to My Success – A Thanksgiving Story (relationship) - ../src/content/blog/2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor.md
+- 2012-12-03 - No Longer Obese (victory) - ../src/content/blog/2012-12-03-no-longer-obese.md
+- 2021-05-04 - I Can’t Drive 55!  Fast and Faster (victory) - ../src/content/blog/2021-05-04-i-can8217t-drive-55-fast-and-faster.md
+- 2021-05-21 - Month One Results – Reversing T2 Diabetes (victory) - ../src/content/blog/2021-05-21-month-one-results-8211-reversing-t2-diabetes.md
+- 2021-06-21 - 2-Month Progress Report (victory) - ../src/content/blog/2021-06-21-2-month-progress-report.md
+- 2021-07-31 - Off All Diabetes Meds – 3 Month Update (victory) - ../src/content/blog/2021-07-31-off-all-diabetes-meds-8211-3-month-update.md
+- 2021-12-30 - Day 4 of my 5 Day Fast / Cleanse (relapse) - ../src/content/blog/2021-12-30-day-4-of-my-5-day-fast-cleanse.md
+- 2022-01-02 - Fat to Thin and Fat Again: Lesson 1 – Health and Fitness is not a Destination (struggle) - ../src/content/blog/2022-01-01-fat-to-thin-and-fat-again-lesson-1-8211-health-and.md
+- 2022-01-17 - Fat to Thin and Fat Again: Lesson 2 – The Health Hobby (wisdom) - ../src/content/blog/2022-01-17-fat-to-thin-and-fat-again-lesson-2-8211-the-health.md
+- 2022-02-06 - I Can’t…Until I Can – Exercise Vigorously for an Hour (wisdom) - ../src/content/blog/2022-02-06-i-cantuntil-i-can-8211-exercise-vigorously-for-an.md
+- 2022-02-13 - I Can’t…Until I Can: Play Pickleball (struggle) - ../src/content/blog/2022-02-12-i-cantuntil-i-can-play-pickleball.md
+- 2022-02-23 - 10 Month Update – Less of Lee Round 2 (victory) - ../src/content/blog/2022-02-23-10-month-update-8211-less-of-lee-round-2.md
+- 2022-02-25 - The Benefits of Extended Fasting – Day 4 (wisdom) - ../src/content/blog/2022-02-24-the-benefits-of-extended-fasting-8211-day-4.md
 
 ### Where are strong recurring concepts or chapter ideas?
 
-- Start Where You Are - 143 strong matches, 0 weak matches - Start Where You Are
+- Start Where You Are - 144 strong matches, 0 weak matches - Start Where You Are
+- A Little More, A Bit Farther, Always - 128 strong matches, 23 weak matches - A Little More, A Bit Farther, Always
 - Hard Is Mandatory - 83 strong matches, 0 weak matches - Hard Is Mandatory
 - Reclaiming Abilities - 70 strong matches, 113 weak matches - Reclaiming Real Life
 - I Can't Until I Can - 36 strong matches, 230 weak matches - The Impossible Becomes Routine
@@ -259,11 +292,11 @@ Memoir arc:
 - Fail Your Way To Health - 7 strong matches, 19 weak matches - Failure Is Not The Opposite Of Progress
 - You Build Your Health - 7 strong matches, 0 weak matches - You Build Your Health
 - The Feast And The Fast - 6 strong matches, 167 weak matches - The Feast And The Fast
-- The Body As Feedback System - 4 strong matches, 3 weak matches - Your Body Tells The Truth
 
 ## Strongest Concepts
 
-- Start Where You Are - 143 strong matches, 0 weak matches - Start Where You Are
+- Start Where You Are - 144 strong matches, 0 weak matches - Start Where You Are
+- A Little More, A Bit Farther, Always - 128 strong matches, 23 weak matches - A Little More, A Bit Farther, Always
 - Hard Is Mandatory - 83 strong matches, 0 weak matches - Hard Is Mandatory
 - Reclaiming Abilities - 70 strong matches, 113 weak matches - Reclaiming Real Life
 - I Can't Until I Can - 36 strong matches, 230 weak matches - The Impossible Becomes Routine
@@ -272,7 +305,6 @@ Memoir arc:
 - The Food That Made You Sick - 10 strong matches, 0 weak matches - The Food That Made Me Sick
 - No Longer Fragile - 8 strong matches, 59 weak matches - No Longer Fragile
 - Fail Your Way To Health - 7 strong matches, 19 weak matches - Failure Is Not The Opposite Of Progress
-- You Build Your Health - 7 strong matches, 0 weak matches - You Build Your Health
 
 ## Highest Scoring Story Candidates
 
@@ -281,16 +313,21 @@ Memoir arc:
   - Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, failure-restart, food-addiction
   - Source: ../src/content/blog/2024-02-17-reflections-of-a-former-diabetic-8211-pt-1-the-alc.md
   - Excerpt: "April 22, 2021 was a pivotal day for me."
-- 2025-11-17 - I Decided to Stop Being Diabetic
-  - Type: relapse
-  - Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, failure-restart, fasting, feasting
-  - Source: ../src/content/blog/2025-11-17-i-decided-to-stop-being-diabetic.md
-  - Excerpt: "A bold claim that I will proceed to back this claim up."
 - 2025-10-22 - Fasting Conclusion – Discipline Restored!
   - Type: relapse
   - Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, failure-restart, fasting, feasting
   - Source: ../src/content/blog/2025-10-22-fasting-conclusion-8211-discipline-restored.md
   - Excerpt: "I’ve never failed so well before."
+- 2025-11-17 - I Decided to Stop Being Diabetic
+  - Type: relapse
+  - Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, failure-restart, fasting, feasting
+  - Source: ../src/content/blog/2025-11-17-i-decided-to-stop-being-diabetic.md
+  - Excerpt: "A bold claim that I will proceed to back this claim up."
+- 2024-04-23 - Three Years into Winning Type 2 Diabetes from Highly Diabetic to Normal and Drug Free
+  - Type: struggle
+  - Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, fasting, mantras
+  - Source: ../src/content/blog/2024-04-22-three-years-into-winning-type-2-diabetes-from-high.md
+  - Excerpt: "My A1c was 11."
 - 2023-12-22 - Fasting and Arthritis – Post Fast Day 2
   - Type: struggle
   - Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, fasting, feasting
@@ -301,11 +338,6 @@ Memoir arc:
   - Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, failure-restart, family-responsibility
   - Source: ../src/content/blog/2024-04-11-in-praise-of-yoyo-dieting.md
   - Excerpt: "My A1c hit 11."
-- 2024-04-23 - Three Years into Winning Type 2 Diabetes from Highly Diabetic to Normal and Drug Free
-  - Type: struggle
-  - Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, fasting, mindset
-  - Source: ../src/content/blog/2024-04-22-three-years-into-winning-type-2-diabetes-from-high.md
-  - Excerpt: "My A1c was 11."
 - 2023-07-21 - Two Years Med Free – Health Recovery
   - Type: victory
   - Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, fasting, feasting
@@ -351,6 +383,11 @@ Memoir arc:
   - Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, health-identity, mindset
   - Source: ../src/content/blog/2023-04-15-the-former-diabetic-8211-2-years-in-a1c-of-52-no-m.md
   - Excerpt: "Two years ago, on April 22nd, I received a life-changing diagnosis."
+- 2022-08-27 - I Can’t…Until I Can: Run a Mile
+  - Type: struggle
+  - Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, fasting, health-identity, mantras
+  - Source: ../src/content/blog/2022-08-27-i-cantuntil-i-can-run-a-mile.md
+  - Excerpt: "It doesn’t happen over night."
 - 2024-03-15 - Lessons Learned in Fainting During a Fast
   - Type: victory
   - Themes: reversing-type-2-diabetes-journey, a1c-labs, exercise, fasting, feasting, type-2-diabetes
@@ -361,21 +398,16 @@ Memoir arc:
   - Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, failure-restart, fasting, health-identity
   - Source: ../src/content/blog/2025-10-17-week-1-fasting-update-8211-doctor-and-labs.md
   - Excerpt: "My “magic knees” started appearing on day 3 and by day 5 it’s like I don’t have osteoarthritis at all."
+- 2025-11-18 - Start Where You Are, Make Progress
+  - Type: relapse
+  - Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, fasting, feasting, health-identity
+  - Source: ../src/content/blog/2025-11-18-start-where-you-are-make-progress.md
+  - Excerpt: "So – let’s discuss why I’m doing this particular protocol when I did nothing nearly as difficult and got off all my meds, and took my A1c from 11."
 - 2023-11-25 - Take Off the Spiked Shoes
   - Type: victory
   - Themes: reversing-type-2-diabetes-journey, a1c-labs, capability-recovery, exercise, failure-restart, fasting
   - Source: ../src/content/blog/2023-11-25-take-off-the-spiked-shoes.md
   - Excerpt: "I developed type 2 diabetes."
-- 2025-10-28 - On the Road to Cease Being Diabetic – Again
-  - Type: victory
-  - Themes: reversing-type-2-diabetes-journey, a1c-labs, failure-restart, fasting, feasting, health-identity
-  - Source: ../src/content/blog/2025-10-27-on-the-road-to-cease-being-diabetic-8211-again.md
-  - Excerpt: "How do I KNOW for a fact that I’m about to become non-diabetic again?"
-- 2022-08-27 - I Can’t…Until I Can: Run a Mile
-  - Type: struggle
-  - Themes: reversing-type-2-diabetes-journey, capability-recovery, exercise, fasting, health-identity, mindset
-  - Source: ../src/content/blog/2022-08-27-i-cantuntil-i-can-run-a-mile.md
-  - Excerpt: "It doesn’t happen over night."
 
 ## How To Use This
 

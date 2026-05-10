@@ -104,7 +104,9 @@ The MVP uses transparent heuristics so results can be trusted and improved:
 - source tags from WordPress frontmatter
 - keyword aliases from `data/tags.json`
 - boundary-aware alias matching so common fragments do not inflate tags and concepts
-- one era-derived journey tag per post: original Less of Lee before 2021, Type 2 diabetes reversal from 2021 onward
+- tag `type` metadata so era partitions are distinguishable from topical tags
+- one era-derived partition tag per post: original Less of Lee before 2021, Type 2 diabetes reversal from 2021 onward
+- mantra aliases for Lee's recurring refrains, including `start where you are`, `make progress`, `a little more`, and `a bit farther`
 - paragraph scoring for first-person tension, change, result, and lesson language
 - concept seed phrases from the project definition and recurring title patterns, with strong and weak evidence separated
 

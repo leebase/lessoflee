@@ -54,6 +54,11 @@ node scripts/build-mining-mvp.js
   - journey display tags are preserved in story `themes`
   - validation reports journey story candidates across total tagged posts
   - determinism is documented as a release check rather than an in-pipeline check
+- Read `code-reviews/review-sprint-1-round-2.md` and addressed the remaining design items:
+  - journey tags are now typed as `partition` in `data/tags.json`
+  - all other controlled tags default to `topic`
+  - Lee's recurring mantras are now tagged with `mantras`
+  - added `A Little More, A Bit Farther, Always` as an explicit concept candidate
 
 ### Decisions Locked
 
@@ -68,6 +73,7 @@ node scripts/build-mining-mvp.js
 | Reports are the first interface | Lee can inspect Markdown/CSV without a web app yet | 2026-05-10 |
 | Health journeys are era-derived tags | The original Less of Lee weight-loss journey and the Type 2 diabetes reversal journey are separate arcs, not just keyword topics | 2026-05-10 |
 | Concept `frequency` means strong evidence only | Weak alias-only matches are retained separately so chapter ideas are not inflated by words like `fast`, `walk`, or `I can` | 2026-05-10 |
+| Mantras are authorial signal | Repeated phrases like `start where you are, make progress` and `a little more, a bit farther, always` should be mined as deliberate Lee refrains | 2026-05-10 |
 
 ### Next Actions Queue
 
