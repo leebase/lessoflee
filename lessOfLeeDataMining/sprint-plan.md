@@ -2,6 +2,25 @@
 
 ---
 
+## Sprint 1R - Mining Precision Remediation
+
+**Goal**: Address the first data review findings so the MVP is safer to use for actual book mining.
+
+**Status**: Done
+
+### Tasks
+
+| ID | Task | Status | Notes |
+|----|------|--------|-------|
+| S1R-01 | Fix broad alias matching | Done | Boundary-aware alias matching; weak single-word hits separated |
+| S1R-02 | Rework concept support counts | Done | `frequency` now means strong matches; weak matches remain visible |
+| S1R-03 | Rebalance story type classification | Done | `relapse`, `struggle`, `relationship`, and `identity` no longer get swallowed by `transformation` |
+| S1R-04 | Improve dashboard usefulness | Done | Top matches plus memoir arc views; journey split added |
+| S1R-05 | Separate health journeys | Done | Original Less of Lee: 49 posts; Reversing Type 2 Diabetes: 540 posts |
+| S1R-06 | Validate regenerated artifacts | Done | Pipeline, syntax, excerpt entity scan, CSV count, and determinism checks pass |
+
+---
+
 ## Sprint 1 - Full Book Mining MVP
 
 **Goal**: Build the first usable book-mining layer over all 589 WordPress posts.

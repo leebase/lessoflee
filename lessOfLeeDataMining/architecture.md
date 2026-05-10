@@ -32,11 +32,12 @@ The script performs these stages:
 2. Parse frontmatter and body text.
 3. Build the canonical post index.
 4. Apply a controlled vocabulary through keyword and title heuristics.
-5. Extract story candidates from high-signal posts and paragraphs.
-6. Extract recurring concept candidates from seed phrases and aliases.
-7. Generate machine-readable data files.
-8. Generate human-readable reports.
-9. Run validation and write `reports/validation.md`.
+5. Add one era-derived health journey tag to each post.
+6. Extract story candidates from high-signal posts and paragraphs.
+7. Extract recurring concept candidates from seed phrases and aliases.
+8. Generate machine-readable data files.
+9. Generate human-readable reports.
+10. Run validation and write `reports/validation.md`.
 
 ## Outputs
 
@@ -102,8 +103,10 @@ The MVP uses transparent heuristics so results can be trusted and improved:
 - title signals such as `A1c`, `fast`, `can't until I can`, `Saturday Push Day`, `restart`, `diabetes`, and `Pawpaw`
 - source tags from WordPress frontmatter
 - keyword aliases from `data/tags.json`
+- boundary-aware alias matching so common fragments do not inflate tags and concepts
+- one era-derived journey tag per post: original Less of Lee before 2021, Type 2 diabetes reversal from 2021 onward
 - paragraph scoring for first-person tension, change, result, and lesson language
-- concept seed phrases from the project definition and recurring title patterns
+- concept seed phrases from the project definition and recurring title patterns, with strong and weak evidence separated
 
 The outputs are candidates, not final editorial judgment.
 
@@ -118,6 +121,7 @@ Validation runs in the pipeline and checks:
 - unique IDs
 - source file path existence
 - post tag references
+- every post has exactly one health journey tag
 - story candidate source excerpts appear in source body
 - deterministic output across consecutive runs
 - CSV row count matches post count
@@ -139,4 +143,3 @@ Not allowed:
 - adding paid APIs
 - adding external runtime dependencies
 - presenting heuristic candidates as final manuscript material
-

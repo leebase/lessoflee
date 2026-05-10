@@ -8,7 +8,24 @@ Lee is the primary user. He needs to quickly find stories, claims, lessons, quot
 
 ## Use Cases
 
-### 1. Find the strongest transformation arc
+### 1. Separate the two major health journeys
+
+Lee has two related but distinct source arcs: the original Less of Lee weight-loss journey and the later Reversing Type 2 Diabetes journey.
+
+The system should surface:
+
+- posts from the original 2012-2013 weight-loss arc
+- posts from the 2021-present Type 2 diabetes reversal arc
+- date ranges and opening/later posts for each journey
+- tags that let later reports and agents stay inside one arc when needed
+
+Useful outputs:
+
+- dashboard Health Journey Split
+- controlled tags `original-less-of-lee-journey` and `reversing-type-2-diabetes-journey`
+- post index with controlled tags
+
+### 2. Find the strongest transformation arc
 
 Lee wants to reconstruct the big story from obesity and Type 2 diabetes through remission, relapse, rebuilding, and renewed discipline.
 
@@ -26,7 +43,7 @@ Useful outputs:
 - dashboard sections for diabetes, relapse, restart, and milestones
 - concept candidates such as `former diabetic`, `health is the destination`, and `start where you are`
 
-### 2. Find diabetes reversal evidence
+### 3. Find diabetes reversal evidence
 
 Lee wants source-backed material for a practical or memoir-driven book about Type 2 diabetes reversal.
 
@@ -45,7 +62,7 @@ Useful outputs:
 - story candidates with evidence excerpts
 - dashboard answer to "Where are my best diabetes reversal stories?"
 
-### 3. Find fasting stories and lessons
+### 4. Find fasting stories and lessons
 
 Lee wants to locate fasting material by experience type: first attempts, extended fasts, safety concerns, lab evidence, pain relief, discipline, and breaking the fast.
 
@@ -62,7 +79,7 @@ Useful outputs:
 - tags for `fasting`, `extended fasting`, `feasting`, `carnivore`, `pain`, `lab results`
 - story candidates for struggle, wisdom, relapse, and victory
 
-### 4. Find "I can't until I can" capability stories
+### 5. Find "I can't until I can" capability stories
 
 Lee wants repeatable examples of becoming able to do things that once seemed impossible.
 
@@ -78,7 +95,7 @@ Useful outputs:
 - tags for `mobility`, `exercise`, `strength training`, `walking`, `running`, `identity`
 - story candidates typed as `victory`, `transformation`, and `identity`
 
-### 5. Find relapse, restart, and comeback material
+### 6. Find relapse, restart, and comeback material
 
 Lee wants honest material that prevents the book from becoming fake victory-lap writing.
 
@@ -95,7 +112,7 @@ Useful outputs:
 - tags for `relapse`, `restart`, `discipline`, `food addiction`, `carb sensitivity`
 - dashboard answer to "Where are restart/failure/comeback stories?"
 
-### 6. Find family and responsibility stories
+### 7. Find family and responsibility stories
 
 Lee wants stories where the stakes are not just personal health, but being a husband, father, grandfather, and useful person.
 
@@ -112,7 +129,7 @@ Useful outputs:
 - tags for `family`, `grandfather`, `marriage`, `identity`
 - story candidates typed as `relationship` and `identity`
 
-### 7. Find practical chapter material
+### 8. Find practical chapter material
 
 Lee wants practical book sections that teach what worked.
 
@@ -128,7 +145,7 @@ Useful outputs:
 - tags for `keto`, `carnivore`, `recipes`, `exercise`, `fasting`, `discipline`
 - post index with summaries and source tags
 
-### 8. Find quotes and Lee-isms
+### 9. Find quotes and Lee-isms
 
 Lee wants reusable lines for chapter titles, pull quotes, social posts, talks, and section openings.
 
@@ -145,7 +162,7 @@ Useful outputs:
 - story candidates report
 - dashboard section for recurring ideas
 
-### 9. Build candidate book structures
+### 10. Build candidate book structures
 
 Lee wants to see possible books hiding inside the archive.
 
@@ -163,7 +180,7 @@ Useful outputs:
 - dashboard grouped by use case
 - concept candidates mapped to chapter ideas
 
-### 10. Verify source truth while writing
+### 11. Verify source truth while writing
 
 Lee needs to avoid misremembering his own story.
 
@@ -180,9 +197,9 @@ The system should always provide:
 The first MVP is useful if Lee can open `reports/book-mining-dashboard.md` and immediately find:
 
 - diabetes reversal stories
+- separate entry points for the original Less of Lee journey and the Type 2 diabetes reversal journey
 - fasting stories
 - restart/failure/comeback stories
 - family/responsibility stories
 - recurring concepts that look like chapter ideas
 - exact source files to read next
-

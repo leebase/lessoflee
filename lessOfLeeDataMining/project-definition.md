@@ -10,6 +10,8 @@ The project turns the archive into a source library for writing books: stories, 
 
 Lee should be able to open the generated reports and quickly answer:
 
+- Where is the original Less of Lee weight-loss journey?
+- Where is the Reversing Type 2 Diabetes journey?
 - Where are my best diabetes reversal stories?
 - Where are my fasting stories?
 - Where are restart, failure, and comeback stories?
@@ -38,6 +40,7 @@ Related source material:
 Detailed use cases live in `use-cases.md`. The data model must support:
 
 - transformation timeline reconstruction
+- separation of the original Less of Lee weight-loss journey from the later Type 2 diabetes reversal journey
 - diabetes reversal evidence
 - fasting lessons and safety stories
 - "I can't until I can" capability stories
@@ -90,6 +93,11 @@ Output:
 ### 2. Controlled Vocabulary
 
 A normalized tag set with aliases and descriptions.
+
+Two journey tags are required and should partition the archive exactly once per post:
+
+- `original-less-of-lee-journey`
+- `reversing-type-2-diabetes-journey`
 
 Required fields:
 
@@ -166,6 +174,8 @@ Output:
 
 A Lee-facing entry point that groups useful source material by use case.
 
+The dashboard must include a Health Journey Split section before story-mining questions so Lee can start from either major arc.
+
 Output:
 
 - `reports/book-mining-dashboard.md`
@@ -201,4 +211,3 @@ It reads source posts, writes data files, generates reports, and records validat
 - Add RAG only after the archive has stable IDs, summaries, tags, and candidate records.
 - Keep generated artifacts separate from source blog content.
 - Do not modify `../src/content/blog`.
-

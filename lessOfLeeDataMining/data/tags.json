@@ -1,5 +1,54 @@
 [
   {
+    "id": "original-less-of-lee-journey",
+    "label": "Original Less of Lee Journey",
+    "description": "The original 2012-2013 Less of Lee weight-loss and fitness journey before the later Type 2 diabetes reversal arc.",
+    "aliases": [
+      "less of lee",
+      "weight loss",
+      "obese",
+      "obesity",
+      "biggest loser",
+      "couch potato",
+      "onederland",
+      "25lbs",
+      "50lbs",
+      "70lbs",
+      "80lbs",
+      "100lbs"
+    ],
+    "book_uses": [
+      "memoir_spine",
+      "original_arc",
+      "weight_loss_origin"
+    ]
+  },
+  {
+    "id": "reversing-type-2-diabetes-journey",
+    "label": "Reversing Type 2 Diabetes Journey",
+    "description": "The 2021-present arc of reversing Type 2 diabetes, leaving medication, maintaining remission, relapse, and renewed recovery.",
+    "aliases": [
+      "reversing type 2 diabetes",
+      "type 2 diabetes",
+      "t2d",
+      "diabetes",
+      "diabetic",
+      "a1c",
+      "metformin",
+      "glipizide",
+      "trulicity",
+      "insulin",
+      "med free",
+      "former diabetic",
+      "diabetes free"
+    ],
+    "book_uses": [
+      "memoir_spine",
+      "diabetes_reversal_arc",
+      "medical_arc"
+    ]
+  },
+  {
     "id": "type-2-diabetes",
     "label": "Type 2 Diabetes",
     "description": "Diagnosis, reversal/remission, labs, medication, glucose, and metabolic recovery.",

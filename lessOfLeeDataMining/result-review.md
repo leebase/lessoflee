@@ -4,6 +4,36 @@
 
 ---
 
+## 2026-05-10 — Mining MVP Precision Remediation
+
+### What Was Built
+Remediated the first data review findings in the mining pipeline. The script now uses boundary-aware alias matching, separates weak concept evidence from strong supporting posts, rebalances story type classification away from the old `transformation` catch-all, expands the dashboard with score-sorted and memoir-arc views, decodes story excerpts, and adds explicit health journey tags.
+
+The two health journeys are now first-class controlled tags:
+
+- `original-less-of-lee-journey`: 49 posts, 2012-04-13 to 2013-08-03.
+- `reversing-type-2-diabetes-journey`: 540 posts, 2021-05-04 to 2025-12-07.
+
+### Why It Matters
+Lee can distinguish the original weight-loss memoir arc from the later Type 2 diabetes reversal arc without relying on fuzzy topic matches. Concept counts are safer to use as chapter signals because weak alias hits are visible but no longer counted as support.
+
+### How to Verify
+```bash
+cd lessOfLeeDataMining
+node scripts/build-mining-mvp.js
+sed -n '1,120p' reports/book-mining-dashboard.md
+sed -n '1,80p' reports/validation.md
+```
+
+Expected results:
+
+- `reports/validation.md` shows no failures.
+- Health journey partition is `49 original + 540 diabetes = 589`.
+- Story excerpts pass the source and HTML entity checks.
+- Dashboard begins with a Health Journey Split section.
+
+---
+
 ## 2026-05-10 — Full Book Mining MVP
 
 ### What Was Built

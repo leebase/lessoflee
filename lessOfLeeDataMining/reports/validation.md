@@ -8,15 +8,19 @@
 - ID uniqueness: PASS
 - File path resolution: PASS
 - Story excerpt source check: PASS
+- Story excerpt entity scan: PASS
 - CSV row count check: PASS
+- Health journey partition: 49 original + 540 diabetes = 589
 
 ## Test As Lee
 
 Dashboard questions checked against generated story candidates:
-- Where are my best diabetes reversal stories? 179 candidates found
-- Where are restart/failure/comeback stories? 173 candidates found
-- Where are fasting stories? 180 candidates found
-- Where are family/responsibility stories? 178 candidates found
+- Where is the original Less of Lee weight-loss journey? 3 candidates found
+- Where is the Reversing Type 2 Diabetes journey? 107 candidates found
+- Where are my best diabetes reversal stories? 107 candidates found
+- Where are restart/failure/comeback stories? 147 candidates found
+- Where are fasting stories? 178 candidates found
+- Where are family/responsibility stories? 137 candidates found
 - Where are strong recurring concepts or chapter ideas? covered by concept report
 
 Manual spot-check set for title/date/summary/source review:

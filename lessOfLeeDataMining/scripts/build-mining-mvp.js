@@ -12,8 +12,69 @@ const dataDir = path.join(projectRoot, "data");
 const reportsDir = path.join(projectRoot, "reports");
 
 const EXPECTED_SOURCE_COUNT = 589;
+const DASHBOARD_STORY_LIMIT = 15;
+const DASHBOARD_CONCEPT_LIMIT = 12;
+const DISTINCTIVE_SHORT_ALIASES = new Set(["a1c", "cgm", "crp", "nsv", "5k", "t2d", "bbbe", "hiit"]);
+const AMBIGUOUS_ALIASES = new Set([
+  "again",
+  "abilities",
+  "fast",
+  "feast",
+  "free",
+  "hard",
+  "i can",
+  "lab",
+  "pain",
+  "reclaim",
+  "run",
+  "walk",
+  "weakness",
+]);
 
 const TAGS = [
+  {
+    id: "original-less-of-lee-journey",
+    label: "Original Less of Lee Journey",
+    description:
+      "The original 2012-2013 Less of Lee weight-loss and fitness journey before the later Type 2 diabetes reversal arc.",
+    aliases: [
+      "less of lee",
+      "weight loss",
+      "obese",
+      "obesity",
+      "biggest loser",
+      "couch potato",
+      "onederland",
+      "25lbs",
+      "50lbs",
+      "70lbs",
+      "80lbs",
+      "100lbs",
+    ],
+    book_uses: ["memoir_spine", "original_arc", "weight_loss_origin"],
+  },
+  {
+    id: "reversing-type-2-diabetes-journey",
+    label: "Reversing Type 2 Diabetes Journey",
+    description:
+      "The 2021-present arc of reversing Type 2 diabetes, leaving medication, maintaining remission, relapse, and renewed recovery.",
+    aliases: [
+      "reversing type 2 diabetes",
+      "type 2 diabetes",
+      "t2d",
+      "diabetes",
+      "diabetic",
+      "a1c",
+      "metformin",
+      "glipizide",
+      "trulicity",
+      "insulin",
+      "med free",
+      "former diabetic",
+      "diabetes free",
+    ],
+    book_uses: ["memoir_spine", "diabetes_reversal_arc", "medical_arc"],
+  },
   {
     id: "type-2-diabetes",
     label: "Type 2 Diabetes",
@@ -501,7 +562,7 @@ const STORY_TYPE_RULES = [
   },
   {
     type: "transformation",
-    words: ["used to", "now", "from", "to", "before", "after", "became", "reclaim"],
+    words: ["used to", "no longer", "before", "after", "became", "reclaimed", "transformed"],
     book_uses: ["memoir_scene", "transformation_scene"],
   },
   {
@@ -523,8 +584,23 @@ const STORY_TYPE_RULES = [
 
 const DASHBOARD_QUESTIONS = [
   {
+    question: "Where is the original Less of Lee weight-loss journey?",
+    tags: ["original-less-of-lee-journey", "capability-recovery", "nsv"],
+    required_tags: ["original-less-of-lee-journey"],
+    keywords: ["less of lee", "weight", "obese", "onederland", "100lbs", "plateau"],
+    types: ["victory", "relationship", "relapse", "struggle"],
+  },
+  {
+    question: "Where is the Reversing Type 2 Diabetes journey?",
+    tags: ["reversing-type-2-diabetes-journey", "type-2-diabetes", "a1c-labs", "health-identity"],
+    required_tags: ["reversing-type-2-diabetes-journey"],
+    keywords: ["diabetes", "diabetic", "a1c", "med", "insulin", "doctor", "lab", "remission"],
+    types: ["victory", "transformation", "identity", "relapse", "struggle"],
+  },
+  {
     question: "Where are my best diabetes reversal stories?",
-    tags: ["type-2-diabetes", "a1c-labs", "health-identity"],
+    tags: ["reversing-type-2-diabetes-journey", "type-2-diabetes", "a1c-labs", "health-identity"],
+    required_tags: ["reversing-type-2-diabetes-journey"],
     keywords: ["diabetes", "diabetic", "a1c", "med", "insulin", "doctor", "lab"],
     types: ["victory", "transformation", "identity"],
   },
@@ -570,7 +646,7 @@ function main() {
 
   const postTags = buildPostTags(posts);
   const storyCandidates = buildStoryCandidates(posts, postTags);
-  const conceptCandidates = buildConceptCandidates(posts);
+  const conceptCandidates = buildConceptCandidates(posts, postTags);
 
   writeJsonl(path.join(dataDir, "posts.jsonl"), posts.map(toPostRecord));
   writeJson(path.join(dataDir, "tags.json"), TAGS);
@@ -584,7 +660,7 @@ function main() {
   writeConceptReport(conceptCandidates);
 
   const validation = validateOutputs(posts, postTags, storyCandidates, conceptCandidates);
-  writeValidationReport(validation, posts, storyCandidates);
+  writeValidationReport(validation, posts, postTags, storyCandidates);
 
   if (validation.failures.length > 0) {
     console.error(`Mining MVP completed with ${validation.failures.length} validation failures.`);
@@ -724,32 +800,75 @@ function countWords(text) {
 function buildPostTags(posts) {
   const records = [];
   for (const post of posts) {
-    const haystack = normalize(`${post.title}\n${post.source_tags.join(" ")}\n${post.clean_body}`);
-    const titleHaystack = normalize(post.title);
-    const sourceTagHaystack = normalize(post.source_tags.join(" "));
+    const haystack = `${post.title}\n${post.source_tags.join(" ")}\n${post.clean_body}`;
+    const titleHaystack = post.title;
+    const sourceTagHaystack = post.source_tags.join(" ");
     for (const tag of TAGS) {
+      if (tag.id === "original-less-of-lee-journey" || tag.id === "reversing-type-2-diabetes-journey") {
+        continue;
+      }
       const hits = [];
       for (const alias of tag.aliases) {
-        const normalizedAlias = normalize(alias);
-        if (sourceTagHaystack.includes(normalizedAlias)) {
-          hits.push(`source tag: ${alias}`);
-        } else if (titleHaystack.includes(normalizedAlias)) {
-          hits.push(`title: ${alias}`);
-        } else if (haystack.includes(normalizedAlias)) {
-          hits.push(`body: ${alias}`);
+        if (matchesAlias(sourceTagHaystack, alias)) {
+          hits.push({ location: "source tag", alias, strength: aliasStrength(alias) });
+        } else if (matchesAlias(titleHaystack, alias)) {
+          hits.push({ location: "title", alias, strength: aliasStrength(alias) });
+        } else if (matchesAlias(haystack, alias)) {
+          hits.push({ location: "body", alias, strength: aliasStrength(alias) });
         }
       }
       if (hits.length === 0) continue;
-      const confidence = hits.some(hit => hit.startsWith("source tag")) ? 0.9 : hits.some(hit => hit.startsWith("title")) ? 0.8 : 0.6;
+      const hasSourceHit = hits.some(hit => hit.location === "source tag");
+      const hasTitleHit = hits.some(hit => hit.location === "title");
+      const bodyHits = hits.filter(hit => hit.location === "body");
+      const bodyHasExact = bodyHits.some(hit => hit.strength === "exact");
+      const bodyHasMultipleSignals = new Set(bodyHits.map(hit => normalize(hit.alias))).size >= 2;
+      if (!hasSourceHit && !hasTitleHit && !bodyHasExact && !bodyHasMultipleSignals) continue;
+      if (tag.id === "capability-recovery" && !hasSourceHit && !hasTitleHit && !bodyHasMultipleSignals) continue;
+      const confidence = hasSourceHit
+        ? 0.9
+        : hasTitleHit
+          ? 0.8
+          : !bodyHasExact
+            ? 0.45
+            : 0.6;
       records.push({
         post_id: post.id,
         tag_id: tag.id,
         confidence,
-        evidence: [...new Set(hits)].slice(0, 5),
+        evidence: hits
+          .map(hit => `${hit.location}: ${hit.alias}`)
+          .filter((value, index, values) => values.indexOf(value) === index)
+          .slice(0, 5),
       });
+    }
+    for (const journeyTag of journeyTagsForPost(post)) {
+      if (records.some(record => record.post_id === post.id && record.tag_id === journeyTag.tag_id)) continue;
+      records.push(journeyTag);
     }
   }
   return records.sort((a, b) => a.post_id.localeCompare(b.post_id) || a.tag_id.localeCompare(b.tag_id));
+}
+
+function journeyTagsForPost(post) {
+  const records = [];
+  if (post.date < "2021-01-01") {
+    records.push({
+      post_id: post.id,
+      tag_id: "original-less-of-lee-journey",
+      confidence: 0.95,
+      evidence: ["journey: pre-2021 original Less of Lee archive"],
+    });
+  }
+  if (post.date >= "2021-01-01") {
+    records.push({
+      post_id: post.id,
+      tag_id: "reversing-type-2-diabetes-journey",
+      confidence: 0.95,
+      evidence: ["journey: 2021+ Type 2 diabetes reversal archive"],
+    });
+  }
+  return records;
 }
 
 function buildStoryCandidates(posts, postTags) {
@@ -788,7 +907,6 @@ function buildStoryCandidates(posts, postTags) {
 }
 
 function scoreTitle(title) {
-  const normalized = normalize(title);
   const highSignals = [
     "a1c",
     "diabetes",
@@ -817,7 +935,7 @@ function scoreTitle(title) {
     "pawpaw",
     "arthritis",
   ];
-  return highSignals.reduce((score, word) => (normalized.includes(normalize(word)) ? score + 4 : score), 0);
+  return highSignals.reduce((score, word) => (matchesAlias(title, word) ? score + 4 : score), 0);
 }
 
 function bestParagraph(post) {
@@ -837,9 +955,8 @@ function bestParagraph(post) {
 }
 
 function scoreParagraph(text) {
-  const normalized = normalize(text);
   const groups = [
-    ["used to", "now", "no longer", "before", "after", "from", "to", "again"],
+    ["used to", "no longer", "before", "after", "again"],
     ["pain", "fear", "couldn't", "couldnt", "struggle", "tempted", "hungry", "cane", "diabetic"],
     ["decided", "started", "stopped", "chose", "returned", "restarted", "fasted", "walked", "ran", "lifted"],
     ["result", "normal", "free", "off meds", "reclaimed", "improved", "lost", "stronger", "better"],
@@ -849,7 +966,7 @@ function scoreParagraph(text) {
   let score = 0;
   for (const group of groups) {
     for (const word of group) {
-      if (normalized.includes(normalize(word))) score += 3;
+      if (matchesAlias(text, word)) score += 3;
     }
   }
   if (/\b\d+(\.\d+)?\b/.test(text)) score += 4;
@@ -858,20 +975,32 @@ function scoreParagraph(text) {
 }
 
 function classifyStory(post, paragraphText) {
-  const haystack = normalize(`${post.title}\n${paragraphText}\n${post.clean_body.slice(0, 500)}`);
-  let best = STORY_TYPE_RULES[STORY_TYPE_RULES.length - 1];
-  let bestScore = -1;
-  for (const rule of STORY_TYPE_RULES) {
-    const score = rule.words.reduce(
-      (sum, word) => (haystack.includes(normalize(word)) ? sum + 1 : sum),
-      0,
-    );
-    if (score > bestScore) {
-      bestScore = score;
-      best = rule;
-    }
+  const haystack = `${post.title}\n${paragraphText}\n${post.clean_body.slice(0, 800)}`;
+  const scores = STORY_TYPE_RULES.map(rule => ({
+    rule,
+    score: rule.words.reduce((sum, word) => (matchesAlias(haystack, word) ? sum + 1 : sum), 0),
+  }));
+  const scoreFor = type => scores.find(item => item.rule.type === type)?.score || 0;
+
+  if (scoreFor("relapse") >= 1 && scoreFor("victory") < scoreFor("relapse") + 2) {
+    return STORY_TYPE_RULES.find(rule => rule.type === "relapse");
   }
-  return best;
+  if (scoreFor("struggle") >= 2 && scoreFor("victory") < scoreFor("struggle") + 2) {
+    return STORY_TYPE_RULES.find(rule => rule.type === "struggle");
+  }
+  if (scoreFor("relationship") >= 2) return STORY_TYPE_RULES.find(rule => rule.type === "relationship");
+  if (scoreFor("identity") >= 2) return STORY_TYPE_RULES.find(rule => rule.type === "identity");
+
+  const transformationScore = scoreFor("transformation");
+  const bestNonTransformation = scores
+    .filter(item => item.rule.type !== "transformation")
+    .sort((a, b) => b.score - a.score)[0];
+  if (bestNonTransformation && bestNonTransformation.score > 0 && transformationScore < bestNonTransformation.score + 3) {
+    return bestNonTransformation.rule;
+  }
+
+  if (transformationScore >= 2) return STORY_TYPE_RULES.find(rule => rule.type === "transformation");
+  return bestNonTransformation?.rule || STORY_TYPE_RULES.find(rule => rule.type === "wisdom");
 }
 
 function whyStoryMatters(type, themes, title) {
@@ -879,27 +1008,51 @@ function whyStoryMatters(type, themes, title) {
   return `${title} is a ${type} candidate with signals for ${themeText || "book mining"}. Read the source post to decide whether it becomes a scene, chapter opener, or support example.`;
 }
 
-function buildConceptCandidates(posts) {
+function buildConceptCandidates(posts, postTags) {
   const concepts = [];
+  const strongTagsByPost = groupStrongTagsByPost(postTags);
   for (const seed of CONCEPT_SEEDS) {
     const hits = [];
     for (const post of posts) {
-      const haystack = normalize(`${post.title}\n${post.clean_body}`);
-      const titleHaystack = normalize(post.title);
-      const matchedAliases = seed.aliases.filter(alias => haystack.includes(normalize(alias)));
+      const titleMatchedAliases = seed.aliases.filter(alias => matchesAlias(post.title, alias));
+      const bodyMatchedAliases = seed.aliases.filter(alias => matchesAlias(post.clean_body, alias));
+      const matchedAliases = [...new Set([...titleMatchedAliases, ...bodyMatchedAliases])];
       if (matchedAliases.length === 0) continue;
-      const titleMatch = seed.aliases.some(alias => titleHaystack.includes(normalize(alias)));
+      const titleExactAliases = titleMatchedAliases.filter(alias => aliasStrength(alias) === "exact");
+      const bodyExactAliases = bodyMatchedAliases.filter(alias => aliasStrength(alias) === "exact");
+      const bodyAmbiguousAliases = bodyMatchedAliases.filter(alias => aliasStrength(alias) !== "exact");
+      const relatedStrongTags = seed.related_tags.filter(tagId =>
+        (strongTagsByPost.get(post.id) || new Set()).has(tagId),
+      );
+      const evidenceStrength =
+        titleExactAliases.length > 0 ||
+        bodyExactAliases.some(alias => normalize(alias).includes(" ") && normalize(alias).length >= 8) ||
+        (matchedAliases.length >= 2 && bodyExactAliases.length >= 1)
+          ? "strong"
+          : "weak";
       hits.push({
         post_id: post.id,
         title: post.title,
         date: post.date,
         file_path: post.file_path,
-        title_match: titleMatch,
+        title_match: titleMatchedAliases.length > 0,
+        evidence_strength: evidenceStrength,
         matched_aliases: matchedAliases,
+        evidence: [
+          ...titleMatchedAliases.map(alias => ({ alias, location: "title", strength: aliasStrength(alias) })),
+          ...bodyMatchedAliases.map(alias => ({ alias, location: "body", strength: aliasStrength(alias) })),
+        ],
         quote: findQuoteForAliases(post.body, matchedAliases) || excerptFromParagraph(post.body),
       });
     }
+    const strongHits = hits.filter(hit => hit.evidence_strength === "strong");
+    const weakHits = hits.filter(hit => hit.evidence_strength === "weak");
     const sortedHits = hits.sort((a, b) => {
+      if (a.evidence_strength !== b.evidence_strength) return a.evidence_strength === "strong" ? -1 : 1;
+      if (a.title_match !== b.title_match) return a.title_match ? -1 : 1;
+      return a.date.localeCompare(b.date) || a.post_id.localeCompare(b.post_id);
+    });
+    const sortedStrongHits = strongHits.sort((a, b) => {
       if (a.title_match !== b.title_match) return a.title_match ? -1 : 1;
       return a.date.localeCompare(b.date) || a.post_id.localeCompare(b.post_id);
     });
@@ -909,14 +1062,19 @@ function buildConceptCandidates(posts) {
       definition: seed.definition,
       related_tags: seed.related_tags,
       book_uses: seed.book_uses,
-      supporting_posts: sortedHits.slice(0, 20),
-      frequency: hits.length,
-      representative_quotes: sortedHits.slice(0, 3).map(hit => ({
+      supporting_posts: sortedStrongHits.slice(0, 20),
+      weak_supporting_posts: weakHits
+        .sort((a, b) => a.date.localeCompare(b.date) || a.post_id.localeCompare(b.post_id))
+        .slice(0, 20),
+      frequency: strongHits.length,
+      strong_matches: strongHits.length,
+      weak_matches: weakHits.length,
+      representative_quotes: sortedStrongHits.slice(0, 3).map(hit => ({
         post_id: hit.post_id,
         quote: truncateWords(stripMarkdown(hit.quote), 30),
       })),
       candidate_chapters: seed.candidate_chapters,
-      status: hits.length >= 3 ? "candidate" : "seed",
+      status: strongHits.length >= 3 ? "candidate" : "seed",
     });
   }
   return concepts.sort((a, b) => b.frequency - a.frequency || a.concept_id.localeCompare(b.concept_id));
@@ -996,34 +1154,74 @@ function writeDashboard(posts, postTags, storyCandidates, conceptCandidates) {
   lines.push(`- Concept candidates: ${conceptCandidates.length}`);
   lines.push("");
 
+  lines.push("## Health Journey Split");
+  lines.push("");
+  for (const journey of [
+    ["original-less-of-lee-journey", "Original Less of Lee weight-loss journey"],
+    ["reversing-type-2-diabetes-journey", "Reversing Type 2 Diabetes journey"],
+  ]) {
+    const [tagId, label] = journey;
+    const journeyPosts = posts.filter(post => (tagsByPost.get(post.id) || []).includes(tagId));
+    lines.push(`### ${label}`);
+    lines.push("");
+    if (journeyPosts.length === 0) {
+      lines.push("- No posts tagged yet.");
+      lines.push("");
+      continue;
+    }
+    lines.push(`- Tagged posts: ${journeyPosts.length}`);
+    lines.push(`- Date range: ${journeyPosts[0].date} to ${journeyPosts[journeyPosts.length - 1].date}`);
+    lines.push("- Opening posts:");
+    for (const post of journeyPosts.slice(0, 5)) {
+      lines.push(`  - ${post.date} - ${post.title} - ${post.file_path}`);
+    }
+    lines.push("- Later posts:");
+    for (const post of journeyPosts.slice(-5)) {
+      lines.push(`  - ${post.date} - ${post.title} - ${post.file_path}`);
+    }
+    lines.push("");
+  }
+
   lines.push("## Lee Questions");
   lines.push("");
   for (const item of DASHBOARD_QUESTIONS) {
     lines.push(`### ${item.question}`);
     lines.push("");
     if (item.concepts) {
-      for (const concept of conceptCandidates.slice(0, 8)) {
+      for (const concept of conceptCandidates.slice(0, DASHBOARD_CONCEPT_LIMIT)) {
         lines.push(
-          `- ${concept.name} - ${concept.frequency} supporting posts - ${concept.candidate_chapters.join("; ")}`,
+          `- ${concept.name} - ${concept.strong_matches} strong matches, ${concept.weak_matches} weak matches - ${concept.candidate_chapters.join("; ")}`,
         );
       }
     } else {
-      const stories = uniqueBy(
+      const scoredStories = uniqueBy(
         item.tags.flatMap(tag => storyByTag.get(tag) || []),
         story => story.story_id,
       )
         .map(story => ({ story, question_score: scoreForQuestion(story, item) }))
         .filter(itemScore => itemScore.question_score > 0)
-        .sort((a, b) => b.question_score - a.question_score || b.story.score - a.story.score)
-        .slice(0, 8)
-        .map(itemScore => itemScore.story);
+        .sort((a, b) =>
+          b.question_score - a.question_score ||
+          b.story.score - a.story.score ||
+          b.story.date.localeCompare(a.story.date),
+        );
+      const stories = scoredStories.slice(0, DASHBOARD_STORY_LIMIT).map(itemScore => itemScore.story);
       if (stories.length === 0) {
         lines.push("- No candidates yet.");
       }
+      lines.push("Top matches:");
       for (const story of stories) {
         lines.push(
           `- ${story.date} - ${story.title} (${story.type}, score ${story.score}) - ${story.file_path}`,
         );
+      }
+      lines.push("");
+      lines.push("Memoir arc:");
+      for (const story of scoredStories
+        .map(itemScore => itemScore.story)
+        .sort((a, b) => a.date.localeCompare(b.date) || a.post_id.localeCompare(b.post_id))
+        .slice(0, DASHBOARD_STORY_LIMIT)) {
+        lines.push(`- ${story.date} - ${story.title} (${story.type}) - ${story.file_path}`);
       }
     }
     lines.push("");
@@ -1033,7 +1231,7 @@ function writeDashboard(posts, postTags, storyCandidates, conceptCandidates) {
   lines.push("");
   for (const concept of conceptCandidates.slice(0, 10)) {
     lines.push(
-      `- ${concept.name} - ${concept.frequency} supporting posts - ${concept.candidate_chapters.join("; ")}`,
+      `- ${concept.name} - ${concept.strong_matches} strong matches, ${concept.weak_matches} weak matches - ${concept.candidate_chapters.join("; ")}`,
     );
   }
   lines.push("");
@@ -1061,10 +1259,16 @@ function writeDashboard(posts, postTags, storyCandidates, conceptCandidates) {
 }
 
 function scoreForQuestion(story, question) {
-  const text = normalize(`${story.title} ${story.source_excerpt} ${story.why_it_matters}`);
+  const text = `${story.title} ${story.source_excerpt} ${story.why_it_matters}`;
+  if (
+    question.required_tags &&
+    !story.themes.some(theme => question.required_tags.includes(theme))
+  ) {
+    return 0;
+  }
   const tagScore = story.themes.filter(theme => question.tags.includes(theme)).length * 10;
   const keywordScore = (question.keywords || []).reduce(
-    (score, keyword) => (text.includes(normalize(keyword)) ? score + 8 : score),
+    (score, keyword) => (matchesAlias(text, keyword) ? score + 8 : score),
     0,
   );
   const typeScore = (question.types || []).includes(story.type) ? 5 : 0;
@@ -1101,7 +1305,8 @@ function writeConceptReport(conceptCandidates) {
     lines.push(concept.definition);
     lines.push("");
     lines.push(`- Status: ${concept.status}`);
-    lines.push(`- Supporting posts: ${concept.frequency}`);
+    lines.push(`- Strong supporting posts: ${concept.strong_matches}`);
+    lines.push(`- Weak matches not counted as support: ${concept.weak_matches}`);
     lines.push(`- Related tags: ${concept.related_tags.join(", ")}`);
     lines.push(`- Book uses: ${concept.book_uses.join(", ")}`);
     lines.push(`- Candidate chapters: ${concept.candidate_chapters.join("; ")}`);
@@ -1114,6 +1319,13 @@ function writeConceptReport(conceptCandidates) {
     lines.push("Top supporting posts:");
     for (const post of concept.supporting_posts.slice(0, 10)) {
       lines.push(`- ${post.date} - ${post.title} - ${post.file_path}`);
+    }
+    if (concept.weak_supporting_posts.length > 0) {
+      lines.push("");
+      lines.push("Weak matches to review separately:");
+      for (const post of concept.weak_supporting_posts.slice(0, 5)) {
+        lines.push(`- ${post.date} - ${post.title} - ${post.file_path}`);
+      }
     }
     lines.push("");
   }
@@ -1145,14 +1357,28 @@ function validateOutputs(posts, postTags, storyCandidates, conceptCandidates) {
     if (!postIds.has(record.post_id)) failures.push(`Post tag references missing post: ${record.post_id}.`);
     if (!tagIds.has(record.tag_id)) failures.push(`Post tag references missing tag: ${record.tag_id}.`);
   }
+  for (const post of posts) {
+    const journeyTags = postTags.filter(
+      record =>
+        record.post_id === post.id &&
+        (record.tag_id === "original-less-of-lee-journey" ||
+          record.tag_id === "reversing-type-2-diabetes-journey"),
+    );
+    if (journeyTags.length !== 1) {
+      failures.push(`Post ${post.id} has ${journeyTags.length} health journey tags.`);
+    }
+  }
   for (const story of storyCandidates) {
     if (!postIds.has(story.post_id)) failures.push(`Story references missing post: ${story.story_id}.`);
     for (const theme of story.themes) {
       if (!tagIds.has(theme)) failures.push(`Story ${story.story_id} uses unknown theme ${theme}.`);
     }
     const post = posts.find(candidate => candidate.id === story.post_id);
-    if (post && !normalizeWhitespace(post.body).includes(normalizeWhitespace(story.source_excerpt))) {
+    if (post && !normalizeWhitespace(decodeHtml(post.body)).includes(normalizeWhitespace(story.source_excerpt))) {
       failures.push(`Story excerpt not found in source: ${story.story_id}.`);
+    }
+    if (/&[#a-zA-Z0-9]+;/.test(story.source_excerpt)) {
+      failures.push(`Story excerpt contains HTML entity: ${story.story_id}.`);
     }
   }
   for (const concept of conceptCandidates) {
@@ -1177,7 +1403,7 @@ function validateOutputs(posts, postTags, storyCandidates, conceptCandidates) {
   return { failures, warnings };
 }
 
-function writeValidationReport(validation, posts, storyCandidates) {
+function writeValidationReport(validation, posts, postTags, storyCandidates) {
   const spotCheckIds = [
     "2012-04-13-less-of-lee",
     "2021-05-03-i8217m-back-8-years-later-8211-now-diabetic",
@@ -1208,6 +1434,10 @@ function writeValidationReport(validation, posts, storyCandidates) {
       ? "concept report"
       : storyCandidates.filter(story => scoreForQuestion(story, item) > 0).length,
   }));
+  const journeyCounts = {
+    original: postTags.filter(record => record.tag_id === "original-less-of-lee-journey").length,
+    diabetes: postTags.filter(record => record.tag_id === "reversing-type-2-diabetes-journey").length,
+  };
 
   const lines = ["# Validation Report", ""];
   lines.push("## Automated Checks");
@@ -1218,7 +1448,9 @@ function writeValidationReport(validation, posts, storyCandidates) {
   lines.push(`- ID uniqueness: ${validation.failures.some(failure => failure.includes("Duplicate")) ? "FAIL" : "PASS"}`);
   lines.push(`- File path resolution: ${validation.failures.some(failure => failure.includes("file_path")) ? "FAIL" : "PASS"}`);
   lines.push(`- Story excerpt source check: ${validation.failures.some(failure => failure.includes("excerpt")) ? "FAIL" : "PASS"}`);
+  lines.push(`- Story excerpt entity scan: ${validation.failures.some(failure => failure.includes("HTML entity")) ? "FAIL" : "PASS"}`);
   lines.push(`- CSV row count check: ${validation.failures.some(failure => failure.includes("CSV")) ? "FAIL" : "PASS"}`);
+  lines.push(`- Health journey partition: ${journeyCounts.original} original + ${journeyCounts.diabetes} diabetes = ${journeyCounts.original + journeyCounts.diabetes}`);
   lines.push("");
   lines.push("## Test As Lee");
   lines.push("");
@@ -1286,6 +1518,15 @@ function groupTagsByPost(postTags) {
   return grouped;
 }
 
+function groupStrongTagsByPost(postTags) {
+  const grouped = new Map();
+  for (const record of postTags.filter(item => item.confidence >= 0.8)) {
+    if (!grouped.has(record.post_id)) grouped.set(record.post_id, new Set());
+    grouped.get(record.post_id).add(record.tag_id);
+  }
+  return grouped;
+}
+
 function bookUsesForTags(tagIds) {
   return tagIds.flatMap(tagId => TAGS.find(tag => tag.id === tagId)?.book_uses || []);
 }
@@ -1305,14 +1546,13 @@ function excerptFromParagraph(paragraph) {
     .replace(/^\]\([^)]+\)/, "")
     .trim();
   const sentence = raw.match(/[^.!?]+[.!?]/)?.[0] || raw;
-  return truncateWordsExact(sentence.trim(), 34);
+  return decodeHtml(truncateWordsExact(sentence.trim(), 34));
 }
 
 function findQuoteForAliases(body, aliases) {
   const paragraphs = body.split(/\n\s*\n/).filter(Boolean);
   for (const alias of aliases) {
-    const normalizedAlias = normalize(alias);
-    const paragraph = paragraphs.find(item => normalize(item).includes(normalizedAlias));
+    const paragraph = paragraphs.find(item => matchesAlias(item, alias));
     if (paragraph) return excerptFromParagraph(paragraph);
   }
   return "";
@@ -1327,6 +1567,33 @@ function normalize(value) {
     .replace(/[^a-z0-9.'"\s-]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function matchesAlias(text, alias) {
+  const normalizedText = ` ${normalize(text)} `;
+  const normalizedAlias = normalize(alias);
+  if (!normalizedAlias) return false;
+  const escaped = normalizedAlias.split(/\s+/).map(escapeRegExp).join("\\s+");
+  const boundary = isShortAlias(alias) ? "[^a-z0-9]" : "(?:^|[^a-z0-9])";
+  const endBoundary = isShortAlias(alias) ? "[^a-z0-9]" : "(?:$|[^a-z0-9])";
+  return new RegExp(`${boundary}${escaped}${endBoundary}`).test(normalizedText);
+}
+
+function isShortAlias(alias) {
+  const normalizedAlias = normalize(alias);
+  if (DISTINCTIVE_SHORT_ALIASES.has(normalizedAlias)) return false;
+  if (normalizedAlias.includes(" ")) return false;
+  return normalizedAlias.length <= 5;
+}
+
+function aliasStrength(alias) {
+  const normalizedAlias = normalize(alias);
+  if (AMBIGUOUS_ALIASES.has(normalizedAlias) || isShortAlias(alias)) return "ambiguous";
+  return "exact";
+}
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function normalizeWhitespace(value) {
