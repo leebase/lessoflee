@@ -37,6 +37,14 @@ const AMBIGUOUS_ALIASES = new Set([
   "bit more",
   "little more",
 ]);
+const CANONICAL_MORE_FARTHER_ALWAYS_ALIASES = [
+  "how much more a little more how much farther a bit farther always",
+  "how much more a little more how far a bit farther always",
+  "how much more a little more how much farther a bit father always",
+  "how much more a little more how much father a bit father always",
+  "how much more just a little bit more how much farther just a bit farther always",
+  "how much more i little more how much farther a bit farther always",
+];
 
 const TAGS = [
   {
@@ -347,6 +355,7 @@ const TAGS = [
       "start where you are",
       "make progress",
       "make improvements",
+      ...CANONICAL_MORE_FARTHER_ALWAYS_ALIASES,
       "a little more",
       "little more",
       "how much more",
@@ -405,6 +414,7 @@ const CONCEPT_SEEDS = [
     definition:
       "Lee's progressive-overload mantra: begin where you are, then repeatedly push the boundary a little more and a bit farther.",
     aliases: [
+      ...CANONICAL_MORE_FARTHER_ALWAYS_ALIASES,
       "a little more",
       "a bit farther",
       "always a little more",
@@ -946,6 +956,7 @@ function bodyHasMantraSignal(bodyHits) {
     "start where you are",
     "make progress",
     "make improvements",
+    ...CANONICAL_MORE_FARTHER_ALWAYS_ALIASES,
     "a little more",
     "a bit farther",
     "always a little more",
@@ -1096,6 +1107,19 @@ function whyStoryMatters(type, themes, title) {
   return `${title} is a ${type} candidate with signals for ${themeText || "book mining"}. Read the source post to decide whether it becomes a scene, chapter opener, or support example.`;
 }
 
+function conceptHasStrongEvidence(seed, titleExactAliases, bodyExactAliases, matchedAliases) {
+  if (seed.concept_id === "little-more-bit-farther-always") {
+    return matchedAliases.some(alias =>
+      CANONICAL_MORE_FARTHER_ALWAYS_ALIASES.includes(normalize(alias)),
+    );
+  }
+  return (
+    titleExactAliases.length > 0 ||
+    bodyExactAliases.some(alias => normalize(alias).includes(" ") && normalize(alias).length >= 8) ||
+    (matchedAliases.length >= 2 && bodyExactAliases.length >= 1)
+  );
+}
+
 function buildConceptCandidates(posts) {
   const concepts = [];
   for (const seed of CONCEPT_SEEDS) {
@@ -1110,9 +1134,7 @@ function buildConceptCandidates(posts) {
       const titleExactAliases = titleMatchedAliases.filter(alias => aliasStrength(alias) === "exact");
       const bodyExactAliases = bodyMatchedAliases.filter(alias => aliasStrength(alias) === "exact");
       const evidenceStrength =
-        titleExactAliases.length > 0 ||
-        bodyExactAliases.some(alias => normalize(alias).includes(" ") && normalize(alias).length >= 8) ||
-        (matchedAliases.length >= 2 && bodyExactAliases.length >= 1)
+        conceptHasStrongEvidence(seed, titleExactAliases, bodyExactAliases, matchedAliases)
           ? "strong"
           : "weak";
       hits.push({

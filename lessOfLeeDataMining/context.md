@@ -74,6 +74,7 @@ node scripts/build-mining-mvp.js
 | Health journeys are era-derived tags | The original Less of Lee weight-loss journey and the Type 2 diabetes reversal journey are separate arcs, not just keyword topics | 2026-05-10 |
 | Concept `frequency` means strong evidence only | Weak alias-only matches are retained separately so chapter ideas are not inflated by words like `fast`, `walk`, or `I can` | 2026-05-10 |
 | Mantras are authorial signal | Repeated phrases like `start where you are, make progress` and `a little more, a bit farther, always` should be mined as deliberate Lee refrains | 2026-05-10 |
+| The more/farther/always refrain is one mantra | `How much more? A little more. How much farther? A bit farther. Always.` often appears over three lines and should count as one canonical mantra, with fragments treated as weak support | 2026-05-10 |
 
 ### Next Actions Queue
 

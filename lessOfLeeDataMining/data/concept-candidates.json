@@ -470,1441 +470,6 @@
     "status": "candidate"
   },
   {
-    "concept_id": "little-more-bit-farther-always",
-    "name": "A Little More, A Bit Farther, Always",
-    "definition": "Lee's progressive-overload mantra: begin where you are, then repeatedly push the boundary a little more and a bit farther.",
-    "related_tags": [
-      "mantras",
-      "mindset",
-      "exercise",
-      "capability-recovery"
-    ],
-    "book_uses": [
-      "chapter_title",
-      "reader_refrain",
-      "training_principle",
-      "quote_bank"
-    ],
-    "supporting_posts": [
-      {
-        "post_id": "2022-06-28-how-much-how-far",
-        "title": "How Much? How Far?",
-        "date": "2022-06-29",
-        "file_path": "../src/content/blog/2022-06-28-how-much-how-far.md",
-        "title_match": true,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "a little more always",
-          "how much more",
-          "little more",
-          "how far",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "how far",
-            "location": "title",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a little more always",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "A little more."
-      },
-      {
-        "post_id": "2023-08-17-a-little-more",
-        "title": "A Little More",
-        "date": "2023-08-17",
-        "file_path": "../src/content/blog/2023-08-17-a-little-more.md",
-        "title_match": true,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "a little more a little harder and a little longer",
-          "how much more",
-          "little more",
-          "how much farther",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "title",
-            "strength": "exact"
-          },
-          {
-            "alias": "little more",
-            "location": "title",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a little more a little harder and a little longer",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how much farther",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "I've embraced \"a little more\" for two years now."
-      },
-      {
-        "post_id": "2022-07-10-all-the-health",
-        "title": "All the Health",
-        "date": "2022-07-10",
-        "file_path": "../src/content/blog/2022-07-10-all-the-health.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "little more",
-          "how far"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "But always working for a little more progress."
-      },
-      {
-        "post_id": "2022-07-30-its-saturday-time-to-run",
-        "title": "It’s Saturday, Time to Run",
-        "date": "2022-07-30",
-        "file_path": "../src/content/blog/2022-07-30-its-saturday-time-to-run.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "how much more",
-          "little more",
-          "how far",
-          "bit farther",
-          "a bit more",
-          "bit more"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "I’m pushing back the limits – a little more each time."
-      },
-      {
-        "post_id": "2022-09-10-its-saturday-i-run-intervals-910",
-        "title": "It’s Saturday, I Run Intervals 9/10",
-        "date": "2022-09-10",
-        "file_path": "../src/content/blog/2022-09-10-its-saturday-i-run-intervals-910.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "little more",
-          "how far",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "Just a little more."
-      },
-      {
-        "post_id": "2022-09-17-saturday-intervals-8211-sept-17-22",
-        "title": "Saturday Intervals – Sept 17, 22",
-        "date": "2022-09-17",
-        "file_path": "../src/content/blog/2022-09-17-saturday-intervals-8211-sept-17-22.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "how much more",
-          "little more",
-          "how far",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "I got here by doing what I could and then a little more."
-      },
-      {
-        "post_id": "2022-09-24-saturday-intervals-8211-sept-24-22",
-        "title": "Saturday Intervals – Sept 24, 22",
-        "date": "2022-09-24",
-        "file_path": "../src/content/blog/2022-09-24-saturday-intervals-8211-sept-24-22.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "how much more",
-          "little more",
-          "how far",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "I got here by doing what I could and then a little more."
-      },
-      {
-        "post_id": "2022-10-01-saturday-intervals-oct-1-22",
-        "title": "Saturday Intervals Oct 1, 22",
-        "date": "2022-10-01",
-        "file_path": "../src/content/blog/2022-10-01-saturday-intervals-oct-1-22.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "how much more",
-          "little more",
-          "how far",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "And do a little more tomorrow."
-      },
-      {
-        "post_id": "2022-10-10-destination-health",
-        "title": "Destination Health",
-        "date": "2022-10-10",
-        "file_path": "../src/content/blog/2022-10-10-destination-health.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "little more",
-          "how far",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "A little more."
-      },
-      {
-        "post_id": "2022-10-15-saturday-intervals-oct-15-22",
-        "title": "Saturday Intervals Oct 15, 22",
-        "date": "2022-10-15",
-        "file_path": "../src/content/blog/2022-10-15-saturday-intervals-oct-15-22.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "how much more",
-          "little more",
-          "how far",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "A little more."
-      },
-      {
-        "post_id": "2022-10-20-two-men-in-the-mirror",
-        "title": "Two Men In the Mirror",
-        "date": "2022-10-21",
-        "file_path": "../src/content/blog/2022-10-20-two-men-in-the-mirror.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "how much more",
-          "little more"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "A little more."
-      },
-      {
-        "post_id": "2022-10-22-saturday-intervals-oct-22-22",
-        "title": "Saturday Intervals Oct 22, 22",
-        "date": "2022-10-23",
-        "file_path": "../src/content/blog/2022-10-22-saturday-intervals-oct-22-22.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "little more",
-          "how far",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "A little more."
-      },
-      {
-        "post_id": "2022-11-08-will-power-and-discipline",
-        "title": "Will Power And Discipline",
-        "date": "2022-11-09",
-        "file_path": "../src/content/blog/2022-11-08-will-power-and-discipline.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "how much more",
-          "little more",
-          "how far",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "A little more."
-      },
-      {
-        "post_id": "2022-11-12-i-cant-until-i-can-8211-supernatural-personal-best",
-        "title": "I Can’t Until I Can – Supernatural Personal Bests",
-        "date": "2022-11-13",
-        "file_path": "../src/content/blog/2022-11-12-i-cant-until-i-can-8211-supernatural-personal-best.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "how much more",
-          "little more",
-          "how far",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "A little more."
-      },
-      {
-        "post_id": "2022-11-20-saturday-push-11-20-22",
-        "title": "Saturday Push 11-20-22",
-        "date": "2022-11-20",
-        "file_path": "../src/content/blog/2022-11-20-saturday-push-11-20-22.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "how much more",
-          "little more",
-          "how far",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "A little more How far?"
-      },
-      {
-        "post_id": "2022-11-26-i-cantuntil-i-can-8211-run-up-the-entire-hill",
-        "title": "I Can’t…Until I Can – Run Up the Entire Hill",
-        "date": "2022-11-26",
-        "file_path": "../src/content/blog/2022-11-26-i-cantuntil-i-can-8211-run-up-the-entire-hill.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "how much more",
-          "little more",
-          "how far",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "A little more."
-      },
-      {
-        "post_id": "2022-12-10-saturday-push-day-8211-signs-of-healing",
-        "title": "Saturday Push Day – Signs of Healing",
-        "date": "2022-12-10",
-        "file_path": "../src/content/blog/2022-12-10-saturday-push-day-8211-signs-of-healing.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "how much more",
-          "little more",
-          "how far",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "A little more How far?"
-      },
-      {
-        "post_id": "2022-12-13-tale-of-two-exercises",
-        "title": "Tale of Two Exercises",
-        "date": "2022-12-14",
-        "file_path": "../src/content/blog/2022-12-13-tale-of-two-exercises.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "how much more",
-          "little more",
-          "how much farther",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how much farther",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "A little more."
-      },
-      {
-        "post_id": "2022-12-17-saturday-push-day-12-17-22",
-        "title": "Saturday Push Day 12-17-22",
-        "date": "2022-12-17",
-        "file_path": "../src/content/blog/2022-12-17-saturday-push-day-12-17-22.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "how much more",
-          "little more",
-          "how much farther",
-          "bit farther"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how much farther",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          }
-        ],
-        "quote": "A little more."
-      },
-      {
-        "post_id": "2022-12-20-im-an-athlete",
-        "title": "I’m an Athlete!",
-        "date": "2022-12-21",
-        "file_path": "../src/content/blog/2022-12-20-im-an-athlete.md",
-        "title_match": false,
-        "evidence_strength": "strong",
-        "matched_aliases": [
-          "a little more",
-          "a bit farther",
-          "how much more",
-          "little more",
-          "how much farther",
-          "bit farther",
-          "a bit more",
-          "bit more"
-        ],
-        "evidence": [
-          {
-            "alias": "a little more",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "little more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "how much farther",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit farther",
-            "location": "body",
-            "strength": "exact"
-          },
-          {
-            "alias": "a bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "A little more."
-      }
-    ],
-    "weak_supporting_posts": [
-      {
-        "post_id": "2012-07-09-3-month-review",
-        "title": "3 Month Review",
-        "date": "2012-07-09",
-        "file_path": "../src/content/blog/2012-07-09-3-month-review.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "how much more"
-        ],
-        "evidence": [
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "I'm just trying to consider how much more uncomfortable I'd be having to fit 34lbs more of Lee into this small seat."
-      },
-      {
-        "post_id": "2012-10-02-the-same-amount-of-lee",
-        "title": "The Same Amount of Lee",
-        "date": "2012-10-02",
-        "file_path": "../src/content/blog/2012-10-02-the-same-amount-of-lee.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "how far"
-        ],
-        "evidence": [
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "and reminded myself how far I've come."
-      },
-      {
-        "post_id": "2012-10-22-living-on-the-corner-of-disappointment-and-grattit",
-        "title": "Living on the Corner of Disappointment and Grattitude",
-        "date": "2012-10-22",
-        "file_path": "../src/content/blog/2012-10-22-living-on-the-corner-of-disappointment-and-grattit.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "how far"
-        ],
-        "evidence": [
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "I see how far I’ve come."
-      },
-      {
-        "post_id": "2021-08-04-25lbs-less-of-lee",
-        "title": "25lbs Less of Lee",
-        "date": "2021-08-04",
-        "file_path": "../src/content/blog/2021-08-04-25lbs-less-of-lee.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "a bit more",
-          "bit more"
-        ],
-        "evidence": [
-          {
-            "alias": "a bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "I'm averaging just a bit more than 1."
-      },
-      {
-        "post_id": "2022-02-19-there-is-a-natural-cure-for-type-2-diabetes",
-        "title": "There Is A Natural “Cure” for Type 2 Diabetes",
-        "date": "2022-02-19",
-        "file_path": "../src/content/blog/2022-02-19-there-is-a-natural-cure-for-type-2-diabetes.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "how much more"
-        ],
-        "evidence": [
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "How much more severely diabetic?"
-      },
-      {
-        "post_id": "2022-06-08-living-rent-free-in-my-head",
-        "title": "Living Rent Free In My Head",
-        "date": "2022-06-08",
-        "file_path": "../src/content/blog/2022-06-08-living-rent-free-in-my-head.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "how much more"
-        ],
-        "evidence": [
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "I have no idea how much more health I’ll be able to reclaim."
-      },
-      {
-        "post_id": "2022-07-27-its-yellow-shirt-time",
-        "title": "It’s Yellow Shirt Time",
-        "date": "2022-07-28",
-        "file_path": "../src/content/blog/2022-07-27-its-yellow-shirt-time.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "how much more"
-        ],
-        "evidence": [
-          {
-            "alias": "how much more",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "However – I also need to take realistic stock of how much more work that needs doing."
-      },
-      {
-        "post_id": "2022-08-27-i-cantuntil-i-can-run-a-mile",
-        "title": "I Can’t…Until I Can: Run a Mile",
-        "date": "2022-08-27",
-        "file_path": "../src/content/blog/2022-08-27-i-cantuntil-i-can-run-a-mile.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "how far"
-        ],
-        "evidence": [
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "How far?"
-      },
-      {
-        "post_id": "2022-09-02-health-transformation-is-personal",
-        "title": "Health Transformation is Personal",
-        "date": "2022-09-02",
-        "file_path": "../src/content/blog/2022-09-02-health-transformation-is-personal.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "how far"
-        ],
-        "evidence": [
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "Sometimes I look in the mirror and despair at how hard I’ve worked and how far I have to go."
-      },
-      {
-        "post_id": "2022-09-23-if-you-are-having-fun-is-it-exercise",
-        "title": "If You Are Having Fun, is it Exercise?",
-        "date": "2022-09-24",
-        "file_path": "../src/content/blog/2022-09-23-if-you-are-having-fun-is-it-exercise.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "a bit more",
-          "bit more"
-        ],
-        "evidence": [
-          {
-            "alias": "a bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "Then do a bit more."
-      },
-      {
-        "post_id": "2022-11-15-i-cant-until-i-can-8211-exercise-in-winter",
-        "title": "I Can’t Until I Can – Exercise in Winter",
-        "date": "2022-11-16",
-        "file_path": "../src/content/blog/2022-11-15-i-cant-until-i-can-8211-exercise-in-winter.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "a bit more",
-          "bit more"
-        ],
-        "evidence": [
-          {
-            "alias": "a bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "That was a bit more than a year ago."
-      },
-      {
-        "post_id": "2022-11-21-save-money-on-curalin-black-friday",
-        "title": "Save Money on Curalin Black Friday",
-        "date": "2022-11-21",
-        "file_path": "../src/content/blog/2022-11-21-save-money-on-curalin-black-friday.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "a bit more",
-          "bit more"
-        ],
-        "evidence": [
-          {
-            "alias": "a bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "In fact, pushing myself a bit more and then a bit more is my methodology."
-      },
-      {
-        "post_id": "2022-12-08-my-little-blue-dress",
-        "title": "My Little Blue Dress",
-        "date": "2022-12-09",
-        "file_path": "../src/content/blog/2022-12-08-my-little-blue-dress.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "how far"
-        ],
-        "evidence": [
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "I gained back some weight…but I have my cloud “dress” to remind me how far I’ve come."
-      },
-      {
-        "post_id": "2023-01-18-i-cantuntil-i-can-8211-knee-strikes",
-        "title": "I Can’t…Until I Can – Knee Strikes",
-        "date": "2023-01-18",
-        "file_path": "../src/content/blog/2023-01-18-i-cantuntil-i-can-8211-knee-strikes.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "how far"
-        ],
-        "evidence": [
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "I marvel at how far I’ve come."
-      },
-      {
-        "post_id": "2023-04-04-some-see-the-smile-two-sides-of-every-story",
-        "title": "Some See The Smile: Two Sides of Every Story",
-        "date": "2023-04-05",
-        "file_path": "../src/content/blog/2023-04-04-some-see-the-smile-two-sides-of-every-story.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "how far"
-        ],
-        "evidence": [
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "I'm open about my journey, and some people are going to focus on my fatness and not how hard I've already worked and how far I've come."
-      },
-      {
-        "post_id": "2023-05-15-hard-is-mandatory-for-maintaining-ability",
-        "title": "Hard Is Mandatory For Maintaining Ability",
-        "date": "2023-05-16",
-        "file_path": "../src/content/blog/2023-05-15-hard-is-mandatory-for-maintaining-ability.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "bit more"
-        ],
-        "evidence": [
-          {
-            "alias": "bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "And yet – it is pushing myself just that bit more and working that bit harder that has taken me from walking with a cane to being ABLE to mow the lawn and much"
-      },
-      {
-        "post_id": "2023-05-19-keto-brats-and-peppers-in-an-alfredo-sauce",
-        "title": "Keto Brats and Peppers in an Alfredo Sauce",
-        "date": "2023-05-19",
-        "file_path": "../src/content/blog/2023-05-19-keto-brats-and-peppers-in-an-alfredo-sauce.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "a bit more",
-          "bit more"
-        ],
-        "evidence": [
-          {
-            "alias": "a bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "If the sauce is too thick, add a bit more cream to thin it out."
-      },
-      {
-        "post_id": "2023-09-13-talk-to-your-doctor",
-        "title": "Talk To Your Doctor",
-        "date": "2023-09-13",
-        "file_path": "../src/content/blog/2023-09-13-talk-to-your-doctor.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "how far"
-        ],
-        "evidence": [
-          {
-            "alias": "how far",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "ppps: the photo is how far away I parked at the Costco eye doctor."
-      },
-      {
-        "post_id": "2023-11-03-i-cant-until-i-can-8211-make-bread",
-        "title": "I Can’t … Until I Can – Make Bread",
-        "date": "2023-11-03",
-        "file_path": "../src/content/blog/2023-11-03-i-cant-until-i-can-8211-make-bread.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "bit more"
-        ],
-        "evidence": [
-          {
-            "alias": "bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "It’s perhaps a tiny bit more dense than bread."
-      },
-      {
-        "post_id": "2023-12-15-day-10-of-a-planned-14-day-fast-is-done",
-        "title": "Day 10 of a Planned 14 Day Fast is Done",
-        "date": "2023-12-16",
-        "file_path": "../src/content/blog/2023-12-15-day-10-of-a-planned-14-day-fast-is-done.md",
-        "title_match": false,
-        "evidence_strength": "weak",
-        "matched_aliases": [
-          "a bit more",
-          "bit more"
-        ],
-        "evidence": [
-          {
-            "alias": "a bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          },
-          {
-            "alias": "bit more",
-            "location": "body",
-            "strength": "ambiguous"
-          }
-        ],
-        "quote": "I do feel a bit more tired in my walk than normal."
-      }
-    ],
-    "frequency": 128,
-    "strong_matches": 128,
-    "weak_matches": 23,
-    "representative_quotes": [
-      {
-        "post_id": "2022-06-28-how-much-how-far",
-        "quote": "A little more."
-      },
-      {
-        "post_id": "2023-08-17-a-little-more",
-        "quote": "I've embraced \"a little more\" for two years now."
-      },
-      {
-        "post_id": "2022-07-10-all-the-health",
-        "quote": "But always working for a little more progress."
-      }
-    ],
-    "candidate_chapters": [
-      "A Little More, A Bit Farther, Always"
-    ],
-    "status": "candidate"
-  },
-  {
     "concept_id": "hard-is-mandatory",
     "name": "Hard Is Mandatory",
     "definition": "Progress requires intentionally entering difficulty once yesterday's hard has become easy.",
@@ -5802,6 +4367,1332 @@
     ],
     "candidate_chapters": [
       "Health Is The Destination"
+    ],
+    "status": "candidate"
+  },
+  {
+    "concept_id": "little-more-bit-farther-always",
+    "name": "A Little More, A Bit Farther, Always",
+    "definition": "Lee's progressive-overload mantra: begin where you are, then repeatedly push the boundary a little more and a bit farther.",
+    "related_tags": [
+      "mantras",
+      "mindset",
+      "exercise",
+      "capability-recovery"
+    ],
+    "book_uses": [
+      "chapter_title",
+      "reader_refrain",
+      "training_principle",
+      "quote_bank"
+    ],
+    "supporting_posts": [
+      {
+        "post_id": "2022-11-20-saturday-push-11-20-22",
+        "title": "Saturday Push 11-20-22",
+        "date": "2022-11-20",
+        "file_path": "../src/content/blog/2022-11-20-saturday-push-11-20-22.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "how much more a little more how far a bit farther always",
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more a little more how far a bit farther always",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "How much more? A little more How far? A bit farther Always"
+      },
+      {
+        "post_id": "2022-12-10-saturday-push-day-8211-signs-of-healing",
+        "title": "Saturday Push Day – Signs of Healing",
+        "date": "2022-12-10",
+        "file_path": "../src/content/blog/2022-12-10-saturday-push-day-8211-signs-of-healing.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "how much more a little more how far a bit farther always",
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more a little more how far a bit farther always",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "How much more? A little more How far? A bit farther Always"
+      },
+      {
+        "post_id": "2022-12-24-saturday-push-day-christmas-eve-22",
+        "title": "Saturday Push Day Christmas Eve 22",
+        "date": "2022-12-24",
+        "file_path": "../src/content/blog/2022-12-24-saturday-push-day-christmas-eve-22.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "how much more a little more how much farther a bit farther always",
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how much farther",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more a little more how much farther a bit farther always",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how much farther",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "How much more? A little more How much farther? A bit farther Always"
+      },
+      {
+        "post_id": "2023-01-03-i-resolve-to-reclaim-my-health",
+        "title": "I Resolve to Reclaim My Health",
+        "date": "2023-01-04",
+        "file_path": "../src/content/blog/2023-01-03-i-resolve-to-reclaim-my-health.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "how much more a little more how far a bit farther always",
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more a little more how far a bit farther always",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more"
+      },
+      {
+        "post_id": "2023-01-08-saturday-push-day-8211-run-run-faster-sprint",
+        "title": "Saturday Push Day – Run, Run Faster, Sprint",
+        "date": "2023-01-08",
+        "file_path": "../src/content/blog/2023-01-08-saturday-push-day-8211-run-run-faster-sprint.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "how much more a little more how much farther a bit farther always",
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how much farther",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more a little more how much farther a bit farther always",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how much farther",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more"
+      },
+      {
+        "post_id": "2023-01-15-better-than-any-arthritis-pill",
+        "title": "Better than any Arthritis Pill",
+        "date": "2023-01-15",
+        "file_path": "../src/content/blog/2023-01-15-better-than-any-arthritis-pill.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "how much more a little more how far a bit farther always",
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more a little more how far a bit farther always",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "How much more? A little more How far? A bit farther Always"
+      },
+      {
+        "post_id": "2023-01-19-i-cantuntil-i-can-8211-supernatural-diamond",
+        "title": "I Can’t…Until I Can – Supernatural Diamond",
+        "date": "2023-01-20",
+        "file_path": "../src/content/blog/2023-01-19-i-cantuntil-i-can-8211-supernatural-diamond.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "how much more a little more how much farther a bit farther always",
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how much farther",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more a little more how much farther a bit farther always",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how much farther",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "How much more? A little more How much farther? A bit farther Always"
+      },
+      {
+        "post_id": "2023-01-27-a-tough-person-for-a-tough-day",
+        "title": "A Tough Person for a Tough Day",
+        "date": "2023-01-27",
+        "file_path": "../src/content/blog/2023-01-27-a-tough-person-for-a-tough-day.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "how much more a little more how much farther a bit farther always",
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how much farther",
+          "bit farther",
+          "a bit more",
+          "bit more"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more a little more how much farther a bit farther always",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how much farther",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "A little more"
+      },
+      {
+        "post_id": "2023-01-28-saturday-push-day-8211-heart-vs-muscles",
+        "title": "Saturday Push Day – Heart vs Muscles",
+        "date": "2023-01-28",
+        "file_path": "../src/content/blog/2023-01-28-saturday-push-day-8211-heart-vs-muscles.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "how much more a little more how much farther a bit farther always",
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how much farther",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more a little more how much farther a bit farther always",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how much farther",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "How much more? A little more How much farther? A bit farther Always"
+      },
+      {
+        "post_id": "2023-02-25-saturday-push-day-8211-freezing-5k",
+        "title": "Saturday Push Day – Freezing 5k",
+        "date": "2023-02-25",
+        "file_path": "../src/content/blog/2023-02-25-saturday-push-day-8211-freezing-5k.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "how much more a little more how much farther a bit farther always",
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how much farther",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more a little more how much farther a bit farther always",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how much farther",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more"
+      },
+      {
+        "post_id": "2023-03-18-saturday-push-day-8211-early-workout",
+        "title": "Saturday Push Day – Early Workout",
+        "date": "2023-03-19",
+        "file_path": "../src/content/blog/2023-03-18-saturday-push-day-8211-early-workout.md",
+        "title_match": false,
+        "evidence_strength": "strong",
+        "matched_aliases": [
+          "how much more a little more how much farther a bit farther always",
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how much farther",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more a little more how much farther a bit farther always",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how much farther",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more"
+      }
+    ],
+    "weak_supporting_posts": [
+      {
+        "post_id": "2012-07-09-3-month-review",
+        "title": "3 Month Review",
+        "date": "2012-07-09",
+        "file_path": "../src/content/blog/2012-07-09-3-month-review.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how much more"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "I'm just trying to consider how much more uncomfortable I'd be having to fit 34lbs more of Lee into this small seat."
+      },
+      {
+        "post_id": "2012-10-02-the-same-amount-of-lee",
+        "title": "The Same Amount of Lee",
+        "date": "2012-10-02",
+        "file_path": "../src/content/blog/2012-10-02-the-same-amount-of-lee.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how far"
+        ],
+        "evidence": [
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "and reminded myself how far I've come."
+      },
+      {
+        "post_id": "2012-10-22-living-on-the-corner-of-disappointment-and-grattit",
+        "title": "Living on the Corner of Disappointment and Grattitude",
+        "date": "2012-10-22",
+        "file_path": "../src/content/blog/2012-10-22-living-on-the-corner-of-disappointment-and-grattit.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how far"
+        ],
+        "evidence": [
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "I see how far I’ve come."
+      },
+      {
+        "post_id": "2021-08-04-25lbs-less-of-lee",
+        "title": "25lbs Less of Lee",
+        "date": "2021-08-04",
+        "file_path": "../src/content/blog/2021-08-04-25lbs-less-of-lee.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a bit more",
+          "bit more"
+        ],
+        "evidence": [
+          {
+            "alias": "a bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "I'm averaging just a bit more than 1."
+      },
+      {
+        "post_id": "2022-02-19-there-is-a-natural-cure-for-type-2-diabetes",
+        "title": "There Is A Natural “Cure” for Type 2 Diabetes",
+        "date": "2022-02-19",
+        "file_path": "../src/content/blog/2022-02-19-there-is-a-natural-cure-for-type-2-diabetes.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how much more"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "How much more severely diabetic?"
+      },
+      {
+        "post_id": "2022-06-08-living-rent-free-in-my-head",
+        "title": "Living Rent Free In My Head",
+        "date": "2022-06-08",
+        "file_path": "../src/content/blog/2022-06-08-living-rent-free-in-my-head.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how much more"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "I have no idea how much more health I’ll be able to reclaim."
+      },
+      {
+        "post_id": "2022-06-28-how-much-how-far",
+        "title": "How Much? How Far?",
+        "date": "2022-06-29",
+        "file_path": "../src/content/blog/2022-06-28-how-much-how-far.md",
+        "title_match": true,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "a little more always",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "how far",
+            "location": "title",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a little more always",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more."
+      },
+      {
+        "post_id": "2022-07-10-all-the-health",
+        "title": "All the Health",
+        "date": "2022-07-10",
+        "file_path": "../src/content/blog/2022-07-10-all-the-health.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a little more",
+          "little more",
+          "how far"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "But always working for a little more progress."
+      },
+      {
+        "post_id": "2022-07-27-its-yellow-shirt-time",
+        "title": "It’s Yellow Shirt Time",
+        "date": "2022-07-28",
+        "file_path": "../src/content/blog/2022-07-27-its-yellow-shirt-time.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how much more"
+        ],
+        "evidence": [
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "However – I also need to take realistic stock of how much more work that needs doing."
+      },
+      {
+        "post_id": "2022-07-30-its-saturday-time-to-run",
+        "title": "It’s Saturday, Time to Run",
+        "date": "2022-07-30",
+        "file_path": "../src/content/blog/2022-07-30-its-saturday-time-to-run.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther",
+          "a bit more",
+          "bit more"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "I’m pushing back the limits – a little more each time."
+      },
+      {
+        "post_id": "2022-08-27-i-cantuntil-i-can-run-a-mile",
+        "title": "I Can’t…Until I Can: Run a Mile",
+        "date": "2022-08-27",
+        "file_path": "../src/content/blog/2022-08-27-i-cantuntil-i-can-run-a-mile.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how far"
+        ],
+        "evidence": [
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "How far?"
+      },
+      {
+        "post_id": "2022-09-02-health-transformation-is-personal",
+        "title": "Health Transformation is Personal",
+        "date": "2022-09-02",
+        "file_path": "../src/content/blog/2022-09-02-health-transformation-is-personal.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "how far"
+        ],
+        "evidence": [
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "Sometimes I look in the mirror and despair at how hard I’ve worked and how far I have to go."
+      },
+      {
+        "post_id": "2022-09-10-its-saturday-i-run-intervals-910",
+        "title": "It’s Saturday, I Run Intervals 9/10",
+        "date": "2022-09-10",
+        "file_path": "../src/content/blog/2022-09-10-its-saturday-i-run-intervals-910.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "Just a little more."
+      },
+      {
+        "post_id": "2022-09-17-saturday-intervals-8211-sept-17-22",
+        "title": "Saturday Intervals – Sept 17, 22",
+        "date": "2022-09-17",
+        "file_path": "../src/content/blog/2022-09-17-saturday-intervals-8211-sept-17-22.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "I got here by doing what I could and then a little more."
+      },
+      {
+        "post_id": "2022-09-23-if-you-are-having-fun-is-it-exercise",
+        "title": "If You Are Having Fun, is it Exercise?",
+        "date": "2022-09-24",
+        "file_path": "../src/content/blog/2022-09-23-if-you-are-having-fun-is-it-exercise.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a bit more",
+          "bit more"
+        ],
+        "evidence": [
+          {
+            "alias": "a bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "Then do a bit more."
+      },
+      {
+        "post_id": "2022-09-24-saturday-intervals-8211-sept-24-22",
+        "title": "Saturday Intervals – Sept 24, 22",
+        "date": "2022-09-24",
+        "file_path": "../src/content/blog/2022-09-24-saturday-intervals-8211-sept-24-22.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "I got here by doing what I could and then a little more."
+      },
+      {
+        "post_id": "2022-10-01-saturday-intervals-oct-1-22",
+        "title": "Saturday Intervals Oct 1, 22",
+        "date": "2022-10-01",
+        "file_path": "../src/content/blog/2022-10-01-saturday-intervals-oct-1-22.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "And do a little more tomorrow."
+      },
+      {
+        "post_id": "2022-10-10-destination-health",
+        "title": "Destination Health",
+        "date": "2022-10-10",
+        "file_path": "../src/content/blog/2022-10-10-destination-health.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more."
+      },
+      {
+        "post_id": "2022-10-15-saturday-intervals-oct-15-22",
+        "title": "Saturday Intervals Oct 15, 22",
+        "date": "2022-10-15",
+        "file_path": "../src/content/blog/2022-10-15-saturday-intervals-oct-15-22.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a little more",
+          "a bit farther",
+          "how much more",
+          "little more",
+          "how far",
+          "bit farther"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "a bit farther",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "how far",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "bit farther",
+            "location": "body",
+            "strength": "exact"
+          }
+        ],
+        "quote": "A little more."
+      },
+      {
+        "post_id": "2022-10-20-two-men-in-the-mirror",
+        "title": "Two Men In the Mirror",
+        "date": "2022-10-21",
+        "file_path": "../src/content/blog/2022-10-20-two-men-in-the-mirror.md",
+        "title_match": false,
+        "evidence_strength": "weak",
+        "matched_aliases": [
+          "a little more",
+          "how much more",
+          "little more"
+        ],
+        "evidence": [
+          {
+            "alias": "a little more",
+            "location": "body",
+            "strength": "exact"
+          },
+          {
+            "alias": "how much more",
+            "location": "body",
+            "strength": "ambiguous"
+          },
+          {
+            "alias": "little more",
+            "location": "body",
+            "strength": "ambiguous"
+          }
+        ],
+        "quote": "A little more."
+      }
+    ],
+    "frequency": 11,
+    "strong_matches": 11,
+    "weak_matches": 140,
+    "representative_quotes": [
+      {
+        "post_id": "2022-11-20-saturday-push-11-20-22",
+        "quote": "How much more? A little more How far? A bit farther Always"
+      },
+      {
+        "post_id": "2022-12-10-saturday-push-day-8211-signs-of-healing",
+        "quote": "How much more? A little more How far? A bit farther Always"
+      },
+      {
+        "post_id": "2022-12-24-saturday-push-day-christmas-eve-22",
+        "quote": "How much more? A little more How much farther? A bit farther Always"
+      }
+    ],
+    "candidate_chapters": [
+      "A Little More, A Bit Farther, Always"
     ],
     "status": "candidate"
   },

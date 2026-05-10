@@ -281,12 +281,12 @@ Memoir arc:
 ### Where are strong recurring concepts or chapter ideas?
 
 - Start Where You Are - 144 strong matches, 0 weak matches - Start Where You Are
-- A Little More, A Bit Farther, Always - 128 strong matches, 23 weak matches - A Little More, A Bit Farther, Always
 - Hard Is Mandatory - 83 strong matches, 0 weak matches - Hard Is Mandatory
 - Reclaiming Abilities - 70 strong matches, 113 weak matches - Reclaiming Real Life
 - I Can't Until I Can - 36 strong matches, 230 weak matches - The Impossible Becomes Routine
 - Former Diabetic - 33 strong matches, 41 weak matches - Former Diabetic
 - Health Is The Destination - 26 strong matches, 0 weak matches - Health Is The Destination
+- A Little More, A Bit Farther, Always - 11 strong matches, 140 weak matches - A Little More, A Bit Farther, Always
 - The Food That Made You Sick - 10 strong matches, 0 weak matches - The Food That Made Me Sick
 - No Longer Fragile - 8 strong matches, 59 weak matches - No Longer Fragile
 - Fail Your Way To Health - 7 strong matches, 19 weak matches - Failure Is Not The Opposite Of Progress
@@ -296,12 +296,12 @@ Memoir arc:
 ## Strongest Concepts
 
 - Start Where You Are - 144 strong matches, 0 weak matches - Start Where You Are
-- A Little More, A Bit Farther, Always - 128 strong matches, 23 weak matches - A Little More, A Bit Farther, Always
 - Hard Is Mandatory - 83 strong matches, 0 weak matches - Hard Is Mandatory
 - Reclaiming Abilities - 70 strong matches, 113 weak matches - Reclaiming Real Life
 - I Can't Until I Can - 36 strong matches, 230 weak matches - The Impossible Becomes Routine
 - Former Diabetic - 33 strong matches, 41 weak matches - Former Diabetic
 - Health Is The Destination - 26 strong matches, 0 weak matches - Health Is The Destination
+- A Little More, A Bit Farther, Always - 11 strong matches, 140 weak matches - A Little More, A Bit Farther, Always
 - The Food That Made You Sick - 10 strong matches, 0 weak matches - The Food That Made Me Sick
 - No Longer Fragile - 8 strong matches, 59 weak matches - No Longer Fragile
 - Fail Your Way To Health - 7 strong matches, 19 weak matches - Failure Is Not The Opposite Of Progress

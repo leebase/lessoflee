@@ -28,41 +28,6 @@ Top supporting posts:
 - 2022-04-19 - The One Year Blessing of Diabetes - ../src/content/blog/2022-04-19-the-one-year-blessing-of-diabetes.md
 - 2022-05-01 - Mindset: Doing as Much as Needed - ../src/content/blog/2022-04-30-mindset-doing-as-much-as-needed.md
 
-## A Little More, A Bit Farther, Always
-
-Lee's progressive-overload mantra: begin where you are, then repeatedly push the boundary a little more and a bit farther.
-
-- Status: candidate
-- Strong supporting posts: 128
-- Weak matches not counted as support: 23
-- Related tags: mantras, mindset, exercise, capability-recovery
-- Book uses: chapter_title, reader_refrain, training_principle, quote_bank
-- Candidate chapters: A Little More, A Bit Farther, Always
-
-Representative quotes:
-- 2022-06-28-how-much-how-far: "A little more."
-- 2023-08-17-a-little-more: "I've embraced "a little more" for two years now."
-- 2022-07-10-all-the-health: "But always working for a little more progress."
-
-Top supporting posts:
-- 2022-06-29 - How Much? How Far? - ../src/content/blog/2022-06-28-how-much-how-far.md
-- 2023-08-17 - A Little More - ../src/content/blog/2023-08-17-a-little-more.md
-- 2022-07-10 - All the Health - ../src/content/blog/2022-07-10-all-the-health.md
-- 2022-07-30 - It’s Saturday, Time to Run - ../src/content/blog/2022-07-30-its-saturday-time-to-run.md
-- 2022-09-10 - It’s Saturday, I Run Intervals 9/10 - ../src/content/blog/2022-09-10-its-saturday-i-run-intervals-910.md
-- 2022-09-17 - Saturday Intervals – Sept 17, 22 - ../src/content/blog/2022-09-17-saturday-intervals-8211-sept-17-22.md
-- 2022-09-24 - Saturday Intervals – Sept 24, 22 - ../src/content/blog/2022-09-24-saturday-intervals-8211-sept-24-22.md
-- 2022-10-01 - Saturday Intervals Oct 1, 22 - ../src/content/blog/2022-10-01-saturday-intervals-oct-1-22.md
-- 2022-10-10 - Destination Health - ../src/content/blog/2022-10-10-destination-health.md
-- 2022-10-15 - Saturday Intervals Oct 15, 22 - ../src/content/blog/2022-10-15-saturday-intervals-oct-15-22.md
-
-Weak matches to review separately:
-- 2012-07-09 - 3 Month Review - ../src/content/blog/2012-07-09-3-month-review.md
-- 2012-10-02 - The Same Amount of Lee - ../src/content/blog/2012-10-02-the-same-amount-of-lee.md
-- 2012-10-22 - Living on the Corner of Disappointment and Grattitude - ../src/content/blog/2012-10-22-living-on-the-corner-of-disappointment-and-grattit.md
-- 2021-08-04 - 25lbs Less of Lee - ../src/content/blog/2021-08-04-25lbs-less-of-lee.md
-- 2022-02-19 - There Is A Natural “Cure” for Type 2 Diabetes - ../src/content/blog/2022-02-19-there-is-a-natural-cure-for-type-2-diabetes.md
-
 ## Hard Is Mandatory
 
 Progress requires intentionally entering difficulty once yesterday's hard has become easy.
@@ -223,6 +188,41 @@ Top supporting posts:
 - 2023-04-17 - Beyond A1c: The Journey to Health Recovery - ../src/content/blog/2023-04-17-beyond-a1c-the-journey-to-health-recovery.md
 - 2012-07-09 - 3 Month Review - ../src/content/blog/2012-07-09-3-month-review.md
 - 2012-10-07 - 20% Less of Lee - ../src/content/blog/2012-10-07-20-less-of-lee.md
+
+## A Little More, A Bit Farther, Always
+
+Lee's progressive-overload mantra: begin where you are, then repeatedly push the boundary a little more and a bit farther.
+
+- Status: candidate
+- Strong supporting posts: 11
+- Weak matches not counted as support: 140
+- Related tags: mantras, mindset, exercise, capability-recovery
+- Book uses: chapter_title, reader_refrain, training_principle, quote_bank
+- Candidate chapters: A Little More, A Bit Farther, Always
+
+Representative quotes:
+- 2022-11-20-saturday-push-11-20-22: "How much more? A little more How far? A bit farther Always"
+- 2022-12-10-saturday-push-day-8211-signs-of-healing: "How much more? A little more How far? A bit farther Always"
+- 2022-12-24-saturday-push-day-christmas-eve-22: "How much more? A little more How much farther? A bit farther Always"
+
+Top supporting posts:
+- 2022-11-20 - Saturday Push 11-20-22 - ../src/content/blog/2022-11-20-saturday-push-11-20-22.md
+- 2022-12-10 - Saturday Push Day – Signs of Healing - ../src/content/blog/2022-12-10-saturday-push-day-8211-signs-of-healing.md
+- 2022-12-24 - Saturday Push Day Christmas Eve 22 - ../src/content/blog/2022-12-24-saturday-push-day-christmas-eve-22.md
+- 2023-01-04 - I Resolve to Reclaim My Health - ../src/content/blog/2023-01-03-i-resolve-to-reclaim-my-health.md
+- 2023-01-08 - Saturday Push Day – Run, Run Faster, Sprint - ../src/content/blog/2023-01-08-saturday-push-day-8211-run-run-faster-sprint.md
+- 2023-01-15 - Better than any Arthritis Pill - ../src/content/blog/2023-01-15-better-than-any-arthritis-pill.md
+- 2023-01-20 - I Can’t…Until I Can – Supernatural Diamond - ../src/content/blog/2023-01-19-i-cantuntil-i-can-8211-supernatural-diamond.md
+- 2023-01-27 - A Tough Person for a Tough Day - ../src/content/blog/2023-01-27-a-tough-person-for-a-tough-day.md
+- 2023-01-28 - Saturday Push Day – Heart vs Muscles - ../src/content/blog/2023-01-28-saturday-push-day-8211-heart-vs-muscles.md
+- 2023-02-25 - Saturday Push Day – Freezing 5k - ../src/content/blog/2023-02-25-saturday-push-day-8211-freezing-5k.md
+
+Weak matches to review separately:
+- 2012-07-09 - 3 Month Review - ../src/content/blog/2012-07-09-3-month-review.md
+- 2012-10-02 - The Same Amount of Lee - ../src/content/blog/2012-10-02-the-same-amount-of-lee.md
+- 2012-10-22 - Living on the Corner of Disappointment and Grattitude - ../src/content/blog/2012-10-22-living-on-the-corner-of-disappointment-and-grattit.md
+- 2021-08-04 - 25lbs Less of Lee - ../src/content/blog/2021-08-04-25lbs-less-of-lee.md
+- 2022-02-19 - There Is A Natural “Cure” for Type 2 Diabetes - ../src/content/blog/2022-02-19-there-is-a-natural-cure-for-type-2-diabetes.md
 
 ## The Food That Made You Sick
 

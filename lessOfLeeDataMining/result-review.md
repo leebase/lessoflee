@@ -4,6 +4,36 @@
 
 ---
 
+## 2026-05-10 — Canonical Multi-Line Mantra Detection
+
+### What Was Built
+Updated the mantra mining logic so the recurring three-line refrain is treated as one canonical mantra:
+
+```text
+How much more? A little more.
+How much farther? A bit farther.
+Always.
+```
+
+The matcher also handles common variants such as `How far? A bit farther`, `Just a bit farther`, and the typo `A bit father`.
+
+### Why It Matters
+This keeps the mantra concept from over-counting isolated fragments. Full refrain matches are now strong evidence for `A Little More, A Bit Farther, Always`; fragment-only matches remain weak support.
+
+### How to Verify
+```bash
+cd lessOfLeeDataMining
+node scripts/build-mining-mvp.js
+node -e 'const fs=require("fs"); const c=JSON.parse(fs.readFileSync("data/concept-candidates.json","utf8")).find(x=>x.concept_id==="little-more-bit-farther-always"); console.log({strong:c.strong_matches, weak:c.weak_matches, quote:c.representative_quotes[0]})'
+```
+
+Expected result:
+
+- The first representative quote shows the full refrain.
+- Strong matches represent full canonical mantra occurrences, while weak matches represent fragments.
+
+---
+
 ## 2026-05-10 — Mantra Mining Layer
 
 ### What Was Built

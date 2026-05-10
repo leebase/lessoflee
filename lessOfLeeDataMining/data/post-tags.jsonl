@@ -1405,7 +1405,7 @@
 {"post_id":"2022-11-20-i-see-illness-8211-i-have-not-arrived","tag_id":"type-2-diabetes","confidence":0.9,"evidence":["body: type 2 diabetes","source tag: diabetes","body: diabetic","body: glucose","body: meds"]}
 {"post_id":"2022-11-20-saturday-push-11-20-22","tag_id":"capability-recovery","confidence":0.6,"evidence":["body: walk","body: run","body: winter"]}
 {"post_id":"2022-11-20-saturday-push-11-20-22","tag_id":"exercise","confidence":0.6,"evidence":["body: workout","body: supernatural"]}
-{"post_id":"2022-11-20-saturday-push-11-20-22","tag_id":"mantras","confidence":0.6,"evidence":["body: mantra","body: a little more","body: little more","body: how much more","body: how far"]}
+{"post_id":"2022-11-20-saturday-push-11-20-22","tag_id":"mantras","confidence":0.6,"evidence":["body: mantra","body: how much more a little more how far a bit farther always","body: a little more","body: little more","body: how much more"]}
 {"post_id":"2022-11-20-saturday-push-11-20-22","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2022-11-21-save-money-on-curalin-black-friday","tag_id":"a1c-labs","confidence":0.6,"evidence":["body: a1c","body: cgm","body: glucose"]}
 {"post_id":"2022-11-21-save-money-on-curalin-black-friday","tag_id":"exercise","confidence":0.6,"evidence":["body: exercise"]}
@@ -1467,7 +1467,7 @@
 {"post_id":"2022-12-10-saturday-push-day-8211-signs-of-healing","tag_id":"capability-recovery","confidence":0.9,"evidence":["body: cane","body: walk","body: walking","body: run","body: running"]}
 {"post_id":"2022-12-10-saturday-push-day-8211-signs-of-healing","tag_id":"exercise","confidence":0.9,"evidence":["source tag: exercise","title: push day","title: saturday push day"]}
 {"post_id":"2022-12-10-saturday-push-day-8211-signs-of-healing","tag_id":"health-identity","confidence":0.6,"evidence":["body: no longer"]}
-{"post_id":"2022-12-10-saturday-push-day-8211-signs-of-healing","tag_id":"mantras","confidence":0.6,"evidence":["body: a little more","body: little more","body: how much more","body: how far","body: a bit farther"]}
+{"post_id":"2022-12-10-saturday-push-day-8211-signs-of-healing","tag_id":"mantras","confidence":0.6,"evidence":["body: how much more a little more how far a bit farther always","body: a little more","body: little more","body: how much more","body: how far"]}
 {"post_id":"2022-12-10-saturday-push-day-8211-signs-of-healing","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2022-12-11-proof-of-healing","tag_id":"a1c-labs","confidence":0.6,"evidence":["body: a1c","body: cgm","body: insulin"]}
 {"post_id":"2022-12-11-proof-of-healing","tag_id":"fasting","confidence":0.9,"evidence":["source tag: fasting","source tag: intermittent fasting"]}
@@ -1513,7 +1513,7 @@
 {"post_id":"2022-12-22-pushing-the-limits","tag_id":"mindset","confidence":0.9,"evidence":["source tag: mindset","body: hard"]}
 {"post_id":"2022-12-22-pushing-the-limits","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2022-12-24-saturday-push-day-christmas-eve-22","tag_id":"exercise","confidence":0.9,"evidence":["source tag: exercise","body: workout","title: push day","title: saturday push day"]}
-{"post_id":"2022-12-24-saturday-push-day-christmas-eve-22","tag_id":"mantras","confidence":0.6,"evidence":["body: a little more","body: little more","body: how much more","body: how much farther","body: a bit farther"]}
+{"post_id":"2022-12-24-saturday-push-day-christmas-eve-22","tag_id":"mantras","confidence":0.6,"evidence":["body: how much more a little more how much farther a bit farther always","body: a little more","body: little more","body: how much more","body: how much farther"]}
 {"post_id":"2022-12-24-saturday-push-day-christmas-eve-22","tag_id":"mindset","confidence":0.9,"evidence":["source tag: mindset","body: hard"]}
 {"post_id":"2022-12-24-saturday-push-day-christmas-eve-22","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2022-12-28-a-reprieve-from-cabin-fever","tag_id":"exercise","confidence":0.6,"evidence":["body: workout","body: muscle"]}
@@ -1531,7 +1531,7 @@
 {"post_id":"2023-01-03-i-resolve-to-reclaim-my-health","tag_id":"failure-restart","confidence":0.45,"evidence":["body: fail","body: again"]}
 {"post_id":"2023-01-03-i-resolve-to-reclaim-my-health","tag_id":"fasting","confidence":0.6,"evidence":["body: fasting"]}
 {"post_id":"2023-01-03-i-resolve-to-reclaim-my-health","tag_id":"feasting","confidence":0.6,"evidence":["body: carnivore"]}
-{"post_id":"2023-01-03-i-resolve-to-reclaim-my-health","tag_id":"mantras","confidence":0.6,"evidence":["body: make progress","body: a little more","body: little more","body: how much more","body: how far"]}
+{"post_id":"2023-01-03-i-resolve-to-reclaim-my-health","tag_id":"mantras","confidence":0.6,"evidence":["body: make progress","body: how much more a little more how far a bit farther always","body: a little more","body: little more","body: how much more"]}
 {"post_id":"2023-01-03-i-resolve-to-reclaim-my-health","tag_id":"mindset","confidence":0.9,"evidence":["source tag: mindset"]}
 {"post_id":"2023-01-03-i-resolve-to-reclaim-my-health","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2023-01-03-i-resolve-to-reclaim-my-health","tag_id":"type-2-diabetes","confidence":0.6,"evidence":["body: diabetes","body: a1c","body: meds"]}
@@ -1542,7 +1542,7 @@
 {"post_id":"2023-01-03-treat-your-own-knee","tag_id":"type-2-diabetes","confidence":0.6,"evidence":["body: diabetes","body: remission"]}
 {"post_id":"2023-01-08-saturday-push-day-8211-run-run-faster-sprint","tag_id":"capability-recovery","confidence":0.8,"evidence":["body: walk","body: walking","title: run","body: running","body: 5k"]}
 {"post_id":"2023-01-08-saturday-push-day-8211-run-run-faster-sprint","tag_id":"exercise","confidence":0.9,"evidence":["source tag: exercise","body: training","title: push day","title: saturday push day","body: supernatural"]}
-{"post_id":"2023-01-08-saturday-push-day-8211-run-run-faster-sprint","tag_id":"mantras","confidence":0.6,"evidence":["body: a little more","body: little more","body: how much more","body: how much farther","body: a bit farther"]}
+{"post_id":"2023-01-08-saturday-push-day-8211-run-run-faster-sprint","tag_id":"mantras","confidence":0.6,"evidence":["body: how much more a little more how much farther a bit farther always","body: a little more","body: little more","body: how much more","body: how much farther"]}
 {"post_id":"2023-01-08-saturday-push-day-8211-run-run-faster-sprint","tag_id":"mindset","confidence":0.9,"evidence":["source tag: mindset"]}
 {"post_id":"2023-01-08-saturday-push-day-8211-run-run-faster-sprint","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2023-01-11-exercising-for-health-not-weight-loss","tag_id":"a1c-labs","confidence":0.6,"evidence":["body: insulin"]}
@@ -1559,14 +1559,14 @@
 {"post_id":"2023-01-15-better-than-any-arthritis-pill","tag_id":"a1c-labs","confidence":0.6,"evidence":["body: a1c","body: insulin"]}
 {"post_id":"2023-01-15-better-than-any-arthritis-pill","tag_id":"capability-recovery","confidence":0.9,"evidence":["body: cane","body: walk","body: walking","source tag: arthritis","body: pain"]}
 {"post_id":"2023-01-15-better-than-any-arthritis-pill","tag_id":"exercise","confidence":0.6,"evidence":["body: exercise","body: training","body: strength training"]}
-{"post_id":"2023-01-15-better-than-any-arthritis-pill","tag_id":"mantras","confidence":0.6,"evidence":["body: a little more","body: little more","body: how much more","body: how far","body: a bit farther"]}
+{"post_id":"2023-01-15-better-than-any-arthritis-pill","tag_id":"mantras","confidence":0.6,"evidence":["body: how much more a little more how far a bit farther always","body: a little more","body: little more","body: how much more","body: how far"]}
 {"post_id":"2023-01-15-better-than-any-arthritis-pill","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2023-01-15-better-than-any-arthritis-pill","tag_id":"type-2-diabetes","confidence":0.6,"evidence":["body: diabetes","body: a1c","body: metformin","body: glipizide","body: trulicity"]}
 {"post_id":"2023-01-18-i-cantuntil-i-can-8211-knee-strikes","tag_id":"exercise","confidence":0.9,"evidence":["source tag: exercise","body: workout","body: training","source tag: supernatural","body: strength training"]}
 {"post_id":"2023-01-18-i-cantuntil-i-can-8211-knee-strikes","tag_id":"mantras","confidence":0.8,"evidence":["body: how far","title: i can't until i can"]}
 {"post_id":"2023-01-18-i-cantuntil-i-can-8211-knee-strikes","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2023-01-19-i-cantuntil-i-can-8211-supernatural-diamond","tag_id":"exercise","confidence":0.9,"evidence":["source tag: exercise","body: workout","source tag: supernatural"]}
-{"post_id":"2023-01-19-i-cantuntil-i-can-8211-supernatural-diamond","tag_id":"mantras","confidence":0.8,"evidence":["body: a little more","body: little more","body: how much more","body: how much farther","body: a bit farther"]}
+{"post_id":"2023-01-19-i-cantuntil-i-can-8211-supernatural-diamond","tag_id":"mantras","confidence":0.8,"evidence":["body: how much more a little more how much farther a bit farther always","body: a little more","body: little more","body: how much more","body: how much farther"]}
 {"post_id":"2023-01-19-i-cantuntil-i-can-8211-supernatural-diamond","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2023-01-20-introducing-herbie-the-fluffy-ninja-hippo","tag_id":"exercise","confidence":0.9,"evidence":["source tag: exercise","body: workout","body: hiit","source tag: supernatural"]}
 {"post_id":"2023-01-20-introducing-herbie-the-fluffy-ninja-hippo","tag_id":"humor-voice","confidence":0.8,"evidence":["title: hippo"]}
@@ -1615,7 +1615,7 @@
 {"post_id":"2023-01-26-i-cantuntil-i-can-8211-walk-in-the-winter","tag_id":"type-2-diabetes","confidence":0.6,"evidence":["body: diabetes","body: a1c","body: meds"]}
 {"post_id":"2023-01-27-a-tough-person-for-a-tough-day","tag_id":"capability-recovery","confidence":0.9,"evidence":["body: walking","source tag: arthritis"]}
 {"post_id":"2023-01-27-a-tough-person-for-a-tough-day","tag_id":"fasting","confidence":0.9,"evidence":["source tag: fasting","body: fast","body: hunger","body: autophagy"]}
-{"post_id":"2023-01-27-a-tough-person-for-a-tough-day","tag_id":"mantras","confidence":0.6,"evidence":["body: a little more","body: little more","body: how much more","body: how much farther","body: a bit farther"]}
+{"post_id":"2023-01-27-a-tough-person-for-a-tough-day","tag_id":"mantras","confidence":0.6,"evidence":["body: how much more a little more how much farther a bit farther always","body: a little more","body: little more","body: how much more","body: how much farther"]}
 {"post_id":"2023-01-27-a-tough-person-for-a-tough-day","tag_id":"mindset","confidence":0.9,"evidence":["source tag: mindset"]}
 {"post_id":"2023-01-27-a-tough-person-for-a-tough-day","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2023-01-28-i-cant-until-i-can-8211-eat-liver","tag_id":"family-responsibility","confidence":0.6,"evidence":["body: wife","body: father"]}
@@ -1624,7 +1624,7 @@
 {"post_id":"2023-01-28-i-cant-until-i-can-8211-eat-liver","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2023-01-28-i-cant-until-i-can-8211-eat-liver","tag_id":"type-2-diabetes","confidence":0.6,"evidence":["body: diabetic"]}
 {"post_id":"2023-01-28-saturday-push-day-8211-heart-vs-muscles","tag_id":"exercise","confidence":0.9,"evidence":["source tag: exercise","body: workout","title: push day","title: saturday push day"]}
-{"post_id":"2023-01-28-saturday-push-day-8211-heart-vs-muscles","tag_id":"mantras","confidence":0.6,"evidence":["body: a little more","body: little more","body: how much more","body: how much farther","body: a bit farther"]}
+{"post_id":"2023-01-28-saturday-push-day-8211-heart-vs-muscles","tag_id":"mantras","confidence":0.6,"evidence":["body: how much more a little more how much farther a bit farther always","body: a little more","body: little more","body: how much more","body: how much farther"]}
 {"post_id":"2023-01-28-saturday-push-day-8211-heart-vs-muscles","tag_id":"mindset","confidence":0.9,"evidence":["source tag: mindset","body: hard"]}
 {"post_id":"2023-01-28-saturday-push-day-8211-heart-vs-muscles","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2023-01-30-graduating-from-curalin-and-the-exercise-coach","tag_id":"a1c-labs","confidence":0.6,"evidence":["body: a1c"]}
@@ -1694,7 +1694,7 @@
 {"post_id":"2023-02-21-finding-the-joy","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2023-02-25-saturday-push-day-8211-freezing-5k","tag_id":"capability-recovery","confidence":0.8,"evidence":["body: walking","body: run","body: winter","title: 5k"]}
 {"post_id":"2023-02-25-saturday-push-day-8211-freezing-5k","tag_id":"exercise","confidence":0.8,"evidence":["body: workout","title: push day","title: saturday push day","body: supernatural"]}
-{"post_id":"2023-02-25-saturday-push-day-8211-freezing-5k","tag_id":"mantras","confidence":0.6,"evidence":["body: a little more","body: little more","body: how much more","body: how much farther","body: a bit farther"]}
+{"post_id":"2023-02-25-saturday-push-day-8211-freezing-5k","tag_id":"mantras","confidence":0.6,"evidence":["body: how much more a little more how much farther a bit farther always","body: a little more","body: little more","body: how much more","body: how much farther"]}
 {"post_id":"2023-02-25-saturday-push-day-8211-freezing-5k","tag_id":"mindset","confidence":0.9,"evidence":["source tag: mindset"]}
 {"post_id":"2023-02-25-saturday-push-day-8211-freezing-5k","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2023-02-28-how-i-define-winning-against-type-2-diabetes","tag_id":"a1c-labs","confidence":0.6,"evidence":["body: a1c","body: insulin","body: kidney"]}
@@ -1732,7 +1732,7 @@
 {"post_id":"2023-03-18-nsv-8211-no-longer-fatter-than-a-pregnant-woman","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2023-03-18-saturday-push-day-8211-early-workout","tag_id":"exercise","confidence":0.9,"evidence":["source tag: exercise","title: workout","title: push day","title: saturday push day"]}
 {"post_id":"2023-03-18-saturday-push-day-8211-early-workout","tag_id":"failure-restart","confidence":0.6,"evidence":["body: get up"]}
-{"post_id":"2023-03-18-saturday-push-day-8211-early-workout","tag_id":"mantras","confidence":0.6,"evidence":["body: a little more","body: little more","body: how much more","body: how much farther","body: a bit farther"]}
+{"post_id":"2023-03-18-saturday-push-day-8211-early-workout","tag_id":"mantras","confidence":0.6,"evidence":["body: how much more a little more how much farther a bit farther always","body: a little more","body: little more","body: how much more","body: how much farther"]}
 {"post_id":"2023-03-18-saturday-push-day-8211-early-workout","tag_id":"mindset","confidence":0.9,"evidence":["source tag: mindset"]}
 {"post_id":"2023-03-18-saturday-push-day-8211-early-workout","tag_id":"reversing-type-2-diabetes-journey","confidence":0.95,"evidence":["journey: 2021+ Type 2 diabetes reversal archive"]}
 {"post_id":"2023-03-22-fit-and-fasting","tag_id":"exercise","confidence":0.6,"evidence":["body: workout"]}

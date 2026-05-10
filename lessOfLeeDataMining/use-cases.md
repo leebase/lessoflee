@@ -153,7 +153,7 @@ The system should surface:
 
 - explicit mantras
 - recurring refrains like "start where you are, make progress"
-- recurring push phrases like "a little more", "a bit farther", and "always"
+- recurring push phrases like "How much more? A little more. How much farther? A bit farther. Always." as one mantra even when it spans multiple lines
 - repeated phrases
 - strong post titles
 - short excerpt anchors from story candidates
