@@ -11,7 +11,8 @@
     "format:check": "prettier --check .",
     "format": "prettier --write .",
     "lint": "eslint .",
-    "convert": "node scripts/convert-wordpress.js"
+    "convert": "node scripts/convert-wordpress.js",
+    "scrape": "node scripts/scrape-wordpress.js"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.14",
