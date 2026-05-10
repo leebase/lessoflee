@@ -883,7 +883,7 @@ function buildStoryCandidates(posts, postTags) {
     if (totalScore < 16) continue;
 
     const typeInfo = classifyStory(post, paragraph.text);
-    const themes = tags.slice(0, 6);
+    const themes = displayThemes(tags);
     const storyId = `${post.id}--story-01`;
     candidates.push({
       story_id: storyId,
@@ -893,6 +893,7 @@ function buildStoryCandidates(posts, postTags) {
       type: typeInfo.type,
       book_uses: [...new Set([...typeInfo.book_uses, ...bookUsesForTags(themes)])].slice(0, 6),
       themes,
+      all_themes: tags,
       score: totalScore,
       source_excerpt: excerptFromParagraph(paragraph.raw || post.body),
       why_it_matters: whyStoryMatters(typeInfo.type, themes, post.title),
@@ -1020,10 +1021,6 @@ function buildConceptCandidates(posts, postTags) {
       if (matchedAliases.length === 0) continue;
       const titleExactAliases = titleMatchedAliases.filter(alias => aliasStrength(alias) === "exact");
       const bodyExactAliases = bodyMatchedAliases.filter(alias => aliasStrength(alias) === "exact");
-      const bodyAmbiguousAliases = bodyMatchedAliases.filter(alias => aliasStrength(alias) !== "exact");
-      const relatedStrongTags = seed.related_tags.filter(tagId =>
-        (strongTagsByPost.get(post.id) || new Set()).has(tagId),
-      );
       const evidenceStrength =
         titleExactAliases.length > 0 ||
         bodyExactAliases.some(alias => normalize(alias).includes(" ") && normalize(alias).length >= 8) ||
@@ -1134,7 +1131,7 @@ function writeDashboard(posts, postTags, storyCandidates, conceptCandidates) {
   const tagsByPost = groupTagsByPost(postTags);
   const storyByTag = new Map();
   for (const story of storyCandidates) {
-    for (const tag of story.themes) {
+    for (const tag of story.all_themes || story.themes) {
       if (!storyByTag.has(tag)) storyByTag.set(tag, []);
       storyByTag.get(tag).push(story);
     }
@@ -1260,13 +1257,14 @@ function writeDashboard(posts, postTags, storyCandidates, conceptCandidates) {
 
 function scoreForQuestion(story, question) {
   const text = `${story.title} ${story.source_excerpt} ${story.why_it_matters}`;
+  const storyTags = story.all_themes || story.themes;
   if (
     question.required_tags &&
-    !story.themes.some(theme => question.required_tags.includes(theme))
+    !storyTags.some(theme => question.required_tags.includes(theme))
   ) {
     return 0;
   }
-  const tagScore = story.themes.filter(theme => question.tags.includes(theme)).length * 10;
+  const tagScore = storyTags.filter(theme => question.tags.includes(theme)).length * 10;
   const keywordScore = (question.keywords || []).reduce(
     (score, keyword) => (matchesAlias(text, keyword) ? score + 8 : score),
     0,
@@ -1370,7 +1368,7 @@ function validateOutputs(posts, postTags, storyCandidates, conceptCandidates) {
   }
   for (const story of storyCandidates) {
     if (!postIds.has(story.post_id)) failures.push(`Story references missing post: ${story.story_id}.`);
-    for (const theme of story.themes) {
+    for (const theme of [...new Set([...(story.themes || []), ...(story.all_themes || [])])]) {
       if (!tagIds.has(theme)) failures.push(`Story ${story.story_id} uses unknown theme ${theme}.`);
     }
     const post = posts.find(candidate => candidate.id === story.post_id);
@@ -1433,6 +1431,10 @@ function writeValidationReport(validation, posts, postTags, storyCandidates) {
     found_candidates: item.concepts
       ? "concept report"
       : storyCandidates.filter(story => scoreForQuestion(story, item) > 0).length,
+    tagged_posts:
+      item.required_tags?.length === 1
+        ? postTags.filter(record => record.tag_id === item.required_tags[0]).length
+        : null,
   }));
   const journeyCounts = {
     original: postTags.filter(record => record.tag_id === "original-less-of-lee-journey").length,
@@ -1457,7 +1459,8 @@ function writeValidationReport(validation, posts, postTags, storyCandidates) {
   lines.push("Dashboard questions checked against generated story candidates:");
   for (const item of leeQuestions) {
     if (typeof item.found_candidates === "number") {
-      lines.push(`- ${item.question} ${item.found_candidates} candidates found`);
+      const taggedText = item.tagged_posts === null ? "" : ` across ${item.tagged_posts} tagged posts`;
+      lines.push(`- ${item.question} ${item.found_candidates} candidates found${taggedText}`);
     } else {
       lines.push(`- ${item.question} covered by ${item.found_candidates}`);
     }
@@ -1525,6 +1528,14 @@ function groupStrongTagsByPost(postTags) {
     grouped.get(record.post_id).add(record.tag_id);
   }
   return grouped;
+}
+
+function displayThemes(tags) {
+  const journeyTags = tags.filter(
+    tag => tag === "original-less-of-lee-journey" || tag === "reversing-type-2-diabetes-journey",
+  );
+  const topicTags = tags.filter(tag => !journeyTags.includes(tag));
+  return [...journeyTags, ...topicTags].slice(0, 6);
 }
 
 function bookUsesForTags(tagIds) {

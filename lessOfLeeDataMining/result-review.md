@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-05-10 — Mining Precision Review Remediation
+
+### What Was Built
+Remediated all findings from `code-reviews/review-sprint-1r-mining-precision.md`. Story candidates now keep full tag membership in `all_themes` while preserving a concise display `themes` list with journey tags included. Dashboard scoring and Lee-question validation use full tags, so journey-filtered questions no longer drop valid stories.
+
+### Why It Matters
+The dashboard now properly answers both health journey questions: the original Less of Lee weight-loss arc and the Reversing Type 2 Diabetes arc. Key diabetes posts such as `Off All Diabetes Meds - 3 Month Update` are included in journey-filtered scoring.
+
+### How to Verify
+```bash
+cd lessOfLeeDataMining
+node scripts/build-mining-mvp.js
+sed -n '1,70p' reports/validation.md
+```
+
+Expected results:
+
+- Original journey: 6 story candidates across 49 tagged posts.
+- Reversing Type 2 Diabetes journey: 174 story candidates across 540 tagged posts.
+- Validation shows no failures.
+
+---
+
 ## 2026-05-10 — Mining MVP Precision Remediation
 
 ### What Was Built

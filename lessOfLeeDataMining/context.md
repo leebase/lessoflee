@@ -49,6 +49,11 @@ node scripts/build-mining-mvp.js
   - `original-less-of-lee-journey`: 49 posts from 2012-04-13 through 2013-08-03.
   - `reversing-type-2-diabetes-journey`: 540 posts from 2021-05-04 through 2025-12-07.
 - Remediated the review findings around broad alias matches, inflated concept frequencies, overuse of `transformation` story type, dashboard depth/sort, and HTML entities in excerpts.
+- Remediated the follow-up code review findings:
+  - dashboard scoring now uses full story tag membership via `all_themes`
+  - journey display tags are preserved in story `themes`
+  - validation reports journey story candidates across total tagged posts
+  - determinism is documented as a release check rather than an in-pipeline check
 
 ### Decisions Locked
 

@@ -123,10 +123,10 @@ Validation runs in the pipeline and checks:
 - post tag references
 - every post has exactly one health journey tag
 - story candidate source excerpts appear in source body
-- deterministic output across consecutive runs
 - CSV row count matches post count
 
 Manual "test as Lee" review is recorded in `reports/validation.md`.
+Determinism is verified as a release check by running the pipeline twice and comparing generated artifact hashes; it is not currently a self-check inside the pipeline.
 
 ## Boundaries
 
