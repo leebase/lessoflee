@@ -1,6 +1,6 @@
 # lessOfLeeDataMining Session Context
 
-> **Purpose**: Working memory for session continuity. If power drops, a new AI takes over, or we return after a break—read this first.
+> **Purpose**: Working memory for session continuity. If power drops, a new AI takes over, or we return after a break, read this first.
 
 ---
 
@@ -8,33 +8,60 @@
 
 | Attribute | Value |
 |-----------|-------|
-| **Phase** | Project scaffolding complete; ready to begin Sprint 1 (Canonical Post Index) |
+| **Phase** | Full Book Mining MVP complete; ready for curated story beat review |
 | **Mode** | 2 (Collaborative) |
-| **Last Updated** | 2026-05-09 |
+| **Last Updated** | 2026-05-10 |
 
 ---
 
 ## What's Happening Now
 
 ### Current Focus
-AgentFlow scaffolding has been created. The project is ready to begin Sprint 1: building the canonical post index from the 589 blog posts in `../src/content/blog/`.
+
+Sprint 1 is complete. The project now has a deterministic local pipeline that indexes all WordPress posts, applies controlled tags, mines heuristic story candidates, identifies recurring concept candidates, and generates Lee-facing reports.
+
+Run it from `lessOfLeeDataMining/`:
+
+```bash
+node scripts/build-mining-mvp.js
+```
 
 ### Recently Completed
-- AgentFlow methodology files created (AGENTS.md, context.md, sprint-plan.md, result-review.md)
-- Agents defined: post-indexer, story-miner, concept-extractor, data-reviewer
-- Skills defined: extraction-loop, mining-loop, data-validation, documentation, backlog, data-review
-- Playbook templates created for post-index and story-beat extraction
+
+- Added `use-cases.md` for book-writing workflows.
+- Updated `project-definition.md` to cover MVP use cases and data layers.
+- Added `architecture.md` for the local pipeline design.
+- Built `scripts/build-mining-mvp.js`.
+- Generated:
+  - `data/posts.jsonl` (589 records)
+  - `data/tags.json` (13 controlled tags)
+  - `data/post-tags.jsonl` (3,341 links)
+  - `data/story-candidates.jsonl` (180 candidates)
+  - `data/concept-candidates.json` (12 concepts)
+  - `reports/posts.csv`
+  - `reports/book-mining-dashboard.md`
+  - `reports/story-candidates.md`
+  - `reports/concept-candidates.md`
+  - `reports/validation.md`
+- Validation passes with no failures.
+- Determinism was checked by running the pipeline twice and comparing hashes.
 
 ### Decisions Locked
+
 | Decision | Rationale | Date |
 |---|---|---|
 | Node.js for scripts | Matches parent Astro project; shared tooling | 2026-05-09 |
 | JSONL for machine data | Streamable, line-diffable, appendable | 2026-05-09 |
 | Slug-based stable IDs | Deterministic across re-runs, human-readable | 2026-05-09 |
 | No paid APIs until structured layer exists | RAG/embeddings add value only after archive is legible | 2026-05-09 |
+| `pubDate` is canonical | 216 filenames differ from post dates; source frontmatter is the source of truth | 2026-05-10 |
+| Story outputs are candidates | The MVP is meant to find places to read first, not produce final manuscript beats | 2026-05-10 |
+| Reports are the first interface | Lee can inspect Markdown/CSV without a web app yet | 2026-05-10 |
 
 ### Next Actions Queue
-1. [IMPLEMENT] Build `scripts/build-post-index.js` — parse all blog posts, extract frontmatter + word count + summary
-2. [VALIDATE] Verify output against source: spot-check 10 posts for accuracy
-3. [REPORT] Generate `reports/posts.csv` for human review
-4. [DOCS] Update context.md and result-review.md
+
+1. [REVIEW] Open `reports/book-mining-dashboard.md` and mark the most useful leads.
+2. [CURATE] Promote selected records from `data/story-candidates.jsonl` into curated story beats.
+3. [IMPLEMENT] Add a curated `data/story-beats.jsonl` layer with setup, conflict, turn, outcome, and lesson.
+4. [EXPAND] Build timeline and candidate book maps after curated beats exist.
+

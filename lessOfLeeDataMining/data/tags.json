@@ -1,0 +1,296 @@
+[
+  {
+    "id": "type-2-diabetes",
+    "label": "Type 2 Diabetes",
+    "description": "Diagnosis, reversal/remission, labs, medication, glucose, and metabolic recovery.",
+    "aliases": [
+      "type 2 diabetes",
+      "t2d",
+      "diabetes",
+      "diabetic",
+      "a1c",
+      "blood sugar",
+      "glucose",
+      "insulin resistance",
+      "metformin",
+      "glipizide",
+      "trulicity",
+      "meds",
+      "medication",
+      "remission"
+    ],
+    "book_uses": [
+      "medical_arc",
+      "evidence",
+      "practical_health"
+    ]
+  },
+  {
+    "id": "a1c-labs",
+    "label": "A1c And Labs",
+    "description": "Posts with lab results, doctor feedback, A1c values, and measurable proof.",
+    "aliases": [
+      "a1c",
+      "lab",
+      "labs",
+      "blood work",
+      "doctor",
+      "cgm",
+      "glucose",
+      "insulin",
+      "kidney",
+      "lipid",
+      "crp"
+    ],
+    "book_uses": [
+      "evidence_case",
+      "proof_point",
+      "chapter_support"
+    ]
+  },
+  {
+    "id": "fasting",
+    "label": "Fasting",
+    "description": "Fasting as metabolic tool, discipline practice, and healing accelerator.",
+    "aliases": [
+      "fasting",
+      "fast",
+      "water fast",
+      "extended fasting",
+      "intermittent fasting",
+      "5 day fast",
+      "7 day fast",
+      "14 day fast",
+      "21 day fast",
+      "hunger",
+      "break the fast",
+      "autophagy"
+    ],
+    "book_uses": [
+      "practical_protocol",
+      "transformation_tool",
+      "chapter_cluster"
+    ]
+  },
+  {
+    "id": "feasting",
+    "label": "Feasting",
+    "description": "The positive-food side of the program: satisfying meals without destructive patterns.",
+    "aliases": [
+      "feast",
+      "feasting",
+      "keto",
+      "low carb",
+      "low-carb",
+      "carnivore",
+      "protein",
+      "recipe",
+      "bbbe",
+      "thanksgiving"
+    ],
+    "book_uses": [
+      "practical_food",
+      "mindset_reframe"
+    ]
+  },
+  {
+    "id": "capability-recovery",
+    "label": "Capability Recovery",
+    "description": "Regaining ordinary and extraordinary abilities through health recovery.",
+    "aliases": [
+      "cane",
+      "stairs",
+      "walk",
+      "walking",
+      "run",
+      "running",
+      "carry",
+      "winter",
+      "arthritis",
+      "osteoarthritis",
+      "mobility",
+      "pain",
+      "5k"
+    ],
+    "book_uses": [
+      "story_finder",
+      "memoir_arc",
+      "proof_points"
+    ]
+  },
+  {
+    "id": "exercise",
+    "label": "Exercise",
+    "description": "Exercise as health signal, mental discipline, and capacity building.",
+    "aliases": [
+      "exercise",
+      "workout",
+      "training",
+      "push day",
+      "saturday push day",
+      "hiit",
+      "supernatural",
+      "strength training",
+      "weights",
+      "lifting",
+      "muscle"
+    ],
+    "book_uses": [
+      "habit_system",
+      "practical_health",
+      "scene_finder"
+    ]
+  },
+  {
+    "id": "mindset",
+    "label": "Mindset",
+    "description": "The inner work required to keep going, restart, and choose health repeatedly.",
+    "aliases": [
+      "mindset",
+      "discipline",
+      "willpower",
+      "will power",
+      "mental",
+      "battle",
+      "excuse",
+      "choice",
+      "hard",
+      "systems"
+    ],
+    "book_uses": [
+      "throughline",
+      "chapter_theme"
+    ]
+  },
+  {
+    "id": "failure-restart",
+    "label": "Failure And Restart",
+    "description": "Failure treated as process data rather than final defeat.",
+    "aliases": [
+      "fail",
+      "failure",
+      "backslide",
+      "restart",
+      "starting again",
+      "fall down",
+      "get up",
+      "rise again",
+      "again",
+      "regained",
+      "old ways"
+    ],
+    "book_uses": [
+      "reader_encouragement",
+      "chapter_theme",
+      "honest_setback"
+    ]
+  },
+  {
+    "id": "health-identity",
+    "label": "Health Identity",
+    "description": "Posts where Lee names the person he is becoming, not merely the weight he is losing.",
+    "aliases": [
+      "former diabetic",
+      "ex-diabetic",
+      "non diabetic",
+      "diabetes free",
+      "med free",
+      "athlete",
+      "new me",
+      "no longer",
+      "identity",
+      "less unhealthy"
+    ],
+    "book_uses": [
+      "identity_arc",
+      "memoir_arc"
+    ]
+  },
+  {
+    "id": "nsv",
+    "label": "Non-Scale Victory",
+    "description": "Concrete life improvements that prove health change beyond the scale.",
+    "aliases": [
+      "nsv",
+      "non-scale victory",
+      "proof",
+      "evidence",
+      "victory",
+      "triumph",
+      "clothes",
+      "ring",
+      "shirt",
+      "clown pants"
+    ],
+    "book_uses": [
+      "scene_finder",
+      "proof_points"
+    ]
+  },
+  {
+    "id": "family-responsibility",
+    "label": "Family Responsibility",
+    "description": "Health as responsibility to people who need Lee present, capable, and durable.",
+    "aliases": [
+      "family",
+      "wife",
+      "daughter",
+      "daughters",
+      "grandfather",
+      "father",
+      "husband",
+      "pawpaw",
+      "grandson",
+      "loved and needed",
+      "carry the load"
+    ],
+    "book_uses": [
+      "emotional_core",
+      "memoir_arc"
+    ]
+  },
+  {
+    "id": "food-addiction",
+    "label": "Food Addiction And Boundaries",
+    "description": "Food temptation, carb sensitivity, processed food, holidays, and boundary setting.",
+    "aliases": [
+      "food addiction",
+      "carb sensitivity",
+      "carbs",
+      "sugar",
+      "processed",
+      "moderation",
+      "doritos",
+      "buffet",
+      "holiday",
+      "thanksgiving",
+      "tempted"
+    ],
+    "book_uses": [
+      "temptation_scene",
+      "harm_reduction",
+      "practical_boundary"
+    ]
+  },
+  {
+    "id": "humor-voice",
+    "label": "Humor And Voice",
+    "description": "Lee-style humor, memorable titles, and humanizing self-description.",
+    "aliases": [
+      "clown pants",
+      "doritos",
+      "scale",
+      "liar",
+      "stupid",
+      "hippo",
+      "body by",
+      "funny",
+      "smurfette"
+    ],
+    "book_uses": [
+      "quote_bank",
+      "voice_bank",
+      "humor_relief"
+    ]
+  }
+]

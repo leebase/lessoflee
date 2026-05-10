@@ -2,9 +2,22 @@
 
 ## Purpose
 
-Build a durable, searchable, and book-oriented data layer over the Less of Lee WordPress article archive in `src/content/blog`.
+Build a durable, searchable, and book-oriented data layer over the Less of Lee WordPress article archive in `../src/content/blog`.
 
-The goal is not only to search posts, but to mine them for reusable book material: stories, scenes, themes, concepts, turning points, evidence, quotes, and chapter candidates.
+The project turns the archive into a source library for writing books: stories, scenes, themes, concepts, turning points, evidence, quotes, and chapter candidates.
+
+## Product Goal
+
+Lee should be able to open the generated reports and quickly answer:
+
+- Where are my best diabetes reversal stories?
+- Where are my fasting stories?
+- Where are restart, failure, and comeback stories?
+- Where are family and responsibility stories?
+- What recurring Less of Lee ideas could become chapters?
+- Which source post should I read next?
+
+The system is successful when it helps Lee write from source truth instead of memory alone.
 
 ## Source Material
 
@@ -12,18 +25,28 @@ Primary source:
 
 - `../src/content/blog/*.md`
 
-These Markdown files are the downloaded WordPress articles. They should be treated as the canonical raw source for mining.
+These Markdown files are the downloaded WordPress articles. They are canonical raw source and must not be modified by mining scripts.
 
 Related source material:
 
 - `../src/assets/posts/` - downloaded images associated with posts
-- `../src/data/blog/` - AstroPaper sample/current content collection path
 - `../scripts/scrape-wordpress.js` - WordPress.com RSS scraper
 - `../scripts/convert-wordpress.js` - WordPress export converter
 
-## Core Question
+## Use-Case Coverage
 
-How do we represent the article archive so Lee can quickly find relevant stories, topics, and ideas for one or more books?
+Detailed use cases live in `use-cases.md`. The data model must support:
+
+- transformation timeline reconstruction
+- diabetes reversal evidence
+- fasting lessons and safety stories
+- "I can't until I can" capability stories
+- relapse, restart, and comeback stories
+- family, marriage, and grandfather responsibility stories
+- practical chapter material about food, exercise, fasting, and systems
+- quote and Lee-ism discovery
+- candidate book and chapter structure discovery
+- source verification while writing
 
 ## Recommended Strategy
 
@@ -31,21 +54,22 @@ Use a layered, inspectable representation before introducing RAG or graph infras
 
 RAG can be useful later for semantic search, but it should not be the first abstraction. The first task is to make the archive legible and structured.
 
-The initial representation should be:
+The initial representation uses:
 
-- Simple files
-- Stable IDs
+- simple local files
+- stable IDs
 - JSONL for machine processing
-- Optional CSV/Markdown reports for human review
-- Explicit relationships between posts, story beats, concepts, timeline events, and possible chapters
+- JSON for curated dictionaries and grouped objects
+- CSV and Markdown for human review
+- explicit relationships between posts, tags, story candidates, concepts, and book-use labels
 
-## Data Layers
+## MVP Data Layers
 
 ### 1. Canonical Post Index
 
 One record per article.
 
-Suggested fields:
+Required fields:
 
 - `id`
 - `slug`
@@ -54,236 +78,127 @@ Suggested fields:
 - `file_path`
 - `word_count`
 - `summary`
-- `primary_theme`
-- `secondary_themes`
-- `people`
-- `places`
-- `health_topics`
-- `life_events`
-- `emotional_tone`
-- `story_value`
-- `practical_value`
-- `book_relevance`
-- `notable_quotes`
+- `source_tags`
+- `wordpress_url`
+- `has_images`
 
 Output:
 
 - `data/posts.jsonl`
 - `reports/posts.csv`
 
-### 2. Story Beat Index
+### 2. Controlled Vocabulary
 
-One record per reusable story unit. A single article may contain several story beats.
+A normalized tag set with aliases and descriptions.
 
-Suggested fields:
+Required fields:
 
-- `beat_id`
-- `post_id`
-- `type`
-- `setup`
-- `conflict`
-- `turn`
-- `outcome`
-- `lesson`
-- `themes`
-- `usable_for`
-- `emotional_tone`
-- `source_excerpt`
-
-Output:
-
-- `data/story-beats.jsonl`
-- `reports/story-beats.csv`
-
-### 3. Controlled Vocabulary
-
-A curated list of normalized tags and themes.
-
-Early candidate tags:
-
-- `diabetes`
-- `a1c`
-- `former diabetic`
-- `fasting`
-- `extended fasting`
-- `feasting`
-- `keto`
-- `carnivore`
-- `exercise`
-- `walking`
-- `running`
-- `strength training`
-- `osteoarthritis`
-- `pain`
-- `mobility`
-- `doctor visit`
-- `lab results`
-- `family`
-- `grandfather`
-- `marriage`
-- `faith`
-- `identity`
-- `discipline`
-- `relapse`
-- `restart`
-- `food addiction`
-- `carb sensitivity`
-- `recipes`
-- `nsv`
-- `i can't until i can`
-- `start where you are`
+- `id`
+- `label`
+- `description`
+- `aliases`
+- `book_uses`
 
 Output:
 
 - `data/tags.json`
 
-### 4. Concept Cards
+### 3. Post Tag Index
 
-One record per recurring Less of Lee idea, phrase, or principle.
+One or more tag records per post, based on source tags, title, and body keyword evidence.
 
-Examples:
+Required fields:
 
-- `I can't until I can`
-- `Start where you are`
-- `Fail your way to health`
-- `Former diabetic`
-- `Health is the destination`
-- `Build your health`
-- `No longer fragile`
+- `post_id`
+- `tag_id`
+- `confidence`
+- `evidence`
 
-Suggested fields:
+Output:
+
+- `data/post-tags.jsonl`
+
+### 4. Story Candidates
+
+Heuristic candidates for reusable story material. These are not final story beats; they are source-backed places to read first.
+
+Required fields:
+
+- `story_id`
+- `post_id`
+- `title`
+- `date`
+- `type`
+- `book_uses`
+- `themes`
+- `score`
+- `source_excerpt`
+- `why_it_matters`
+- `file_path`
+
+Output:
+
+- `data/story-candidates.jsonl`
+- `reports/story-candidates.md`
+
+### 5. Concept Candidates
+
+Recurring Less of Lee ideas and phrases with supporting posts.
+
+Required fields:
 
 - `concept_id`
 - `name`
 - `definition`
-- `related_themes`
+- `related_tags`
+- `book_uses`
 - `supporting_posts`
-- `supporting_story_beats`
-- `candidate_chapters`
+- `frequency`
 - `representative_quotes`
+- `candidate_chapters`
 
 Output:
 
-- `data/concepts.json`
-- `reports/concepts.md`
+- `data/concept-candidates.json`
+- `reports/concept-candidates.md`
 
-### 5. Timeline Index
+### 6. Book Mining Dashboard
 
-Major events and transformation milestones.
-
-Suggested fields:
-
-- `date`
-- `type`
-- `label`
-- `description`
-- `related_posts`
-- `themes`
-- `book_arc`
+A Lee-facing entry point that groups useful source material by use case.
 
 Output:
 
-- `data/timeline.json`
-- `reports/timeline.md`
+- `reports/book-mining-dashboard.md`
 
-### 6. Candidate Book And Chapter Map
+## Future Data Layers
 
-A working architecture for possible books.
+Later iterations may add:
 
-Possible books:
+- curated story beats after human review
+- timeline events
+- candidate book maps
+- semantic search or RAG over stable IDs
+- graph-style relationship exploration
 
-- Memoir of health transformation
-- Practical guide to reversing Type 2 diabetes through lived experience
-- Mindset and identity book
-- Fasting-focused book
-- Faith, family, responsibility, and health reflections
+## Architecture
 
-Suggested fields:
+Implementation architecture lives in `architecture.md`.
 
-- `book_id`
-- `working_title`
-- `premise`
-- `audience`
-- `chapter_candidates`
-- `supporting_concepts`
-- `supporting_story_beats`
-- `open_questions`
+The MVP is one deterministic Node.js pipeline:
 
-Output:
-
-- `data/books.json`
-- `reports/book-map.md`
-
-## Proposed Directory Structure
-
-```text
-lessOfLeeDataMining/
-  project-definition.md
-  data/
-    posts.jsonl
-    story-beats.jsonl
-    tags.json
-    concepts.json
-    timeline.json
-    books.json
-  reports/
-    posts.csv
-    story-beats.csv
-    concepts.md
-    timeline.md
-    book-map.md
-  scripts/
-    build-post-index.js
-    extract-story-beats.js
-    build-reports.js
+```sh
+node scripts/build-mining-mvp.js
 ```
 
-## First Milestone
-
-Create the canonical post index from `../src/content/blog`.
-
-Minimum viable output:
-
-- Parse Markdown files
-- Extract frontmatter
-- Compute slug, title, date, path, and word count
-- Generate a short summary placeholder or extracted first-paragraph summary
-- Write `data/posts.jsonl`
-- Write `reports/posts.csv`
-
-## Second Milestone
-
-Mine story beats from the highest-value posts.
-
-Start with a deterministic or semi-manual pass before automating deeply:
-
-- Identify posts with strong titles or known themes
-- Extract one or more story beats per post
-- Score each beat for memoir value and practical value
-- Begin linking beats to concepts and candidate chapters
-
-## Later Enhancements
-
-After the structured data exists, add semantic search or RAG:
-
-- Chunk posts and story beats
-- Embed chunks with stable IDs
-- Support questions like "find stories about pain not meaning damage"
-- Use structured metadata to filter results before semantic retrieval
-
-Graph-style exploration can also be added later without adopting a graph database immediately. The JSON relationships are enough to begin:
-
-- posts to themes
-- posts to story beats
-- story beats to concepts
-- concepts to chapters
-- timeline events to posts
+It reads source posts, writes data files, generates reports, and records validation results.
 
 ## Guiding Principles
 
-- Preserve source links back to the original Markdown files.
-- Prefer structured, inspectable files over opaque systems.
+- Preserve source links back to original Markdown files.
+- Prefer inspectable files over opaque systems.
 - Treat tags as useful metadata, not the whole representation.
-- Treat story beats and concepts as the main book-mining units.
-- Add RAG only after the archive has stable IDs, summaries, tags, and story beat records.
-- Keep generated artifacts separate from the source blog content.
+- Treat story candidates and concepts as the main book-mining units.
+- Add RAG only after the archive has stable IDs, summaries, tags, and candidate records.
+- Keep generated artifacts separate from source blog content.
+- Do not modify `../src/content/blog`.
+

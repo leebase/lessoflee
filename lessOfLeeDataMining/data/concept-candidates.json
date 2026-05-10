@@ -1,0 +1,2746 @@
+[
+  {
+    "concept_id": "feast-and-fast",
+    "name": "The Feast And The Fast",
+    "definition": "A rhythm of metabolic healing that combines abstinence with satisfying, intentional nourishment.",
+    "related_tags": [
+      "fasting",
+      "feasting",
+      "type-2-diabetes"
+    ],
+    "book_uses": [
+      "practical_protocol",
+      "food_framework",
+      "chapter_cluster"
+    ],
+    "supporting_posts": [
+      {
+        "post_id": "2021-05-04-i-can8217t-drive-55-fast-and-faster",
+        "title": "I Can’t Drive 55!  Fast and Faster",
+        "date": "2021-05-04",
+        "file_path": "../src/content/blog/2021-05-04-i-can8217t-drive-55-fast-and-faster.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fast"
+        ],
+        "quote": "*Speed Racer from the beginning*"
+      },
+      {
+        "post_id": "2021-05-26-a-day-in-the-new-life-8211-fasting-keto",
+        "title": "A Day in the New Life – Fasting + Keto",
+        "date": "2021-05-26",
+        "file_path": "../src/content/blog/2021-05-26-a-day-in-the-new-life-8211-fasting-keto.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fast"
+        ],
+        "quote": "How I’m currently managing my diabetes."
+      },
+      {
+        "post_id": "2021-12-27-end-of-year-5-day-fastcleanse",
+        "title": "End of Year 5 Day Fast/Cleanse",
+        "date": "2021-12-28",
+        "file_path": "../src/content/blog/2021-12-27-end-of-year-5-day-fastcleanse.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fast"
+        ],
+        "quote": "I’ve completed day 1 of a planned 5 day fast/cleanse."
+      },
+      {
+        "post_id": "2021-12-29-day-1-of-5-day-fast-cleanse",
+        "title": "Day 1 of 5 Day Fast / Cleanse",
+        "date": "2021-12-30",
+        "file_path": "../src/content/blog/2021-12-29-day-1-of-5-day-fast-cleanse.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fast"
+        ],
+        "quote": "38 hours into my 5 day fast and I’m feeling fine and I’m down 5lbs."
+      },
+      {
+        "post_id": "2021-12-29-day-2-of-my-5-day-fast-cleanse",
+        "title": "Day 2 of my 5 Day Fast / Cleanse",
+        "date": "2021-12-30",
+        "file_path": "../src/content/blog/2021-12-29-day-2-of-my-5-day-fast-cleanse.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fast"
+        ],
+        "quote": "Day 2 is supposed to be the hardest."
+      },
+      {
+        "post_id": "2021-12-29-day-3-of-my-5-day-fast-cleanse",
+        "title": "Day 3 of my 5 Day Fast / Cleanse",
+        "date": "2021-12-30",
+        "file_path": "../src/content/blog/2021-12-29-day-3-of-my-5-day-fast-cleanse.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fast"
+        ],
+        "quote": "Two more days to go."
+      },
+      {
+        "post_id": "2021-12-29-fasting-is-not-binging-and-purging",
+        "title": "Fasting is not Binging and Purging",
+        "date": "2021-12-30",
+        "file_path": "../src/content/blog/2021-12-29-fasting-is-not-binging-and-purging.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fast"
+        ],
+        "quote": "I want to clarify something about my 5 day fast/cleanse."
+      },
+      {
+        "post_id": "2021-12-30-day-4-of-my-5-day-fast-cleanse",
+        "title": "Day 4 of my 5 Day Fast / Cleanse",
+        "date": "2021-12-30",
+        "file_path": "../src/content/blog/2021-12-30-day-4-of-my-5-day-fast-cleanse.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fast"
+        ],
+        "quote": "There are now 51lbs less of Lee."
+      },
+      {
+        "post_id": "2022-01-27-january-5-day-fast-8211-day-3",
+        "title": "January 5 Day Fast – Day 3",
+        "date": "2022-01-27",
+        "file_path": "../src/content/blog/2022-01-27-january-5-day-fast-8211-day-3.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fast"
+        ],
+        "quote": "It’s morning day 3 of January’s 5 day fast."
+      },
+      {
+        "post_id": "2022-02-12-fasting-is-done-feasting-has-begun",
+        "title": "Fasting is done, feasting has begun.",
+        "date": "2022-02-13",
+        "file_path": "../src/content/blog/2022-02-12-fasting-is-done-feasting-has-begun.md",
+        "title_match": true,
+        "matched_aliases": [
+          "feast",
+          "fast"
+        ],
+        "quote": "Fasting is done, feasting has begun."
+      },
+      {
+        "post_id": "2022-02-17-the-beauty-of-the-feast",
+        "title": "The Beauty of the Feast",
+        "date": "2022-02-17",
+        "file_path": "../src/content/blog/2022-02-17-the-beauty-of-the-feast.md",
+        "title_match": true,
+        "matched_aliases": [
+          "feast",
+          "fast",
+          "beauty of the feast"
+        ],
+        "quote": "Fasting is done, feasting has begun."
+      },
+      {
+        "post_id": "2022-02-22-the-benefits-of-extended-fasting-8211-day-1",
+        "title": "The Benefits of Extended Fasting – Day 1",
+        "date": "2022-02-23",
+        "file_path": "../src/content/blog/2022-02-22-the-benefits-of-extended-fasting-8211-day-1.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fast"
+        ],
+        "quote": "Fasting is an amazing health practice,."
+      },
+      {
+        "post_id": "2022-02-22-the-benefits-of-extended-fasting-8211-day-2",
+        "title": "The Benefits of Extended Fasting – Day 2",
+        "date": "2022-02-23",
+        "file_path": "../src/content/blog/2022-02-22-the-benefits-of-extended-fasting-8211-day-2.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fast"
+        ],
+        "quote": "Fasting is an amazing health practice."
+      },
+      {
+        "post_id": "2022-02-23-the-benefits-of-extended-fasting-8211-day-3",
+        "title": "The Benefits of Extended Fasting – Day 3",
+        "date": "2022-02-24",
+        "file_path": "../src/content/blog/2022-02-23-the-benefits-of-extended-fasting-8211-day-3.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fast"
+        ],
+        "quote": "Fasting is an amazing health practice."
+      },
+      {
+        "post_id": "2022-02-24-the-benefits-of-extended-fasting-8211-day-4",
+        "title": "The Benefits of Extended Fasting – Day 4",
+        "date": "2022-02-25",
+        "file_path": "../src/content/blog/2022-02-24-the-benefits-of-extended-fasting-8211-day-4.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fast"
+        ],
+        "quote": "Fasting is an amazing health practice."
+      },
+      {
+        "post_id": "2022-02-25-the-benefits-of-extended-fasting-8211-day-5",
+        "title": "The Benefits of Extended Fasting – Day 5",
+        "date": "2022-02-26",
+        "file_path": "../src/content/blog/2022-02-25-the-benefits-of-extended-fasting-8211-day-5.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fast"
+        ],
+        "quote": "Fasting is an amazing health practice."
+      },
+      {
+        "post_id": "2022-03-04-why-feast",
+        "title": "Why “Feast”?",
+        "date": "2022-03-04",
+        "file_path": "../src/content/blog/2022-03-04-why-feast.md",
+        "title_match": true,
+        "matched_aliases": [
+          "feast",
+          "fast"
+        ],
+        "quote": "Pedantics rejoice, we shall commence the argument over the word: feast."
+      },
+      {
+        "post_id": "2022-03-20-march-22-5-day-fast-begins",
+        "title": "March 22 5 Day Fast Begins",
+        "date": "2022-03-20",
+        "file_path": "../src/content/blog/2022-03-20-march-22-5-day-fast-begins.md",
+        "title_match": true,
+        "matched_aliases": [
+          "feast",
+          "fast"
+        ],
+        "quote": "Feasting is done – my monthly 5 day fast has begun."
+      },
+      {
+        "post_id": "2022-03-25-march-2022-5-day-fast",
+        "title": "March 2022 5 Day Fast",
+        "date": "2022-03-25",
+        "file_path": "../src/content/blog/2022-03-25-march-2022-5-day-fast.md",
+        "title_match": true,
+        "matched_aliases": [
+          "feast",
+          "fast"
+        ],
+        "quote": "I have noticed that I’ve gained weight the last 2 months."
+      },
+      {
+        "post_id": "2022-03-26-fasting-for-mental-clarity",
+        "title": "Fasting for Mental Clarity",
+        "date": "2022-03-27",
+        "file_path": "../src/content/blog/2022-03-26-fasting-for-mental-clarity.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fast"
+        ],
+        "quote": "I’m not going to say my extra mental alertness from my 5 day fast was the reason…."
+      }
+    ],
+    "frequency": 269,
+    "representative_quotes": [
+      {
+        "post_id": "2021-05-04-i-can8217t-drive-55-fast-and-faster",
+        "quote": "Speed Racer from the beginning"
+      },
+      {
+        "post_id": "2021-05-26-a-day-in-the-new-life-8211-fasting-keto",
+        "quote": "How I’m currently managing my diabetes."
+      },
+      {
+        "post_id": "2021-12-27-end-of-year-5-day-fastcleanse",
+        "quote": "I’ve completed day 1 of a planned 5 day fast/cleanse."
+      }
+    ],
+    "candidate_chapters": [
+      "The Feast And The Fast"
+    ],
+    "status": "candidate"
+  },
+  {
+    "concept_id": "i-cant-until-i-can",
+    "name": "I Can't Until I Can",
+    "definition": "Perceived impossibility becomes ability through repeated attempts, adaptation, and time.",
+    "related_tags": [
+      "capability-recovery",
+      "exercise",
+      "mindset",
+      "nsv"
+    ],
+    "book_uses": [
+      "chapter_title",
+      "throughline",
+      "scene_finder"
+    ],
+    "supporting_posts": [
+      {
+        "post_id": "2012-04-14-i-can-wait-20",
+        "title": "I Can Wait 20",
+        "date": "2012-04-14",
+        "file_path": "../src/content/blog/2012-04-14-i-can-wait-20.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can"
+        ],
+        "quote": "This 20 minute rule seems to be talked about everywhere, but I couldn't find a decent definitive article to link to."
+      },
+      {
+        "post_id": "2021-05-04-i-can8217t-drive-55-fast-and-faster",
+        "title": "I Can’t Drive 55!  Fast and Faster",
+        "date": "2021-05-04",
+        "file_path": "../src/content/blog/2021-05-04-i-can8217t-drive-55-fast-and-faster.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can"
+        ],
+        "quote": "One way is medication."
+      },
+      {
+        "post_id": "2021-08-29-nsv-8211-i-can-wear-my-fathers-day-shirt",
+        "title": "NSV – I can wear my Father’s Day Shirt",
+        "date": "2021-08-29",
+        "file_path": "../src/content/blog/2021-08-29-nsv-8211-i-can-wear-my-fathers-day-shirt.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can"
+        ],
+        "quote": "Non-scale victory."
+      },
+      {
+        "post_id": "2022-02-06-i-cantuntil-i-can-8211-exercise-vigorously-for-an",
+        "title": "I Can’t…Until I Can – Exercise Vigorously for an Hour",
+        "date": "2022-02-06",
+        "file_path": "../src/content/blog/2022-02-06-i-cantuntil-i-can-8211-exercise-vigorously-for-an.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can't until i can",
+          "until i can",
+          "i can"
+        ],
+        "quote": "Well, today I checked off “working out vigorously for an hour” off the list of things I can’t do."
+      },
+      {
+        "post_id": "2022-02-06-nsv-8211-i-can-bowl",
+        "title": "NSV – I Can Bowl",
+        "date": "2022-02-07",
+        "file_path": "../src/content/blog/2022-02-06-nsv-8211-i-can-bowl.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can"
+        ],
+        "quote": "I can’t bowl well, mind you."
+      },
+      {
+        "post_id": "2022-02-12-i-cantuntil-i-can-play-pickleball",
+        "title": "I Can’t…Until I Can: Play Pickleball",
+        "date": "2022-02-13",
+        "file_path": "../src/content/blog/2022-02-12-i-cantuntil-i-can-play-pickleball.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can't until i can",
+          "until i can",
+          "i can"
+        ],
+        "quote": "Until I can."
+      },
+      {
+        "post_id": "2022-03-01-i-cantuntil-i-can-engage-in-high-intensity-interva",
+        "title": "I Can’t…Until I Can: Engage in High Intensity Interval Training.",
+        "date": "2022-03-02",
+        "file_path": "../src/content/blog/2022-03-01-i-cantuntil-i-can-engage-in-high-intensity-interva.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can't until i can",
+          "until i can",
+          "i can"
+        ],
+        "quote": "I can’t…until I can is one of my mantras."
+      },
+      {
+        "post_id": "2022-03-14-if-i-can-do-ityou-can",
+        "title": "If I Can Do It…You Can",
+        "date": "2022-03-14",
+        "file_path": "../src/content/blog/2022-03-14-if-i-can-do-ityou-can.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can"
+        ],
+        "quote": "“New” – old clothes for church."
+      },
+      {
+        "post_id": "2022-04-09-i-cantuntil-i-can-8211-complete-a-pros-only-level",
+        "title": "I can’t…until I can – Complete a ”Pros Only” level workout",
+        "date": "2022-04-09",
+        "file_path": "../src/content/blog/2022-04-09-i-cantuntil-i-can-8211-complete-a-pros-only-level.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can't until i can",
+          "until i can",
+          "i can"
+        ],
+        "quote": "When I started this latest journey to get healthy, one of my goals was to be able to exercise vigorously for an hour."
+      },
+      {
+        "post_id": "2022-05-02-another-goal-achieved-8211-i-can-exercise-for-an-h",
+        "title": "Another Goal Achieved – I can exercise for an hour",
+        "date": "2022-05-02",
+        "file_path": "../src/content/blog/2022-05-02-another-goal-achieved-8211-i-can-exercise-for-an-h.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can"
+        ],
+        "quote": "I’m so glad I’ve written these blog posts so I can remember the journey."
+      },
+      {
+        "post_id": "2022-05-11-i-cantuntil-i-can-go-off-roading",
+        "title": "I can’t…until I can: Go Off Roading",
+        "date": "2022-05-12",
+        "file_path": "../src/content/blog/2022-05-11-i-cantuntil-i-can-go-off-roading.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can't until i can",
+          "until i can",
+          "i can"
+        ],
+        "quote": "My new job has a beach volleyball team."
+      },
+      {
+        "post_id": "2022-06-18-i-cant-until-i-can-run",
+        "title": "I Can’t Until I Can: Run!",
+        "date": "2022-06-18",
+        "file_path": "../src/content/blog/2022-06-18-i-cant-until-i-can-run.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can't until i can",
+          "until i can",
+          "i can"
+        ],
+        "quote": "I can’t do it – now."
+      },
+      {
+        "post_id": "2022-07-04-i-cantuntil-i-can-8211-play-badminton",
+        "title": "I can’t….until I can – play badminton",
+        "date": "2022-07-05",
+        "file_path": "../src/content/blog/2022-07-04-i-cantuntil-i-can-8211-play-badminton.md",
+        "title_match": true,
+        "matched_aliases": [
+          "until i can",
+          "i can"
+        ],
+        "quote": "The recovery of abilities, the growing of my small world – continues."
+      },
+      {
+        "post_id": "2022-08-13-i-cantuntil-i-can-run-a-5k-with-intervals",
+        "title": "I Can’t…Until I Can:  Run a 5k With Intervals",
+        "date": "2022-08-13",
+        "file_path": "../src/content/blog/2022-08-13-i-cantuntil-i-can-run-a-5k-with-intervals.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can't until i can",
+          "until i can",
+          "i can"
+        ],
+        "quote": "I Can’t…Until I Can – I’ve made it a mantra, an ethos, a mindset."
+      },
+      {
+        "post_id": "2022-08-20-nsv-8211-i-can-wear-my-wedding-ring",
+        "title": "NSV – I Can Wear My Wedding Ring",
+        "date": "2022-08-20",
+        "file_path": "../src/content/blog/2022-08-20-nsv-8211-i-can-wear-my-wedding-ring.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can"
+        ],
+        "quote": "It’s been MANY years since I’ve worn my wedding ring."
+      },
+      {
+        "post_id": "2022-08-27-i-cantuntil-i-can-run-a-mile",
+        "title": "I Can’t…Until I Can: Run a Mile",
+        "date": "2022-08-27",
+        "file_path": "../src/content/blog/2022-08-27-i-cantuntil-i-can-run-a-mile.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can't until i can",
+          "until i can",
+          "i can"
+        ],
+        "quote": "It doesn’t happen over night."
+      },
+      {
+        "post_id": "2022-09-04-i-cantuntil-i-can-sprint",
+        "title": "I Can’t…Until I Can: Sprint",
+        "date": "2022-09-04",
+        "file_path": "../src/content/blog/2022-09-04-i-cantuntil-i-can-sprint.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can't until i can",
+          "until i can",
+          "i can"
+        ],
+        "quote": "If I’m only going so far…why not push myself?"
+      },
+      {
+        "post_id": "2022-11-12-i-cant-until-i-can-8211-supernatural-personal-best",
+        "title": "I Can’t Until I Can – Supernatural Personal Bests",
+        "date": "2022-11-13",
+        "file_path": "../src/content/blog/2022-11-12-i-cant-until-i-can-8211-supernatural-personal-best.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can't until i can",
+          "until i can",
+          "i can"
+        ],
+        "quote": "How do you turn I can’t into I can?"
+      },
+      {
+        "post_id": "2022-11-15-i-cant-until-i-can-8211-exercise-in-winter",
+        "title": "I Can’t Until I Can – Exercise in Winter",
+        "date": "2022-11-16",
+        "file_path": "../src/content/blog/2022-11-15-i-cant-until-i-can-8211-exercise-in-winter.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can't until i can",
+          "until i can",
+          "i can"
+        ],
+        "quote": "Winter was coming…what to do?"
+      },
+      {
+        "post_id": "2022-11-26-i-cantuntil-i-can-8211-run-up-the-entire-hill",
+        "title": "I Can’t…Until I Can – Run Up the Entire Hill",
+        "date": "2022-11-26",
+        "file_path": "../src/content/blog/2022-11-26-i-cantuntil-i-can-8211-run-up-the-entire-hill.md",
+        "title_match": true,
+        "matched_aliases": [
+          "i can't until i can",
+          "until i can",
+          "i can"
+        ],
+        "quote": "Well, today I did it."
+      }
+    ],
+    "frequency": 266,
+    "representative_quotes": [
+      {
+        "post_id": "2012-04-14-i-can-wait-20",
+        "quote": "This 20 minute rule seems to be talked about everywhere, but I couldn't find a decent definitive article to link to."
+      },
+      {
+        "post_id": "2021-05-04-i-can8217t-drive-55-fast-and-faster",
+        "quote": "One way is medication."
+      },
+      {
+        "post_id": "2021-08-29-nsv-8211-i-can-wear-my-fathers-day-shirt",
+        "quote": "Non-scale victory."
+      }
+    ],
+    "candidate_chapters": [
+      "The Impossible Becomes Routine"
+    ],
+    "status": "candidate"
+  },
+  {
+    "concept_id": "reclaiming-abilities",
+    "name": "Reclaiming Abilities",
+    "definition": "The practical meaning of health: getting back the ability to serve, move, travel, work, and participate in family life.",
+    "related_tags": [
+      "capability-recovery",
+      "family-responsibility",
+      "nsv"
+    ],
+    "book_uses": [
+      "emotional_core",
+      "memoir_arc",
+      "scene_finder"
+    ],
+    "supporting_posts": [
+      {
+        "post_id": "2022-12-30-i-can8217t-until-i-can-8211-from-cane-to-5k",
+        "title": "I Can’t Until I Can – From Cane to 5K",
+        "date": "2022-12-30",
+        "file_path": "../src/content/blog/2022-12-30-i-can8217t-until-i-can-8211-from-cane-to-5k.md",
+        "title_match": true,
+        "matched_aliases": [
+          "cane",
+          "stairs"
+        ],
+        "quote": "I have osteoarthritis in my knees."
+      },
+      {
+        "post_id": "2023-01-03-i-resolve-to-reclaim-my-health",
+        "title": "I Resolve to Reclaim My Health",
+        "date": "2023-01-04",
+        "file_path": "../src/content/blog/2023-01-03-i-resolve-to-reclaim-my-health.md",
+        "title_match": true,
+        "matched_aliases": [
+          "reclaim",
+          "cane",
+          "health recovery"
+        ],
+        "quote": "18 months ago I resolved to reclaim my health."
+      },
+      {
+        "post_id": "2023-03-30-nsv-8211-a-triumph-at-opening-day-no-more-cane",
+        "title": "NSV – A Triumph at Opening Day: No More Cane",
+        "date": "2023-03-30",
+        "file_path": "../src/content/blog/2023-03-30-nsv-8211-a-triumph-at-opening-day-no-more-cane.md",
+        "title_match": true,
+        "matched_aliases": [
+          "reclaim",
+          "cane",
+          "stairs"
+        ],
+        "quote": "Days like today are the reason I've put in all the hard work and maintained persistence."
+      },
+      {
+        "post_id": "2023-04-10-no-more-losing-abilities-without-a-fight",
+        "title": "No More Losing Abilities Without a Fight",
+        "date": "2023-04-11",
+        "file_path": "../src/content/blog/2023-04-10-no-more-losing-abilities-without-a-fight.md",
+        "title_match": true,
+        "matched_aliases": [
+          "abilities",
+          "cane"
+        ],
+        "quote": "I’m working so hard to gain back abilities I’d lost."
+      },
+      {
+        "post_id": "2023-04-17-beyond-a1c-the-journey-to-health-recovery",
+        "title": "Beyond A1c: The Journey to Health Recovery",
+        "date": "2023-04-17",
+        "file_path": "../src/content/blog/2023-04-17-beyond-a1c-the-journey-to-health-recovery.md",
+        "title_match": true,
+        "matched_aliases": [
+          "reclaim",
+          "cane",
+          "stairs",
+          "health recovery"
+        ],
+        "quote": "My journey to regain my health is far from over."
+      },
+      {
+        "post_id": "2023-07-20-two-years-med-free-8211-health-recovery",
+        "title": "Two Years Med Free – Health Recovery",
+        "date": "2023-07-21",
+        "file_path": "../src/content/blog/2023-07-20-two-years-med-free-8211-health-recovery.md",
+        "title_match": true,
+        "matched_aliases": [
+          "reclaim",
+          "cane",
+          "stairs",
+          "health recovery"
+        ],
+        "quote": "I have not arrived because there is no such thing."
+      },
+      {
+        "post_id": "2023-07-31-saturday-push-day-8211-yard-work-ability",
+        "title": "Saturday Push Day – Yard Work-ability",
+        "date": "2023-07-31",
+        "file_path": "../src/content/blog/2023-07-31-saturday-push-day-8211-yard-work-ability.md",
+        "title_match": true,
+        "matched_aliases": [
+          "reclaim",
+          "cane",
+          "yard work"
+        ],
+        "quote": "It feels good to reclaim the ability to take care of myself and my family."
+      },
+      {
+        "post_id": "2025-05-21-return-of-the-cane",
+        "title": "Return of the Cane",
+        "date": "2025-05-21",
+        "file_path": "../src/content/blog/2025-05-21-return-of-the-cane.md",
+        "title_match": true,
+        "matched_aliases": [
+          "cane"
+        ],
+        "quote": "Had to wipe the cobwebs off my cane which was in the garage."
+      },
+      {
+        "post_id": "2012-09-01-50lbs-less-of-lee",
+        "title": "50lbs Less of Lee",
+        "date": "2012-09-01",
+        "file_path": "../src/content/blog/2012-09-01-50lbs-less-of-lee.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stairs"
+        ],
+        "quote": "My fitness level too has improved."
+      },
+      {
+        "post_id": "2012-10-07-20-less-of-lee",
+        "title": "20% Less of Lee",
+        "date": "2012-10-07",
+        "file_path": "../src/content/blog/2012-10-07-20-less-of-lee.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stairs"
+        ],
+        "quote": "That said, it’s been a tough month."
+      },
+      {
+        "post_id": "2012-10-17-less-of-lee-at-6-months",
+        "title": "Less of Lee at 6 Months",
+        "date": "2012-10-17",
+        "file_path": "../src/content/blog/2012-10-17-less-of-lee-at-6-months.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stairs"
+        ],
+        "quote": "It’s surprising how the fitness level has affected my normal life."
+      },
+      {
+        "post_id": "2012-11-04-70lbs-down-with-visions-of-muscles-dancing-in-my-h",
+        "title": "70lbs Down with Visions of Muscles Dancing in My Head",
+        "date": "2012-11-04",
+        "file_path": "../src/content/blog/2012-11-04-70lbs-down-with-visions-of-muscles-dancing-in-my-h.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stairs"
+        ],
+        "quote": "100 pushups."
+      },
+      {
+        "post_id": "2012-12-23-25-and-80lbs-less-of-lee",
+        "title": "25% and 80lbs Less of Lee",
+        "date": "2012-12-23",
+        "file_path": "../src/content/blog/2012-12-23-25-and-80lbs-less-of-lee.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stairs"
+        ],
+        "quote": "I’m also progressing nicely with my fitness goals."
+      },
+      {
+        "post_id": "2012-12-31-the-year-that-was-2012-in-fitness",
+        "title": "The Year That Was 2012 In Fitness",
+        "date": "2012-12-31",
+        "file_path": "../src/content/blog/2012-12-31-the-year-that-was-2012-in-fitness.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stairs"
+        ],
+        "quote": "I had no New Year’s resolutions for fitness when 2012 started."
+      },
+      {
+        "post_id": "2013-02-02-happy-birthday-to-me-8211-gave-myself-the-gift-of",
+        "title": "Happy Birthday to Me – Gave Myself the Gift of Health",
+        "date": "2013-02-02",
+        "file_path": "../src/content/blog/2013-02-02-happy-birthday-to-me-8211-gave-myself-the-gift-of.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stairs"
+        ],
+        "quote": "Happy Birthday to me."
+      },
+      {
+        "post_id": "2021-12-13-eye-on-the-prize-8211-all-the-way-to-health",
+        "title": "Eye On The Prize – All The Way to Health",
+        "date": "2021-12-13",
+        "file_path": "../src/content/blog/2021-12-13-eye-on-the-prize-8211-all-the-way-to-health.md",
+        "title_match": false,
+        "matched_aliases": [
+          "reclaim"
+        ],
+        "quote": "And I have much more of my health yet to reclaim."
+      },
+      {
+        "post_id": "2021-12-27-end-of-year-5-day-fastcleanse",
+        "title": "End of Year 5 Day Fast/Cleanse",
+        "date": "2021-12-28",
+        "file_path": "../src/content/blog/2021-12-27-end-of-year-5-day-fastcleanse.md",
+        "title_match": false,
+        "matched_aliases": [
+          "abilities"
+        ],
+        "quote": "What if I don’t succeed?"
+      },
+      {
+        "post_id": "2022-01-10-fitness-plan-starts-with-health-goals",
+        "title": "Fitness Plan Starts with Health Goals",
+        "date": "2022-01-11",
+        "file_path": "../src/content/blog/2022-01-10-fitness-plan-starts-with-health-goals.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stairs"
+        ],
+        "quote": "- Increase stability - Not fall when walking on uneven surfaces - Walk down stairs normally and without rails or one step at a time - Easily pick up something from the floor -"
+      },
+      {
+        "post_id": "2022-01-15-fitness-variety-for-lifetime-engagement",
+        "title": "Fitness Variety for Lifetime Engagement",
+        "date": "2022-01-15",
+        "file_path": "../src/content/blog/2022-01-15-fitness-variety-for-lifetime-engagement.md",
+        "title_match": false,
+        "matched_aliases": [
+          "abilities"
+        ],
+        "quote": "I’ve been working out for a couple months with the Oculus Quest 2 virtual reality headset and the Supernatural app."
+      },
+      {
+        "post_id": "2022-02-12-the-value-of-supernatural-and-oculus-quest",
+        "title": "The Value of Supernatural and Oculus Quest",
+        "date": "2022-02-12",
+        "file_path": "../src/content/blog/2022-02-12-the-value-of-supernatural-and-oculus-quest.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stairs",
+          "health recovery"
+        ],
+        "quote": "I can actually put on a pair of pants without having to sit down."
+      }
+    ],
+    "frequency": 189,
+    "representative_quotes": [
+      {
+        "post_id": "2022-12-30-i-can8217t-until-i-can-8211-from-cane-to-5k",
+        "quote": "I have osteoarthritis in my knees."
+      },
+      {
+        "post_id": "2023-01-03-i-resolve-to-reclaim-my-health",
+        "quote": "18 months ago I resolved to reclaim my health."
+      },
+      {
+        "post_id": "2023-03-30-nsv-8211-a-triumph-at-opening-day-no-more-cane",
+        "quote": "Days like today are the reason I've put in all the hard work and maintained persistence."
+      }
+    ],
+    "candidate_chapters": [
+      "Reclaiming Real Life"
+    ],
+    "status": "candidate"
+  },
+  {
+    "concept_id": "start-where-you-are",
+    "name": "Start Where You Are",
+    "definition": "The starting point is not disqualifying; it is the only honest place to begin.",
+    "related_tags": [
+      "mindset",
+      "failure-restart",
+      "exercise"
+    ],
+    "book_uses": [
+      "reader_entry",
+      "chapter_title",
+      "practical_mindset"
+    ],
+    "supporting_posts": [
+      {
+        "post_id": "2022-08-09-we-all-start-somewhere",
+        "title": "We All Start Somewhere",
+        "date": "2022-08-09",
+        "file_path": "../src/content/blog/2022-08-09-we-all-start-somewhere.md",
+        "title_match": true,
+        "matched_aliases": [
+          "we all start somewhere"
+        ],
+        "quote": "I am reluctant to accept the notion that I have become, in some ways, a role model."
+      },
+      {
+        "post_id": "2023-08-17-a-little-more",
+        "title": "A Little More",
+        "date": "2023-08-17",
+        "file_path": "../src/content/blog/2023-08-17-a-little-more.md",
+        "title_match": true,
+        "matched_aliases": [
+          "start where you are",
+          "a little more"
+        ],
+        "quote": "Why not join me in your own health journey?"
+      },
+      {
+        "post_id": "2025-05-27-start-where-you-are",
+        "title": "Start Where You Are",
+        "date": "2025-05-27",
+        "file_path": "../src/content/blog/2025-05-27-start-where-you-are.md",
+        "title_match": true,
+        "matched_aliases": [
+          "start where you are",
+          "make progress"
+        ],
+        "quote": "In my journey to regain my health, I’ve developed mantras along the way."
+      },
+      {
+        "post_id": "2025-11-18-start-where-you-are-make-progress",
+        "title": "Start Where You Are, Make Progress",
+        "date": "2025-11-18",
+        "file_path": "../src/content/blog/2025-11-18-start-where-you-are-make-progress.md",
+        "title_match": true,
+        "matched_aliases": [
+          "start where you are",
+          "make progress"
+        ],
+        "quote": "Those of you following my journey know that I have mantras – this is one of my favorite: Start where you are, make progress."
+      },
+      {
+        "post_id": "2012-08-15-the-battle-starts-in-the-mind",
+        "title": "The Battle Starts in the Mind",
+        "date": "2012-08-15",
+        "file_path": "../src/content/blog/2012-08-15-the-battle-starts-in-the-mind.md",
+        "title_match": false,
+        "matched_aliases": [
+          "make progress"
+        ],
+        "quote": "So many of my friends and family are currently stuck where I was."
+      },
+      {
+        "post_id": "2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor",
+        "title": "The Secrets to My Success – A Thanksgiving Story",
+        "date": "2012-11-27",
+        "file_path": "../src/content/blog/2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor.md",
+        "title_match": false,
+        "matched_aliases": [
+          "make progress"
+        ],
+        "quote": "In the spirit of the season, if late, here are some people, blogs, and podcasts that I am thankful for in how they have helped me make progress in my journey to health."
+      },
+      {
+        "post_id": "2021-12-29-becoming-fat-adapted",
+        "title": "Becoming Fat Adapted",
+        "date": "2021-12-29",
+        "file_path": "../src/content/blog/2021-12-29-becoming-fat-adapted.md",
+        "title_match": false,
+        "matched_aliases": [
+          "make progress"
+        ],
+        "quote": "I continue to make progress with my exercise."
+      },
+      {
+        "post_id": "2022-02-05-mindset-progress-over-perfection",
+        "title": "Mindset: Progress Over Perfection",
+        "date": "2022-02-05",
+        "file_path": "../src/content/blog/2022-02-05-mindset-progress-over-perfection.md",
+        "title_match": false,
+        "matched_aliases": [
+          "make progress"
+        ],
+        "quote": "Don’t discount the value of “pretty d@mn good” verses perfection in terms of making progress with your health."
+      },
+      {
+        "post_id": "2022-04-19-the-one-year-blessing-of-diabetes",
+        "title": "The One Year Blessing of Diabetes",
+        "date": "2022-04-19",
+        "file_path": "../src/content/blog/2022-04-19-the-one-year-blessing-of-diabetes.md",
+        "title_match": false,
+        "matched_aliases": [
+          "make progress"
+        ],
+        "quote": "Start somewhere."
+      },
+      {
+        "post_id": "2022-04-30-mindset-doing-as-much-as-needed",
+        "title": "Mindset: Doing as Much as Needed",
+        "date": "2022-05-01",
+        "file_path": "../src/content/blog/2022-04-30-mindset-doing-as-much-as-needed.md",
+        "title_match": false,
+        "matched_aliases": [
+          "make progress"
+        ],
+        "quote": "You do what you have to do."
+      },
+      {
+        "post_id": "2022-06-05-my-health-transformation",
+        "title": "My Health Transformation",
+        "date": "2022-06-05",
+        "file_path": "../src/content/blog/2022-06-05-my-health-transformation.md",
+        "title_match": false,
+        "matched_aliases": [
+          "start where you are",
+          "make progress"
+        ],
+        "quote": "To the young I hope to stand as an early warning."
+      },
+      {
+        "post_id": "2022-06-06-how-i-did-it",
+        "title": "How I Did It",
+        "date": "2022-06-06",
+        "file_path": "../src/content/blog/2022-06-06-how-i-did-it.md",
+        "title_match": false,
+        "matched_aliases": [
+          "make progress"
+        ],
+        "quote": "Start somewhere."
+      },
+      {
+        "post_id": "2022-06-28-how-much-how-far",
+        "title": "How Much? How Far?",
+        "date": "2022-06-29",
+        "file_path": "../src/content/blog/2022-06-28-how-much-how-far.md",
+        "title_match": false,
+        "matched_aliases": [
+          "a little more"
+        ],
+        "quote": "How much?"
+      },
+      {
+        "post_id": "2022-07-10-all-the-health",
+        "title": "All the Health",
+        "date": "2022-07-10",
+        "file_path": "../src/content/blog/2022-07-10-all-the-health.md",
+        "title_match": false,
+        "matched_aliases": [
+          "a little more"
+        ],
+        "quote": "Health – I want ALL the health."
+      },
+      {
+        "post_id": "2022-07-30-its-saturday-time-to-run",
+        "title": "It’s Saturday, Time to Run",
+        "date": "2022-07-30",
+        "file_path": "../src/content/blog/2022-07-30-its-saturday-time-to-run.md",
+        "title_match": false,
+        "matched_aliases": [
+          "a little more"
+        ],
+        "quote": "I get to “the hill” and I run up past the first bend."
+      },
+      {
+        "post_id": "2022-09-10-its-saturday-i-run-intervals-910",
+        "title": "It’s Saturday, I Run Intervals 9/10",
+        "date": "2022-09-10",
+        "file_path": "../src/content/blog/2022-09-10-its-saturday-i-run-intervals-910.md",
+        "title_match": false,
+        "matched_aliases": [
+          "a little more"
+        ],
+        "quote": "Listen your body but push it was well."
+      },
+      {
+        "post_id": "2022-09-17-saturday-intervals-8211-sept-17-22",
+        "title": "Saturday Intervals – Sept 17, 22",
+        "date": "2022-09-17",
+        "file_path": "../src/content/blog/2022-09-17-saturday-intervals-8211-sept-17-22.md",
+        "title_match": false,
+        "matched_aliases": [
+          "a little more"
+        ],
+        "quote": "I got here by doing what I could and then a little more."
+      },
+      {
+        "post_id": "2022-09-23-if-you-are-having-fun-is-it-exercise",
+        "title": "If You Are Having Fun, is it Exercise?",
+        "date": "2022-09-24",
+        "file_path": "../src/content/blog/2022-09-23-if-you-are-having-fun-is-it-exercise.md",
+        "title_match": false,
+        "matched_aliases": [
+          "do what you can"
+        ],
+        "quote": "Find what you love to do – and then do what you can."
+      },
+      {
+        "post_id": "2022-09-24-saturday-intervals-8211-sept-24-22",
+        "title": "Saturday Intervals – Sept 24, 22",
+        "date": "2022-09-24",
+        "file_path": "../src/content/blog/2022-09-24-saturday-intervals-8211-sept-24-22.md",
+        "title_match": false,
+        "matched_aliases": [
+          "a little more"
+        ],
+        "quote": "I got here by doing what I could and then a little more."
+      },
+      {
+        "post_id": "2022-10-01-saturday-intervals-oct-1-22",
+        "title": "Saturday Intervals Oct 1, 22",
+        "date": "2022-10-01",
+        "file_path": "../src/content/blog/2022-10-01-saturday-intervals-oct-1-22.md",
+        "title_match": false,
+        "matched_aliases": [
+          "a little more"
+        ],
+        "quote": "People say “I wish I had your motivation/discipline/commitment” and it saddens me."
+      }
+    ],
+    "frequency": 143,
+    "representative_quotes": [
+      {
+        "post_id": "2022-08-09-we-all-start-somewhere",
+        "quote": "I am reluctant to accept the notion that I have become, in some ways, a role model."
+      },
+      {
+        "post_id": "2023-08-17-a-little-more",
+        "quote": "Why not join me in your own health journey?"
+      },
+      {
+        "post_id": "2025-05-27-start-where-you-are",
+        "quote": "In my journey to regain my health, I’ve developed mantras along the way."
+      }
+    ],
+    "candidate_chapters": [
+      "Start Where You Are"
+    ],
+    "status": "candidate"
+  },
+  {
+    "concept_id": "hard-is-mandatory",
+    "name": "Hard Is Mandatory",
+    "definition": "Progress requires intentionally entering difficulty once yesterday's hard has become easy.",
+    "related_tags": [
+      "exercise",
+      "mindset",
+      "capability-recovery"
+    ],
+    "book_uses": [
+      "training_principle",
+      "chapter_title"
+    ],
+    "supporting_posts": [
+      {
+        "post_id": "2022-07-03-the-easy-and-the-hard",
+        "title": "The Easy and the Hard",
+        "date": "2022-07-03",
+        "file_path": "../src/content/blog/2022-07-03-the-easy-and-the-hard.md",
+        "title_match": true,
+        "matched_aliases": [
+          "the easy and the hard"
+        ],
+        "quote": "I continue to improve my health doing both the easy and the hard."
+      },
+      {
+        "post_id": "2022-12-04-no-saturday-push-day",
+        "title": "No Saturday Push Day",
+        "date": "2022-12-05",
+        "file_path": "../src/content/blog/2022-12-04-no-saturday-push-day.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "I’m sick so no “Saturday Push Day”, intervals or Supernatural."
+      },
+      {
+        "post_id": "2022-12-10-saturday-push-day-8211-signs-of-healing",
+        "title": "Saturday Push Day – Signs of Healing",
+        "date": "2022-12-10",
+        "file_path": "../src/content/blog/2022-12-10-saturday-push-day-8211-signs-of-healing.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "It’s Saturday and on Saturdays I push harder."
+      },
+      {
+        "post_id": "2022-12-17-saturday-push-day-12-17-22",
+        "title": "Saturday Push Day 12-17-22",
+        "date": "2022-12-17",
+        "file_path": "../src/content/blog/2022-12-17-saturday-push-day-12-17-22.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "The whole point of Saturday Push Day is to extend past what I’ve been able to do."
+      },
+      {
+        "post_id": "2022-12-24-saturday-push-day-christmas-eve-22",
+        "title": "Saturday Push Day Christmas Eve 22",
+        "date": "2022-12-24",
+        "file_path": "../src/content/blog/2022-12-24-saturday-push-day-christmas-eve-22.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "No running of intervals in this weather – so to the bat cave I go – and put my VR headset on."
+      },
+      {
+        "post_id": "2023-01-08-saturday-push-day-8211-run-run-faster-sprint",
+        "title": "Saturday Push Day – Run, Run Faster, Sprint",
+        "date": "2023-01-08",
+        "file_path": "../src/content/blog/2023-01-08-saturday-push-day-8211-run-run-faster-sprint.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "I didn’t feel like going out."
+      },
+      {
+        "post_id": "2023-01-14-saturday-push-day-8211-showing-up-for-myself",
+        "title": "Saturday Push Day – Showing Up For Myself",
+        "date": "2023-01-14",
+        "file_path": "../src/content/blog/2023-01-14-saturday-push-day-8211-showing-up-for-myself.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "Saturday Push Day – Showing Up For Myself"
+      },
+      {
+        "post_id": "2023-01-28-saturday-push-day-8211-heart-vs-muscles",
+        "title": "Saturday Push Day – Heart vs Muscles",
+        "date": "2023-01-28",
+        "file_path": "../src/content/blog/2023-01-28-saturday-push-day-8211-heart-vs-muscles.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "It’s Saturday and I don’t ask if I feel like pushing myself (I usually don’t), I just go do it."
+      },
+      {
+        "post_id": "2023-02-04-saturday-push-day-8211-weight-bench",
+        "title": "Saturday Push Day – Weight Bench",
+        "date": "2023-02-04",
+        "file_path": "../src/content/blog/2023-02-04-saturday-push-day-8211-weight-bench.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "Today’s push is tackling lifting weights."
+      },
+      {
+        "post_id": "2023-02-11-saturday-push-day-8211-hiit",
+        "title": "Saturday Push Day – HIIT",
+        "date": "2023-02-11",
+        "file_path": "../src/content/blog/2023-02-11-saturday-push-day-8211-hiit.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "Herbie, my imaginary workout hippo had to push me this morning."
+      },
+      {
+        "post_id": "2023-02-18-saturday-push-day-8211-one-for-the-road",
+        "title": "Saturday Push Day – One for the Road",
+        "date": "2023-02-19",
+        "file_path": "../src/content/blog/2023-02-18-saturday-push-day-8211-one-for-the-road.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "Headed out to Michigan to spend the weekend with my daughters."
+      },
+      {
+        "post_id": "2023-02-25-saturday-push-day-8211-freezing-5k",
+        "title": "Saturday Push Day – Freezing 5k",
+        "date": "2023-02-25",
+        "file_path": "../src/content/blog/2023-02-25-saturday-push-day-8211-freezing-5k.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "It’s Saturday, time to push my limits."
+      },
+      {
+        "post_id": "2023-03-04-saturday-push-day-8211-man-in-the-mirror",
+        "title": "Saturday Push Day – Man In the Mirror",
+        "date": "2023-03-04",
+        "file_path": "../src/content/blog/2023-03-04-saturday-push-day-8211-man-in-the-mirror.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "On Saturdays I push my limits."
+      },
+      {
+        "post_id": "2023-03-11-saturday-push-day-8211-philosophy-of-the-push",
+        "title": "Saturday Push Day – Philosophy of the Push",
+        "date": "2023-03-11",
+        "file_path": "../src/content/blog/2023-03-11-saturday-push-day-8211-philosophy-of-the-push.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "There is a reason why I push myself – it is necessary to build muscle (and more)."
+      },
+      {
+        "post_id": "2023-03-18-saturday-push-day-8211-early-workout",
+        "title": "Saturday Push Day – Early Workout",
+        "date": "2023-03-19",
+        "file_path": "../src/content/blog/2023-03-18-saturday-push-day-8211-early-workout.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "Can’t push myself today as the kids are h back home and my oldest is having her baby shower today."
+      },
+      {
+        "post_id": "2023-03-25-saturday-push-day-8211-intensify",
+        "title": "Saturday Push Day – Intensify",
+        "date": "2023-03-26",
+        "file_path": "../src/content/blog/2023-03-25-saturday-push-day-8211-intensify.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "It's Saturday – time to push the limits."
+      },
+      {
+        "post_id": "2023-04-01-saturday-push-day-8211-excuse-busters",
+        "title": "Saturday Push Day – Excuse Busters",
+        "date": "2023-04-02",
+        "file_path": "../src/content/blog/2023-04-01-saturday-push-day-8211-excuse-busters.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "I geared up with my Meta Quest 2 VR headset, fired up Supernatural, and decided that while I might not push as hard as usual, today was still Push Day."
+      },
+      {
+        "post_id": "2023-04-08-saturday-push-day-strikes-again-8211-running-farth",
+        "title": "Saturday Push Day Strikes Again – Running Farther",
+        "date": "2023-04-08",
+        "file_path": "../src/content/blog/2023-04-08-saturday-push-day-strikes-again-8211-running-farth.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "Hey folks, it's a brand-new week and we're back at another Saturday push day!"
+      },
+      {
+        "post_id": "2023-04-15-saturday-push-day-8211-a-workout-away-from-home",
+        "title": "Saturday Push Day – A Workout Away from Home",
+        "date": "2023-04-16",
+        "file_path": "../src/content/blog/2023-04-15-saturday-push-day-8211-a-workout-away-from-home.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "As part of my ongoing series about pushing myself to new heights in fitness, I faced a unique challenge this week: I went out of town for a family event."
+      },
+      {
+        "post_id": "2023-04-22-saturday-push-day-8211-fail-in-order-to-succeed",
+        "title": "Saturday Push Day – Fail in order to Succeed",
+        "date": "2023-04-22",
+        "file_path": "../src/content/blog/2023-04-22-saturday-push-day-8211-fail-in-order-to-succeed.md",
+        "title_match": true,
+        "matched_aliases": [
+          "push day"
+        ],
+        "quote": "It’s Saturday and time to push the limits, to make my world just a little bit bigger."
+      }
+    ],
+    "frequency": 89,
+    "representative_quotes": [
+      {
+        "post_id": "2022-07-03-the-easy-and-the-hard",
+        "quote": "I continue to improve my health doing both the easy and the hard."
+      },
+      {
+        "post_id": "2022-12-04-no-saturday-push-day",
+        "quote": "I’m sick so no “Saturday Push Day”, intervals or Supernatural."
+      },
+      {
+        "post_id": "2022-12-10-saturday-push-day-8211-signs-of-healing",
+        "quote": "It’s Saturday and on Saturdays I push harder."
+      }
+    ],
+    "candidate_chapters": [
+      "Hard Is Mandatory"
+    ],
+    "status": "candidate"
+  },
+  {
+    "concept_id": "former-diabetic",
+    "name": "Former Diabetic",
+    "definition": "A health identity claim that rejects permanent sickness while respecting maintenance.",
+    "related_tags": [
+      "type-2-diabetes",
+      "health-identity"
+    ],
+    "book_uses": [
+      "identity_arc",
+      "chapter_title",
+      "medical_arc"
+    ],
+    "supporting_posts": [
+      {
+        "post_id": "2021-07-31-off-all-diabetes-meds-8211-3-month-update",
+        "title": "Off All Diabetes Meds – 3 Month Update",
+        "date": "2021-07-31",
+        "file_path": "../src/content/blog/2021-07-31-off-all-diabetes-meds-8211-3-month-update.md",
+        "title_match": true,
+        "matched_aliases": [
+          "off all diabetes meds"
+        ],
+        "quote": "The headline says it all."
+      },
+      {
+        "post_id": "2021-12-10-you-can-be-a-non-diabetic",
+        "title": "You Can Be a Non Diabetic",
+        "date": "2021-12-10",
+        "file_path": "../src/content/blog/2021-12-10-you-can-be-a-non-diabetic.md",
+        "title_match": true,
+        "matched_aliases": [
+          "non diabetic",
+          "remission"
+        ],
+        "quote": "You are not diabetic."
+      },
+      {
+        "post_id": "2022-01-15-put-t2-diabetes-into-remission-by-rejecting-modera",
+        "title": "Put T2 Diabetes into Remission by Rejecting Moderation",
+        "date": "2022-01-15",
+        "file_path": "../src/content/blog/2022-01-15-put-t2-diabetes-into-remission-by-rejecting-modera.md",
+        "title_match": true,
+        "matched_aliases": [
+          "former diabetic",
+          "remission"
+        ],
+        "quote": "I’ve since fired that doctor and that dietician…and love my life as a former diabetic who is continuing to work on reversing the entire stack of metabolic syndrome health problems"
+      },
+      {
+        "post_id": "2022-06-30-free-weekly-motivational-newsletter-8211-former-di",
+        "title": "Free Weekly Motivational Newsletter – Former Diabetics Club",
+        "date": "2022-07-01",
+        "file_path": "../src/content/blog/2022-06-30-free-weekly-motivational-newsletter-8211-former-di.md",
+        "title_match": true,
+        "matched_aliases": [
+          "former diabetic"
+        ],
+        "quote": "You all have willed it to be – Former Diabetics Club is coming alive."
+      },
+      {
+        "post_id": "2022-08-01-former-diabetics-club",
+        "title": "Former Diabetics Club",
+        "date": "2022-08-01",
+        "file_path": "../src/content/blog/2022-08-01-former-diabetics-club.md",
+        "title_match": true,
+        "matched_aliases": [
+          "former diabetic"
+        ],
+        "quote": "We can become former diabetics."
+      },
+      {
+        "post_id": "2022-08-02-former-diabetics-club",
+        "title": "Former Diabetics Club",
+        "date": "2022-08-03",
+        "file_path": "../src/content/blog/2022-08-02-former-diabetics-club.md",
+        "title_match": true,
+        "matched_aliases": [
+          "former diabetic"
+        ],
+        "quote": "Welcome to being a Former Diabetic."
+      },
+      {
+        "post_id": "2022-08-31-whats-it-take-to-reversehealput-type-2-diabetes-in",
+        "title": "What’s it take to reverse/heal/put Type 2 Diabetes into remission?",
+        "date": "2022-08-31",
+        "file_path": "../src/content/blog/2022-08-31-whats-it-take-to-reversehealput-type-2-diabetes-in.md",
+        "title_match": true,
+        "matched_aliases": [
+          "remission"
+        ],
+        "quote": "Since it can be done – it’s just a matter of “what must YOU do”?"
+      },
+      {
+        "post_id": "2023-04-15-the-former-diabetic-8211-2-years-in-a1c-of-52-no-m",
+        "title": "The Former Diabetic – 2 Years In, A1c of 5.2, no meds",
+        "date": "2023-04-15",
+        "file_path": "../src/content/blog/2023-04-15-the-former-diabetic-8211-2-years-in-a1c-of-52-no-m.md",
+        "title_match": true,
+        "matched_aliases": [
+          "former diabetic"
+        ],
+        "quote": "Two years ago, on April 22nd, I received a life-changing diagnosis."
+      },
+      {
+        "post_id": "2023-07-20-two-years-med-free-8211-health-recovery",
+        "title": "Two Years Med Free – Health Recovery",
+        "date": "2023-07-21",
+        "file_path": "../src/content/blog/2023-07-20-two-years-med-free-8211-health-recovery.md",
+        "title_match": true,
+        "matched_aliases": [
+          "med free"
+        ],
+        "quote": "Two years ago, I was facing a life tethered to an insulin pump."
+      },
+      {
+        "post_id": "2023-09-16-the-ex-diabetic",
+        "title": "The Ex-Diabetic",
+        "date": "2023-09-16",
+        "file_path": "../src/content/blog/2023-09-16-the-ex-diabetic.md",
+        "title_match": true,
+        "matched_aliases": [
+          "ex-diabetic"
+        ],
+        "quote": "I find it odd how controversial the phrase “ex-diabetic” is."
+      },
+      {
+        "post_id": "2024-02-17-reflections-of-a-former-diabetic-8211-pt-1-the-alc",
+        "title": "Reflections of a Former Diabetic – Pt 1, The Alcoholic Paradigm",
+        "date": "2024-02-17",
+        "file_path": "../src/content/blog/2024-02-17-reflections-of-a-former-diabetic-8211-pt-1-the-alc.md",
+        "title_match": true,
+        "matched_aliases": [
+          "former diabetic"
+        ],
+        "quote": "When I arrived at the next appointment, I was taken off of the last of the meds."
+      },
+      {
+        "post_id": "2024-07-04-three-years-diabetes-free",
+        "title": "Three Years Diabetes Free",
+        "date": "2024-07-04",
+        "file_path": "../src/content/blog/2024-07-04-three-years-diabetes-free.md",
+        "title_match": true,
+        "matched_aliases": [
+          "diabetes free"
+        ],
+        "quote": "It was three years ago in April that my doctor said “Diabetes isn’t your fault, it’s genetic."
+      },
+      {
+        "post_id": "2021-08-24-less-of-lee-reversing-type-2-diabetes-4-month-upda",
+        "title": "Less of Lee Reversing Type 2 Diabetes 4 Month Update",
+        "date": "2021-08-24",
+        "file_path": "../src/content/blog/2021-08-24-less-of-lee-reversing-type-2-diabetes-4-month-upda.md",
+        "title_match": false,
+        "matched_aliases": [
+          "off all diabetes meds"
+        ],
+        "quote": "[I’m Back 8 Years Later – Now Diabetic](https://lessoflee."
+      },
+      {
+        "post_id": "2021-11-27-journey-to-health-8211-7-months-in",
+        "title": "Journey to Health – 7 Months In",
+        "date": "2021-11-28",
+        "file_path": "../src/content/blog/2021-11-27-journey-to-health-8211-7-months-in.md",
+        "title_match": false,
+        "matched_aliases": [
+          "remission"
+        ],
+        "quote": "As of a month ago, my diabetes is in remission."
+      },
+      {
+        "post_id": "2021-12-21-journey-to-health-8211-8-month-update",
+        "title": "Journey to Health – 8 Month Update",
+        "date": "2021-12-21",
+        "file_path": "../src/content/blog/2021-12-21-journey-to-health-8211-8-month-update.md",
+        "title_match": false,
+        "matched_aliases": [
+          "remission"
+        ],
+        "quote": "At 8 months: My diabetes is in remission."
+      },
+      {
+        "post_id": "2021-12-24-fixing-pre-heart-disease",
+        "title": "Fixing Pre-Heart-Disease",
+        "date": "2021-12-24",
+        "file_path": "../src/content/blog/2021-12-24-fixing-pre-heart-disease.md",
+        "title_match": false,
+        "matched_aliases": [
+          "remission"
+        ],
+        "quote": "The good news is that the steps we take to put diabetes into remission are the same steps that begin to heal your diseased arteries."
+      },
+      {
+        "post_id": "2022-01-01-fat-to-thin-and-fat-again-lesson-1-8211-health-and",
+        "title": "Fat to Thin and Fat Again: Lesson 1 – Health and Fitness is not a Destination",
+        "date": "2022-01-02",
+        "file_path": "../src/content/blog/2022-01-01-fat-to-thin-and-fat-again-lesson-1-8211-health-and.md",
+        "title_match": false,
+        "matched_aliases": [
+          "remission"
+        ],
+        "quote": "This relates to my current status of having my diabetes in remission."
+      },
+      {
+        "post_id": "2022-01-17-the-best-total-health-book-8211-the-pe-diet",
+        "title": "The Best Total Health Book – The P:E Diet",
+        "date": "2022-01-17",
+        "file_path": "../src/content/blog/2022-01-17-the-best-total-health-book-8211-the-pe-diet.md",
+        "title_match": false,
+        "matched_aliases": [
+          "remission"
+        ],
+        "quote": "I really wish that “diet” wasn’t in the title."
+      },
+      {
+        "post_id": "2022-01-21-9-month-update-8211-less-of-lee-round-2",
+        "title": "9 Month Update – Less of Lee Round 2",
+        "date": "2022-01-21",
+        "file_path": "../src/content/blog/2022-01-21-9-month-update-8211-less-of-lee-round-2.md",
+        "title_match": false,
+        "matched_aliases": [
+          "remission"
+        ],
+        "quote": "My diabetes is in remission."
+      },
+      {
+        "post_id": "2022-02-06-i-cantuntil-i-can-8211-exercise-vigorously-for-an",
+        "title": "I Can’t…Until I Can – Exercise Vigorously for an Hour",
+        "date": "2022-02-06",
+        "file_path": "../src/content/blog/2022-02-06-i-cantuntil-i-can-8211-exercise-vigorously-for-an.md",
+        "title_match": false,
+        "matched_aliases": [
+          "remission"
+        ],
+        "quote": "What a joy it is to meet some ambitious goals."
+      }
+    ],
+    "frequency": 74,
+    "representative_quotes": [
+      {
+        "post_id": "2021-07-31-off-all-diabetes-meds-8211-3-month-update",
+        "quote": "The headline says it all."
+      },
+      {
+        "post_id": "2021-12-10-you-can-be-a-non-diabetic",
+        "quote": "You are not diabetic."
+      },
+      {
+        "post_id": "2022-01-15-put-t2-diabetes-into-remission-by-rejecting-modera",
+        "quote": "I’ve since fired that doctor and that dietician…and love my life as a former diabetic who is continuing to work on reversing the entire stack of metabolic syndrome health problems"
+      }
+    ],
+    "candidate_chapters": [
+      "Former Diabetic"
+    ],
+    "status": "candidate"
+  },
+  {
+    "concept_id": "no-longer-fragile",
+    "name": "No Longer Fragile",
+    "definition": "The shift from avoiding life because the body is unreliable to trusting the body under stress.",
+    "related_tags": [
+      "capability-recovery",
+      "exercise",
+      "health-identity"
+    ],
+    "book_uses": [
+      "memoir_arc",
+      "scene_finder",
+      "identity_arc"
+    ],
+    "supporting_posts": [
+      {
+        "post_id": "2022-05-08-no-longer-sedentary",
+        "title": "No Longer Sedentary",
+        "date": "2022-05-08",
+        "file_path": "../src/content/blog/2022-05-08-no-longer-sedentary.md",
+        "title_match": true,
+        "matched_aliases": [
+          "no longer sedentary"
+        ],
+        "quote": "Had a great active day."
+      },
+      {
+        "post_id": "2023-06-03-we8217re-not-going-to-take-weakness",
+        "title": "We’re Not Going to Take Weakness",
+        "date": "2023-06-03",
+        "file_path": "../src/content/blog/2023-06-03-we8217re-not-going-to-take-weakness.md",
+        "title_match": true,
+        "matched_aliases": [
+          "weakness"
+        ],
+        "quote": "I love my Supernatural workouts."
+      },
+      {
+        "post_id": "2023-07-03-saturday-push-day-8211-no-longer-fragile",
+        "title": "Saturday Push Day – No Longer Fragile",
+        "date": "2023-07-03",
+        "file_path": "../src/content/blog/2023-07-03-saturday-push-day-8211-no-longer-fragile.md",
+        "title_match": true,
+        "matched_aliases": [
+          "no longer fragile"
+        ],
+        "quote": "My next thought was “I’m no longer fragile”."
+      },
+      {
+        "post_id": "2023-09-02-saturday-push-day-8211-no-longer-fragile",
+        "title": "Saturday Push Day – No Longer Fragile",
+        "date": "2023-09-03",
+        "file_path": "../src/content/blog/2023-09-02-saturday-push-day-8211-no-longer-fragile.md",
+        "title_match": true,
+        "matched_aliases": [
+          "no longer fragile"
+        ],
+        "quote": "My next thought was “I’m no longer fragile”."
+      },
+      {
+        "post_id": "2024-01-07-no-longer-a-winter-shut-in-8211-why-build-muscle",
+        "title": "No Longer a Winter Shut In – Why Build Muscle",
+        "date": "2024-01-07",
+        "file_path": "../src/content/blog/2024-01-07-no-longer-a-winter-shut-in-8211-why-build-muscle.md",
+        "title_match": true,
+        "matched_aliases": [
+          "winter shut",
+          "stronger",
+          "weakness"
+        ],
+        "quote": "I was working out for my diabetes but a strange thing occurred."
+      },
+      {
+        "post_id": "2013-01-26-keeping-the-faith-in-the-face-of-a-plateau",
+        "title": "Keeping The Faith In the Face of a Plateau",
+        "date": "2013-01-26",
+        "file_path": "../src/content/blog/2013-01-26-keeping-the-faith-in-the-face-of-a-plateau.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stronger"
+        ],
+        "quote": "There has been marked improvement, just not the type shown on the scale."
+      },
+      {
+        "post_id": "2021-11-27-journey-to-health-8211-7-months-in",
+        "title": "Journey to Health – 7 Months In",
+        "date": "2021-11-28",
+        "file_path": "../src/content/blog/2021-11-27-journey-to-health-8211-7-months-in.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stronger"
+        ],
+        "quote": "I aim to reverse my heart disease and arthritis as well."
+      },
+      {
+        "post_id": "2022-02-06-nsv-8211-i-can-bowl",
+        "title": "NSV – I Can Bowl",
+        "date": "2022-02-07",
+        "file_path": "../src/content/blog/2022-02-06-nsv-8211-i-can-bowl.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stronger"
+        ],
+        "quote": "It’s frightening to ponder on how frail I was going to be in my 70s…if I even lived that long."
+      },
+      {
+        "post_id": "2022-02-12-the-value-of-supernatural-and-oculus-quest",
+        "title": "The Value of Supernatural and Oculus Quest",
+        "date": "2022-02-12",
+        "file_path": "../src/content/blog/2022-02-12-the-value-of-supernatural-and-oculus-quest.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stronger"
+        ],
+        "quote": "I’ve gained 5lbs of muscle in my arms."
+      },
+      {
+        "post_id": "2022-02-12-i-cantuntil-i-can-play-pickleball",
+        "title": "I Can’t…Until I Can: Play Pickleball",
+        "date": "2022-02-13",
+        "file_path": "../src/content/blog/2022-02-12-i-cantuntil-i-can-play-pickleball.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stronger"
+        ],
+        "quote": "With knees that are hurting less, and muscles that are getting stronger…my “I can’t” list is shrinking and my “I can” list is growing."
+      },
+      {
+        "post_id": "2022-02-24-the-benefits-of-extended-fasting-8211-day-4",
+        "title": "The Benefits of Extended Fasting – Day 4",
+        "date": "2022-02-25",
+        "file_path": "../src/content/blog/2022-02-24-the-benefits-of-extended-fasting-8211-day-4.md",
+        "title_match": false,
+        "matched_aliases": [
+          "weakness"
+        ],
+        "quote": "Strength training – no weakness, felt great"
+      },
+      {
+        "post_id": "2022-03-16-good-sleep-night",
+        "title": "Good Sleep Night",
+        "date": "2022-03-16",
+        "file_path": "../src/content/blog/2022-03-16-good-sleep-night.md",
+        "title_match": false,
+        "matched_aliases": [
+          "weakness"
+        ],
+        "quote": "Exercise Shitting down the Tv and social media an hour before bed (a weakness of mine) Turning off the lights an hour before bed Reading Keeping the house temp low Keeping the bedroom dark"
+      },
+      {
+        "post_id": "2022-03-20-11-month-update-8211-less-of-lee-round-2",
+        "title": "11 Month Update – Less of Lee Round 2",
+        "date": "2022-03-20",
+        "file_path": "../src/content/blog/2022-03-20-11-month-update-8211-less-of-lee-round-2.md",
+        "title_match": false,
+        "matched_aliases": [
+          "no longer sedentary"
+        ],
+        "quote": "I am no longer sedentary."
+      },
+      {
+        "post_id": "2022-03-25-march-2022-5-day-fast",
+        "title": "March 2022 5 Day Fast",
+        "date": "2022-03-25",
+        "file_path": "../src/content/blog/2022-03-25-march-2022-5-day-fast.md",
+        "title_match": false,
+        "matched_aliases": [
+          "weakness"
+        ],
+        "quote": "While I did have to ignore the occasional waves of hunger…I felt great."
+      },
+      {
+        "post_id": "2022-03-25-mindset-cheat-meals-are-a-transitional-tool",
+        "title": "Mindset: Cheat Meals are a Transitional Tool",
+        "date": "2022-03-25",
+        "file_path": "../src/content/blog/2022-03-25-mindset-cheat-meals-are-a-transitional-tool.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stronger"
+        ],
+        "quote": "PS – some people have a far stronger addiction response to their forbidden foods and it may not be wise for them to ever indulge."
+      },
+      {
+        "post_id": "2022-04-24-spring-has-sprung-8211-doing-the-daily-work",
+        "title": "Spring Has Sprung – Doing The Daily Work",
+        "date": "2022-04-24",
+        "file_path": "../src/content/blog/2022-04-24-spring-has-sprung-8211-doing-the-daily-work.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stronger"
+        ],
+        "quote": "I’ve come out of Winter weighing less, stronger and more fit."
+      },
+      {
+        "post_id": "2022-04-30-mindset-doing-as-much-as-needed",
+        "title": "Mindset: Doing as Much as Needed",
+        "date": "2022-05-01",
+        "file_path": "../src/content/blog/2022-04-30-mindset-doing-as-much-as-needed.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stronger"
+        ],
+        "quote": "I’m exercising daily."
+      },
+      {
+        "post_id": "2022-05-30-nsv-8211-living-life-is-the-reward",
+        "title": "NSV – Living life is the Reward",
+        "date": "2022-05-30",
+        "file_path": "../src/content/blog/2022-05-30-nsv-8211-living-life-is-the-reward.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stronger"
+        ],
+        "quote": "What began as an effort to bring diabetes under control became a total health and fitness effort."
+      },
+      {
+        "post_id": "2022-06-12-what-vitality-brings-to-a-sunday",
+        "title": "What Vitality Brings to a Sunday",
+        "date": "2022-06-12",
+        "file_path": "../src/content/blog/2022-06-12-what-vitality-brings-to-a-sunday.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stronger"
+        ],
+        "quote": "I love to sing at church."
+      },
+      {
+        "post_id": "2022-06-16-balanced-diet-for-exercise",
+        "title": "Balanced “Diet” for Exercise",
+        "date": "2022-06-16",
+        "file_path": "../src/content/blog/2022-06-16-balanced-diet-for-exercise.md",
+        "title_match": false,
+        "matched_aliases": [
+          "stronger"
+        ],
+        "quote": "Then there’s strength training."
+      }
+    ],
+    "frequency": 69,
+    "representative_quotes": [
+      {
+        "post_id": "2022-05-08-no-longer-sedentary",
+        "quote": "Had a great active day."
+      },
+      {
+        "post_id": "2023-06-03-we8217re-not-going-to-take-weakness",
+        "quote": "I love my Supernatural workouts."
+      },
+      {
+        "post_id": "2023-07-03-saturday-push-day-8211-no-longer-fragile",
+        "quote": "My next thought was “I’m no longer fragile”."
+      }
+    ],
+    "candidate_chapters": [
+      "No Longer Fragile"
+    ],
+    "status": "candidate"
+  },
+  {
+    "concept_id": "fail-your-way-to-health",
+    "name": "Fail Your Way To Health",
+    "definition": "Failure is expected data, not final defeat; the durable skill is returning to the work.",
+    "related_tags": [
+      "failure-restart",
+      "mindset"
+    ],
+    "book_uses": [
+      "chapter_title",
+      "reader_encouragement",
+      "recovery_framework"
+    ],
+    "supporting_posts": [
+      {
+        "post_id": "2023-04-22-saturday-push-day-8211-fail-in-order-to-succeed",
+        "title": "Saturday Push Day – Fail in order to Succeed",
+        "date": "2023-04-22",
+        "file_path": "../src/content/blog/2023-04-22-saturday-push-day-8211-fail-in-order-to-succeed.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fail in order to succeed"
+        ],
+        "quote": "It’s Saturday and time to push the limits, to make my world just a little bit bigger."
+      },
+      {
+        "post_id": "2024-06-22-fail-and-fail-again",
+        "title": "Fail and Fail Again",
+        "date": "2024-06-22",
+        "file_path": "../src/content/blog/2024-06-22-fail-and-fail-again.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fail and fail again"
+        ],
+        "quote": "Saturday Push Day and I failed to make any of my goals today."
+      },
+      {
+        "post_id": "2024-09-23-fail-your-way-to-health",
+        "title": "Fail Your Way To Health",
+        "date": "2024-09-24",
+        "file_path": "../src/content/blog/2024-09-23-fail-your-way-to-health.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fail your way to health"
+        ],
+        "quote": "I woke up Sunday with the urge to go for a run."
+      },
+      {
+        "post_id": "2025-03-13-rebuilding-discipline-8211-starting-again",
+        "title": "Rebuilding Discipline – Starting Again",
+        "date": "2025-03-13",
+        "file_path": "../src/content/blog/2025-03-13-rebuilding-discipline-8211-starting-again.md",
+        "title_match": true,
+        "matched_aliases": [
+          "starting again"
+        ],
+        "quote": "I’ll start and restart as many times as it takes."
+      },
+      {
+        "post_id": "2025-10-08-how-many-times-fall-down-7-get-up-8",
+        "title": "How Many Times?  Fall Down 7, Get Up 8",
+        "date": "2025-10-09",
+        "file_path": "../src/content/blog/2025-10-08-how-many-times-fall-down-7-get-up-8.md",
+        "title_match": true,
+        "matched_aliases": [
+          "fall down",
+          "get up",
+          "starting again"
+        ],
+        "quote": "I wrote a song about it – Fall Down Seven, Get Up Eight: [https://suno."
+      },
+      {
+        "post_id": "2025-11-22-how-to-never-fail-or-backslide-again-8211-guarante",
+        "title": "How to Never Fail or Backslide Again – Guaranteed!",
+        "date": "2025-11-22",
+        "file_path": "../src/content/blog/2025-11-22-how-to-never-fail-or-backslide-again-8211-guarante.md",
+        "title_match": true,
+        "matched_aliases": [
+          "get up",
+          "backslide"
+        ],
+        "quote": "I lied."
+      },
+      {
+        "post_id": "2021-05-13-bonic-man-8211-continuous-glucose-monitor",
+        "title": "Bonic Man – Continuous Glucose Monitor",
+        "date": "2021-05-14",
+        "file_path": "../src/content/blog/2021-05-13-bonic-man-8211-continuous-glucose-monitor.md",
+        "title_match": false,
+        "matched_aliases": [
+          "get up"
+        ],
+        "quote": "I have so much more visibility into what I eat and how it spikes my blood sugar."
+      },
+      {
+        "post_id": "2022-03-16-good-sleep-night",
+        "title": "Good Sleep Night",
+        "date": "2022-03-16",
+        "file_path": "../src/content/blog/2022-03-16-good-sleep-night.md",
+        "title_match": false,
+        "matched_aliases": [
+          "get up"
+        ],
+        "quote": "I still get up 3 or 4 times a night to pee."
+      },
+      {
+        "post_id": "2022-05-02-sleep-progress",
+        "title": "Sleep Progress",
+        "date": "2022-05-02",
+        "file_path": "../src/content/blog/2022-05-02-sleep-progress.md",
+        "title_match": false,
+        "matched_aliases": [
+          "get up"
+        ],
+        "quote": "I’ve also broken myself from the bad habit of checking my social media when I get up 3 or 4 times to pee during the night."
+      },
+      {
+        "post_id": "2022-06-12-what-vitality-brings-to-a-sunday",
+        "title": "What Vitality Brings to a Sunday",
+        "date": "2022-06-12",
+        "file_path": "../src/content/blog/2022-06-12-what-vitality-brings-to-a-sunday.md",
+        "title_match": false,
+        "matched_aliases": [
+          "get up"
+        ],
+        "quote": "I love to sing at church."
+      },
+      {
+        "post_id": "2022-06-17-lets-talk-about-sleep",
+        "title": "Let’s Talk About Sleep",
+        "date": "2022-06-17",
+        "file_path": "../src/content/blog/2022-06-17-lets-talk-about-sleep.md",
+        "title_match": false,
+        "matched_aliases": [
+          "get up"
+        ],
+        "quote": "No matter what I do (so far), I can never get 8 hours of sleep."
+      },
+      {
+        "post_id": "2023-02-18-saturday-push-day-8211-one-for-the-road",
+        "title": "Saturday Push Day – One for the Road",
+        "date": "2023-02-19",
+        "file_path": "../src/content/blog/2023-02-18-saturday-push-day-8211-one-for-the-road.md",
+        "title_match": false,
+        "matched_aliases": [
+          "get up"
+        ],
+        "quote": "Get up at 6am and do a Monster Metal high level Supernatural workout of course."
+      },
+      {
+        "post_id": "2023-03-18-saturday-push-day-8211-early-workout",
+        "title": "Saturday Push Day – Early Workout",
+        "date": "2023-03-19",
+        "file_path": "../src/content/blog/2023-03-18-saturday-push-day-8211-early-workout.md",
+        "title_match": false,
+        "matched_aliases": [
+          "get up"
+        ],
+        "quote": "I can get up early and get my workout in while they are still asleep."
+      },
+      {
+        "post_id": "2023-03-25-saturday-push-day-8211-intensify",
+        "title": "Saturday Push Day – Intensify",
+        "date": "2023-03-26",
+        "file_path": "../src/content/blog/2023-03-25-saturday-push-day-8211-intensify.md",
+        "title_match": false,
+        "matched_aliases": [
+          "get up"
+        ],
+        "quote": "Bad weather, so I can't go for a run or sprints."
+      },
+      {
+        "post_id": "2023-08-23-one-gallon-of-blood-8211-less-of-lee",
+        "title": "One Gallon of Blood – Less of Lee",
+        "date": "2023-08-24",
+        "file_path": "../src/content/blog/2023-08-23-one-gallon-of-blood-8211-less-of-lee.md",
+        "title_match": false,
+        "matched_aliases": [
+          "get up"
+        ],
+        "quote": "I have fun making this point because of how passionately people will respond to me about the absurdity of advocating donating blood to lower A1c."
+      },
+      {
+        "post_id": "2023-09-30-work-your-way-off-the-edge",
+        "title": "Work Your Way Off The Edge",
+        "date": "2023-09-30",
+        "file_path": "../src/content/blog/2023-09-30-work-your-way-off-the-edge.md",
+        "title_match": false,
+        "matched_aliases": [
+          "get up"
+        ],
+        "quote": "Only – this morning I was in the garage and a huge pain flared up."
+      },
+      {
+        "post_id": "2023-10-03-happy-healing-stories",
+        "title": "Happy Healing Stories",
+        "date": "2023-10-03",
+        "file_path": "../src/content/blog/2023-10-03-happy-healing-stories.md",
+        "title_match": false,
+        "matched_aliases": [
+          "get up"
+        ],
+        "quote": "I had a sore back out of nowhere, and on day 2 the pain flared so bad, that I was knocked to the garage floor with no way to get up for a few"
+      },
+      {
+        "post_id": "2023-10-14-he-needs-his-pawpaw",
+        "title": "He Needs His Pawpaw",
+        "date": "2023-10-14",
+        "file_path": "../src/content/blog/2023-10-14-he-needs-his-pawpaw.md",
+        "title_match": false,
+        "matched_aliases": [
+          "backslide"
+        ],
+        "quote": "Shockingly, I have actually been improving my health, reclaiming abilities, reducing pain."
+      },
+      {
+        "post_id": "2023-12-23-is-fasting-pain-relief-temporary",
+        "title": "Is Fasting Pain Relief Temporary?",
+        "date": "2023-12-24",
+        "file_path": "../src/content/blog/2023-12-23-is-fasting-pain-relief-temporary.md",
+        "title_match": false,
+        "matched_aliases": [
+          "get up"
+        ],
+        "quote": "Yes, I absolutely believe that I have a future free of arthritis pain."
+      },
+      {
+        "post_id": "2024-01-01-new-year-8211-1st-home-strength-training",
+        "title": "New Year – 1st Home Strength Training",
+        "date": "2024-01-01",
+        "file_path": "../src/content/blog/2024-01-01-new-year-8211-1st-home-strength-training.md",
+        "title_match": false,
+        "matched_aliases": [
+          "get up"
+        ],
+        "quote": "Funny thing, my core is so weak that I couldn’t get up off the bench."
+      }
+    ],
+    "frequency": 26,
+    "representative_quotes": [
+      {
+        "post_id": "2023-04-22-saturday-push-day-8211-fail-in-order-to-succeed",
+        "quote": "It’s Saturday and time to push the limits, to make my world just a little bit bigger."
+      },
+      {
+        "post_id": "2024-06-22-fail-and-fail-again",
+        "quote": "Saturday Push Day and I failed to make any of my goals today."
+      },
+      {
+        "post_id": "2024-09-23-fail-your-way-to-health",
+        "quote": "I woke up Sunday with the urge to go for a run."
+      }
+    ],
+    "candidate_chapters": [
+      "Failure Is Not The Opposite Of Progress"
+    ],
+    "status": "candidate"
+  },
+  {
+    "concept_id": "health-is-the-destination",
+    "name": "Health Is The Destination",
+    "definition": "The real goal is health and ability, not a number on the scale or a temporary finish line.",
+    "related_tags": [
+      "health-identity",
+      "type-2-diabetes",
+      "exercise"
+    ],
+    "book_uses": [
+      "book_thesis",
+      "chapter_title",
+      "organizing_principle"
+    ],
+    "supporting_posts": [
+      {
+        "post_id": "2021-11-27-journey-to-health-8211-7-months-in",
+        "title": "Journey to Health – 7 Months In",
+        "date": "2021-11-28",
+        "file_path": "../src/content/blog/2021-11-27-journey-to-health-8211-7-months-in.md",
+        "title_match": true,
+        "matched_aliases": [
+          "journey to health"
+        ],
+        "quote": "I can see my metabolic health improving."
+      },
+      {
+        "post_id": "2021-12-13-eye-on-the-prize-8211-all-the-way-to-health",
+        "title": "Eye On The Prize – All The Way to Health",
+        "date": "2021-12-13",
+        "file_path": "../src/content/blog/2021-12-13-eye-on-the-prize-8211-all-the-way-to-health.md",
+        "title_match": true,
+        "matched_aliases": [
+          "all the way to health"
+        ],
+        "quote": "On the topic of: can I ever eat my favorites again Someone recently posted about their fantastic progress…and their having gone back to eating popcorn 3x a week."
+      },
+      {
+        "post_id": "2021-12-21-journey-to-health-8211-8-month-update",
+        "title": "Journey to Health – 8 Month Update",
+        "date": "2021-12-21",
+        "file_path": "../src/content/blog/2021-12-21-journey-to-health-8211-8-month-update.md",
+        "title_match": true,
+        "matched_aliases": [
+          "journey to health"
+        ],
+        "quote": "There is more work to do."
+      },
+      {
+        "post_id": "2022-01-14-total-health-program-8211-not-just-diabetes",
+        "title": "Total Health Program – Not Just Diabetes",
+        "date": "2022-01-14",
+        "file_path": "../src/content/blog/2022-01-14-total-health-program-8211-not-just-diabetes.md",
+        "title_match": true,
+        "matched_aliases": [
+          "total health"
+        ],
+        "quote": "That’s why I’m working on becoming healthy – total health, not just trying to manage by blood sugar levels."
+      },
+      {
+        "post_id": "2022-01-17-the-best-total-health-book-8211-the-pe-diet",
+        "title": "The Best Total Health Book – The P:E Diet",
+        "date": "2022-01-17",
+        "file_path": "../src/content/blog/2022-01-17-the-best-total-health-book-8211-the-pe-diet.md",
+        "title_match": true,
+        "matched_aliases": [
+          "total health"
+        ],
+        "quote": "Just finished The P:E Diet by Ted Naiman."
+      },
+      {
+        "post_id": "2022-03-09-health-is-the-destination",
+        "title": "Health is the Destination",
+        "date": "2022-03-09",
+        "file_path": "../src/content/blog/2022-03-09-health-is-the-destination.md",
+        "title_match": true,
+        "matched_aliases": [
+          "health is the destination"
+        ],
+        "quote": "I am excited for having reached a huge milestone…but it is only a milestone."
+      },
+      {
+        "post_id": "2022-10-10-destination-health",
+        "title": "Destination Health",
+        "date": "2022-10-10",
+        "file_path": "../src/content/blog/2022-10-10-destination-health.md",
+        "title_match": true,
+        "matched_aliases": [
+          "destination health"
+        ],
+        "quote": "It may have taken the specter of daily insulin shots to get me going, but from the beginning my goal was to regain health."
+      },
+      {
+        "post_id": "2023-04-17-beyond-a1c-the-journey-to-health-recovery",
+        "title": "Beyond A1c: The Journey to Health Recovery",
+        "date": "2023-04-17",
+        "file_path": "../src/content/blog/2023-04-17-beyond-a1c-the-journey-to-health-recovery.md",
+        "title_match": true,
+        "matched_aliases": [
+          "journey to health"
+        ],
+        "quote": "My journey to regain my health is far from over."
+      },
+      {
+        "post_id": "2012-07-09-3-month-review",
+        "title": "3 Month Review",
+        "date": "2012-07-09",
+        "file_path": "../src/content/blog/2012-07-09-3-month-review.md",
+        "title_match": false,
+        "matched_aliases": [
+          "journey to health"
+        ],
+        "quote": "It's been three months since I started the Less of Lee journey to health."
+      },
+      {
+        "post_id": "2012-10-07-20-less-of-lee",
+        "title": "20% Less of Lee",
+        "date": "2012-10-07",
+        "file_path": "../src/content/blog/2012-10-07-20-less-of-lee.md",
+        "title_match": false,
+        "matched_aliases": [
+          "journey to health"
+        ],
+        "quote": "There is now 20% less of Lee."
+      },
+      {
+        "post_id": "2012-10-17-less-of-lee-at-6-months",
+        "title": "Less of Lee at 6 Months",
+        "date": "2012-10-17",
+        "file_path": "../src/content/blog/2012-10-17-less-of-lee-at-6-months.md",
+        "title_match": false,
+        "matched_aliases": [
+          "journey to health"
+        ],
+        "quote": "I started my journey to health and fitness 6 months ago."
+      },
+      {
+        "post_id": "2012-11-21-welcome-vinnie-tortorich-fans",
+        "title": "Welcome Vinnie Tortorich Fans",
+        "date": "2012-11-21",
+        "file_path": "../src/content/blog/2012-11-21-welcome-vinnie-tortorich-fans.md",
+        "title_match": false,
+        "matched_aliases": [
+          "journey to health"
+        ],
+        "quote": "I also create podcasts."
+      },
+      {
+        "post_id": "2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor",
+        "title": "The Secrets to My Success – A Thanksgiving Story",
+        "date": "2012-11-27",
+        "file_path": "../src/content/blog/2012-11-27-the-secrets-to-my-success-8211-a-thanksgiving-stor.md",
+        "title_match": false,
+        "matched_aliases": [
+          "journey to health"
+        ],
+        "quote": "In the spirit of the season, if late, here are some people, blogs, and podcasts that I am thankful for in how they have helped me make progress in my journey to health."
+      },
+      {
+        "post_id": "2012-12-31-the-year-that-was-2012-in-fitness",
+        "title": "The Year That Was 2012 In Fitness",
+        "date": "2012-12-31",
+        "file_path": "../src/content/blog/2012-12-31-the-year-that-was-2012-in-fitness.md",
+        "title_match": false,
+        "matched_aliases": [
+          "journey to health"
+        ],
+        "quote": "When I started my journey to health I threw in “and fitness”."
+      },
+      {
+        "post_id": "2013-01-15-tell-the-world",
+        "title": "Tell The World",
+        "date": "2013-01-15",
+        "file_path": "../src/content/blog/2013-01-15-tell-the-world.md",
+        "title_match": false,
+        "matched_aliases": [
+          "journey to health"
+        ],
+        "quote": "You can refer to [the first post in my blog](https://lessoflee."
+      },
+      {
+        "post_id": "2013-01-26-keeping-the-faith-in-the-face-of-a-plateau",
+        "title": "Keeping The Faith In the Face of a Plateau",
+        "date": "2013-01-26",
+        "file_path": "../src/content/blog/2013-01-26-keeping-the-faith-in-the-face-of-a-plateau.md",
+        "title_match": false,
+        "matched_aliases": [
+          "journey to health"
+        ],
+        "quote": "I am coming up on two months at the same weight, the first serious plateau in my journey to health."
+      },
+      {
+        "post_id": "2021-12-22-my-process-for-regaining-health-8211-books",
+        "title": "My Process for Regaining Health – Books",
+        "date": "2021-12-22",
+        "file_path": "../src/content/blog/2021-12-22-my-process-for-regaining-health-8211-books.md",
+        "title_match": false,
+        "matched_aliases": [
+          "journey to health"
+        ],
+        "quote": "Here are the books I’ve read this year as I engaged once again on my Journey to Health."
+      },
+      {
+        "post_id": "2022-01-17-fat-to-thin-and-fat-again-lesson-2-8211-the-health",
+        "title": "Fat to Thin and Fat Again: Lesson 2 – The Health Hobby",
+        "date": "2022-01-17",
+        "file_path": "../src/content/blog/2022-01-17-fat-to-thin-and-fat-again-lesson-2-8211-the-health.md",
+        "title_match": false,
+        "matched_aliases": [
+          "total health"
+        ],
+        "quote": "If you see it as a hobby, it’s all part of the fun."
+      },
+      {
+        "post_id": "2022-02-06-i-cantuntil-i-can-8211-exercise-vigorously-for-an",
+        "title": "I Can’t…Until I Can – Exercise Vigorously for an Hour",
+        "date": "2022-02-06",
+        "file_path": "../src/content/blog/2022-02-06-i-cantuntil-i-can-8211-exercise-vigorously-for-an.md",
+        "title_match": false,
+        "matched_aliases": [
+          "journey to health"
+        ],
+        "quote": "What a joy it is to meet some ambitious goals."
+      },
+      {
+        "post_id": "2022-02-12-the-value-of-supernatural-and-oculus-quest",
+        "title": "The Value of Supernatural and Oculus Quest",
+        "date": "2022-02-12",
+        "file_path": "../src/content/blog/2022-02-12-the-value-of-supernatural-and-oculus-quest.md",
+        "title_match": false,
+        "matched_aliases": [
+          "total health"
+        ],
+        "quote": "And yes…SN has indeed helped with weight loss…in the context of a keto diet and intermittent fasting."
+      }
+    ],
+    "frequency": 26,
+    "representative_quotes": [
+      {
+        "post_id": "2021-11-27-journey-to-health-8211-7-months-in",
+        "quote": "I can see my metabolic health improving."
+      },
+      {
+        "post_id": "2021-12-13-eye-on-the-prize-8211-all-the-way-to-health",
+        "quote": "On the topic of: can I ever eat my favorites again Someone recently posted about their fantastic progress…and their having gone back to eating popcorn 3x a week."
+      },
+      {
+        "post_id": "2021-12-21-journey-to-health-8211-8-month-update",
+        "quote": "There is more work to do."
+      }
+    ],
+    "candidate_chapters": [
+      "Health Is The Destination"
+    ],
+    "status": "candidate"
+  },
+  {
+    "concept_id": "food-that-made-you-sick",
+    "name": "The Food That Made You Sick",
+    "definition": "Some foods are not neutral treats for Lee; they are the path back to sickness.",
+    "related_tags": [
+      "feasting",
+      "type-2-diabetes",
+      "food-addiction"
+    ],
+    "book_uses": [
+      "food_framework",
+      "reader_warning",
+      "practical_boundary"
+    ],
+    "supporting_posts": [
+      {
+        "post_id": "2021-12-22-no-moderation-for-me",
+        "title": "No Moderation for Me",
+        "date": "2021-12-22",
+        "file_path": "../src/content/blog/2021-12-22-no-moderation-for-me.md",
+        "title_match": true,
+        "matched_aliases": [
+          "no moderation"
+        ],
+        "quote": "“Everything in Moderation” – it just has the flavor of wisdom about it."
+      },
+      {
+        "post_id": "2022-07-08-carbs-vs-fat",
+        "title": "Carbs vs Fat",
+        "date": "2022-07-09",
+        "file_path": "../src/content/blog/2022-07-08-carbs-vs-fat.md",
+        "title_match": true,
+        "matched_aliases": [
+          "carbs vs fat"
+        ],
+        "quote": "The Carnivore Code book and my month of trying a carnivore diet has transformed how I see food."
+      },
+      {
+        "post_id": "2022-09-11-just-dont-eat-carbs",
+        "title": "Just Don’t Eat Carbs",
+        "date": "2022-09-12",
+        "file_path": "../src/content/blog/2022-09-11-just-dont-eat-carbs.md",
+        "title_match": true,
+        "matched_aliases": [
+          "just don't eat carbs"
+        ],
+        "quote": "My dietician wanted me to eat a diet high in grains and fruits."
+      },
+      {
+        "post_id": "2023-02-12-back-to-the-abusive-boyfriend-the-food-that-made-y",
+        "title": "Back to the Abusive Boyfriend: The Food That Made You Fat and Sick.",
+        "date": "2023-02-12",
+        "file_path": "../src/content/blog/2023-02-12-back-to-the-abusive-boyfriend-the-food-that-made-y.md",
+        "title_match": true,
+        "matched_aliases": [
+          "food that made",
+          "abusive boyfriend"
+        ],
+        "quote": "The Standard American Diet isn't a sustainable solution for health."
+      },
+      {
+        "post_id": "2023-03-22-it8217s-the-food-making-us-sick",
+        "title": "It’s the FOOD making us sick.",
+        "date": "2023-03-22",
+        "file_path": "../src/content/blog/2023-03-22-it8217s-the-food-making-us-sick.md",
+        "title_match": true,
+        "matched_aliases": [
+          "food making us sick"
+        ],
+        "quote": "Which I never seem to learn."
+      },
+      {
+        "post_id": "2025-06-01-type-2-diabetes-is-not-a-disease",
+        "title": "Type 2 Diabetes is not a Disease",
+        "date": "2025-06-01",
+        "file_path": "../src/content/blog/2025-06-01-type-2-diabetes-is-not-a-disease.md",
+        "title_match": true,
+        "matched_aliases": [
+          "type 2 diabetes is not a disease"
+        ],
+        "quote": "I have good news."
+      },
+      {
+        "post_id": "2022-12-08-diabetes-taught-me-what-my-mother-should-have",
+        "title": "Diabetes Taught Me What My Mother Should Have",
+        "date": "2022-12-08",
+        "file_path": "../src/content/blog/2022-12-08-diabetes-taught-me-what-my-mother-should-have.md",
+        "title_match": false,
+        "matched_aliases": [
+          "food that made"
+        ],
+        "quote": "Why must I label myself as diseased for refraining to eat food that will make me ACTUALLY diseased?"
+      },
+      {
+        "post_id": "2025-05-21-return-of-the-cane",
+        "title": "Return of the Cane",
+        "date": "2025-05-21",
+        "file_path": "../src/content/blog/2025-05-21-return-of-the-cane.md",
+        "title_match": false,
+        "matched_aliases": [
+          "food that made"
+        ],
+        "quote": "But if you return to the food that made you sick and diseased in the first place, you will redevelop the disease."
+      },
+      {
+        "post_id": "2025-06-07-the-downside-of-healing",
+        "title": "The Downside of Healing",
+        "date": "2025-06-07",
+        "file_path": "../src/content/blog/2025-06-07-the-downside-of-healing.md",
+        "title_match": false,
+        "matched_aliases": [
+          "food that made"
+        ],
+        "quote": "There is no downside to actual healing."
+      },
+      {
+        "post_id": "2025-11-11-that-whoosh-it8217s-more-than-just-water",
+        "title": "That Whoosh: It’s More Than Just Water",
+        "date": "2025-11-11",
+        "file_path": "../src/content/blog/2025-11-11-that-whoosh-it8217s-more-than-just-water.md",
+        "title_match": false,
+        "matched_aliases": [
+          "type 2 diabetes is not a disease"
+        ],
+        "quote": "* Insulin Resistance: Type 2 Diabetes is not a disease of high blood sugar; it is a disease of too much insulin (hyperinsulinemia) driving insulin resistance."
+      }
+    ],
+    "frequency": 10,
+    "representative_quotes": [
+      {
+        "post_id": "2021-12-22-no-moderation-for-me",
+        "quote": "“Everything in Moderation” – it just has the flavor of wisdom about it."
+      },
+      {
+        "post_id": "2022-07-08-carbs-vs-fat",
+        "quote": "The Carnivore Code book and my month of trying a carnivore diet has transformed how I see food."
+      },
+      {
+        "post_id": "2022-09-11-just-dont-eat-carbs",
+        "quote": "My dietician wanted me to eat a diet high in grains and fruits."
+      }
+    ],
+    "candidate_chapters": [
+      "The Food That Made Me Sick"
+    ],
+    "status": "candidate"
+  },
+  {
+    "concept_id": "you-build-your-health",
+    "name": "You Build Your Health",
+    "definition": "Health is built by repeated behaviors; it cannot be purchased, delegated, or wished into being.",
+    "related_tags": [
+      "mindset",
+      "exercise",
+      "type-2-diabetes"
+    ],
+    "book_uses": [
+      "practical_framework",
+      "chapter_title"
+    ],
+    "supporting_posts": [
+      {
+        "post_id": "2022-04-16-take-charge-of-your-own-health",
+        "title": "Take Charge of Your Own Health",
+        "date": "2022-04-16",
+        "file_path": "../src/content/blog/2022-04-16-take-charge-of-your-own-health.md",
+        "title_match": true,
+        "matched_aliases": [
+          "take charge"
+        ],
+        "quote": "You should trust your doctor!"
+      },
+      {
+        "post_id": "2022-04-24-spring-has-sprung-8211-doing-the-daily-work",
+        "title": "Spring Has Sprung – Doing The Daily Work",
+        "date": "2022-04-24",
+        "file_path": "../src/content/blog/2022-04-24-spring-has-sprung-8211-doing-the-daily-work.md",
+        "title_match": true,
+        "matched_aliases": [
+          "daily work"
+        ],
+        "quote": "Doing the daily work – making progress."
+      },
+      {
+        "post_id": "2022-07-26-you-cant-buy-health",
+        "title": "You Can’t Buy Health",
+        "date": "2022-07-27",
+        "file_path": "../src/content/blog/2022-07-26-you-cant-buy-health.md",
+        "title_match": true,
+        "matched_aliases": [
+          "can't buy health"
+        ],
+        "quote": "There is a lottery in the USA right now where the jackpot has reached $850 million dollars."
+      },
+      {
+        "post_id": "2022-12-06-building-tomorrow8217s-better-me-today",
+        "title": "Building Tomorrow’s Better Me Today",
+        "date": "2022-12-06",
+        "file_path": "../src/content/blog/2022-12-06-building-tomorrow8217s-better-me-today.md",
+        "title_match": true,
+        "matched_aliases": [
+          "building tomorrow"
+        ],
+        "quote": "Today I work on building tomorrow's better me – Always."
+      },
+      {
+        "post_id": "2023-07-03-you-build-your-health",
+        "title": "You Build Your Health",
+        "date": "2023-07-03",
+        "file_path": "../src/content/blog/2023-07-03-you-build-your-health.md",
+        "title_match": true,
+        "matched_aliases": [
+          "you build your health",
+          "build your health"
+        ],
+        "quote": "I do have a change to make – “If you BUILD your health, you’ll have everything”."
+      },
+      {
+        "post_id": "2024-02-03-saturday-push-day-8211-trip-around-the-sun",
+        "title": "Saturday Push Day – Trip Around the Sun",
+        "date": "2024-02-03",
+        "file_path": "../src/content/blog/2024-02-03-saturday-push-day-8211-trip-around-the-sun.md",
+        "title_match": false,
+        "matched_aliases": [
+          "build your health"
+        ],
+        "quote": "I’m feeling great and optimistic for the coming years."
+      },
+      {
+        "post_id": "2024-04-22-three-years-into-winning-type-2-diabetes-from-high",
+        "title": "Three Years into Winning Type 2 Diabetes from Highly Diabetic to Normal and Drug Free",
+        "date": "2024-04-23",
+        "file_path": "../src/content/blog/2024-04-22-three-years-into-winning-type-2-diabetes-from-high.md",
+        "title_match": false,
+        "matched_aliases": [
+          "build your health"
+        ],
+        "quote": "You can rebuild your health."
+      },
+      {
+        "post_id": "2024-06-22-fail-and-fail-again",
+        "title": "Fail and Fail Again",
+        "date": "2024-06-22",
+        "file_path": "../src/content/blog/2024-06-22-fail-and-fail-again.md",
+        "title_match": false,
+        "matched_aliases": [
+          "daily work"
+        ],
+        "quote": "Life isn’t a sprint."
+      }
+    ],
+    "frequency": 8,
+    "representative_quotes": [
+      {
+        "post_id": "2022-04-16-take-charge-of-your-own-health",
+        "quote": "You should trust your doctor!"
+      },
+      {
+        "post_id": "2022-04-24-spring-has-sprung-8211-doing-the-daily-work",
+        "quote": "Doing the daily work – making progress."
+      },
+      {
+        "post_id": "2022-07-26-you-cant-buy-health",
+        "quote": "There is a lottery in the USA right now where the jackpot has reached $850 million dollars."
+      }
+    ],
+    "candidate_chapters": [
+      "You Build Your Health"
+    ],
+    "status": "candidate"
+  },
+  {
+    "concept_id": "body-as-feedback-system",
+    "name": "The Body As Feedback System",
+    "definition": "The body responds to inputs without sentiment; symptoms, labs, hunger, pain, and performance are feedback.",
+    "related_tags": [
+      "mindset",
+      "fasting",
+      "exercise",
+      "type-2-diabetes"
+    ],
+    "book_uses": [
+      "practical_mindset",
+      "chapter_theme"
+    ],
+    "supporting_posts": [
+      {
+        "post_id": "2022-07-06-my-body-told-me-eat-meat",
+        "title": "My Body Told Me: Eat Meat",
+        "date": "2022-07-07",
+        "file_path": "../src/content/blog/2022-07-06-my-body-told-me-eat-meat.md",
+        "title_match": true,
+        "matched_aliases": [
+          "my body told me"
+        ],
+        "quote": "A nutritious dinner is served!"
+      },
+      {
+        "post_id": "2023-06-18-saturday-push-day-8211-listen-to-your-body",
+        "title": "Saturday Push Day – Listen To Your Body",
+        "date": "2023-06-18",
+        "file_path": "../src/content/blog/2023-06-18-saturday-push-day-8211-listen-to-your-body.md",
+        "title_match": true,
+        "matched_aliases": [
+          "listen to your body",
+          "feedback"
+        ],
+        "quote": "Still, I did my body good today by pushing myself."
+      },
+      {
+        "post_id": "2024-01-27-saturday-push-day-8211-speaking-to-your-body",
+        "title": "Saturday Push Day – Speaking to Your Body",
+        "date": "2024-01-27",
+        "file_path": "../src/content/blog/2024-01-27-saturday-push-day-8211-speaking-to-your-body.md",
+        "title_match": true,
+        "matched_aliases": [
+          "speaking to your body"
+        ],
+        "quote": "It’s Saturday, time to tell my body I want more: more heart strength, more endurance, more will power, more abilities reclaimed."
+      },
+      {
+        "post_id": "2024-11-23-your-body-doesnt-care-about-you",
+        "title": "Your Body Doesn’t Care About You",
+        "date": "2024-11-23",
+        "file_path": "../src/content/blog/2024-11-23-your-body-doesnt-care-about-you.md",
+        "title_match": true,
+        "matched_aliases": [
+          "your body doesn't care"
+        ],
+        "quote": "I’m clearly in a down cycle as far as my health journey is concerned."
+      },
+      {
+        "post_id": "2023-08-04-walking-wont-get-you-everywhere-you-want-to-be",
+        "title": "Walking Won’t Get You Everywhere You Want to Be",
+        "date": "2023-08-04",
+        "file_path": "../src/content/blog/2023-08-04-walking-wont-get-you-everywhere-you-want-to-be.md",
+        "title_match": false,
+        "matched_aliases": [
+          "feedback"
+        ],
+        "quote": "Your body is declining with age – but that’s not fate."
+      },
+      {
+        "post_id": "2023-12-18-after-the-fast-8211-day-13-one-more-day-to-go",
+        "title": "After the Fast – Day 13, One  More Day to Go!",
+        "date": "2023-12-19",
+        "file_path": "../src/content/blog/2023-12-18-after-the-fast-8211-day-13-one-more-day-to-go.md",
+        "title_match": false,
+        "matched_aliases": [
+          "feedback"
+        ],
+        "quote": "Day 13 is in the bag."
+      },
+      {
+        "post_id": "2025-06-14-type-2-diabetes-progression-8211-a-primer",
+        "title": "Type 2 Diabetes Progression – A Primer",
+        "date": "2025-06-15",
+        "file_path": "../src/content/blog/2025-06-14-type-2-diabetes-progression-8211-a-primer.md",
+        "title_match": false,
+        "matched_aliases": [
+          "feedback"
+        ],
+        "quote": "But it’s a negative feedback loop."
+      }
+    ],
+    "frequency": 7,
+    "representative_quotes": [
+      {
+        "post_id": "2022-07-06-my-body-told-me-eat-meat",
+        "quote": "A nutritious dinner is served!"
+      },
+      {
+        "post_id": "2023-06-18-saturday-push-day-8211-listen-to-your-body",
+        "quote": "Still, I did my body good today by pushing myself."
+      },
+      {
+        "post_id": "2024-01-27-saturday-push-day-8211-speaking-to-your-body",
+        "quote": "It’s Saturday, time to tell my body I want more: more heart strength, more endurance, more will power, more abilities reclaimed."
+      }
+    ],
+    "candidate_chapters": [
+      "Your Body Tells The Truth"
+    ],
+    "status": "candidate"
+  }
+]
