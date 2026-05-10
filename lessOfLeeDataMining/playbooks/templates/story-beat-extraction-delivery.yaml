@@ -1,0 +1,181 @@
+playbook_id: sprint_03_story_beat_extraction
+name: "Sprint 3 - Story Beat Extraction Delivery"
+
+defaults:
+  worker: claude_code
+  retry_policy:
+    max_attempts: 2
+    strategy: rerun_with_validation_feedback
+
+run_policy:
+  on_step_failure: halt
+  require_validation_pass_to_advance: true
+
+steps:
+  - step_id: step_01_scope_mining_pass
+    name: "Scope the mining pass"
+    mission: >
+      Read AGENTS.md, skills/mining-loop.md, and agents/story-miner.md.
+      Identify the 20-30 highest-value posts for initial story beat extraction.
+      Use title signals (milestones, transformations, named concepts), post word count,
+      and any story_value scoring from data/posts.jsonl.
+      Write the scoped post list to plans/story-beat-pass-1-scope.md.
+      Keep all writes within plans/.
+    inputs:
+      - AGENTS.md
+      - skills/mining-loop.md
+      - agents/story-miner.md
+      - data/posts.jsonl
+      - project-definition.md
+    allowed_paths:
+      - plans/
+    outputs:
+      required:
+        - path: plans/story-beat-pass-1-scope.md
+          type: markdown
+    validation:
+      structural:
+        - type: file_exists
+          path: plans/story-beat-pass-1-scope.md
+    on_fail:
+      retry_message: "Write the scoped post list to plans/story-beat-pass-1-scope.md with clear selection rationale."
+      after_retries_exhausted: halt
+
+  - step_id: step_02_extract_story_beats
+    name: "Extract story beats from scoped posts"
+    mission: >
+      Read skills/mining-loop.md and agents/story-miner.md. For each post in the scoped list,
+      read the full Markdown content and extract story beats following the type taxonomy.
+      Each beat must have: beat_id, post_id, type, setup, conflict, turn, outcome, lesson,
+      themes, emotional_tone, book_relevance, source_excerpt.
+      Write output to data/story-beats.jsonl sorted by post date then beat sequence.
+      Keep all writes within scripts/ and data/.
+    inputs:
+      - skills/mining-loop.md
+      - agents/story-miner.md
+      - plans/story-beat-pass-1-scope.md
+      - data/posts.jsonl
+      - data/tags.json
+    allowed_paths:
+      - scripts/
+      - data/
+    outputs:
+      required:
+        - path: data/story-beats.jsonl
+          type: text
+    validation:
+      structural:
+        - type: file_exists
+          path: data/story-beats.jsonl
+    on_fail:
+      retry_message: "Extract story beats and write valid JSONL to data/story-beats.jsonl."
+      after_retries_exhausted: halt
+
+  - step_id: step_03_validate_beats
+    name: "Validate story beat extraction"
+    mission: >
+      Read skills/data-validation.md. Validate data/story-beats.jsonl:
+      - All records are valid JSON
+      - All post_id values exist in data/posts.jsonl
+      - All required fields are non-null
+      - All beat types are from the defined taxonomy
+      - Source excerpts are verifiable in source posts (spot-check 10)
+      Fix any issues found. Keep writes within scripts/ and data/.
+    inputs:
+      - skills/data-validation.md
+      - data/story-beats.jsonl
+      - data/posts.jsonl
+    allowed_paths:
+      - scripts/
+      - data/
+    outputs:
+      required:
+        - path: data/story-beats.jsonl
+          type: text
+    validation:
+      system:
+        - type: command_succeeds
+          command: "node -e \"const fs=require('fs'); const lines=fs.readFileSync('data/story-beats.jsonl','utf8').trim().split('\\n'); lines.forEach(l=>{const r=JSON.parse(l); if(!r.beat_id||!r.post_id||!r.type||!r.turn)process.exit(1)}); console.log(lines.length+' valid beats')\""
+    on_fail:
+      retry_message: "Fix story beat validation failures. All beats must have complete required fields and valid post references."
+      after_retries_exhausted: halt
+
+  - step_id: step_04_generate_report
+    name: "Generate story beats report"
+    mission: >
+      Generate reports/story-beats.csv from data/story-beats.jsonl.
+      Keep all writes within scripts/ and reports/.
+    inputs:
+      - data/story-beats.jsonl
+    allowed_paths:
+      - scripts/
+      - reports/
+    outputs:
+      required:
+        - path: reports/story-beats.csv
+          type: text
+    validation:
+      structural:
+        - type: file_exists
+          path: reports/story-beats.csv
+    on_fail:
+      retry_message: "Generate reports/story-beats.csv from the JSONL data."
+      after_retries_exhausted: halt
+
+  - step_id: step_05_review
+    name: "Review story beat quality"
+    mission: >
+      Read skills/data-review.md and agents/data-reviewer.md. Review the extracted story beats
+      for structural integrity, referential integrity, content accuracy (spot-check 10 beats
+      against source posts), and book-mining usefulness. Write findings to
+      code-reviews/review-sprint-3-story-beats.md. Keep all writes within code-reviews/.
+    inputs:
+      - skills/data-review.md
+      - agents/data-reviewer.md
+      - data/story-beats.jsonl
+      - data/posts.jsonl
+      - sprint-plan.md
+    allowed_paths:
+      - code-reviews/
+    outputs:
+      required:
+        - path: code-reviews/review-sprint-3-story-beats.md
+          type: markdown
+    validation:
+      structural:
+        - type: file_exists
+          path: code-reviews/review-sprint-3-story-beats.md
+    on_fail:
+      retry_message: "Write the review document at code-reviews/review-sprint-3-story-beats.md."
+      after_retries_exhausted: halt
+
+  - step_id: step_06_closeout
+    name: "Close out sprint"
+    mission: >
+      Read skills/documentation.md. Update context.md, result-review.md, and sprint-plan.md.
+      Keep all writes within those files.
+    inputs:
+      - skills/documentation.md
+      - context.md
+      - result-review.md
+      - sprint-plan.md
+      - code-reviews/review-sprint-3-story-beats.md
+    allowed_paths:
+      - context.md
+      - result-review.md
+      - sprint-plan.md
+    outputs:
+      required:
+        - path: context.md
+          type: markdown
+        - path: result-review.md
+          type: markdown
+    validation:
+      structural:
+        - type: file_exists
+          path: context.md
+        - type: file_exists
+          path: result-review.md
+    on_fail:
+      retry_message: "Update handoff docs for sprint closeout."
+      after_retries_exhausted: halt

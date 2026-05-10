@@ -1,0 +1,160 @@
+playbook_id: sprint_01_post_index_delivery
+name: "Sprint 1 - Canonical Post Index Delivery"
+
+defaults:
+  worker: claude_code
+  retry_policy:
+    max_attempts: 2
+    strategy: rerun_with_validation_feedback
+
+run_policy:
+  on_step_failure: halt
+  require_validation_pass_to_advance: true
+
+steps:
+  - step_id: step_01_build_extraction_script
+    name: "Build the post index extraction script"
+    mission: >
+      Read AGENTS.md, skills/extraction-loop.md, and agents/post-indexer.md, then follow them.
+      Build scripts/build-post-index.js that parses all Markdown files in ../src/content/blog/,
+      extracts frontmatter and body content, and writes data/posts.jsonl with one record per post.
+      Each record must have: id, slug, title, date, updated_date, file_path, word_count, summary, has_hero_image.
+      Sort output by date ascending. Keep all writes within scripts/ and data/.
+    inputs:
+      - AGENTS.md
+      - skills/extraction-loop.md
+      - agents/post-indexer.md
+      - project-definition.md
+      - sprint-plan.md
+    allowed_paths:
+      - scripts/
+      - data/
+    outputs:
+      required:
+        - path: scripts/build-post-index.js
+          type: text
+        - path: data/posts.jsonl
+          type: text
+    validation:
+      structural:
+        - type: file_exists
+          path: scripts/build-post-index.js
+        - type: file_exists
+          path: data/posts.jsonl
+      system:
+        - type: command_succeeds
+          command: "node scripts/build-post-index.js"
+    on_fail:
+      retry_message: "Repair the extraction script until it runs cleanly and produces valid JSONL output in data/posts.jsonl."
+      after_retries_exhausted: halt
+
+  - step_id: step_02_generate_report
+    name: "Generate the CSV report"
+    mission: >
+      Read skills/extraction-loop.md. Build scripts/build-reports.js (or extend the existing script)
+      to convert data/posts.jsonl into reports/posts.csv. The CSV should have headers matching the
+      JSONL fields. Keep all writes within scripts/ and reports/.
+    inputs:
+      - skills/extraction-loop.md
+      - data/posts.jsonl
+    allowed_paths:
+      - scripts/
+      - reports/
+    outputs:
+      required:
+        - path: reports/posts.csv
+          type: text
+    validation:
+      structural:
+        - type: file_exists
+          path: reports/posts.csv
+    on_fail:
+      retry_message: "Repair the report generation until reports/posts.csv exists and has the correct record count."
+      after_retries_exhausted: halt
+
+  - step_id: step_03_validate_output
+    name: "Validate extraction output"
+    mission: >
+      Read skills/data-validation.md and run all four validation tiers against data/posts.jsonl.
+      Tier 1: structural (JSON validity, field completeness, ID uniqueness, record count).
+      Tier 2: referential (all file_path values resolve to real files).
+      Tier 3: spot-check 10 random records against source posts.
+      Tier 4: usefulness assessment.
+      If validation fails, fix the extraction script and re-run. Keep fixes within scripts/ and data/.
+    inputs:
+      - skills/data-validation.md
+      - data/posts.jsonl
+    allowed_paths:
+      - scripts/
+      - data/
+      - reports/
+    outputs:
+      required:
+        - path: data/posts.jsonl
+          type: text
+    validation:
+      system:
+        - type: command_succeeds
+          command: "node -e \"const fs=require('fs'); const lines=fs.readFileSync('data/posts.jsonl','utf8').trim().split('\\n'); lines.forEach((l,i)=>{try{JSON.parse(l)}catch(e){process.exit(1)}}); const ids=lines.map(l=>JSON.parse(l).id); if(new Set(ids).size!==ids.length)process.exit(1); console.log(ids.length+' valid records')\""
+    on_fail:
+      retry_message: "Fix validation failures in the extraction output. All records must be valid JSON with unique IDs."
+      after_retries_exhausted: halt
+
+  - step_id: step_04_review_data
+    name: "Review the post index"
+    mission: >
+      Read skills/data-review.md and agents/data-reviewer.md, then follow them directly.
+      Review data/posts.jsonl for structural integrity, referential integrity, content accuracy
+      (spot-check 10 records), and usefulness. Write findings to code-reviews/review-sprint-1-post-index.md.
+      Keep all writes within code-reviews/.
+    inputs:
+      - skills/data-review.md
+      - agents/data-reviewer.md
+      - data/posts.jsonl
+      - sprint-plan.md
+    allowed_paths:
+      - code-reviews/
+    outputs:
+      required:
+        - path: code-reviews/review-sprint-1-post-index.md
+          type: markdown
+    validation:
+      structural:
+        - type: file_exists
+          path: code-reviews/review-sprint-1-post-index.md
+    on_fail:
+      retry_message: "Write the review document at code-reviews/review-sprint-1-post-index.md."
+      after_retries_exhausted: halt
+
+  - step_id: step_05_closeout
+    name: "Close out sprint and update handoff docs"
+    mission: >
+      Read skills/documentation.md. Update context.md with current state, decisions locked,
+      and next actions. Update result-review.md with what was built and how to verify.
+      Update sprint-plan.md marking Sprint 1 tasks as complete.
+      Keep all writes within context.md, result-review.md, and sprint-plan.md.
+    inputs:
+      - skills/documentation.md
+      - context.md
+      - result-review.md
+      - sprint-plan.md
+      - code-reviews/review-sprint-1-post-index.md
+    allowed_paths:
+      - context.md
+      - result-review.md
+      - sprint-plan.md
+    outputs:
+      required:
+        - path: context.md
+          type: markdown
+        - path: result-review.md
+          type: markdown
+    validation:
+      structural:
+        - type: file_exists
+          path: context.md
+        - type: file_exists
+          path: result-review.md
+    on_fail:
+      retry_message: "Update the handoff docs so the next session knows exactly where things stand."
+      after_retries_exhausted: halt
