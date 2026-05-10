@@ -51,8 +51,8 @@ Same pipeline, significantly improved precision layer. Key changes: word-boundar
 
 | ID | Severity | Category | Location | Problem | Proposed Fix |
 |----|----------|----------|----------|---------|--------------|
-| R2-001 | Med | Precision | Concept `start-where-you-are` — aliases `"make progress"` and `"a little more"` | 143 strong matches (24% of posts). These multi-word phrases are common English that appear in posts without being about the "Start Where You Are" concept. Unlike short aliases, they bypass the ambiguous-alias gate because they contain spaces. | Either: (a) add them to the AMBIGUOUS_ALIASES set (the check currently only applies `isShortAlias` to single words), (b) remove these generic aliases and keep only the distinctive ones (`"start where you are"`, `"we all start somewhere"`), or (c) extend the ambiguity logic to cover multi-word phrases that are common English. Option (b) is simplest and most honest. |
-| R2-002 | Med | Precision | Concept `hard-is-mandatory` (83 strong matches, 14%) | Same issue. Aliases like `"push day"` are distinctive, but aliases that include common words may be matching broadly. Worth auditing the full alias list for multi-word false positives. | Audit the top-20 supporting posts for each concept with frequency > 30. If more than 30% match only on generic phrases, trim those aliases. |
+| R2-001 | ~~Med~~ **Retracted** | Precision | Concept `start-where-you-are` — aliases `"make progress"` and `"a little more"` | **Retracted.** Reviewer assumed these were generic English, but Lee confirmed they are deliberate mantras repeated throughout the blog. 143 matches is accurate signal, not false-positive inflation. The concept aliases correctly capture Lee's recurring vocabulary. |  No action needed. |
+| R2-002 | ~~Med~~ **Retracted** | Precision | Concept `hard-is-mandatory` (83 strong matches, 14%) | **Retracted.** Same reasoning as R2-001. Lee's concepts are expressed through repeated phrases that may look generic out of context but are intentional mantras in the archive. The frequency counts reflect real usage. | No action needed. |
 | R2-003 | Low | Design | `reversing-type-2-diabetes-journey` tag — 540 posts (92%) | This is a date-based partition tag, not a keyword tag. Every post from 2021+ gets it regardless of content. That's architecturally fine (it's an era marker), but it inflates the tag distribution and makes it look like a precision problem at first glance. | Add a `type: "partition"` field to distinguish era tags from keyword tags in `tags.json`. Or document this clearly in architecture.md. Not a bug — just confusing on first read. |
 | R2-004 | Low | Code Quality | `scripts/build-mining-mvp.js:1023` | Per Codex's own review (R004): `bodyAmbiguousAliases` and `relatedStrongTags` variables are calculated but unused. Marked as remediated in Codex's review header, but I can still see them in the code. | Verify whether these were actually removed in e8d90e6 or just documented as intended-to-remove. |
 | R2-005 | Low | Completeness | Story type "transformation" now only 3 candidates | The tiebreaker fix may have over-corrected. Transformation requires a 3-point lead over the best non-transformation type, which is a high bar. Some posts that genuinely describe before/after change are now classified as "victory" or "struggle". | Not necessarily wrong — victory and struggle may be more specific labels. But worth monitoring. If Lee finds missing transformation stories, lower the threshold from +3 to +2. |
@@ -66,7 +66,7 @@ Same pipeline, significantly improved precision layer. Key changes: word-boundar
 | A. Structural Integrity | (none) | All files parse, counts match, IDs unique, deterministic. |
 | B. Referential Integrity | (none) | All references resolve. Post-tag pairs are unique (verified). |
 | C. Content Accuracy | (none) | Prior spot-checks still valid; HTML entity fix confirmed. |
-| D. Precision & False Positives | R2-001, R2-002, R2-003 | Short-alias precision is fixed. Multi-word common-phrase aliases remain as a secondary precision issue. |
+| D. Precision & False Positives | R2-003 | Short-alias precision is fixed. R2-001/R2-002 retracted — Lee confirmed the multi-word phrases are deliberate mantras, not false positives. |
 | E. Completeness | R2-005 | Minor over-correction in story type balance. |
 | F. Code Quality | R2-004 | Dead variables from Codex's own review. |
 | G. Usefulness for Book Mining | (none) | Dashboard, reports, and concept cards are substantially more useful now. The strong/weak concept split is the right design. |
@@ -74,10 +74,6 @@ Same pipeline, significantly improved precision layer. Key changes: word-boundar
 ---
 
 ## Remediation Roadmap
-
-### Fix Soon (Sprint 2)
-
-- **R2-001 + R2-002**: Audit concept aliases for multi-word common phrases. The quickest fix is removing `"make progress"`, `"a little more"`, and similar generic phrases from concept seed aliases. This is a 5-minute edit with outsized impact on concept frequency accuracy.
 
 ### Fix Later
 
@@ -91,6 +87,8 @@ Same pipeline, significantly improved precision layer. Key changes: word-boundar
 
 The remediation was thorough and well-executed. The main precision problems from the initial review (R001/R008 concept inflation, R003 story type imbalance, R010 HTML entities) are all genuinely fixed, not papered over. Codex also did its own self-review before the final commit, which caught a real scoring bug (themes truncation hiding journey tags from dashboard scoring) and fixed it.
 
-The remaining issues are secondary precision concerns (common multi-word aliases) and cosmetic items. The data is now substantially more trustworthy for book mining.
+The remaining issues are cosmetic items (partition tag documentation, dead variables, transformation threshold monitoring). The data is now substantially trustworthy for book mining.
 
-**Recommendation**: The MVP is ready for Lee to use as a discovery tool. The next high-value work is Lee interacting with the dashboard and story candidates — deciding which leads are worth promoting to curated story beats. The precision refinements in R2-001/R2-002 can happen alongside that editorial work.
+**Reviewer correction**: R2-001 and R2-002 were retracted after Lee clarified that phrases like "make progress" and "a little more" are deliberate mantras repeated throughout the blog. The high concept frequencies reflect real, intentional usage — not false positives. This is an important lesson for the review process: domain knowledge from the author trumps statistical intuition from the reviewer. Future reviews of this archive must consult Lee before flagging concept aliases as imprecise.
+
+**Recommendation**: The MVP is ready for Lee to use as a discovery tool. The next high-value work is Lee interacting with the dashboard and story candidates — deciding which leads are worth promoting to curated story beats.
