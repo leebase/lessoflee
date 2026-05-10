@@ -45,29 +45,69 @@ Follow the skill defined in `skills/data-review.md` exactly. Read that file befo
 - Are all required fields present and non-null?
 - Are IDs unique and deterministic?
 - Does record count match expected count?
+- Run the pipeline: `node scripts/build-mining-mvp.js` — does it exit 0?
+- Run twice — is output identical (determinism)?
 
 ### B. Referential Integrity
 - Do all `post_id` references resolve to real posts?
 - Do all `file_path` values point to existing files?
 - Do story beat references resolve to real beats?
 - Are themes/tags from the controlled vocabulary?
+- Do concept `supporting_posts[].post_id` values exist in posts.jsonl?
 
 ### C. Content Accuracy
 - Pick 10 random records and verify against source posts
-- Is `word_count` actually correct?
+- Is `word_count` actually correct? (Compare to `wc -w` minus ~25 words for frontmatter)
 - Are summaries faithful to the post content?
 - Are story beat excerpts real quotes from the text?
+- Are HTML entities properly decoded in excerpts and titles?
 
-### D. Completeness
+### D. Precision & False Positives
+- Are tag/concept frequencies plausible? (If 46% of posts match a concept, it's probably over-matching)
+- Do short aliases (≤5 chars) produce false positives? Check "fast", "walk", "run", "i can"
+- Is story type classification balanced? (If one type dominates >60%, the classifier has a default-bucket problem)
+- For concept supporting_posts: are matched_aliases actually relevant to the concept, or just common words?
+
+### E. Completeness
 - Are there source files with no corresponding record?
 - Are there posts with obvious story beats that were missed?
 - Are there concepts that appear frequently but weren't captured?
+- Are minimal-content posts (video embeds, image-only) flagged or handled?
 
-### E. Usefulness for Book Mining
+### F. Usefulness for Book Mining
 - Would an author find these records helpful?
 - Are story beats actually self-contained narrative units?
 - Are concepts distinct and well-defined?
 - Could you build a chapter outline from this data?
+- Are dashboard answers sorted and sized for practical use?
+- Do the "Lee Questions" actually answer what a book author needs?
+
+---
+
+## Verification Commands
+
+```bash
+# Run the pipeline
+node scripts/build-mining-mvp.js
+
+# Check determinism
+md5 data/posts.jsonl && node scripts/build-mining-mvp.js > /dev/null && md5 data/posts.jsonl
+
+# Check for duplicate IDs
+cat data/posts.jsonl | jq -r '.id' | sort | uniq -d
+
+# Tag distribution (look for implausible counts)
+cat data/post-tags.jsonl | jq -s 'group_by(.tag_id) | map({tag: .[0].tag_id, count: length}) | sort_by(-.count)'
+
+# Story type distribution (look for one-type dominance)
+cat data/story-candidates.jsonl | jq -s 'group_by(.type) | map({type: .[0].type, count: length}) | sort_by(-.count)'
+
+# Concept frequency sanity check (>50% of posts is suspicious)
+cat data/concept-candidates.json | jq '[.[] | {name, frequency, pct: (.frequency * 100 / 589 | floor)}]'
+
+# Spot-check a specific post
+cat data/posts.jsonl | jq 'select(.id == "POST_ID_HERE")'
+```
 
 ---
 
@@ -75,6 +115,8 @@ Follow the skill defined in `skills/data-review.md` exactly. Read that file befo
 
 1. `skills/data-review.md`
 2. `project-definition.md`
-3. `sprint-plan.md` — what was built this sprint
-4. The data files under review (`data/*.jsonl`, `data/*.json`)
-5. Source posts for spot-checking (`../src/content/blog/`)
+3. `architecture.md` — pipeline design and boundaries
+4. `sprint-plan.md` — what was built this sprint
+5. The data files under review (`data/*.jsonl`, `data/*.json`)
+6. Source posts for spot-checking (`../src/content/blog/`)
+7. Previous reviews in `code-reviews/` — check for recurring issues

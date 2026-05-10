@@ -57,6 +57,7 @@ If any check fails, **that is Finding #1**.
 - All required fields present?
 - IDs unique and stable?
 - Record count correct?
+- Pipeline deterministic? (run twice, compare hashes)
 
 ### B. Referential Integrity
 - All `post_id` references resolve?
@@ -67,16 +68,25 @@ If any check fails, **that is Finding #1**.
 - Pick 10 random records
 - Open source post, compare to record
 - Verify word counts, dates, summaries, quotes
+- Check HTML entities are decoded in excerpts and titles
 
-### D. Completeness
+### D. Precision & False Positives
+- Are tag/concept frequencies plausible? (>40% of posts matching a single concept is suspicious)
+- Do short keyword aliases (≤5 chars like "fast", "walk", "i can") produce false positives?
+- Is story type classification balanced? (One type at 70%+ = broken classifier)
+- Verify 5 concept supporting_posts: are the matched_aliases actually relevant?
+
+### E. Completeness
 - Any source files missing from output?
 - Any obvious story beats missed?
 - Any clear concepts not captured?
+- Are minimal-content posts (video, image-only) handled?
 
-### E. Book-Mining Usefulness
+### F. Book-Mining Usefulness
 - Would an author find these records helpful?
 - Are story beats self-contained narrative units?
 - Could you build a chapter outline from this data?
+- Are dashboard answers practical (sort order, item count, link quality)?
 
 ---
 
