@@ -1,0 +1,1 @@
+- [Lee's health mantras](user_mantras.md) — Deliberate repeated phrases (not generic English) — don't flag as false positives in data mining

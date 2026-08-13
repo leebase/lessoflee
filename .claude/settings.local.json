@@ -21,7 +21,16 @@
       "Bash(cmd /c \"cd /d C:\\\\Users\\\\leeba\\\\projects\\\\lessoflee && npm run build\")",
       "Bash(npm install)",
       "Bash(git remote *)",
-      "Bash(git pull *)"
+      "Bash(git pull *)",
+      "Bash(git stash *)",
+      "Bash(node scripts/build-mining-mvp.js)",
+      "Bash(md5 data/posts.jsonl)",
+      "Bash(jq '[.[] | select\\(.name == \"I Can'\\\\''t Until I Can\"\\) | .supporting_posts[] | select\\(.matched_aliases == [\"i can\"]\\) | .title] | length')",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(sort -5)",
+      "Bash(git push *)",
+      "Read(//Users/lee/projects/**)"
     ]
   }
 }
